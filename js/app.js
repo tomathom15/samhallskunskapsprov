@@ -83,6 +83,76 @@ function setHTML(html) {
 }
 
 /* ============================================================
+   Modal helpers
+   ============================================================ */
+/**
+ * Append a modal overlay to #app.
+ * html is injected inside .modal-card; bindFn receives the overlay element.
+ * Clicking the backdrop dismisses the modal.
+ */
+function showModal(html, bindFn) {
+  const overlay = document.createElement('div');
+  overlay.id = 'modal-overlay';
+  overlay.className = 'modal-overlay';
+  overlay.innerHTML = `<div class="modal-card">${html}</div>`;
+  document.getElementById('app').appendChild(overlay);
+  bindFn(overlay);
+  overlay.addEventListener('click', e => { if (e.target === overlay) dismissModal(); });
+}
+
+function dismissModal() {
+  document.getElementById('modal-overlay')?.remove();
+}
+
+/** Show the exit modal (✕ Exit button clicked during question/feedback). */
+function showExitModal() {
+  const hasAnswers = state.answers.length > 0;
+  showModal(`
+    <h3 class="modal-title">${t('exitModalTitle')}</h3>
+    <p class="modal-body">${t('exitModalBody')}</p>
+    <div class="modal-actions">
+      <button class="btn-modal-secondary" id="btnExitCancel">${t('exitModalCancel')}</button>
+      <button class="btn-modal-secondary" id="btnExitStart">${t('exitModalStart')}</button>
+      ${hasAnswers ? `<button class="btn-modal-primary" id="btnExitResults">${t('exitModalResults')}</button>` : ''}
+    </div>
+  `, overlay => {
+    overlay.querySelector('#btnExitCancel').addEventListener('click', dismissModal);
+    overlay.querySelector('#btnExitStart').addEventListener('click', () => {
+      dismissModal();
+      state.phase = 'landing'; state.currentIndex = 0;
+      state.answers = []; state.selectedOption = null; state.questions = [];
+      render();
+    });
+    overlay.querySelector('#btnExitResults')?.addEventListener('click', () => {
+      dismissModal();
+      state.phase = 'summary';
+      render();
+    });
+  });
+}
+
+/** Show the lang-switch warning modal (lang toggle clicked during question/feedback). */
+function showLangWarningModal() {
+  showModal(`
+    <h3 class="modal-title">${t('langModalTitle')}</h3>
+    <p class="modal-body">${t('langModalBody')}</p>
+    <div class="modal-actions">
+      <button class="btn-modal-secondary" id="btnLangCancel">${t('langModalCancel')}</button>
+      <button class="btn-modal-primary" id="btnLangSwitch">${t('langModalConfirm')}</button>
+    </div>
+  `, overlay => {
+    overlay.querySelector('#btnLangCancel').addEventListener('click', dismissModal);
+    overlay.querySelector('#btnLangSwitch').addEventListener('click', () => {
+      dismissModal();
+      state.lang = state.lang === 'en' ? 'sv' : 'en';
+      state.phase = 'landing'; state.currentIndex = 0;
+      state.answers = []; state.selectedOption = null; state.questions = [];
+      render();
+    });
+  });
+}
+
+/* ============================================================
    Language-aware question content helpers
    Falls back to English silently if SV fields are absent.
    ============================================================ */
@@ -134,6 +204,7 @@ function progressHeaderHTML(questionNum, total) {
   return `
     <header class="progress-header">
       <div class="progress-left">
+        <button class="btn-exit" id="btnExit">${t('exitBtn')}</button>
         <span class="progress-brand">🇸🇪 ${t('appTitle')}</span>
         <button class="lang-toggle" id="btnLangToggle">${t('langToggle')}</button>
       </div>
@@ -146,15 +217,28 @@ function progressHeaderHTML(questionNum, total) {
     </header>`;
 }
 
-/** Bind the language toggle button (rendered in every phase). */
-function bindLangToggle() {
+/**
+ * Bind the language toggle button.
+ * warn=true  → shows a confirmation modal (question/feedback phases)
+ * warn=false → switches language silently (landing/summary phases)
+ */
+function bindLangToggle(warn) {
   const btn = document.getElementById('btnLangToggle');
-  if (btn) {
-    btn.addEventListener('click', () => {
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    if (warn) {
+      showLangWarningModal();
+    } else {
       state.lang = state.lang === 'en' ? 'sv' : 'en';
       render();
-    });
-  }
+    }
+  });
+}
+
+/** Bind the exit button (question/feedback progress header). */
+function bindExitBtn() {
+  const btn = document.getElementById('btnExit');
+  if (btn) btn.addEventListener('click', showExitModal);
 }
 
 /* ============================================================
@@ -269,7 +353,7 @@ function renderLanding() {
     render();
   });
 
-  bindLangToggle();
+  bindLangToggle(false);
 }
 
 /* ============================================================
@@ -326,7 +410,8 @@ function renderQuestion() {
     render();
   });
 
-  bindLangToggle();
+  bindExitBtn();
+  bindLangToggle(true);
 }
 
 /* ============================================================
@@ -412,7 +497,8 @@ function renderFeedback() {
     render();
   });
 
-  bindLangToggle();
+  bindExitBtn();
+  bindLangToggle(true);
 }
 
 /* ============================================================
@@ -436,12 +522,13 @@ function diffBreakdownHTML() {
    Render: Summary
    ============================================================ */
 function renderSummary() {
-  const total   = state.questions.length;
-  const correct = state.answers.filter(a => a.isCorrect).length;
-  const wrong   = total - correct;
-  const pct     = correct / total;
-  const passed  = pct >= CONFIG.PASS_THRESHOLD;
-  const pctDisp = Math.round(pct * 100);
+  const isPartial     = state.answers.length < state.questions.length;
+  const answeredCount = state.answers.length;
+  const correct       = state.answers.filter(a => a.isCorrect).length;
+  const wrong         = answeredCount - correct;
+  const pct           = answeredCount > 0 ? correct / answeredCount : 0;
+  const passed        = !isPartial && pct >= CONFIG.PASS_THRESHOLD;
+  const pctDisp       = Math.round(pct * 100);
 
   const wrongAnswers = state.answers.filter(a => !a.isCorrect);
   const rightAnswers = state.answers.filter(a =>  a.isCorrect);
@@ -488,16 +575,18 @@ function renderSummary() {
     <div class="summary-page page-fade">
 
       <div class="score-card">
+        ${isPartial ? `<div class="partial-banner">${t('partialBanner', answeredCount, state.questions.length)}</div>` : ''}
         <div class="score-pct">${pctDisp}%</div>
-        <div class="score-fraction">${t('scoreOf', correct, total)}</div>
+        <div class="score-fraction">${t('scoreOf', correct, answeredCount)}</div>
+        ${!isPartial ? `
         <div class="result-pill ${passed ? 'passed' : 'failed'}">
           ${passed ? t('passed') : t('notPassed')}
         </div>
         <p class="result-note">
           ${passed
             ? t('passNote')
-            : t('failNote', Math.ceil(total * 0.8))}
-        </p>
+            : t('failNote', Math.ceil(answeredCount * 0.8))}
+        </p>` : ''}
         <div class="score-stats">
           <div class="stat-block">
             <div class="stat-num c">${correct}</div>
@@ -508,7 +597,7 @@ function renderSummary() {
             <div class="stat-label">${t('statIncorrect')}</div>
           </div>
           <div class="stat-block">
-            <div class="stat-num t">${total}</div>
+            <div class="stat-num t">${answeredCount}</div>
             <div class="stat-label">${t('statTotal')}</div>
           </div>
         </div>
@@ -542,7 +631,7 @@ function renderSummary() {
     render();
   });
 
-  bindLangToggle();
+  bindLangToggle(false);
 }
 
 /* ============================================================

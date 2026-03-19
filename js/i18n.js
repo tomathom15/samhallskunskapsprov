@@ -59,6 +59,23 @@ const STRINGS = {
     noneCorrectState: 'No correct answers this time — keep practising!',
     yourAnswerTag:    (ans) => `✗ Your answer: ${ans}`,
     correctAnswerTag: (ans) => `✓ Correct: ${ans}`,
+
+    // Exit modal
+    exitBtn:          '✕ Exit',
+    exitModalTitle:   'Leave this test?',
+    exitModalBody:    'Choose where you\'d like to go:',
+    exitModalCancel:  'Keep going',
+    exitModalStart:   '← Start page',
+    exitModalResults: 'View partial results →',
+
+    // Lang switch modal
+    langModalTitle:   'Switch language?',
+    langModalBody:    'Switching language will take you back to the start page. Your progress will be lost.',
+    langModalCancel:  'Keep going',
+    langModalConfirm: 'Switch & restart',
+
+    // Partial summary
+    partialBanner:    (n, total) => `Test ended early — you answered ${n} of ${total} questions.`,
   },
 
   sv: {
@@ -116,6 +133,23 @@ const STRINGS = {
     noneCorrectState: 'Inga rätta svar den här gången — fortsätt öva!',
     yourAnswerTag:    (ans) => `✗ Ditt svar: ${ans}`,
     correctAnswerTag: (ans) => `✓ Rätt: ${ans}`,
+
+    // Exit modal
+    exitBtn:          '✕ Avsluta',
+    exitModalTitle:   'Lämna provet?',
+    exitModalBody:    'Vad vill du göra?',
+    exitModalCancel:  'Fortsätt',
+    exitModalStart:   '← Startsida',
+    exitModalResults: 'Visa delresultat →',
+
+    // Lang switch modal
+    langModalTitle:   'Byta språk?',
+    langModalBody:    'Om du byter språk återgår du till startsidan. Dina svar sparas inte.',
+    langModalCancel:  'Fortsätt',
+    langModalConfirm: 'Byt & börja om',
+
+    // Partial summary
+    partialBanner:    (n, total) => `Provet avbröts — du svarade på ${n} av ${total} frågor.`,
   },
 };
 

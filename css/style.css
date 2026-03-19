@@ -893,3 +893,107 @@ body {
   .progress-track { width: 70px; }
   .progress-left .lang-toggle { font-size: 0.7rem; padding: 0.25rem 0.5rem; }
 }
+
+/* ============================================================
+   Modal overlay + card
+   ============================================================ */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 1rem;
+}
+
+.modal-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: var(--shadow);
+}
+
+.modal-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--fg);
+  margin: 0 0 0.5rem;
+}
+
+.modal-body {
+  color: var(--fg-muted);
+  font-size: 0.9rem;
+  margin: 0 0 1.5rem;
+  line-height: 1.5;
+}
+
+.modal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.btn-modal-secondary {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  background: transparent;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-family: inherit;
+  cursor: pointer;
+  color: var(--fg-muted);
+}
+.btn-modal-secondary:hover { background: var(--bg-subtle); }
+
+.btn-modal-primary {
+  padding: 0.5rem 1rem;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn-modal-primary:hover { filter: brightness(1.1); }
+
+/* ============================================================
+   Exit button (progress header)
+   ============================================================ */
+.btn-exit {
+  padding: 0.25rem 0.625rem;
+  border: 1px solid var(--border);
+  background: transparent;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-family: inherit;
+  cursor: pointer;
+  color: var(--fg-muted);
+  white-space: nowrap;
+  line-height: 1.4;
+}
+.btn-exit:hover {
+  color: #DC2626;
+  border-color: #DC2626;
+  background: #FEF2F2;
+}
+
+/* ============================================================
+   Partial test banner (summary page)
+   ============================================================ */
+.partial-banner {
+  background: #FFFBEB;
+  border: 1px solid var(--amber-border);
+  border-radius: 8px;
+  padding: 0.625rem 1rem;
+  font-size: 0.875rem;
+  color: var(--amber);
+  margin-bottom: 1rem;
+  text-align: center;
+}
