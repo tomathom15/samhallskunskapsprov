@@ -2,13 +2,12 @@
 'use strict';
 /**
  * Build script: concatenate per-category question source files into a single
- * questions/<deck>.json that the browser fetches.
+ * questions/sweden.json that the browser fetches.
  *
  * Usage:
- *   node scripts/build-questions.js          # builds questions/sweden.json
- *   node scripts/build-questions.js denmark  # builds questions/denmark.json
+ *   node scripts/build-questions.js   # reads questions/categories/, writes questions/sweden.json
  *
- * Source files must be in questions/<deck>/ and named NN-*.json.
+ * Source files must be in questions/categories/ and named NN-*.json.
  * Each source file must have the shape:
  *   { "category": "...", "questions": [ { ...question without category... } ] }
  *
@@ -19,9 +18,8 @@
 const fs   = require('fs');
 const path = require('path');
 
-const DECK    = process.argv[2] || 'sweden';
-const SRC_DIR = path.join(__dirname, '..', 'questions', DECK);
-const OUT     = path.join(__dirname, '..', 'questions', `${DECK}.json`);
+const SRC_DIR = path.join(__dirname, '..', 'questions', 'categories');
+const OUT     = path.join(__dirname, '..', 'questions', 'sweden.json');
 
 if (!fs.existsSync(SRC_DIR)) {
   console.error(`Error: source directory not found: ${SRC_DIR}`);
