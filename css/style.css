@@ -84,7 +84,7 @@ body {
 }
 
 #app.app-fade-in {
-  animation: appFadeIn 0.18s ease both;
+  animation: appFadeIn 1s ease both;
 }
 @keyframes appFadeIn {
   from { opacity: 0; }
