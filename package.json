@@ -1,0 +1,9 @@
+{
+  "name": "se-civics-test",
+  "private": true,
+  "description": "Swedish citizenship civics practice test",
+  "scripts": {
+    "build:questions":    "node scripts/build-questions.js",
+    "validate:questions": "node scripts/validate-questions.js"
+  }
+}

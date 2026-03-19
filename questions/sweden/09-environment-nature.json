@@ -1,0 +1,88 @@
+{
+  "category": "Environment & Nature",
+  "questions": [
+    {
+      "id": 196,
+      "question": "Approximately what percentage of Sweden's land area is covered by forest?",
+      "options": [
+        "About 30%",
+        "About 50%",
+        "About 70%",
+        "About 90%"
+      ],
+      "correct_index": 2,
+      "explanation": "Approximately 70% of Sweden's land area — around 28 million hectares — is covered by forest, making Sweden one of the most forested countries in Europe. Swedish forestry is a major industry, producing timber, paper, and biomass. Sustainable forestry practices are governed by the Swedish Forestry Act.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        null,
+        "50% would still be a high figure, but Sweden's actual forest coverage (~70%) is among the highest in Europe.",
+        null,
+        "90% would leave almost no farmland or developed areas — even heavily forested Sweden has significant agricultural and urban land."
+      ]
+    },
+    {
+      "id": 197,
+      "question": "What is the Swedish 'pant' (deposit-refund) system?",
+      "options": [
+        "A government scheme for recycling household waste",
+        "A deposit-refund system where consumers pay a small deposit on bottles and cans, refunded when they return them to collection points",
+        "A tax on single-use plastics",
+        "A municipal collection scheme for organic waste"
+      ],
+      "correct_index": 1,
+      "explanation": "The Swedish pant system is a highly successful deposit-refund scheme for bottles and cans. Consumers pay a small deposit (pant) when buying beverages, refunded when they return the container to a pantmaskin (reverse vending machine) in a supermarket. Sweden recycles over 85% of eligible bottles and cans through this system.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 198,
+      "question": "What is Sweden's target under its Climate Act (klimatlag) for greenhouse gas emissions?",
+      "options": [
+        "Net zero by 2050, in line with EU targets",
+        "Net zero greenhouse gas emissions by 2045, making Sweden climate-neutral earlier than the EU target",
+        "A 50% reduction in emissions by 2030",
+        "Carbon neutrality by 2040 for the public sector only"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden's Climate Act (2018) sets a legally binding target of net zero greenhouse gas emissions by 2045 — five years ahead of the EU's 2050 net-zero target. Sweden also aims for at least 63% reduction in emissions from domestic transport by 2030 compared to 2010 levels.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "2050 is the EU's official net-zero target, which is widely discussed. Sweden set a more ambitious domestic target of 2045.",
+        null,
+        "A 50% reduction by 2030 is a milestone, but Sweden's headline Climate Act target is full net-zero by 2045.",
+        null
+      ]
+    },
+    {
+      "id": 199,
+      "question": "What are 'naturreservat' (nature reserves) in Sweden?",
+      "options": [
+        "National parks managed by private foundations",
+        "Legally protected areas designated to conserve biodiversity, natural habitats, landscapes, or cultural heritage",
+        "Areas exclusively reserved for scientific research with no public access",
+        "Zones where all hunting and fishing is permanently banned"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden has over 5,000 nature reserves (naturreservat) covering approximately 9% of Sweden's land area. They are designated by county administrative boards or municipalities to protect biodiversity, valuable landscapes, or sites of cultural interest. Many are open to the public under Allemansrätten.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 200,
+      "question": "Sweden introduced one of the world's first carbon taxes (koldioxidskatt) in which year?",
+      "options": [
+        "1980",
+        "1991",
+        "2000",
+        "2005"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden introduced a carbon tax (koldioxidskatt) in 1991 as part of a major tax reform. It was one of the first countries in the world to do so. The tax applies to fossil fuels used for heating and road transport, and has contributed to Sweden significantly reducing its carbon emissions while maintaining economic growth.",
+      "difficulty": "expert",
+      "distractor_notes": [
+        "1980 is plausible given growing environmental awareness in the 1970s–80s, but the Swedish carbon tax was actually introduced in 1991.",
+        null,
+        "2000 is too late — Sweden introduced its carbon tax nine years before this.",
+        "2005 is when the EU Emissions Trading System (EU ETS) launched. Sweden's own carbon tax predates this by 14 years."
+      ]
+    }
+  ]
+}
