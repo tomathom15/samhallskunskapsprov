@@ -1,0 +1,331 @@
+{
+  "category": "Geography",
+  "questions": [
+    {
+      "id": 36,
+      "question": "What is the capital city of Sweden?",
+      "options": [
+        "Gothenburg",
+        "Malmö",
+        "Stockholm",
+        "Uppsala"
+      ],
+      "correct_index": 2,
+      "explanation": "Stockholm is Sweden's capital and largest city, located on Sweden's east coast where Lake Mälaren meets the Baltic Sea.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Gothenburg is Sweden's second-largest city and largest port, making it a natural guess for capital.",
+        "Malmö is Sweden's third-largest city, close to Denmark, but not the capital.",
+        null,
+        "Uppsala is an ancient city and major university town near Stockholm, but it is not the capital."
+      ]
+    },
+    {
+      "id": 37,
+      "question": "What is Sweden's second largest city?",
+      "options": [
+        "Malmö",
+        "Gothenburg (Göteborg)",
+        "Uppsala",
+        "Linköping"
+      ],
+      "correct_index": 1,
+      "explanation": "Gothenburg (Göteborg) is Sweden's second largest city and its main port, located on the west coast.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Malmö is Sweden's third-largest city, not second.",
+        null,
+        "Uppsala is a major university city near Stockholm but ranks around fifth in population.",
+        null
+      ]
+    },
+    {
+      "id": 38,
+      "question": "How many counties (län) does Sweden have?",
+      "options": [
+        "15",
+        "18",
+        "21",
+        "25"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden is divided into 21 counties (län), each with a county administrative board (länsstyrelse) appointed by the government and an elected regional council (regionfullmäktige).",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Sweden has 15 national parks, but not 15 counties.",
+        "18 is plausible but too low — Sweden reorganised from 24 counties to 21 in 1971.",
+        null,
+        "25 feels like a round number for a large country, but Sweden has exactly 21 counties (län)."
+      ]
+    },
+    {
+      "id": 39,
+      "question": "What is the name of Sweden's highest mountain?",
+      "options": [
+        "Sylarna",
+        "Sarektjåkkå",
+        "Kebnekaise",
+        "Helagsfjället"
+      ],
+      "correct_index": 2,
+      "explanation": "Kebnekaise in Swedish Lapland (Norrbotten) is Sweden's highest mountain. It has two peaks; the southern peak was historically higher but due to glacier melt, the northern peak (2,096 m) is now the tallest.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        null,
+        "Sarektjåkkå is one of Sweden's higher peaks in the same Sarek national park region, making it easy to confuse with the highest, Kebnekaise.",
+        null,
+        "Helagsfjället is Sweden's highest peak south of the Arctic Circle, but not the overall highest."
+      ]
+    },
+    {
+      "id": 40,
+      "question": "What are Sweden's three largest lakes, in order of size?",
+      "options": [
+        "Mälaren, Vättern, Vänern",
+        "Vänern, Vättern, Mälaren",
+        "Vättern, Vänern, Siljan",
+        "Vänern, Mälaren, Hjälmaren"
+      ],
+      "correct_index": 1,
+      "explanation": "Vänern is Sweden's largest lake (and the largest in the EU), followed by Vättern, then Mälaren. Stockholm is situated on Lake Mälaren.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "This list has the order reversed — Mälaren (near Stockholm) is the third-largest, not first.",
+        null,
+        "Siljan is in Dalarna and is well-known but much smaller than Sweden's three largest lakes.",
+        "Mälaren comes third (not second), and Hjälmaren is Sweden's fourth-largest lake."
+      ]
+    },
+    {
+      "id": 41,
+      "question": "The Öresund Bridge connects Sweden to which country?",
+      "options": [
+        "Norway",
+        "Finland",
+        "Germany",
+        "Denmark"
+      ],
+      "correct_index": 3,
+      "explanation": "The Öresund Bridge links Malmö in Sweden to Copenhagen in Denmark. It opened in 2000 and carries both road and rail traffic.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Sweden has bridges and a long land border with Norway, but Öresund connects to Denmark.",
+        null,
+        "Germany is separated from Sweden by the Baltic Sea — there is no bridge between them.",
+        null
+      ]
+    },
+    {
+      "id": 42,
+      "question": "What is the approximate population of Sweden?",
+      "options": [
+        "Around 5–6 million",
+        "Around 8–9 million",
+        "Around 10–11 million",
+        "Around 13–14 million"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden's population is approximately 10–11 million people, making it one of the larger Nordic countries by population.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 43,
+      "question": "What is the name of Sweden's northernmost county?",
+      "options": [
+        "Västerbotten",
+        "Jämtland",
+        "Norrbotten",
+        "Dalarna"
+      ],
+      "correct_index": 2,
+      "explanation": "Norrbotten is Sweden's northernmost and largest county by area. It borders Norway to the west and Finland to the east, and is home to much of Sweden's Sami population.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Västerbotten is directly south of Norrbotten — both are large northern counties, causing easy confusion.",
+        "Jämtland is in north-central Sweden, bordering Norway, but it is not the northernmost county.",
+        null,
+        "Dalarna is a central Swedish county known for culture and folk traditions, far from the northernmost point."
+      ]
+    },
+    {
+      "id": 44,
+      "question": "Which body of water lies to the east of Sweden?",
+      "options": [
+        "The North Sea",
+        "The Norwegian Sea",
+        "The Baltic Sea",
+        "The Barents Sea"
+      ],
+      "correct_index": 2,
+      "explanation": "The Baltic Sea lies to the east and south of Sweden. The Kattegat and Öresund straits connect to the North Sea to the west.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 45,
+      "question": "The Swedish region of Lapland is known for which of the following?",
+      "options": [
+        "Sweden's main car manufacturing industry",
+        "The midnight sun, northern lights, and Sami indigenous culture",
+        "The largest concentration of Swedish universities",
+        "Sweden's main agricultural region"
+      ],
+      "correct_index": 1,
+      "explanation": "Swedish Lapland (Lappland) in the far north is known for the midnight sun in summer, the northern lights (aurora borealis) in winter, wilderness, and as the traditional homeland of the Sami people.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 111,
+      "question": "Which Swedish island is a UNESCO World Heritage Site known for its medieval Hanseatic town of Visby?",
+      "options": [
+        "Öland",
+        "Gotland",
+        "Hven",
+        "Björkö"
+      ],
+      "correct_index": 1,
+      "explanation": "Gotland is Sweden's largest island, located in the Baltic Sea. Its main town, Visby, is a remarkably well-preserved medieval Hanseatic city surrounded by a 13th-century ring wall. It was designated a UNESCO World Heritage Site in 1995.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Öland is also a UNESCO World Heritage Site (southern Öland's agricultural landscape), so it's a reasonable guess — but Visby is on Gotland.",
+        null,
+        "Hven (Ven) is a small Swedish island in Öresund, not a UNESCO site known for a medieval town.",
+        null
+      ]
+    },
+    {
+      "id": 112,
+      "question": "What is 'Norrland' in Swedish geography?",
+      "options": [
+        "The Stockholm metropolitan region",
+        "The northern half of Sweden, covering about 60% of the country's land area",
+        "The coastal strip along the Norwegian border",
+        "The region between Stockholm and Gothenburg"
+      ],
+      "correct_index": 1,
+      "explanation": "Norrland refers to the northern part of Sweden, encompassing the counties from Gävleborg northward. It covers approximately 60% of Sweden's land area but is home to only about 12% of the population. It is characterised by forests, rivers, mountains, and the Sami reindeer-herding lands.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 113,
+      "question": "What does the Göta Canal (Göta kanal) connect?",
+      "options": [
+        "Stockholm to Gothenburg via Sweden's interior lakes and waterways",
+        "Sweden to Denmark under the Öresund strait",
+        "Gothenburg's harbour to the open sea",
+        "Lake Mälaren to the Baltic Sea"
+      ],
+      "correct_index": 0,
+      "explanation": "The Göta Canal connects the west coast of Sweden (Gothenburg area) to the east coast (Baltic Sea near Söderköping) via a series of lakes, rivers, and canals. Built between 1810 and 1832, it stretches about 190 km and is a popular tourist route.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 114,
+      "question": "What is Sweden's third largest city?",
+      "options": [
+        "Uppsala",
+        "Linköping",
+        "Malmö",
+        "Örebro"
+      ],
+      "correct_index": 2,
+      "explanation": "Malmö is Sweden's third largest city, located in the far south in the region of Skåne, directly across the Öresund strait from Copenhagen, Denmark. It is connected to Denmark by the Öresund Bridge.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Uppsala is a major city and Sweden's oldest university town, but it's the fourth-largest city.",
+        null,
+        null,
+        "Örebro is a significant city in central Sweden but smaller than Malmö."
+      ]
+    },
+    {
+      "id": 115,
+      "question": "The island of Öland is connected to mainland Sweden by a bridge and is a UNESCO World Heritage Site. In which county does it belong?",
+      "options": [
+        "Blekinge",
+        "Skåne",
+        "Kalmar",
+        "Kronoberg"
+      ],
+      "correct_index": 2,
+      "explanation": "Öland belongs to Kalmar County and is connected to the city of Kalmar by a bridge. Its southern part, the 'Agricultural Landscape of Southern Öland', is a UNESCO World Heritage Site. The Swedish royal family has their summer residence (Solliden Palace) on Öland.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 116,
+      "question": "The Stockholm Archipelago (Stockholms skärgård) consists of approximately how many islands?",
+      "options": [
+        "Around 3,000",
+        "Around 10,000",
+        "Around 30,000",
+        "Around 100,000"
+      ],
+      "correct_index": 2,
+      "explanation": "The Stockholm Archipelago stretches east into the Baltic Sea and contains approximately 30,000 islands, islets, and skerries. It is a popular recreational area for Stockholmers, with many families owning summer cottages there.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 117,
+      "question": "Which Swedish city is home to the country's oldest university, founded in 1477?",
+      "options": [
+        "Stockholm",
+        "Lund",
+        "Uppsala",
+        "Gothenburg"
+      ],
+      "correct_index": 2,
+      "explanation": "Uppsala University, founded in 1477, is Sweden's oldest university. Though it was refounded in 1593 after a period of inactivity, it retains its 1477 founding date. Uppsala is located about 70 km north of Stockholm.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Stockholm University was founded much later (as a private college in 1878), nearly 400 years after Uppsala.",
+        "Lund University (founded 1666) is another prestigious Swedish university, but it's 189 years younger than Uppsala.",
+        null,
+        "Gothenburg University (GU) was founded in 1891."
+      ]
+    },
+    {
+      "id": 118,
+      "question": "Which countries share a land border with Sweden?",
+      "options": [
+        "Norway and Denmark",
+        "Norway, Denmark, and Finland",
+        "Norway and Finland",
+        "Norway, Finland, and Russia"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden shares land borders with Norway to the west and north, and Finland to the northeast. Sweden and Denmark are separated by water (the Öresund and Kattegat) — there is no land border, though the Öresund Bridge creates a fixed link.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Sweden borders Norway but NOT Denmark by land — the Öresund crossing is over water.",
+        "Sweden does not share a land border with Denmark. Only Norway and Finland.",
+        null,
+        "Russia does not border Sweden — Finland lies between them."
+      ]
+    },
+    {
+      "id": 119,
+      "question": "What is 'Skåne' and what is it sometimes called?",
+      "options": [
+        "Sweden's northernmost region, known for reindeer herding",
+        "Sweden's southernmost region, often called 'Sweden's breadbasket' for its fertile farmland",
+        "The region surrounding Stockholm, known for its archipelago",
+        "Sweden's westernmost coastal region, known for fishing"
+      ],
+      "correct_index": 1,
+      "explanation": "Skåne (Scania) is Sweden's southernmost region, known for flat, fertile agricultural land. It was part of Denmark until the Peace of Roskilde in 1658. Malmö is its largest city, and it is the most densely populated region outside the Stockholm area.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 120,
+      "question": "Where in Sweden is the city of Kiruna, and what is it particularly known for?",
+      "options": [
+        "On the west coast, known for its port and shipping industry",
+        "In northern Lapland, known for iron ore mining and the nearby Icehotel",
+        "In central Sweden, known for steel manufacturing",
+        "In the south, known for its university and research institutions"
+      ],
+      "correct_index": 1,
+      "explanation": "Kiruna is Sweden's northernmost city, located in Norrbotten (Swedish Lapland) above the Arctic Circle. It is home to one of the world's largest iron ore mines (operated by LKAB) and is near the famous Icehotel in Jukkasjärvi. Parts of the city are being physically relocated due to mine subsidence.",
+      "difficulty": "expert"
+    }
+  ]
+}

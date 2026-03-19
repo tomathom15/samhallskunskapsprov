@@ -168,6 +168,27 @@ function qExplanation(q) { return (state.lang === 'sv' && q.explanation_sv) ? q.
    Question selection
    ============================================================ */
 /**
+ * Randomly permutes the A/B/C/D order of a question's options.
+ * Applies the same permutation to correct_index, distractor_notes,
+ * options_sv, and distractor_notes_sv so all positional arrays stay aligned.
+ * This makes the raw correct_index in the source file useless for cheating.
+ */
+function shuffleOptions(q) {
+  const cloned  = { ...q };
+  const indices = [0, 1, 2, 3];
+  for (let i = 3; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]];
+  }
+  cloned.options       = indices.map(i => q.options[i]);
+  cloned.correct_index = indices.indexOf(q.correct_index);
+  if (q.distractor_notes)    cloned.distractor_notes    = indices.map(i => q.distractor_notes[i]);
+  if (q.options_sv)          cloned.options_sv          = indices.map(i => q.options_sv[i]);
+  if (q.distractor_notes_sv) cloned.distractor_notes_sv = indices.map(i => q.distractor_notes_sv[i]);
+  return cloned;
+}
+
+/**
  * Select `total` questions:
  *   - Filtered to state.difficulty (if not 'all')
  *   - ~40% drawn from KEY_IDS pool within that filtered set
@@ -191,7 +212,7 @@ function selectQuestions(total) {
   const selectedIds = new Set(selected.map(q => q.id));
   const extra       = shuffle(nonKeyPool.filter(q => !selectedIds.has(q.id))).slice(0, remaining);
 
-  return shuffle([...selected, ...extra]);
+  return shuffle([...selected, ...extra]).map(shuffleOptions);
 }
 
 /** Returns available pool size for the current difficulty setting. */
@@ -656,7 +677,7 @@ function render() {
    ============================================================ */
 async function init() {
   try {
-    const res = await fetch('./questions.json');
+    const res = await fetch('./questions/sweden.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     state.allQuestions = data.questions;

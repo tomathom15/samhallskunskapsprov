@@ -1,0 +1,378 @@
+{
+  "category": "Culture & Traditions",
+  "questions": [
+    {
+      "id": 63,
+      "question": "What is 'fika'?",
+      "options": [
+        "A traditional Swedish folk dance",
+        "A Swedish coffee break, typically with pastries such as cinnamon rolls",
+        "The Swedish Midsommar celebration",
+        "A Swedish type of open sandwich"
+      ],
+      "correct_index": 1,
+      "explanation": "Fika is a deeply embedded Swedish social ritual — a break for coffee (or tea) and something sweet, such as a kanelbulle (cinnamon roll) or kladdkaka. It is a time to pause and socialise, not just a coffee break.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 64,
+      "question": "On what date is Sweden's National Day (Nationaldag) celebrated?",
+      "options": [
+        "April 30",
+        "June 6",
+        "June 21",
+        "November 6"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden's National Day is celebrated on 6 June. The date commemorates Gustav Vasa being elected king in 1523 (marking Swedish independence from the Kalmar Union) and the adoption of the 1809 constitution.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "April 30 is Valborg (Walpurgis Night), a spring celebration marking the end of winter — not the National Day.",
+        null,
+        "June 21 is close to the summer solstice. Since Midsommar is in late June, this date feels like it could be Sweden's national day.",
+        "November 6 has no major national significance in Sweden."
+      ]
+    },
+    {
+      "id": 65,
+      "question": "When is Midsommar (Midsummer) celebrated in Sweden?",
+      "options": [
+        "On June 21 (the summer solstice)",
+        "The Friday and Saturday between 19–25 June",
+        "On the last weekend of June",
+        "On June 24 (St John's Day)"
+      ],
+      "correct_index": 1,
+      "explanation": "Swedish Midsommar is celebrated on the Friday evening (Midsommarafton) and Saturday between 19–25 June. Swedes raise a maypole (midsommarstång), dance, sing, and eat traditional foods such as new potatoes, herring, and strawberries.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Midsommar used to be tied to the solstice, but Sweden moved the celebration in 1953 to the nearest Friday/Saturday to June 24.",
+        null,
+        "The last weekend of June is close, but the Swedish rule is specifically the Friday/Saturday between 19–25 June.",
+        "June 24 is the historical feast of St John the Baptist — the origin of Midsommar — but the modern holiday is the Friday/Saturday nearest to it."
+      ]
+    },
+    {
+      "id": 66,
+      "question": "What is 'Systembolaget'?",
+      "options": [
+        "Sweden's state-owned alcohol retail monopoly",
+        "The Swedish national railway company",
+        "Sweden's main supermarket chain",
+        "The national postal service"
+      ],
+      "correct_index": 0,
+      "explanation": "Systembolaget is the Swedish government-owned chain of liquor stores with a monopoly on selling alcohol above 3.5% ABV directly to consumers. It is a public health measure to limit alcohol consumption.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 67,
+      "question": "What is 'Lucia Day' and when is it celebrated?",
+      "options": [
+        "A harvest festival celebrated in October",
+        "A winter light celebration held on 13 December",
+        "The Swedish equivalent of Christmas Eve",
+        "A pagan midsummer celebration"
+      ],
+      "correct_index": 1,
+      "explanation": "Lucia (Saint Lucia's Day) is celebrated on 13 December. In Sweden, a 'Lucia' leads a procession wearing a white robe and a crown of candles. The tradition is marked in schools, churches, and workplaces across the country.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        null,
+        null,
+        "Christmas Eve ('julafton') is celebrated on 24 December in Sweden. Lucia is on 13 December.",
+        "Lucia is a Christian tradition about light in winter darkness, not a pagan midsummer celebration."
+      ]
+    },
+    {
+      "id": 68,
+      "question": "What is 'surströmming'?",
+      "options": [
+        "A type of dried cod",
+        "Pickled herring served at Midsommar",
+        "Lightly fermented Baltic herring with a very pungent smell",
+        "A smoked salmon preparation"
+      ],
+      "correct_index": 2,
+      "explanation": "Surströmming is a traditional northern Swedish food — Baltic herring that has been fermented for months. It has an extremely strong, pungent smell and is something of a cultural test of endurance. It is mainly eaten in northern Sweden.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 69,
+      "question": "Which Swedish music group won the Eurovision Song Contest in 1974 with 'Waterloo'?",
+      "options": [
+        "Roxette",
+        "Europe",
+        "ABBA",
+        "Ace of Base"
+      ],
+      "correct_index": 2,
+      "explanation": "ABBA won Eurovision in 1974 with 'Waterloo', launching one of the most successful pop careers in music history. Sweden has won Eurovision more times than almost any other country.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Roxette is a hugely successful Swedish duo, but they never competed in Eurovision.",
+        "Europe ('The Final Countdown') is also Swedish, but their rock sound is very different from ABBA's pop.",
+        null,
+        "Ace of Base were successful Swedish pop artists in the early 90s but did not compete in the 1974 Eurovision."
+      ]
+    },
+    {
+      "id": 70,
+      "question": "What is 'kanelbulle' (plural: kanelbullar)?",
+      "options": [
+        "A type of crispbread",
+        "A cardamom biscuit",
+        "A cinnamon roll",
+        "A type of Swedish rye bread"
+      ],
+      "correct_index": 2,
+      "explanation": "Kanelbulle (cinnamon roll) is one of Sweden's most beloved baked goods and inseparable from fika culture. Sweden even has a dedicated 'Kanelbullens dag' (Cinnamon Roll Day) on 4 October.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 71,
+      "question": "Who are the Sami people?",
+      "options": [
+        "Swedish settlers who historically farmed in Norrland",
+        "The indigenous people of northern Scandinavia, with communities in Sweden, Norway, Finland and Russia",
+        "A Finnish-speaking minority in eastern Sweden",
+        "Nomadic traders from the Baltic region"
+      ],
+      "correct_index": 1,
+      "explanation": "The Sami are the indigenous people of Sápmi — a region spanning the northern parts of Norway, Sweden, Finland, and Russia's Kola Peninsula. In Sweden, the Sami have legal rights to reindeer herding and are represented by the Sami Parliament (Sametinget).",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 72,
+      "question": "What is the Sami Parliament (Sametinget) in Sweden?",
+      "options": [
+        "A municipal council governing northern Sweden",
+        "An elected representative body for the Sami people in Sweden",
+        "A Swedish government ministry for indigenous affairs",
+        "A joint Nordic body governing all Sami affairs across four countries"
+      ],
+      "correct_index": 1,
+      "explanation": "Sametinget is an elected body that represents Sweden's Sami population. It has both a parliamentary role (representing Sami interests in Swedish society) and a government agency role (administering certain Sami affairs). It is located in Kiruna.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Sametinget is an elected Sami body, not a municipal council governing northern Sweden.",
+        null,
+        "Sametinget is independent of the national government — it was established by law but is not a government ministry.",
+        "A joint Nordic Sami Council (Sámiráðði) does exist, but Sametinget refers specifically to each country's own elected Sami parliament."
+      ]
+    },
+    {
+      "id": 121,
+      "question": "What is a 'semla' (plural: semlor)?",
+      "options": [
+        "A type of Swedish crispbread eaten at Christmas",
+        "A cardamom-spiced wheat bun filled with almond paste and whipped cream, traditionally eaten before Lent",
+        "A Midsommar celebration cake",
+        "A savoury pastry eaten at fika"
+      ],
+      "correct_index": 1,
+      "explanation": "Semla (also called fettisdagsbulle) is a traditional Swedish pastry eaten on Shrove Tuesday (fettisdagen) and increasingly throughout January–March. It consists of a cardamom-spiced bun filled with almond paste and topped with whipped cream.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 122,
+      "question": "What is a 'kräftskiva' in Sweden?",
+      "options": [
+        "A Christmas seafood buffet",
+        "A traditional crayfish party held in August",
+        "A herring dish served at Midsommar",
+        "An Easter seafood celebration"
+      ],
+      "correct_index": 1,
+      "explanation": "Kräftskiva (crayfish party) is a Swedish summer tradition, typically held in August. Friends gather outdoors to eat freshwater crayfish (kräftor), wear silly paper hats, drink schnapps (snaps), and sing drinking songs (snapsvisa).",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 123,
+      "question": "What does the Swedish tradition of 'Valborg' (Walpurgis Night, 30 April) celebrate?",
+      "options": [
+        "The birthday of Gustav Vasa",
+        "The beginning of spring, marked with bonfires, songs, and student celebrations",
+        "The commemoration of Sweden's war dead",
+        "The start of the fishing season"
+      ],
+      "correct_index": 1,
+      "explanation": "Valborg (Walpurgis Night) on the evening of 30 April marks the arrival of spring. Swedes traditionally gather around large bonfires and sing spring songs. It is especially celebrated in university cities such as Uppsala and Lund, where student traditions are elaborate.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 124,
+      "question": "What is 'julskinka' in Swedish Christmas tradition?",
+      "options": [
+        "A Christmas herring dish",
+        "A glazed Christmas ham that is the centrepiece of the Swedish Christmas table",
+        "Christmas meatballs served with lingonberry sauce",
+        "A smoked reindeer meat dish"
+      ],
+      "correct_index": 1,
+      "explanation": "Julskinka (Christmas ham) is the traditional centrepiece of the Swedish julbord (Christmas table). It is typically boiled or baked and coated in a mustard and breadcrumb glaze. The julbord also features herring, meatballs, Jansson's temptation, and rice porridge (risgrynsgröt).",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 125,
+      "question": "What is 'Vasaloppet' and where does it take place?",
+      "options": [
+        "A Viking ship-rowing race on Lake Mälaren",
+        "The world's oldest and largest long-distance cross-country ski race, held in Dalarna",
+        "A marathon race from Stockholm to Uppsala",
+        "A traditional reindeer race in Swedish Lapland"
+      ],
+      "correct_index": 1,
+      "explanation": "Vasaloppet is a 90-km cross-country ski race held each March in Dalarna, Sweden. First run in 1922, it commemorates Gustav Vasa's journey through Dalarna in 1521. It attracts up to 15,000 participants and is the world's oldest, longest, and largest cross-country ski race.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 126,
+      "question": "What is 'innebandy' and how popular is it in Sweden?",
+      "options": [
+        "A traditional Swedish folk dance performed indoors",
+        "An indoor team sport similar to floor hockey, one of Sweden's most popular participation sports",
+        "A competitive indoor rowing sport",
+        "A card game played at fika"
+      ],
+      "correct_index": 1,
+      "explanation": "Innebandy (floorball) is a form of indoor floor hockey played with a lightweight plastic stick and ball. It is one of Sweden's most popular participation sports, with hundreds of thousands of registered players. Sweden's national teams are among the strongest in the world.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 127,
+      "question": "Which languages have official national minority language status in Sweden?",
+      "options": [
+        "English and Arabic",
+        "Danish, Norwegian, and Finnish",
+        "Sami, Finnish, Meänkieli, Romani, and Yiddish",
+        "Finnish and Estonian only"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden officially recognises five national minority languages: the Sami languages (several dialects), Finnish, Meänkieli (Tornedalian Finnish), Romani, and Yiddish. These groups have special linguistic and cultural rights under the 2009 Language Act and minority rights legislation.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "English and Arabic are widely spoken in Sweden but have no official national minority language status.",
+        "Danish and Norwegian are not among Sweden's five protected minority languages, despite Scandinavian mutual intelligibility.",
+        null,
+        "Estonian is not a national minority language in Sweden."
+      ]
+    },
+    {
+      "id": 128,
+      "question": "What is 'Janssons frestelse' (Jansson's Temptation)?",
+      "options": [
+        "A Swedish dessert made with cream and berries",
+        "A baked casserole of potatoes, onions, and anchovy-like sprats — a traditional Christmas dish",
+        "A type of Swedish cheese",
+        "A Midsommar cake"
+      ],
+      "correct_index": 1,
+      "explanation": "Janssons frestelse is a classic Swedish dish made with thinly sliced potatoes, onions, Swedish sprats (ansjovis), and cream, baked until golden. It is a staple of the Swedish julbord (Christmas buffet) and often served at other festive occasions.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 129,
+      "question": "What is Drottningholm Palace and why is it significant?",
+      "options": [
+        "Sweden's parliament building, built in the 17th century",
+        "The Swedish royal family's primary residence and a UNESCO World Heritage Site, located near Stockholm",
+        "A medieval castle on the island of Gotland",
+        "The venue for the annual Nobel Prize banquet"
+      ],
+      "correct_index": 1,
+      "explanation": "Drottningholm Palace, located on an island in Lake Mälaren near Stockholm, is the permanent residence of Sweden's royal family. It was designated a UNESCO World Heritage Site in 1991, along with its grounds, Chinese Pavilion, and 18th-century court theatre.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 130,
+      "question": "Astrid Lindgren is one of Sweden's most celebrated cultural figures. What is she best known for?",
+      "options": [
+        "Winning the Nobel Prize in Literature for adult novels",
+        "Creating beloved children's characters including Pippi Longstocking, Emil of Lönneberga, and Karlsson-on-the-Roof",
+        "Composing Sweden's most popular folk songs",
+        "Writing Sweden's national anthem 'Du gamla, du fria'"
+      ],
+      "correct_index": 1,
+      "explanation": "Astrid Lindgren (1907–2002) was a Swedish author who created some of the world's best-loved children's characters, including Pippi Långstrump (Pippi Longstocking). She was also a prominent advocate for children's rights and animal welfare. The Astrid Lindgren Memorial Award is the world's largest children's literature prize.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Astrid Lindgren did receive literary honours, but she's celebrated for children's literature, not adult novels.",
+        null,
+        "Astrid Lindgren adapted folk songs but did not compose Sweden's best-known folk music.",
+        "Sweden's national anthem was written by Richard Dybeck (1844), not Astrid Lindgren."
+      ]
+    },
+    {
+      "id": 131,
+      "question": "What does the first line of Sweden's national anthem 'Du gamla, du fria' translate to?",
+      "options": [
+        "'Land of the midnight sun and northern lights'",
+        "'You ancient, you free'",
+        "'Beautiful land of endless forests'",
+        "'Our proud and noble homeland'"
+      ],
+      "correct_index": 1,
+      "explanation": "'Du gamla, du fria' translates as 'Thou ancient, thou free' (or 'You ancient, you free'). Written in 1844 by Richard Dybeck to a traditional folk melody, it became Sweden's national anthem through tradition rather than any formal legal designation.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "'Land of the midnight sun' would describe the midnight sun phenomenon, but is not the first line.",
+        null,
+        "'Beautiful land of endless forests' paraphrases later content but is not the opening line.",
+        "'Our proud and noble homeland' does not appear in the Swedish anthem."
+      ]
+    },
+    {
+      "id": 132,
+      "question": "What is Skansen in Stockholm and why is it historically significant?",
+      "options": [
+        "Stockholm's main concert hall and opera house",
+        "The world's first open-air museum, showcasing historic Swedish buildings, crafts, and folk traditions",
+        "Sweden's largest amusement park",
+        "The royal botanical gardens founded in the 18th century"
+      ],
+      "correct_index": 1,
+      "explanation": "Skansen, opened in 1891, is the world's first open-air museum. It features over 150 historic buildings relocated from across Sweden, along with demonstrations of traditional crafts, a zoo with Scandinavian animals, and live performances of folk music and dance.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 133,
+      "question": "What is 'Melodifestivalen'?",
+      "options": [
+        "Sweden's annual classical music competition",
+        "Sweden's national selection competition to choose its Eurovision Song Contest entry",
+        "A folk music festival held in Dalarna each summer",
+        "A Swedish version of a talent show selecting pop artists for record deals"
+      ],
+      "correct_index": 1,
+      "explanation": "Melodifestivalen is the Swedish national broadcaster SVT's annual competition to select Sweden's entry for the Eurovision Song Contest. It is one of Sweden's most watched TV events of the year. Sweden is one of the most successful countries in Eurovision history.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 134,
+      "question": "What is 'Allehelgonadagen' (All Saints' Day) in Sweden?",
+      "options": [
+        "A spring festival marking the start of the growing season",
+        "A day to remember the dead, when Swedes visit cemeteries and light candles on graves",
+        "A harvest festival celebrated with a large communal feast",
+        "A day equivalent to Halloween, with costumes and trick-or-treating"
+      ],
+      "correct_index": 1,
+      "explanation": "Allehelgonadagen (All Saints' Day) is a public holiday on the Saturday between 31 October and 6 November. Swedes visit cemeteries to place candles and flowers on relatives' graves. In the evenings, cemeteries glow with candlelight in a distinctive and moving tradition.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 135,
+      "question": "What Swedish Easter tradition involves children dressing up as witches?",
+      "options": [
+        "Lucia witches (luciahäxor) carrying lanterns on Easter eve",
+        "Children dressed as 'påskkärringar' (Easter witches) who go door to door exchanging drawings for sweets",
+        "Children wearing witch costumes to church on Good Friday",
+        "Boys dressed as wizards acting out Viking legends"
+      ],
+      "correct_index": 1,
+      "explanation": "A traditional Swedish Easter custom (especially in western Sweden) involves children dressing up as påskkärringar (Easter witches) — wearing headscarves, carrying broomsticks, and going door to door to exchange hand-drawn pictures for sweets. The tradition is linked to old beliefs about witches flying to Blåkulla at Easter.",
+      "difficulty": "expert"
+    }
+  ]
+}

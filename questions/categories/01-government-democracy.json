@@ -1,0 +1,437 @@
+{
+  "category": "Government & Democracy",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the name of the Swedish parliament?",
+      "options": [
+        "Riksdag",
+        "Stortinget",
+        "Folketing",
+        "Bundesrat"
+      ],
+      "correct_index": 0,
+      "explanation": "The Swedish parliament is called the Riksdag. The Stortinget is Norway's parliament, the Folketing is Denmark's, and the Bundesrat is part of Germany's legislature.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        null,
+        "Stortinget is Norway's parliament. The similar Nordic name makes it easy to confuse with Sweden's Riksdag.",
+        "Folketing is Denmark's parliament. Both 'Riks-' (national) and 'folke-' (people's) sound like they could describe a Swedish parliament.",
+        "Bundesrat is part of Germany's federal system. Not related to Sweden, but sounds authoritative."
+      ]
+    },
+    {
+      "id": 2,
+      "question": "How many seats does the Swedish Riksdag have?",
+      "options": [
+        "300",
+        "349",
+        "400",
+        "250"
+      ],
+      "correct_index": 1,
+      "explanation": "The Riksdag has 349 members of parliament (riksdagsledamöter), elected every four years.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 3,
+      "question": "How often are general elections held in Sweden?",
+      "options": [
+        "Every 3 years",
+        "Every 5 years",
+        "Every 4 years",
+        "Every 6 years"
+      ],
+      "correct_index": 2,
+      "explanation": "Elections to the Riksdag, regional councils (regioner), and local councils (kommuner) are all held on the same day every four years, in September.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 4,
+      "question": "Who is the head of state in Sweden?",
+      "options": [
+        "The Prime Minister",
+        "The King or Queen",
+        "The Speaker of Parliament",
+        "An elected President"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden is a constitutional monarchy. The monarch is the head of state, but the role is entirely ceremonial — the monarch has no political power.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 5,
+      "question": "How many fundamental laws (grundlagar) does Sweden have?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden has four fundamental laws: the Instrument of Government (Regeringsformen), the Act of Succession (Successionsordningen), the Freedom of the Press Act (Tryckfrihetsförordningen), and the Fundamental Law on Freedom of Expression (Yttrandefrihetsgrundlagen).",
+      "difficulty": "expert"
+    },
+    {
+      "id": 6,
+      "question": "What is the minimum voting age for Swedish national elections?",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "21"
+      ],
+      "correct_index": 1,
+      "explanation": "Swedish citizens must be at least 18 years old to vote in Riksdag elections.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 7,
+      "question": "Who nominates the Prime Minister in Sweden?",
+      "options": [
+        "The King",
+        "The Speaker of Parliament (talmannen)",
+        "The Supreme Court",
+        "A direct popular vote"
+      ],
+      "correct_index": 1,
+      "explanation": "Under Sweden's 1974 constitution, it is the Speaker of Parliament (talmannen) — not the King — who nominates the Prime Minister. The Riksdag then votes to approve or reject the nomination.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 8,
+      "question": "What percentage of votes must a party receive to enter the Swedish parliament?",
+      "options": [
+        "2%",
+        "3%",
+        "4%",
+        "5%"
+      ],
+      "correct_index": 2,
+      "explanation": "A party must receive at least 4% of the national vote to enter the Riksdag. Alternatively, a party can enter if it wins 12% or more of the vote in a single constituency.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "2% is lower than any major European threshold.",
+        "3% is a threshold used by some countries, but not Sweden.",
+        null,
+        "Germany uses a 5% threshold, which people often recall and mistakenly apply to Sweden. Sweden's bar is slightly lower at 4%."
+      ]
+    },
+    {
+      "id": 9,
+      "question": "How many political parties were represented in the Riksdag after the 2022 general election?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct_index": 2,
+      "explanation": "Eight parties won seats in the 2022 election: the Social Democrats, Moderates, Sweden Democrats, Centre Party, Left Party, Christian Democrats, Liberals, and Green Party.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 10,
+      "question": "What is the role of the Swedish Parliamentary Ombudsman (Riksdagens ombudsmän, JO)?",
+      "options": [
+        "To draft new legislation",
+        "To oversee that public authorities follow laws and treat citizens correctly",
+        "To manage the national budget",
+        "To appoint judges to the Supreme Court"
+      ],
+      "correct_index": 1,
+      "explanation": "The JO (Justitieombudsmännen) supervises how public authorities and civil servants apply Swedish law. Citizens can file complaints with the JO if they feel a public body has acted incorrectly.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Drafting legislation is done by government ministers and departments, not the Ombudsman.",
+        null,
+        "Budget management is handled by the Riksgälden and Finance Ministry, not the JO.",
+        "Appointing judges is handled by the courts administration authority, not the JO."
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What does the Swedish principle of 'offentlighetsprincipen' mean?",
+      "options": [
+        "The public right to access most government documents",
+        "The government's obligation to hold public consultations",
+        "The right of citizens to attend parliamentary debates",
+        "The freedom to form political parties"
+      ],
+      "correct_index": 0,
+      "explanation": "Offentlighetsprincipen (the principle of public access to official documents) means that most documents held by public authorities are publicly available. This is one of the world's oldest freedom of information laws.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        null,
+        "The word 'offentlig' does mean public, but this principle is specifically about accessing documents — not a duty to consult citizens.",
+        "Citizens can attend some Riksdag sessions, but this is not what offentlighetsprincipen means.",
+        null
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which party has historically been the dominant political force in Sweden through most of the 20th century?",
+      "options": [
+        "The Moderate Party",
+        "The Centre Party",
+        "The Social Democrats",
+        "The Sweden Democrats"
+      ],
+      "correct_index": 2,
+      "explanation": "The Social Democrats (Socialdemokraterna) governed Sweden for most of the period from 1932 to 2006, and remain the largest single party. They are associated with building Sweden's welfare state.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 13,
+      "question": "What is a 'folkomröstning' in Sweden?",
+      "options": [
+        "A general election",
+        "A referendum",
+        "A parliamentary debate",
+        "A local council meeting"
+      ],
+      "correct_index": 1,
+      "explanation": "Folkomröstning means referendum — a public vote on a specific question. Sweden held a referendum on EU membership in 1994 and on adopting the euro in 2003.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 14,
+      "question": "Sweden's system of government is best described as:",
+      "options": [
+        "A federal republic",
+        "A presidential democracy",
+        "A parliamentary constitutional monarchy",
+        "A direct democracy"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden is a parliamentary constitutional monarchy. The parliament (Riksdag) holds legislative power, the government holds executive power, and the monarch serves a purely ceremonial role.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 15,
+      "question": "What is the 'remiss' process in Swedish lawmaking?",
+      "options": [
+        "A parliamentary vote on a bill",
+        "A public consultation where authorities and organisations comment on proposed legislation",
+        "An appeal process for rejected laws",
+        "A royal review of new legislation"
+      ],
+      "correct_index": 1,
+      "explanation": "Before a bill is presented to the Riksdag, it goes through a remiss (referral) process where relevant authorities, organisations, municipalities, and the public are invited to comment. This is a key feature of Swedish democratic decision-making.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 16,
+      "question": "Sweden's central bank is called:",
+      "options": [
+        "Riksgälden",
+        "Finansinspektionen",
+        "Riksbanken",
+        "Handelsbanken"
+      ],
+      "correct_index": 2,
+      "explanation": "Riksbanken (the Riksbank) is Sweden's central bank and one of the world's oldest central banks, founded in 1668. It is responsible for monetary policy and issuing Swedish krona banknotes and coins.",
+      "difficulty": "expert",
+      "distractor_notes": [
+        "Riksgälden is easily confused with Riksbanken — both start with 'Riks' and are major financial authorities. Riksgälden manages government borrowing and the national debt.",
+        "Finansinspektionen is Sweden's financial supervisory authority (regulating banks and insurers), not the central bank.",
+        null,
+        "Handelsbanken is a private commercial bank, not Sweden's central bank."
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is Sweden's highest court for civil and criminal cases?",
+      "options": [
+        "Hovrätten",
+        "Förvaltningsrätten",
+        "Kammarrätten",
+        "Högsta domstolen"
+      ],
+      "correct_index": 3,
+      "explanation": "Högsta domstolen (the Supreme Court) is Sweden's highest court for civil and criminal matters. There is also a Högsta förvaltningsdomstolen (Supreme Administrative Court) for administrative law cases.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Hovrätten is the Court of Appeal (second tier). Cases go Tingsrätt → Hovrätt → Högsta domstolen.",
+        "Förvaltningsrätten handles administrative law cases, not civil and criminal matters.",
+        "Kammarrätten is the appeal court for administrative cases — a different track from civil and criminal law.",
+        null
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which of these is a Swedish fundamental law guaranteeing freedom of the press?",
+      "options": [
+        "Pressfrihetslagen",
+        "Tryckfrihetsförordningen",
+        "Yttrandefrihetslagen",
+        "Informationsfrihetslagen"
+      ],
+      "correct_index": 1,
+      "explanation": "Tryckfrihetsförordningen (the Freedom of the Press Act), first enacted in 1766, is one of Sweden's four fundamental laws and is considered the world's oldest freedom of information and press freedom legislation.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Pressfrihetslagen sounds like a real Swedish press law, but the correct constitutional name is Tryckfrihetsförordningen (dating to 1766).",
+        null,
+        "There IS a Yttrandefrihetsgrundlag (1991), but that covers broadcast media. The press-specific constitutional act from 1766 is Tryckfrihetsförordningen.",
+        "Informationsfrihetslagen sounds plausible but is not the name of a Swedish fundamental law."
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the role of the Swedish monarch under the current constitution?",
+      "options": [
+        "To appoint the Prime Minister and cabinet ministers",
+        "To open parliament and represent Sweden ceremonially, with no political power",
+        "To veto legislation the monarch disagrees with",
+        "To lead Sweden's armed forces in times of war"
+      ],
+      "correct_index": 1,
+      "explanation": "Under the 1974 Instrument of Government, Sweden's monarch has no political power whatsoever. The king opens the parliamentary session and carries out official and ceremonial duties at home and abroad.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 20,
+      "question": "What does the Swedish Tax Agency (Skatteverket) do?",
+      "options": [
+        "Manages Sweden's foreign debt",
+        "Collects taxes and handles population registration",
+        "Distributes social benefits and pensions",
+        "Regulates banks and financial institutions"
+      ],
+      "correct_index": 1,
+      "explanation": "Skatteverket collects taxes, registers individuals in Sweden (folkbokföring), handles matters such as name changes, and administers certain other civil registration tasks.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 86,
+      "question": "Sweden's parliament is described as 'unicameral'. What does this mean?",
+      "options": [
+        "It has two chambers — an upper and a lower house",
+        "It has only one chamber — all 349 members sit and vote together",
+        "Voting requires a two-thirds majority for all decisions",
+        "The monarch must countersign all parliamentary decisions"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden has a unicameral (enkammarsystem) parliament — a single chamber of 349 members. A second chamber (the Senate) was abolished in 1971 as part of Sweden's shift to a fully democratic, single-chamber system.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 87,
+      "question": "What is the main role of the Speaker of the Riksdag (talmannen)?",
+      "options": [
+        "To lead the governing party and set government policy",
+        "To preside over parliamentary proceedings, nominate the Prime Minister, and represent the Riksdag",
+        "To represent Sweden in EU meetings",
+        "To appoint ministers and cabinet members"
+      ],
+      "correct_index": 1,
+      "explanation": "The Speaker (talmannen) chairs parliamentary debates, nominates the Prime Minister after an election, and represents the Riksdag. The Speaker is elected by the Riksdag and must act impartially. There are also three Deputy Speakers.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 88,
+      "question": "What are Swedish municipalities (kommuner) primarily responsible for?",
+      "options": [
+        "Healthcare and public transport",
+        "National defence and policing",
+        "Schools, social care, elderly care, water, and waste management",
+        "Courts and legal administration"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden's 290 municipalities (kommuner) are responsible for a wide range of local services including primary and secondary schools, pre-school, social services, elder care, water and sewage, and local roads.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 89,
+      "question": "What is 'Riksrevisionen' (the Swedish National Audit Office)?",
+      "options": [
+        "The body that sets the national budget each year",
+        "An independent authority that audits how government and public bodies use taxpayer money",
+        "A parliamentary committee that reviews new legislation",
+        "The agency that investigates corruption by politicians"
+      ],
+      "correct_index": 1,
+      "explanation": "Riksrevisionen independently examines whether the government and state agencies manage public funds effectively and in accordance with law. It is accountable to the Riksdag, not the government, ensuring independence.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 90,
+      "question": "What are Sweden's regional councils (regioner) primarily responsible for?",
+      "options": [
+        "Primary school education and childcare",
+        "Healthcare, public transport, and regional development",
+        "Police and emergency services",
+        "Housing and urban planning"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden's 21 regions (regioner) are elected bodies responsible mainly for healthcare (including hospitals and primary care), public transport, and regional development. They are funded primarily through regional income tax.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 91,
+      "question": "Which authority is responsible for administering Swedish elections?",
+      "options": [
+        "The Riksdag's administrative department",
+        "The Ministry of the Interior",
+        "Valmyndigheten (the Swedish Election Authority)",
+        "Länsstyrelsen (the County Administrative Board)"
+      ],
+      "correct_index": 2,
+      "explanation": "Valmyndigheten is the independent government authority responsible for planning and administering elections in Sweden, including producing ballot papers and announcing results.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 92,
+      "question": "What is the Swedish Chancellor of Justice (Justitiekanslern, JK)?",
+      "options": [
+        "The head of the Swedish police",
+        "The government's own ombudsman and legal representative, also guarding press freedom",
+        "The chief justice of the Supreme Court",
+        "The head of the prosecution service"
+      ],
+      "correct_index": 1,
+      "explanation": "The JK (Justitiekanslern) is appointed by the government and serves as both the government's legal adviser and a supervisory body. The JK also has a unique role as the sole prosecutor for certain press and expression freedom cases.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 93,
+      "question": "What are Sweden's two main political blocs?",
+      "options": [
+        "The Red-Green bloc and the Blue-Yellow bloc",
+        "The left-wing bloc (Socialdemokraterna and allies) and the centre-right bloc (Moderaterna and allies)",
+        "The governing party and the opposition party",
+        "The labour movement and the business movement"
+      ],
+      "correct_index": 1,
+      "explanation": "Swedish politics is typically organised around two broad blocs: the red-green left-wing bloc (led by the Social Democrats) and the Tidö alliance / centre-right bloc (led by the Moderates). Coalition governments are common as no single party wins a majority.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 94,
+      "question": "What does Sweden's principle of 'ministerial rule' (ministerstyre) prohibition mean?",
+      "options": [
+        "Ministers cannot personally intervene in individual decisions made by government agencies",
+        "Ministers must be members of parliament",
+        "Ministers cannot hold any other jobs while in office",
+        "Ministers must resign if they lose a vote in the Riksdag"
+      ],
+      "correct_index": 0,
+      "explanation": "Sweden's constitution prohibits ministerial rule (ministerstyre) — meaning government ministers cannot instruct independent government agencies on how to handle individual cases. Agencies apply the law independently. This protects citizens from political interference in administrative decisions.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 95,
+      "question": "What does 'Regeringskansliet' refer to?",
+      "options": [
+        "The Swedish parliament building",
+        "The Swedish royal court",
+        "The Government Offices — the ministries and central administration that support the government",
+        "The Supreme Court building"
+      ],
+      "correct_index": 2,
+      "explanation": "Regeringskansliet (the Government Offices of Sweden) is the collective term for the Prime Minister's Office and all government ministries. It provides administrative and expert support to the government and its ministers.",
+      "difficulty": "expert"
+    }
+  ]
+}

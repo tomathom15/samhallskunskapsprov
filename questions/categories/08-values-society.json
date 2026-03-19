@@ -1,0 +1,351 @@
+{
+  "category": "Swedish Values & Society",
+  "questions": [
+    {
+      "id": 79,
+      "question": "What does the Swedish concept of 'lagom' mean?",
+      "options": [
+        "A form of collective decision-making",
+        "Just the right amount — neither too much nor too little",
+        "A commitment to environmental sustainability",
+        "A tradition of hospitality toward strangers"
+      ],
+      "correct_index": 1,
+      "explanation": "Lagom is a distinctly Swedish concept meaning 'just the right amount' or 'in moderation'. It reflects a cultural value of balance, fairness, and not being excessive in any direction. It appears in many aspects of Swedish social life.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Collective decision-making in Sweden is more associated with 'samförstånd' or consensus culture — not lagom.",
+        null,
+        "Environmental sustainability is a strong Swedish value, but the specific concept of 'lagom' is about balance and moderation in quantity.",
+        null
+      ]
+    },
+    {
+      "id": 80,
+      "question": "What does 'jantelagen' describe in Swedish culture?",
+      "options": [
+        "A law requiring equal pay for equal work",
+        "An informal social norm discouraging people from standing out or thinking themselves better than others",
+        "A tradition of communal decision-making in villages",
+        "A principle of equal access to public services"
+      ],
+      "correct_index": 1,
+      "explanation": "Jantelagen ('the law of Jante') is a cultural concept — not a real law — describing the Scandinavian social norm of not drawing attention to oneself or acting as if you are better than others. It originates from a 1933 novel by Danish-Norwegian author Aksel Sandemose.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        null,
+        null,
+        "Communal decision-making is a separate aspect of Nordic culture. Jantelagen is specifically about social pressure not to boast or stand out.",
+        null
+      ]
+    },
+    {
+      "id": 81,
+      "question": "In which of the following areas does Sweden consistently rank among the best in the world?",
+      "options": [
+        "Military spending as a share of GDP",
+        "Gender equality, press freedom, and transparency",
+        "Car ownership per capita",
+        "Agricultural self-sufficiency"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden regularly ranks among the top countries globally for gender equality (World Economic Forum), press freedom (Reporters Without Borders), and transparency/low corruption (Transparency International).",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 82,
+      "question": "What is the name of the inter-governmental cooperation body for the five Nordic countries?",
+      "options": [
+        "Scandinavian Union",
+        "Nordic Alliance",
+        "Nordic Council (Nordiska rådet)",
+        "Northern Partnership"
+      ],
+      "correct_index": 2,
+      "explanation": "The Nordic Council (Nordiska rådet), founded in 1952, is the official body for parliamentary cooperation between Denmark, Finland, Iceland, Norway, and Sweden. The Nordic Council of Ministers is the governmental cooperation body.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "'Scandinavian Union' is not an official body — Scandinavia is a cultural/geographic concept without its own inter-governmental structure.",
+        "Nordic Alliance sounds plausible but is not the official name.",
+        null,
+        "Northern Partnership is not an official body name."
+      ]
+    },
+    {
+      "id": 83,
+      "question": "Sweden's welfare state is built on what central concept, meaning roughly 'the people's home'?",
+      "options": [
+        "Välfärdsstaten",
+        "Folkhemmet",
+        "Medborgarsamhället",
+        "Trygghetssystemet"
+      ],
+      "correct_index": 1,
+      "explanation": "Folkhemmet ('the people's home' or 'the home of the people') was a political vision articulated by Social Democratic Prime Minister Per Albin Hansson in 1928. It described Sweden as a society where all citizens, regardless of background, would be cared for and have equal rights and opportunities.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 84,
+      "question": "In which city are the Nobel Prizes (other than the Peace Prize) awarded each year?",
+      "options": [
+        "Oslo",
+        "Copenhagen",
+        "Stockholm",
+        "Helsinki"
+      ],
+      "correct_index": 2,
+      "explanation": "The Nobel Prizes in Physics, Chemistry, Medicine, Literature, and Economics are awarded in Stockholm, Sweden, on 10 December each year (the anniversary of Alfred Nobel's death). The Nobel Peace Prize is awarded in Oslo, Norway.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "The Nobel Peace Prize IS awarded in Oslo, Norway — but all other prizes are in Stockholm. This is a famous and often-confused distinction.",
+        null,
+        null,
+        "Helsinki is Finland's capital and has no Nobel ceremony."
+      ]
+    },
+    {
+      "id": 85,
+      "question": "What does Swedish law say about physical punishment of children?",
+      "options": [
+        "Mild physical punishment by parents is permitted",
+        "Physical punishment is banned in all settings — Sweden was the first country to ban it in 1979",
+        "Physical punishment is only banned in schools, not in the home",
+        "There is no specific law on this issue"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden became the first country in the world to ban all physical punishment of children — in the home as well as in institutions — with the 1979 amendment to the Parenthood and Guardianship Code. This reflects Swedish values around children's rights.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        null,
+        null,
+        "Some countries only ban corporal punishment in schools — this was an earlier intermediate stage. Sweden banned it everywhere, including in the home, in 1979.",
+        "There has been a specific law banning all physical punishment of children in Sweden since 1979."
+      ]
+    },
+    {
+      "id": 181,
+      "question": "What does 'barnets bästa' (the best interests of the child) mean in Swedish law?",
+      "options": [
+        "Parents always have the final say in all matters concerning their children",
+        "The welfare and best interests of the child must be the primary consideration in all legal and administrative decisions affecting children",
+        "The state takes over responsibility for all child welfare decisions",
+        "A principle that applies only in custody disputes after separation"
+      ],
+      "correct_index": 1,
+      "explanation": "Barnets bästa (the best interests of the child) is a fundamental principle in Swedish family and child welfare law, derived from the UN Convention on the Rights of the Child. It applies across areas from custody disputes to social service decisions and school arrangements.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 182,
+      "question": "Sweden is notable for the proportion of women in its parliament. Approximately what share of Riksdag members are women?",
+      "options": [
+        "About 20%",
+        "About 30%",
+        "About 46%",
+        "Exactly 50% by law"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden consistently has one of the world's highest proportions of women in parliament — around 46–47%. This has been achieved through voluntary gender equality policies by parties (such as alternating male-female candidate lists), rather than through a legally mandated quota.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "20% is roughly the world average for women in parliament — Sweden is far above this.",
+        "30% is significantly below Sweden's actual figure.",
+        null,
+        "There is no legal gender quota mandating exactly 50% in the Riksdag. Sweden achieves near-parity through political culture and party practices."
+      ]
+    },
+    {
+      "id": 183,
+      "question": "What does 'allas lika värde' (equal worth of all people) mean in the Swedish context?",
+      "options": [
+        "A constitutional principle that all Swedish citizens have equal political rights",
+        "A foundational social value affirming that every person has equal dignity and worth, regardless of background, identity, or status",
+        "A law guaranteeing equal pay for equal work across all sectors",
+        "A principle of equal access to government services"
+      ],
+      "correct_index": 1,
+      "explanation": "Allas lika värde ('the equal worth of all people') is a core value in Swedish society and is embedded in the Swedish school system's curriculum and public policy. It reflects a commitment to human dignity and non-discrimination that goes beyond legal rights to encompass social attitudes.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 184,
+      "question": "Sweden legalized same-sex marriage in which year?",
+      "options": [
+        "2000",
+        "2003",
+        "2009",
+        "2015"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden introduced gender-neutral marriage in 2009, allowing same-sex couples to marry with the same legal rights as opposite-sex couples. The Church of Sweden also began conducting same-sex weddings in 2009. Sweden was an early adopter of equal marriage rights.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "2000 is when the Church of Sweden separated from the state. Same-sex registered partnerships had existed since 1995, but marriage came in 2009.",
+        "2003 was Sweden's euro referendum. The Netherlands was the first country to legalise same-sex marriage in 2001, which people may confuse with Sweden's date.",
+        null,
+        "2015 is when the US Supreme Court ruled on marriage equality in Obergefell v. Hodges. Sweden had acted six years earlier."
+      ]
+    },
+    {
+      "id": 185,
+      "question": "What is the Swedish concept of 'öppenhet' (openness/transparency) in governance?",
+      "options": [
+        "A requirement that all politicians hold public town-hall meetings",
+        "A culture and legal tradition emphasising that government work and documents should be accessible and accountable to the public",
+        "A policy of publishing all government employees' salaries",
+        "A requirement for government ministers to declare all personal assets"
+      ],
+      "correct_index": 1,
+      "explanation": "Öppenhet (openness/transparency) in Swedish governance refers to the strong tradition — backed by the world's oldest freedom of information law — that government and public administration should be open and accountable to citizens. This includes public access to official documents, open court proceedings, and transparency in political processes.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 186,
+      "question": "What is 'Folkhälsomyndigheten' (the Public Health Agency of Sweden)?",
+      "options": [
+        "The authority that runs Sweden's hospitals and primary care",
+        "The government agency responsible for population health, infectious disease control, and national public health strategy",
+        "The authority regulating pharmaceuticals and medical devices",
+        "The body overseeing occupational health and workplace safety"
+      ],
+      "correct_index": 1,
+      "explanation": "Folkhälsomyndigheten is the national agency responsible for monitoring public health, controlling infectious diseases (such as COVID-19), setting public health recommendations, and conducting research. It became particularly prominent during the COVID-19 pandemic and Sweden's approach to managing it.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 187,
+      "question": "When did the Church of Sweden (Svenska kyrkan) separate from the Swedish state?",
+      "options": [
+        "1971",
+        "1990",
+        "2000",
+        "2010"
+      ],
+      "correct_index": 2,
+      "explanation": "The Church of Sweden formally separated from the state on 1 January 2000. Before this, it was the state church. Now Svenska kyrkan is an independent church — though still the largest denomination in Sweden — without special legal constitutional status. Members pay a church fee collected by Skatteverket.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "1971 was a major Swedish local government reform, but the Church of Sweden did not separate from the state until 2000.",
+        "1990 is not associated with a specific church-state milestone in Sweden.",
+        null,
+        null
+      ]
+    },
+    {
+      "id": 188,
+      "question": "What does 'medborgarskap' mean, and what are its key requirements in Sweden (from 2026)?",
+      "options": [
+        "Residence permit — requiring 5 years of uninterrupted residency",
+        "Citizenship — from 2026 requiring 8 years of residence, language and civics knowledge, and proof of self-sufficiency",
+        "Permanent residency — automatically granted after 5 years",
+        "EU freedom of movement rights for Nordic citizens"
+      ],
+      "correct_index": 1,
+      "explanation": "Medborgarskap means citizenship. Under the 2026 reforms, Swedish citizenship (medborgarskap) requires (among other things) 8 years of residence (up from 5), demonstrated knowledge of Swedish language and Swedish society, and a maintenance requirement. These are among the most significant changes to Swedish citizenship law in decades.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        null,
+        null,
+        "Permanent residency (permanent uppehållstillstånd) is typically available after 3–5 years and does not require a language or civics test.",
+        "Nordic citizens have special freedom of movement rights, but 'medborgarskap' refers to full citizenship, not just movement rights."
+      ]
+    },
+    {
+      "id": 189,
+      "question": "What is 'civilsamhället' (civil society) in Sweden?",
+      "options": [
+        "The civilian branch of the Swedish armed forces",
+        "The non-governmental sphere of voluntary associations, sports clubs, charities, and civic organisations that play a major role alongside the state",
+        "The private sector businesses operating in Sweden",
+        "Local elected councils and their administration"
+      ],
+      "correct_index": 1,
+      "explanation": "Civilsamhälle (civil society) encompasses Sweden's rich tradition of voluntary organisations (ideella föreningar) — sports clubs, religious organisations, humanitarian NGOs, hobby associations, and political organisations. Sweden has one of the highest levels of associational membership in the world, and civil society plays a recognised role in Swedish democracy.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 190,
+      "question": "What does 'solidaritet' (solidarity) mean in the context of Sweden's welfare model?",
+      "options": [
+        "A policy of providing support only to the very poorest in society",
+        "The principle that all contribute to and benefit from a shared social safety net, spreading risk across the whole population",
+        "A foreign aid commitment to developing countries",
+        "Trade union cooperation between Nordic countries"
+      ],
+      "correct_index": 1,
+      "explanation": "Solidarity (solidaritet) is a foundational principle of Sweden's welfare state — the idea that risk (illness, unemployment, old age) is shared collectively rather than borne by individuals alone. Everyone contributes through taxes and social contributions, and everyone is entitled to support when needed, regardless of wealth.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 191,
+      "question": "What is the Swedish concept of 'trygghet' in the welfare state?",
+      "options": [
+        "Military security and national defence",
+        "A sense of security and safety — knowing that you and your family will be protected against life's uncertainties such as illness, unemployment, and old age",
+        "Physical safety from crime and violence",
+        "Job security and employment protection law"
+      ],
+      "correct_index": 1,
+      "explanation": "Trygghet (security/safety) is a central value in Swedish society and welfare thinking. It reflects the idea that the welfare state should provide economic and social security so that people can live without fear of poverty due to illness, job loss, or old age. It is closely linked to the folkhemmet concept.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 192,
+      "question": "What is the Swedish gender-neutral pronoun 'hen', and when did it become mainstream?",
+      "options": [
+        "A formal legal term used in court documents since 2000",
+        "A gender-neutral alternative to 'han' (he) and 'hon' (she) that entered common use in the 2010s and was added to the official Swedish dictionary in 2015",
+        "A plural pronoun meaning 'they', used only for groups",
+        "A term rejected by the Swedish Academy as grammatically incorrect"
+      ],
+      "correct_index": 1,
+      "explanation": "'Hen' was proposed as a gender-neutral third-person singular pronoun in the 1960s but gained wide public attention around 2012. It was added to the official Swedish dictionary SAOL in 2015. 'Hen' is used when gender is unknown, irrelevant, or when a person prefers a gender-neutral pronoun — now widely accepted in everyday use.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 193,
+      "question": "Sweden consistently scores at the top of international corruption indices. Which organisation publishes the Corruption Perceptions Index?",
+      "options": [
+        "The World Economic Forum",
+        "Transparency International",
+        "The United Nations",
+        "Freedom House"
+      ],
+      "correct_index": 1,
+      "explanation": "Transparency International publishes the annual Corruption Perceptions Index (CPI), which ranks countries by perceived levels of public sector corruption. Sweden consistently ranks among the top five least corrupt countries in the world, reflecting strong institutional integrity and transparency.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 194,
+      "question": "What does Sweden's 'barnombudsman' (Children's Ombudsman) do?",
+      "options": [
+        "Prosecutes cases of child abuse on behalf of the state",
+        "Monitors and advocates for children's rights in Sweden, ensuring laws and policies comply with the UN Convention on the Rights of the Child",
+        "Appoints guardians for children without parents",
+        "Runs Sweden's foster care and adoption system"
+      ],
+      "correct_index": 1,
+      "explanation": "Barnombudsmannen (BO) is a government authority that monitors how Sweden's laws and policies comply with the UN Convention on the Rights of the Child (incorporated into Swedish law in 2020). The BO advocates for children's rights, produces reports, and consults directly with children to understand their experiences.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 195,
+      "question": "Sweden is part of the Nordic Council. What other four countries are members of the Nordic Council?",
+      "options": [
+        "Denmark, Finland, Iceland, and Estonia",
+        "Denmark, Finland, Norway, and Iceland",
+        "Denmark, Norway, Iceland, and the Faroe Islands",
+        "Denmark, Finland, Norway, and the Baltic states"
+      ],
+      "correct_index": 1,
+      "explanation": "The Nordic Council has five member countries: Sweden, Denmark, Finland, Norway, and Iceland. The autonomous territories of the Faroe Islands, Greenland, and Åland Islands also have representation. The Council was founded in 1952 and promotes cooperation in legislation, culture, and social affairs.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Estonia is a Baltic state (with Latvia and Lithuania) — not a Nordic Council member.",
+        null,
+        "The Faroe Islands and Greenland have associate/observer status in the Nordic Council, not full membership.",
+        "The Baltic states (Estonia, Latvia, Lithuania) are not part of the Nordic Council."
+      ]
+    }
+  ]
+}
