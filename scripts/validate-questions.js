@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 'use strict';
 /**
- * Validate script: checks that questions/<deck>.json (the built output)
+ * Validate script: checks that questions/sweden.json (the built output)
  * conforms to the expected schema.
  *
  * Usage:
- *   node scripts/validate-questions.js          # validates questions/sweden.json
- *   node scripts/validate-questions.js denmark  # validates questions/denmark.json
+ *   node scripts/validate-questions.js   # validates questions/sweden.json
  *
  * Exits with code 0 on success, code 1 if any errors are found.
  */
@@ -14,8 +13,7 @@
 const fs   = require('fs');
 const path = require('path');
 
-const DECK     = process.argv[2] || 'sweden';
-const SRC      = path.join(__dirname, '..', 'questions', `${DECK}.json`);
+const SRC      = path.join(__dirname, '..', 'questions', 'sweden.json');
 const VALID_DIFFICULTIES = new Set(['beginner', 'intermediate', 'expert']);
 
 if (!fs.existsSync(SRC)) {
