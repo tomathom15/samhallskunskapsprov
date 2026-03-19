@@ -1,0 +1,3259 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-03-19",
+    "description": "Example questions for Swedish civics test preparation. Modelled on the Danish citizenship test format and confirmed Swedish test topic areas (democracy, geography, culture, law, rights and values). These are illustrative/practice questions — the official test is being developed by UHR (Swedish Council for Higher Education) and is not yet published.",
+    "total_questions": 200,
+    "categories": [
+      "Government & Democracy",
+      "History",
+      "Geography",
+      "Society & Welfare",
+      "Rights & Law",
+      "Culture & Traditions",
+      "Economy",
+      "Swedish Values & Society",
+      "Environment & Nature"
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "Government & Democracy",
+      "question": "What is the name of the Swedish parliament?",
+      "options": [
+        "Riksdag",
+        "Stortinget",
+        "Folketing",
+        "Bundesrat"
+      ],
+      "correct_index": 0,
+      "explanation": "The Swedish parliament is called the Riksdag. The Stortinget is Norway's parliament, the Folketing is Denmark's, and the Bundesrat is part of Germany's legislature.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        null,
+        "Stortinget is Norway's parliament. The similar Nordic name makes it easy to confuse with Sweden's Riksdag.",
+        "Folketing is Denmark's parliament. Both 'Riks-' (national) and 'folke-' (people's) sound like they could describe a Swedish parliament.",
+        "Bundesrat is part of Germany's federal system. Not related to Sweden, but sounds authoritative."
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Government & Democracy",
+      "question": "How many seats does the Swedish Riksdag have?",
+      "options": [
+        "300",
+        "349",
+        "400",
+        "250"
+      ],
+      "correct_index": 1,
+      "explanation": "The Riksdag has 349 members of parliament (riksdagsledamöter), elected every four years.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 3,
+      "category": "Government & Democracy",
+      "question": "How often are general elections held in Sweden?",
+      "options": [
+        "Every 3 years",
+        "Every 5 years",
+        "Every 4 years",
+        "Every 6 years"
+      ],
+      "correct_index": 2,
+      "explanation": "Elections to the Riksdag, regional councils (regioner), and local councils (kommuner) are all held on the same day every four years, in September.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 4,
+      "category": "Government & Democracy",
+      "question": "Who is the head of state in Sweden?",
+      "options": [
+        "The Prime Minister",
+        "The King or Queen",
+        "The Speaker of Parliament",
+        "An elected President"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden is a constitutional monarchy. The monarch is the head of state, but the role is entirely ceremonial — the monarch has no political power.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 5,
+      "category": "Government & Democracy",
+      "question": "How many fundamental laws (grundlagar) does Sweden have?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden has four fundamental laws: the Instrument of Government (Regeringsformen), the Act of Succession (Successionsordningen), the Freedom of the Press Act (Tryckfrihetsförordningen), and the Fundamental Law on Freedom of Expression (Yttrandefrihetsgrundlagen).",
+      "difficulty": "expert"
+    },
+    {
+      "id": 6,
+      "category": "Government & Democracy",
+      "question": "What is the minimum voting age for Swedish national elections?",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "21"
+      ],
+      "correct_index": 1,
+      "explanation": "Swedish citizens must be at least 18 years old to vote in Riksdag elections.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 7,
+      "category": "Government & Democracy",
+      "question": "Who nominates the Prime Minister in Sweden?",
+      "options": [
+        "The King",
+        "The Speaker of Parliament (talmannen)",
+        "The Supreme Court",
+        "A direct popular vote"
+      ],
+      "correct_index": 1,
+      "explanation": "Under Sweden's 1974 constitution, it is the Speaker of Parliament (talmannen) — not the King — who nominates the Prime Minister. The Riksdag then votes to approve or reject the nomination.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 8,
+      "category": "Government & Democracy",
+      "question": "What percentage of votes must a party receive to enter the Swedish parliament?",
+      "options": [
+        "2%",
+        "3%",
+        "4%",
+        "5%"
+      ],
+      "correct_index": 2,
+      "explanation": "A party must receive at least 4% of the national vote to enter the Riksdag. Alternatively, a party can enter if it wins 12% or more of the vote in a single constituency.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "2% is lower than any major European threshold.",
+        "3% is a threshold used by some countries, but not Sweden.",
+        null,
+        "Germany uses a 5% threshold, which people often recall and mistakenly apply to Sweden. Sweden's bar is slightly lower at 4%."
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Government & Democracy",
+      "question": "How many political parties were represented in the Riksdag after the 2022 general election?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct_index": 2,
+      "explanation": "Eight parties won seats in the 2022 election: the Social Democrats, Moderates, Sweden Democrats, Centre Party, Left Party, Christian Democrats, Liberals, and Green Party.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 10,
+      "category": "Government & Democracy",
+      "question": "What is the role of the Swedish Parliamentary Ombudsman (Riksdagens ombudsmän, JO)?",
+      "options": [
+        "To draft new legislation",
+        "To oversee that public authorities follow laws and treat citizens correctly",
+        "To manage the national budget",
+        "To appoint judges to the Supreme Court"
+      ],
+      "correct_index": 1,
+      "explanation": "The JO (Justitieombudsmännen) supervises how public authorities and civil servants apply Swedish law. Citizens can file complaints with the JO if they feel a public body has acted incorrectly.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Drafting legislation is done by government ministers and departments, not the Ombudsman.",
+        null,
+        "Budget management is handled by the Riksgälden and Finance Ministry, not the JO.",
+        "Appointing judges is handled by the courts administration authority, not the JO."
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Government & Democracy",
+      "question": "What does the Swedish principle of 'offentlighetsprincipen' mean?",
+      "options": [
+        "The public right to access most government documents",
+        "The government's obligation to hold public consultations",
+        "The right of citizens to attend parliamentary debates",
+        "The freedom to form political parties"
+      ],
+      "correct_index": 0,
+      "explanation": "Offentlighetsprincipen (the principle of public access to official documents) means that most documents held by public authorities are publicly available. This is one of the world's oldest freedom of information laws.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        null,
+        "The word 'offentlig' does mean public, but this principle is specifically about accessing documents — not a duty to consult citizens.",
+        "Citizens can attend some Riksdag sessions, but this is not what offentlighetsprincipen means.",
+        null
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Government & Democracy",
+      "question": "Which party has historically been the dominant political force in Sweden through most of the 20th century?",
+      "options": [
+        "The Moderate Party",
+        "The Centre Party",
+        "The Social Democrats",
+        "The Sweden Democrats"
+      ],
+      "correct_index": 2,
+      "explanation": "The Social Democrats (Socialdemokraterna) governed Sweden for most of the period from 1932 to 2006, and remain the largest single party. They are associated with building Sweden's welfare state.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 13,
+      "category": "Government & Democracy",
+      "question": "What is a 'folkomröstning' in Sweden?",
+      "options": [
+        "A general election",
+        "A referendum",
+        "A parliamentary debate",
+        "A local council meeting"
+      ],
+      "correct_index": 1,
+      "explanation": "Folkomröstning means referendum — a public vote on a specific question. Sweden held a referendum on EU membership in 1994 and on adopting the euro in 2003.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 14,
+      "category": "Government & Democracy",
+      "question": "Sweden's system of government is best described as:",
+      "options": [
+        "A federal republic",
+        "A presidential democracy",
+        "A parliamentary constitutional monarchy",
+        "A direct democracy"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden is a parliamentary constitutional monarchy. The parliament (Riksdag) holds legislative power, the government holds executive power, and the monarch serves a purely ceremonial role.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 15,
+      "category": "Government & Democracy",
+      "question": "What is the 'remiss' process in Swedish lawmaking?",
+      "options": [
+        "A parliamentary vote on a bill",
+        "A public consultation where authorities and organisations comment on proposed legislation",
+        "An appeal process for rejected laws",
+        "A royal review of new legislation"
+      ],
+      "correct_index": 1,
+      "explanation": "Before a bill is presented to the Riksdag, it goes through a remiss (referral) process where relevant authorities, organisations, municipalities, and the public are invited to comment. This is a key feature of Swedish democratic decision-making.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 16,
+      "category": "Government & Democracy",
+      "question": "Sweden's central bank is called:",
+      "options": [
+        "Riksgälden",
+        "Finansinspektionen",
+        "Riksbanken",
+        "Handelsbanken"
+      ],
+      "correct_index": 2,
+      "explanation": "Riksbanken (the Riksbank) is Sweden's central bank and one of the world's oldest central banks, founded in 1668. It is responsible for monetary policy and issuing Swedish krona banknotes and coins.",
+      "difficulty": "expert",
+      "distractor_notes": [
+        "Riksgälden is easily confused with Riksbanken — both start with 'Riks' and are major financial authorities. Riksgälden manages government borrowing and the national debt.",
+        "Finansinspektionen is Sweden's financial supervisory authority (regulating banks and insurers), not the central bank.",
+        null,
+        "Handelsbanken is a private commercial bank, not Sweden's central bank."
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Government & Democracy",
+      "question": "What is Sweden's highest court for civil and criminal cases?",
+      "options": [
+        "Hovrätten",
+        "Förvaltningsrätten",
+        "Kammarrätten",
+        "Högsta domstolen"
+      ],
+      "correct_index": 3,
+      "explanation": "Högsta domstolen (the Supreme Court) is Sweden's highest court for civil and criminal matters. There is also a Högsta förvaltningsdomstolen (Supreme Administrative Court) for administrative law cases.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Hovrätten is the Court of Appeal (second tier). Cases go Tingsrätt → Hovrätt → Högsta domstolen.",
+        "Förvaltningsrätten handles administrative law cases, not civil and criminal matters.",
+        "Kammarrätten is the appeal court for administrative cases — a different track from civil and criminal law.",
+        null
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Government & Democracy",
+      "question": "Which of these is a Swedish fundamental law guaranteeing freedom of the press?",
+      "options": [
+        "Pressfrihetslagen",
+        "Tryckfrihetsförordningen",
+        "Yttrandefrihetslagen",
+        "Informationsfrihetslagen"
+      ],
+      "correct_index": 1,
+      "explanation": "Tryckfrihetsförordningen (the Freedom of the Press Act), first enacted in 1766, is one of Sweden's four fundamental laws and is considered the world's oldest freedom of information and press freedom legislation.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Pressfrihetslagen sounds like a real Swedish press law, but the correct constitutional name is Tryckfrihetsförordningen (dating to 1766).",
+        null,
+        "There IS a Yttrandefrihetsgrundlag (1991), but that covers broadcast media. The press-specific constitutional act from 1766 is Tryckfrihetsförordningen.",
+        "Informationsfrihetslagen sounds plausible but is not the name of a Swedish fundamental law."
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Government & Democracy",
+      "question": "What is the role of the Swedish monarch under the current constitution?",
+      "options": [
+        "To appoint the Prime Minister and cabinet ministers",
+        "To open parliament and represent Sweden ceremonially, with no political power",
+        "To veto legislation the monarch disagrees with",
+        "To lead Sweden's armed forces in times of war"
+      ],
+      "correct_index": 1,
+      "explanation": "Under the 1974 Instrument of Government, Sweden's monarch has no political power whatsoever. The king opens the parliamentary session and carries out official and ceremonial duties at home and abroad.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 20,
+      "category": "Government & Democracy",
+      "question": "What does the Swedish Tax Agency (Skatteverket) do?",
+      "options": [
+        "Manages Sweden's foreign debt",
+        "Collects taxes and handles population registration",
+        "Distributes social benefits and pensions",
+        "Regulates banks and financial institutions"
+      ],
+      "correct_index": 1,
+      "explanation": "Skatteverket collects taxes, registers individuals in Sweden (folkbokföring), handles matters such as name changes, and administers certain other civil registration tasks.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 21,
+      "category": "History",
+      "question": "In what year did Sweden join the European Union?",
+      "options": [
+        "1990",
+        "1993",
+        "1995",
+        "2004"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden joined the EU on 1 January 1995, along with Finland and Austria. Swedish voters approved EU membership in a referendum in November 1994.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "1990 is close, but Sweden applied for EU membership in 1991.",
+        "1993 is when the Maastricht Treaty transformed the EEC into the European Union. Sweden joined after its referendum in 1994, with membership taking effect 1 January 1995.",
+        null,
+        "2004 was the 'big bang' EU enlargement of 10 mainly Eastern European countries. Sweden had already been a member for 9 years."
+      ]
+    },
+    {
+      "id": 22,
+      "category": "History",
+      "question": "In what year did Sweden join NATO?",
+      "options": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden formally became NATO's 32nd member state on 7 March 2024, ending approximately 200 years of military non-alignment.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        null,
+        "2022 is when Sweden and Finland formally applied to NATO following Russia's full invasion of Ukraine.",
+        null,
+        "Finland joined NATO in April 2023. Sweden's ratification was delayed and completed in March 2024 — they applied together but Finland was ratified first."
+      ]
+    },
+    {
+      "id": 23,
+      "category": "History",
+      "question": "What was Sweden's official policy during the Second World War (1939–1945)?",
+      "options": [
+        "Sweden was part of the Allied forces",
+        "Sweden was allied with Germany",
+        "Sweden maintained neutrality",
+        "Sweden was occupied by Germany"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden declared neutrality and stayed out of the Second World War, though it made some controversial concessions to Nazi Germany (such as allowing the transit of German troops). Sweden's neutrality policy dates back to the Napoleonic Wars.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 24,
+      "category": "History",
+      "question": "Which Swedish Prime Minister was assassinated in Stockholm in 1986?",
+      "options": [
+        "Tage Erlander",
+        "Dag Hammarskjöld",
+        "Olof Palme",
+        "Göran Persson"
+      ],
+      "correct_index": 2,
+      "explanation": "Olof Palme was shot and killed on 28 February 1986 while walking home from a cinema in central Stockholm. The murder shocked Sweden and remains one of the most prominent unsolved (officially) crimes in Swedish history.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 25,
+      "category": "History",
+      "question": "Who was Dag Hammarskjöld?",
+      "options": [
+        "A Swedish king who expanded the Swedish empire",
+        "The Swedish inventor of dynamite",
+        "A Swedish Secretary-General of the United Nations",
+        "A Swedish explorer who mapped Lapland"
+      ],
+      "correct_index": 2,
+      "explanation": "Dag Hammarskjöld served as UN Secretary-General from 1953 until his death in a plane crash in 1961. He was posthumously awarded the Nobel Peace Prize and is widely regarded as one of the greatest UN secretaries-general.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 26,
+      "category": "History",
+      "question": "Who invented dynamite and founded the Nobel Prizes?",
+      "options": [
+        "Carl Linnaeus",
+        "Anders Celsius",
+        "Alfred Nobel",
+        "Arvid Carlsson"
+      ],
+      "correct_index": 2,
+      "explanation": "Alfred Nobel (1833–1896) was a Swedish chemist who invented dynamite. He left his fortune to fund annual prizes in physics, chemistry, medicine, literature, and peace — the Nobel Prizes.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 27,
+      "category": "History",
+      "question": "In what year did the union between Sweden and Norway dissolve?",
+      "options": [
+        "1864",
+        "1905",
+        "1918",
+        "1920"
+      ],
+      "correct_index": 1,
+      "explanation": "The union between Sweden and Norway, established in 1814, was peacefully dissolved in 1905 following a Norwegian referendum, making Norway fully independent.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "1864 is when Denmark lost Schleswig-Holstein to Prussia/Austria — a different Nordic border change.",
+        null,
+        "1918 is when Finland declared independence from Russia. Norway had already been independent for 13 years by then.",
+        "1920 is when Finland held a plebiscite on Åland. The Sweden–Norway union dissolved in 1905."
+      ]
+    },
+    {
+      "id": 28,
+      "category": "History",
+      "question": "What was the significance of 1809 in Swedish history?",
+      "options": [
+        "Sweden was founded as a unified kingdom",
+        "Sweden lost Finland to Russia and adopted a new constitution",
+        "Sweden joined the Kalmar Union",
+        "Sweden won the Battle of Poltava against Russia"
+      ],
+      "correct_index": 1,
+      "explanation": "In 1809, Sweden lost Finland (then ruled by Sweden for over 600 years) to Russia following war. Sweden also adopted a new constitution that year, significantly limiting royal power. Jean-Baptiste Bernadotte (later Karl XIV Johan) became the new dynasty's founder.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        null,
+        null,
+        "The Kalmar Union was formed in 1397 — over 400 years before 1809.",
+        "Sweden lost the Battle of Poltava in 1709 to Peter the Great's Russia — 100 years before 1809, not in 1809."
+      ]
+    },
+    {
+      "id": 29,
+      "category": "History",
+      "question": "Who was Sweden's first female Prime Minister?",
+      "options": [
+        "Anna Lindh",
+        "Mona Sahlin",
+        "Magdalena Andersson",
+        "Ebba Busch"
+      ],
+      "correct_index": 2,
+      "explanation": "Magdalena Andersson (Social Democrats) became Sweden's first female Prime Minister in November 2021. She served until October 2022 when the centre-right bloc won the election.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 30,
+      "category": "History",
+      "question": "Sweden held a referendum on adopting the euro in 2003. What was the result?",
+      "options": [
+        "Swedes voted in favour of adopting the euro",
+        "Swedes voted against adopting the euro",
+        "The referendum was inconclusive with too low a turnout",
+        "There was no referendum — parliament decided"
+      ],
+      "correct_index": 1,
+      "explanation": "In September 2003, Swedish voters rejected euro adoption with approximately 56% voting against. Sweden therefore continues to use the Swedish krona (SEK), despite being an EU member.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 31,
+      "category": "History",
+      "question": "Carl Linnaeus is famous for:",
+      "options": [
+        "Inventing the Celsius temperature scale",
+        "Developing the scientific system for classifying and naming living organisms",
+        "Founding the Nobel Prize",
+        "Discovering Swedish iron ore deposits"
+      ],
+      "correct_index": 1,
+      "explanation": "Carl Linnaeus (1707–1778) was a Swedish botanist who developed the binomial nomenclature system for classifying all living organisms — a system still used worldwide today. He is known as the 'father of modern taxonomy'.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 32,
+      "category": "History",
+      "question": "The Kalmar Union (1397–1523) united which countries under one monarch?",
+      "options": [
+        "Sweden, Norway, and Finland",
+        "Sweden, Denmark, and Norway",
+        "Sweden, Denmark, Norway, and Finland",
+        "Denmark, Sweden, and Germany"
+      ],
+      "correct_index": 2,
+      "explanation": "The Kalmar Union united the kingdoms of Denmark, Norway, and Sweden (which then included Finland) under a single monarch. It ended when Sweden broke away under Gustav Vasa in 1523.",
+      "difficulty": "expert",
+      "distractor_notes": [
+        "Denmark is missing here, but Denmark was actually the dominant power in the Kalmar Union.",
+        "Finland is missing from this option. Although not an independent state, the Finnish region was part of the Swedish realm and thus part of the Union.",
+        null,
+        "Germany was not part of the Kalmar Union — it was a Scandinavian union."
+      ]
+    },
+    {
+      "id": 33,
+      "category": "History",
+      "question": "What was the approximate period of Swedish military non-alignment before joining NATO in 2024?",
+      "options": [
+        "About 50 years",
+        "About 100 years",
+        "About 200 years",
+        "About 75 years"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden maintained a policy of military non-alignment for approximately 200 years — from the end of the Napoleonic Wars (1814) until joining NATO in March 2024. This was a cornerstone of Swedish foreign policy.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 34,
+      "category": "History",
+      "question": "In which year was Sweden's current constitution (Instrument of Government / Regeringsformen) adopted?",
+      "options": [
+        "1809",
+        "1920",
+        "1974",
+        "1991"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden's current Instrument of Government (Regeringsformen) came into force on 1 January 1975, replacing the 1809 constitution. It fundamentally reformed Sweden's political system, transferring symbolic power away from the monarchy.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 35,
+      "category": "History",
+      "question": "Sweden became a member of NATO as which numbered member state?",
+      "options": [
+        "29th",
+        "30th",
+        "31st",
+        "32nd"
+      ],
+      "correct_index": 3,
+      "explanation": "Sweden became NATO's 32nd member on 7 March 2024. Finland had joined as the 31st member in April 2023.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 36,
+      "category": "Geography",
+      "question": "What is the capital city of Sweden?",
+      "options": [
+        "Gothenburg",
+        "Malmö",
+        "Stockholm",
+        "Uppsala"
+      ],
+      "correct_index": 2,
+      "explanation": "Stockholm is Sweden's capital and largest city, located on Sweden's east coast where Lake Mälaren meets the Baltic Sea.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Gothenburg is Sweden's second-largest city and largest port, making it a natural guess for capital.",
+        "Malmö is Sweden's third-largest city, close to Denmark, but not the capital.",
+        null,
+        "Uppsala is an ancient city and major university town near Stockholm, but it is not the capital."
+      ]
+    },
+    {
+      "id": 37,
+      "category": "Geography",
+      "question": "What is Sweden's second largest city?",
+      "options": [
+        "Malmö",
+        "Gothenburg (Göteborg)",
+        "Uppsala",
+        "Linköping"
+      ],
+      "correct_index": 1,
+      "explanation": "Gothenburg (Göteborg) is Sweden's second largest city and its main port, located on the west coast.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Malmö is Sweden's third-largest city, not second.",
+        null,
+        "Uppsala is a major university city near Stockholm but ranks around fifth in population.",
+        null
+      ]
+    },
+    {
+      "id": 38,
+      "category": "Geography",
+      "question": "How many counties (län) does Sweden have?",
+      "options": [
+        "15",
+        "18",
+        "21",
+        "25"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden is divided into 21 counties (län), each with a county administrative board (länsstyrelse) appointed by the government and an elected regional council (regionfullmäktige).",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Sweden has 15 national parks, but not 15 counties.",
+        "18 is plausible but too low — Sweden reorganised from 24 counties to 21 in 1971.",
+        null,
+        "25 feels like a round number for a large country, but Sweden has exactly 21 counties (län)."
+      ]
+    },
+    {
+      "id": 39,
+      "category": "Geography",
+      "question": "What is the name of Sweden's highest mountain?",
+      "options": [
+        "Sylarna",
+        "Sarektjåkkå",
+        "Kebnekaise",
+        "Helagsfjället"
+      ],
+      "correct_index": 2,
+      "explanation": "Kebnekaise in Swedish Lapland (Norrbotten) is Sweden's highest mountain. It has two peaks; the southern peak was historically higher but due to glacier melt, the northern peak (2,096 m) is now the tallest.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        null,
+        "Sarektjåkkå is one of Sweden's higher peaks in the same Sarek national park region, making it easy to confuse with the highest, Kebnekaise.",
+        null,
+        "Helagsfjället is Sweden's highest peak south of the Arctic Circle, but not the overall highest."
+      ]
+    },
+    {
+      "id": 40,
+      "category": "Geography",
+      "question": "What are Sweden's three largest lakes, in order of size?",
+      "options": [
+        "Mälaren, Vättern, Vänern",
+        "Vänern, Vättern, Mälaren",
+        "Vättern, Vänern, Siljan",
+        "Vänern, Mälaren, Hjälmaren"
+      ],
+      "correct_index": 1,
+      "explanation": "Vänern is Sweden's largest lake (and the largest in the EU), followed by Vättern, then Mälaren. Stockholm is situated on Lake Mälaren.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "This list has the order reversed — Mälaren (near Stockholm) is the third-largest, not first.",
+        null,
+        "Siljan is in Dalarna and is well-known but much smaller than Sweden's three largest lakes.",
+        "Mälaren comes third (not second), and Hjälmaren is Sweden's fourth-largest lake."
+      ]
+    },
+    {
+      "id": 41,
+      "category": "Geography",
+      "question": "The Öresund Bridge connects Sweden to which country?",
+      "options": [
+        "Norway",
+        "Finland",
+        "Germany",
+        "Denmark"
+      ],
+      "correct_index": 3,
+      "explanation": "The Öresund Bridge links Malmö in Sweden to Copenhagen in Denmark. It opened in 2000 and carries both road and rail traffic.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Sweden has bridges and a long land border with Norway, but Öresund connects to Denmark.",
+        null,
+        "Germany is separated from Sweden by the Baltic Sea — there is no bridge between them.",
+        null
+      ]
+    },
+    {
+      "id": 42,
+      "category": "Geography",
+      "question": "What is the approximate population of Sweden?",
+      "options": [
+        "Around 5–6 million",
+        "Around 8–9 million",
+        "Around 10–11 million",
+        "Around 13–14 million"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden's population is approximately 10–11 million people, making it one of the larger Nordic countries by population.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 43,
+      "category": "Geography",
+      "question": "What is the name of Sweden's northernmost county?",
+      "options": [
+        "Västerbotten",
+        "Jämtland",
+        "Norrbotten",
+        "Dalarna"
+      ],
+      "correct_index": 2,
+      "explanation": "Norrbotten is Sweden's northernmost and largest county by area. It borders Norway to the west and Finland to the east, and is home to much of Sweden's Sami population.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Västerbotten is directly south of Norrbotten — both are large northern counties, causing easy confusion.",
+        "Jämtland is in north-central Sweden, bordering Norway, but it is not the northernmost county.",
+        null,
+        "Dalarna is a central Swedish county known for culture and folk traditions, far from the northernmost point."
+      ]
+    },
+    {
+      "id": 44,
+      "category": "Geography",
+      "question": "Which body of water lies to the east of Sweden?",
+      "options": [
+        "The North Sea",
+        "The Norwegian Sea",
+        "The Baltic Sea",
+        "The Barents Sea"
+      ],
+      "correct_index": 2,
+      "explanation": "The Baltic Sea lies to the east and south of Sweden. The Kattegat and Öresund straits connect to the North Sea to the west.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 45,
+      "category": "Geography",
+      "question": "The Swedish region of Lapland is known for which of the following?",
+      "options": [
+        "Sweden's main car manufacturing industry",
+        "The midnight sun, northern lights, and Sami indigenous culture",
+        "The largest concentration of Swedish universities",
+        "Sweden's main agricultural region"
+      ],
+      "correct_index": 1,
+      "explanation": "Swedish Lapland (Lappland) in the far north is known for the midnight sun in summer, the northern lights (aurora borealis) in winter, wilderness, and as the traditional homeland of the Sami people.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 46,
+      "category": "Society & Welfare",
+      "question": "What does 'Försäkringskassan' do?",
+      "options": [
+        "Collects taxes on behalf of the government",
+        "Manages Sweden's national insurance — paying sick pay, parental leave, and disability benefits",
+        "Regulates Sweden's private insurance market",
+        "Provides housing benefits only"
+      ],
+      "correct_index": 1,
+      "explanation": "Försäkringskassan (the Swedish Social Insurance Agency) administers a wide range of social insurance benefits including parental leave (föräldrapenning), sick pay (sjukpenning), disability allowance, and child benefit (barnbidrag).",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Taxes are collected by Skatteverket, not Försäkringskassan.",
+        null,
+        "Försäkringskassan is a government agency, not a private insurance regulator. Private insurance is regulated by Finansinspektionen.",
+        "Housing benefits (bostadsbidrag) are one of many things Försäkringskassan manages, not its only function."
+      ]
+    },
+    {
+      "id": 47,
+      "category": "Society & Welfare",
+      "question": "Who is primarily responsible for providing healthcare services in Sweden?",
+      "options": [
+        "The national government (Riksdag and cabinet)",
+        "Sweden's 21 regional councils (regioner)",
+        "Municipal councils (kommuner)",
+        "Private healthcare companies"
+      ],
+      "correct_index": 1,
+      "explanation": "Healthcare in Sweden is primarily organised and funded by the 21 regional councils (regioner). They manage hospitals, primary care, and specialist services. Healthcare is largely tax-funded and universally available.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Healthcare in Sweden is decentralised — the national government sets frameworks but does not run hospitals.",
+        null,
+        "Municipalities (kommuner) run elderly care and social services, but healthcare is run by the 21 regions.",
+        "Private healthcare companies operate in Sweden, but the majority of healthcare is publicly funded and region-run."
+      ]
+    },
+    {
+      "id": 48,
+      "category": "Society & Welfare",
+      "question": "What is 'barnbidrag' in Sweden?",
+      "options": [
+        "A childcare subsidy for working parents",
+        "A universal monthly payment to all families with children under 16",
+        "A one-off birth grant",
+        "A tax deduction for families with children"
+      ],
+      "correct_index": 1,
+      "explanation": "Barnbidrag (child benefit) is a universal monthly payment paid to all parents for each child living in Sweden under the age of 16, regardless of income. It is administered by Försäkringskassan.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 49,
+      "category": "Society & Welfare",
+      "question": "What is 'SFI' in Sweden?",
+      "options": [
+        "The Swedish Film Institute",
+        "Swedish for Immigrants — a free state-funded language course",
+        "The Swedish Finance Inspectorate",
+        "Swedish Federal Insurance"
+      ],
+      "correct_index": 1,
+      "explanation": "SFI (Svenska för invandrare — Swedish for Immigrants) is a free, municipally organised Swedish language course available to all adult newcomers to Sweden who lack basic Swedish skills.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 50,
+      "category": "Society & Welfare",
+      "question": "How many years of compulsory schooling are there in Sweden?",
+      "options": [
+        "9 years",
+        "10 years",
+        "11 years",
+        "12 years"
+      ],
+      "correct_index": 1,
+      "explanation": "Compulsory schooling in Sweden covers 10 years: one year of preschool class (förskoleklass, age 6) followed by nine years of primary and lower secondary school (grundskola, ages 7–16).",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 51,
+      "category": "Society & Welfare",
+      "question": "What is 'föräldraledighet' (parental leave) in Sweden?",
+      "options": [
+        "A 3-month maternity leave for mothers only",
+        "Paid parental leave shared between parents, totalling 480 days per child",
+        "A one-month paternity leave for fathers",
+        "An unpaid right to take time off work after having a child"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden has one of the world's most generous parental leave systems: 480 days of paid parental leave per child, which parents can share between them. A portion (90 days per parent) is reserved for each parent.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 52,
+      "category": "Society & Welfare",
+      "question": "What is 'maxtaxa' in Swedish childcare?",
+      "options": [
+        "The maximum income tax rate",
+        "A maximum speed limit on Swedish roads",
+        "A fee cap ensuring childcare costs no more than a set maximum amount",
+        "The maximum rent allowed for student housing"
+      ],
+      "correct_index": 2,
+      "explanation": "Maxtaxa (maximum fee) is a nationally set cap on what Swedish municipalities can charge for childcare (förskola/daycare). It ensures that childcare is affordable regardless of where in Sweden you live.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 53,
+      "category": "Society & Welfare",
+      "question": "What is 'Arbetsförmedlingen' in Sweden?",
+      "options": [
+        "The Swedish Trade Union Confederation",
+        "The Swedish Employment Agency that helps job seekers find work",
+        "The Swedish employer organisation",
+        "The agency that administers unemployment insurance"
+      ],
+      "correct_index": 1,
+      "explanation": "Arbetsförmedlingen (the Swedish Public Employment Service) is the government agency responsible for matching job seekers with employers, administering labour market programmes, and providing career guidance.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "LO (Landsorganisationen) is the Swedish Trade Union Confederation — Arbetsförmedlingen is a government agency, not a union body.",
+        null,
+        "The Swedish employer organisation is Svenskt Näringsliv (Confederation of Swedish Enterprise).",
+        "Unemployment insurance (a-kassa) is mainly managed by union-affiliated funds, not Arbetsförmedlingen directly."
+      ]
+    },
+    {
+      "id": 54,
+      "category": "Society & Welfare",
+      "question": "What does 'folkbokföring' mean in Sweden?",
+      "options": [
+        "Voter registration for elections",
+        "Population registration — being registered as living at a Swedish address",
+        "Registering a business in Sweden",
+        "Applying for a Swedish passport"
+      ],
+      "correct_index": 1,
+      "explanation": "Folkbokföring is the Swedish system of population registration. Anyone living in Sweden must register their address with Skatteverket. Your folkbokföring address affects your access to local services, tax, and benefits.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 55,
+      "category": "Rights & Law",
+      "question": "What is 'Allemansrätten' (the right of public access)?",
+      "options": [
+        "The right to vote in all Swedish elections",
+        "The constitutional right to free education",
+        "The right to move freely in nature and camp temporarily on any land",
+        "The right to free legal representation in court"
+      ],
+      "correct_index": 2,
+      "explanation": "Allemansrätten is a traditional right — now codified in law — allowing everyone to roam freely in Sweden's countryside, forests, and waterways, camp temporarily, and pick wild berries and mushrooms, provided they show care and respect ('Don't disturb — don't destroy').",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "The right to vote is 'rösträtten' in Swedish. 'Allemansrätten' literally means 'every man's right' — referring to access to nature.",
+        "Free education is a separate right in Sweden. Allemansrätten is about access to land.",
+        null,
+        "Free legal representation is handled through the legal aid system (rättshjälp), not Allemansrätten."
+      ]
+    },
+    {
+      "id": 56,
+      "category": "Rights & Law",
+      "question": "Sweden's Freedom of the Press Act was first enacted in which year, making it the world's oldest?",
+      "options": [
+        "1632",
+        "1766",
+        "1809",
+        "1865"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden's Tryckfrihetsförordningen (Freedom of the Press Act) was first enacted in 1766, making it the world's oldest law guaranteeing freedom of the press and public access to official documents.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "1632 was the death of Gustav II Adolf at the Battle of Lützen — not related to press freedom.",
+        null,
+        "1809 is a famous year for Swedish constitutional history (new constitution after losing Finland), making it a tempting guess. But the press freedom act was already 43 years old by then.",
+        "1865 is when Sweden's parliament underwent major reform (bicameral → modern), not press freedom."
+      ]
+    },
+    {
+      "id": 57,
+      "category": "Rights & Law",
+      "question": "At what age does criminal responsibility begin in Sweden?",
+      "options": [
+        "12",
+        "14",
+        "15",
+        "18"
+      ],
+      "correct_index": 2,
+      "explanation": "In Sweden, the age of criminal responsibility is 15. Children under 15 cannot be prosecuted for crimes, though social services may intervene. Those aged 15–17 are tried in courts but face different sentencing.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "12 is the age of criminal responsibility in some countries, but not Sweden.",
+        "14 is Germany's age of criminal responsibility, which people sometimes confuse with Sweden's.",
+        null,
+        "18 is the age of full legal adulthood, but criminal proceedings can begin against 15-year-olds."
+      ]
+    },
+    {
+      "id": 58,
+      "category": "Rights & Law",
+      "question": "What does 'Diskrimineringslagen' protect against?",
+      "options": [
+        "Discrimination based on grounds such as ethnicity, religion, sex, disability, and sexual orientation",
+        "Unfair competition between businesses",
+        "Political discrimination in elections",
+        "Discrimination between Swedish citizens and EU citizens"
+      ],
+      "correct_index": 0,
+      "explanation": "The Discrimination Act (Diskrimineringslagen, 2008) prohibits discrimination in working life, education, and other areas based on seven protected grounds: sex, transgender identity, ethnicity, religion, disability, sexual orientation, and age.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 59,
+      "category": "Rights & Law",
+      "question": "What is the role of 'Diskrimineringsombudsmannen' (DO)?",
+      "options": [
+        "A court that hears discrimination cases",
+        "The government authority that monitors compliance with the Discrimination Act",
+        "A union organisation protecting workers' rights",
+        "A parliamentary committee overseeing equality legislation"
+      ],
+      "correct_index": 1,
+      "explanation": "The Equality Ombudsman (DO) is a government authority that supervises compliance with the Discrimination Act, investigates complaints of discrimination, and works preventively to promote equality.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "DO can take cases to court but is not itself a court — it investigates and enforces compliance.",
+        null,
+        "DO is an independent government authority, not a trade union.",
+        "DO is an executive authority, not a parliamentary committee."
+      ]
+    },
+    {
+      "id": 60,
+      "category": "Rights & Law",
+      "question": "Is same-sex marriage legal in Sweden?",
+      "options": [
+        "No, only civil partnerships are allowed",
+        "Yes, since 2009",
+        "Yes, since 2000",
+        "Yes, since 2015"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden legalised same-sex marriage in 2009, making it gender-neutral. The Swedish Church (Church of Sweden) also began performing same-sex weddings in 2009.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Registered same-sex partnerships ('registrerat partnerskap') existed from 1995, but same-sex marriage began in 2009.",
+        null,
+        "2000 is when the Church of Sweden separated from the state — not when marriage equality passed.",
+        "2015 is when the US Supreme Court ruled on marriage equality. Sweden acted six years earlier."
+      ]
+    },
+    {
+      "id": 61,
+      "category": "Rights & Law",
+      "question": "What is the Swedish concept of 'sekretess' (secrecy) in law?",
+      "options": [
+        "The total absence of any government secrecy",
+        "Exceptions to the principle of public access, protecting certain sensitive information from disclosure",
+        "A requirement for all government officials to keep everything secret",
+        "The right to privacy from commercial data collection"
+      ],
+      "correct_index": 1,
+      "explanation": "While Sweden has a strong principle of public access (offentlighetsprincipen), secrecy (sekretess) provisions in the Public Access to Information and Secrecy Act (Offentlighets- och sekretesslagen) protect certain categories of sensitive information, such as national security and personal privacy.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 62,
+      "category": "Rights & Law",
+      "question": "Sweden's constitution protects freedom of expression (yttrandefrihet). Which of the following is NOT protected?",
+      "options": [
+        "Criticising the government",
+        "Expressing minority political opinions",
+        "Incitement to hatred against ethnic or other groups (hets mot folkgrupp)",
+        "Reporting on government waste"
+      ],
+      "correct_index": 2,
+      "explanation": "While freedom of expression is strongly protected in Sweden, incitement to hatred against an ethnic, national, or other group (hets mot folkgrupp) is a criminal offence under Swedish law.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Criticising the government is a core protected right in Sweden's constitution.",
+        "Expressing minority political opinions is explicitly protected under freedom of expression.",
+        null,
+        "Reporting on government waste (investigative journalism) is strongly protected, especially under the Tryckfrihetsförordningen."
+      ]
+    },
+    {
+      "id": 63,
+      "category": "Culture & Traditions",
+      "question": "What is 'fika'?",
+      "options": [
+        "A traditional Swedish folk dance",
+        "A Swedish coffee break, typically with pastries such as cinnamon rolls",
+        "The Swedish Midsommar celebration",
+        "A Swedish type of open sandwich"
+      ],
+      "correct_index": 1,
+      "explanation": "Fika is a deeply embedded Swedish social ritual — a break for coffee (or tea) and something sweet, such as a kanelbulle (cinnamon roll) or kladdkaka. It is a time to pause and socialise, not just a coffee break.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 64,
+      "category": "Culture & Traditions",
+      "question": "On what date is Sweden's National Day (Nationaldag) celebrated?",
+      "options": [
+        "April 30",
+        "June 6",
+        "June 21",
+        "November 6"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden's National Day is celebrated on 6 June. The date commemorates Gustav Vasa being elected king in 1523 (marking Swedish independence from the Kalmar Union) and the adoption of the 1809 constitution.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "April 30 is Valborg (Walpurgis Night), a spring celebration marking the end of winter — not the National Day.",
+        null,
+        "June 21 is close to the summer solstice. Since Midsommar is in late June, this date feels like it could be Sweden's national day.",
+        "November 6 has no major national significance in Sweden."
+      ]
+    },
+    {
+      "id": 65,
+      "category": "Culture & Traditions",
+      "question": "When is Midsommar (Midsummer) celebrated in Sweden?",
+      "options": [
+        "On June 21 (the summer solstice)",
+        "The Friday and Saturday between 19–25 June",
+        "On the last weekend of June",
+        "On June 24 (St John's Day)"
+      ],
+      "correct_index": 1,
+      "explanation": "Swedish Midsommar is celebrated on the Friday evening (Midsommarafton) and Saturday between 19–25 June. Swedes raise a maypole (midsommarstång), dance, sing, and eat traditional foods such as new potatoes, herring, and strawberries.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Midsommar used to be tied to the solstice, but Sweden moved the celebration in 1953 to the nearest Friday/Saturday to June 24.",
+        null,
+        "The last weekend of June is close, but the Swedish rule is specifically the Friday/Saturday between 19–25 June.",
+        "June 24 is the historical feast of St John the Baptist — the origin of Midsommar — but the modern holiday is the Friday/Saturday nearest to it."
+      ]
+    },
+    {
+      "id": 66,
+      "category": "Culture & Traditions",
+      "question": "What is 'Systembolaget'?",
+      "options": [
+        "Sweden's state-owned alcohol retail monopoly",
+        "The Swedish national railway company",
+        "Sweden's main supermarket chain",
+        "The national postal service"
+      ],
+      "correct_index": 0,
+      "explanation": "Systembolaget is the Swedish government-owned chain of liquor stores with a monopoly on selling alcohol above 3.5% ABV directly to consumers. It is a public health measure to limit alcohol consumption.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 67,
+      "category": "Culture & Traditions",
+      "question": "What is 'Lucia Day' and when is it celebrated?",
+      "options": [
+        "A harvest festival celebrated in October",
+        "A winter light celebration held on 13 December",
+        "The Swedish equivalent of Christmas Eve",
+        "A pagan midsummer celebration"
+      ],
+      "correct_index": 1,
+      "explanation": "Lucia (Saint Lucia's Day) is celebrated on 13 December. In Sweden, a 'Lucia' leads a procession wearing a white robe and a crown of candles. The tradition is marked in schools, churches, and workplaces across the country.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        null,
+        null,
+        "Christmas Eve ('julafton') is celebrated on 24 December in Sweden. Lucia is on 13 December.",
+        "Lucia is a Christian tradition about light in winter darkness, not a pagan midsummer celebration."
+      ]
+    },
+    {
+      "id": 68,
+      "category": "Culture & Traditions",
+      "question": "What is 'surströmming'?",
+      "options": [
+        "A type of dried cod",
+        "Pickled herring served at Midsommar",
+        "Lightly fermented Baltic herring with a very pungent smell",
+        "A smoked salmon preparation"
+      ],
+      "correct_index": 2,
+      "explanation": "Surströmming is a traditional northern Swedish food — Baltic herring that has been fermented for months. It has an extremely strong, pungent smell and is something of a cultural test of endurance. It is mainly eaten in northern Sweden.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 69,
+      "category": "Culture & Traditions",
+      "question": "Which Swedish music group won the Eurovision Song Contest in 1974 with 'Waterloo'?",
+      "options": [
+        "Roxette",
+        "Europe",
+        "ABBA",
+        "Ace of Base"
+      ],
+      "correct_index": 2,
+      "explanation": "ABBA won Eurovision in 1974 with 'Waterloo', launching one of the most successful pop careers in music history. Sweden has won Eurovision more times than almost any other country.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Roxette is a hugely successful Swedish duo, but they never competed in Eurovision.",
+        "Europe ('The Final Countdown') is also Swedish, but their rock sound is very different from ABBA's pop.",
+        null,
+        "Ace of Base were successful Swedish pop artists in the early 90s but did not compete in the 1974 Eurovision."
+      ]
+    },
+    {
+      "id": 70,
+      "category": "Culture & Traditions",
+      "question": "What is 'kanelbulle' (plural: kanelbullar)?",
+      "options": [
+        "A type of crispbread",
+        "A cardamom biscuit",
+        "A cinnamon roll",
+        "A type of Swedish rye bread"
+      ],
+      "correct_index": 2,
+      "explanation": "Kanelbulle (cinnamon roll) is one of Sweden's most beloved baked goods and inseparable from fika culture. Sweden even has a dedicated 'Kanelbullens dag' (Cinnamon Roll Day) on 4 October.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 71,
+      "category": "Culture & Traditions",
+      "question": "Who are the Sami people?",
+      "options": [
+        "Swedish settlers who historically farmed in Norrland",
+        "The indigenous people of northern Scandinavia, with communities in Sweden, Norway, Finland and Russia",
+        "A Finnish-speaking minority in eastern Sweden",
+        "Nomadic traders from the Baltic region"
+      ],
+      "correct_index": 1,
+      "explanation": "The Sami are the indigenous people of Sápmi — a region spanning the northern parts of Norway, Sweden, Finland, and Russia's Kola Peninsula. In Sweden, the Sami have legal rights to reindeer herding and are represented by the Sami Parliament (Sametinget).",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 72,
+      "category": "Culture & Traditions",
+      "question": "What is the Sami Parliament (Sametinget) in Sweden?",
+      "options": [
+        "A municipal council governing northern Sweden",
+        "An elected representative body for the Sami people in Sweden",
+        "A Swedish government ministry for indigenous affairs",
+        "A joint Nordic body governing all Sami affairs across four countries"
+      ],
+      "correct_index": 1,
+      "explanation": "Sametinget is an elected body that represents Sweden's Sami population. It has both a parliamentary role (representing Sami interests in Swedish society) and a government agency role (administering certain Sami affairs). It is located in Kiruna.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Sametinget is an elected Sami body, not a municipal council governing northern Sweden.",
+        null,
+        "Sametinget is independent of the national government — it was established by law but is not a government ministry.",
+        "A joint Nordic Sami Council (Sámiráðði) does exist, but Sametinget refers specifically to each country's own elected Sami parliament."
+      ]
+    },
+    {
+      "id": 73,
+      "category": "Economy",
+      "question": "What currency does Sweden use?",
+      "options": [
+        "The euro (EUR)",
+        "The Swedish krona (SEK)",
+        "The Nordic krone",
+        "The Swedish mark"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden uses the Swedish krona (SEK — Svenska kronor). Although Sweden is an EU member, it has not adopted the euro, following the 2003 referendum in which Swedes voted against joining the eurozone.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Sweden is in the EU but voted against adopting the euro in a 2003 referendum. It keeps its own currency.",
+        null,
+        "There is no currency called the 'Nordic krone.'",
+        "The Swedish mark is not a real currency — Sweden has used the krona since 1873."
+      ]
+    },
+    {
+      "id": 74,
+      "category": "Economy",
+      "question": "Which of the following is NOT a Swedish company?",
+      "options": [
+        "IKEA",
+        "Volvo",
+        "Lego",
+        "Ericsson"
+      ],
+      "correct_index": 2,
+      "explanation": "Lego is a Danish company. IKEA (furniture), Volvo (vehicles), and Ericsson (telecommunications) are all Swedish companies. Other well-known Swedish brands include H&M, Spotify, Minecraft (Mojang), and Scania.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "IKEA is Swedish — founded by Ingvar Kamprad in Älmhult, Småland, in 1943.",
+        "Volvo is Swedish — founded in Gothenburg in 1927. Both the car company and Volvo Trucks are from Sweden.",
+        null,
+        "Ericsson is Swedish — a global telecoms equipment company headquartered in Stockholm."
+      ]
+    },
+    {
+      "id": 75,
+      "category": "Economy",
+      "question": "Which Swedish company created the video game Minecraft?",
+      "options": [
+        "King",
+        "DICE",
+        "Paradox Interactive",
+        "Mojang"
+      ],
+      "correct_index": 3,
+      "explanation": "Mojang, a Swedish game studio founded by Markus 'Notch' Persson, created Minecraft. It was released in 2011 and became one of the best-selling video games of all time. Mojang was acquired by Microsoft in 2014.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "King is a Swedish mobile games company (Candy Crush Saga), but not the maker of Minecraft.",
+        "DICE (Digital Illusions CE) is Swedish and made Battlefield, but not Minecraft.",
+        "Paradox Interactive is a Swedish studio known for grand strategy games, but not Minecraft.",
+        null
+      ]
+    },
+    {
+      "id": 76,
+      "category": "Economy",
+      "question": "Sweden is best known for which type of export industry?",
+      "options": [
+        "Textiles and fashion",
+        "Engineering, vehicles, telecommunications, and manufacturing",
+        "Agriculture and food production",
+        "Tourism and hospitality"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden's economy is export-oriented with strengths in engineering, telecom equipment (Ericsson), vehicles (Volvo, Scania), pharmaceuticals, and forest products. Sweden also has a growing tech and digital economy.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 77,
+      "category": "Economy",
+      "question": "What is Sweden's main collective bargaining institution for workers?",
+      "options": [
+        "Riksbanken",
+        "Arbetsförmedlingen",
+        "LO (Landsorganisationen i Sverige) — the Swedish Trade Union Confederation",
+        "Tillväxtverket"
+      ],
+      "correct_index": 2,
+      "explanation": "LO (the Swedish Trade Union Confederation) is the main umbrella organisation for blue-collar trade unions in Sweden. Sweden has very high rates of union membership, and wages are typically set through collective bargaining rather than government minimum wage legislation.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Riksbanken is Sweden's central bank, not a labour organisation.",
+        "Arbetsförmedlingen is the state employment agency, not a trade union.",
+        null,
+        "Tillväxtverket is the Swedish Agency for Economic and Regional Growth, focused on business development."
+      ]
+    },
+    {
+      "id": 78,
+      "category": "Economy",
+      "question": "Sweden does not have a statutory national minimum wage set by law. How are most wages determined?",
+      "options": [
+        "By government decree each year",
+        "By the European Union",
+        "Through collective bargaining agreements between employers and trade unions",
+        "By each individual company independently"
+      ],
+      "correct_index": 2,
+      "explanation": "Unlike many countries, Sweden does not have a government-set minimum wage. Instead, wages are determined through collective agreements (kollektivavtal) negotiated between employer organisations and trade unions, covering most Swedish workers.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 79,
+      "category": "Swedish Values & Society",
+      "question": "What does the Swedish concept of 'lagom' mean?",
+      "options": [
+        "A form of collective decision-making",
+        "Just the right amount — neither too much nor too little",
+        "A commitment to environmental sustainability",
+        "A tradition of hospitality toward strangers"
+      ],
+      "correct_index": 1,
+      "explanation": "Lagom is a distinctly Swedish concept meaning 'just the right amount' or 'in moderation'. It reflects a cultural value of balance, fairness, and not being excessive in any direction. It appears in many aspects of Swedish social life.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Collective decision-making in Sweden is more associated with 'samförstånd' or consensus culture — not lagom.",
+        null,
+        "Environmental sustainability is a strong Swedish value, but the specific concept of 'lagom' is about balance and moderation in quantity.",
+        null
+      ]
+    },
+    {
+      "id": 80,
+      "category": "Swedish Values & Society",
+      "question": "What does 'jantelagen' describe in Swedish culture?",
+      "options": [
+        "A law requiring equal pay for equal work",
+        "An informal social norm discouraging people from standing out or thinking themselves better than others",
+        "A tradition of communal decision-making in villages",
+        "A principle of equal access to public services"
+      ],
+      "correct_index": 1,
+      "explanation": "Jantelagen ('the law of Jante') is a cultural concept — not a real law — describing the Scandinavian social norm of not drawing attention to oneself or acting as if you are better than others. It originates from a 1933 novel by Danish-Norwegian author Aksel Sandemose.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        null,
+        null,
+        "Communal decision-making is a separate aspect of Nordic culture. Jantelagen is specifically about social pressure not to boast or stand out.",
+        null
+      ]
+    },
+    {
+      "id": 81,
+      "category": "Swedish Values & Society",
+      "question": "In which of the following areas does Sweden consistently rank among the best in the world?",
+      "options": [
+        "Military spending as a share of GDP",
+        "Gender equality, press freedom, and transparency",
+        "Car ownership per capita",
+        "Agricultural self-sufficiency"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden regularly ranks among the top countries globally for gender equality (World Economic Forum), press freedom (Reporters Without Borders), and transparency/low corruption (Transparency International).",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 82,
+      "category": "Swedish Values & Society",
+      "question": "What is the name of the inter-governmental cooperation body for the five Nordic countries?",
+      "options": [
+        "Scandinavian Union",
+        "Nordic Alliance",
+        "Nordic Council (Nordiska rådet)",
+        "Northern Partnership"
+      ],
+      "correct_index": 2,
+      "explanation": "The Nordic Council (Nordiska rådet), founded in 1952, is the official body for parliamentary cooperation between Denmark, Finland, Iceland, Norway, and Sweden. The Nordic Council of Ministers is the governmental cooperation body.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "'Scandinavian Union' is not an official body — Scandinavia is a cultural/geographic concept without its own inter-governmental structure.",
+        "Nordic Alliance sounds plausible but is not the official name.",
+        null,
+        "Northern Partnership is not an official body name."
+      ]
+    },
+    {
+      "id": 83,
+      "category": "Swedish Values & Society",
+      "question": "Sweden's welfare state is built on what central concept, meaning roughly 'the people's home'?",
+      "options": [
+        "Välfärdsstaten",
+        "Folkhemmet",
+        "Medborgarsamhället",
+        "Trygghetssystemet"
+      ],
+      "correct_index": 1,
+      "explanation": "Folkhemmet ('the people's home' or 'the home of the people') was a political vision articulated by Social Democratic Prime Minister Per Albin Hansson in 1928. It described Sweden as a society where all citizens, regardless of background, would be cared for and have equal rights and opportunities.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 84,
+      "category": "Swedish Values & Society",
+      "question": "In which city are the Nobel Prizes (other than the Peace Prize) awarded each year?",
+      "options": [
+        "Oslo",
+        "Copenhagen",
+        "Stockholm",
+        "Helsinki"
+      ],
+      "correct_index": 2,
+      "explanation": "The Nobel Prizes in Physics, Chemistry, Medicine, Literature, and Economics are awarded in Stockholm, Sweden, on 10 December each year (the anniversary of Alfred Nobel's death). The Nobel Peace Prize is awarded in Oslo, Norway.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "The Nobel Peace Prize IS awarded in Oslo, Norway — but all other prizes are in Stockholm. This is a famous and often-confused distinction.",
+        null,
+        null,
+        "Helsinki is Finland's capital and has no Nobel ceremony."
+      ]
+    },
+    {
+      "id": 85,
+      "category": "Swedish Values & Society",
+      "question": "What does Swedish law say about physical punishment of children?",
+      "options": [
+        "Mild physical punishment by parents is permitted",
+        "Physical punishment is banned in all settings — Sweden was the first country to ban it in 1979",
+        "Physical punishment is only banned in schools, not in the home",
+        "There is no specific law on this issue"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden became the first country in the world to ban all physical punishment of children — in the home as well as in institutions — with the 1979 amendment to the Parenthood and Guardianship Code. This reflects Swedish values around children's rights.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        null,
+        null,
+        "Some countries only ban corporal punishment in schools — this was an earlier intermediate stage. Sweden banned it everywhere, including in the home, in 1979.",
+        "There has been a specific law banning all physical punishment of children in Sweden since 1979."
+      ]
+    },
+    {
+      "id": 86,
+      "category": "Government & Democracy",
+      "question": "Sweden's parliament is described as 'unicameral'. What does this mean?",
+      "options": [
+        "It has two chambers — an upper and a lower house",
+        "It has only one chamber — all 349 members sit and vote together",
+        "Voting requires a two-thirds majority for all decisions",
+        "The monarch must countersign all parliamentary decisions"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden has a unicameral (enkammarsystem) parliament — a single chamber of 349 members. A second chamber (the Senate) was abolished in 1971 as part of Sweden's shift to a fully democratic, single-chamber system.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 87,
+      "category": "Government & Democracy",
+      "question": "What is the main role of the Speaker of the Riksdag (talmannen)?",
+      "options": [
+        "To lead the governing party and set government policy",
+        "To preside over parliamentary proceedings, nominate the Prime Minister, and represent the Riksdag",
+        "To represent Sweden in EU meetings",
+        "To appoint ministers and cabinet members"
+      ],
+      "correct_index": 1,
+      "explanation": "The Speaker (talmannen) chairs parliamentary debates, nominates the Prime Minister after an election, and represents the Riksdag. The Speaker is elected by the Riksdag and must act impartially. There are also three Deputy Speakers.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 88,
+      "category": "Government & Democracy",
+      "question": "What are Swedish municipalities (kommuner) primarily responsible for?",
+      "options": [
+        "Healthcare and public transport",
+        "National defence and policing",
+        "Schools, social care, elderly care, water, and waste management",
+        "Courts and legal administration"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden's 290 municipalities (kommuner) are responsible for a wide range of local services including primary and secondary schools, pre-school, social services, elder care, water and sewage, and local roads.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 89,
+      "category": "Government & Democracy",
+      "question": "What is 'Riksrevisionen' (the Swedish National Audit Office)?",
+      "options": [
+        "The body that sets the national budget each year",
+        "An independent authority that audits how government and public bodies use taxpayer money",
+        "A parliamentary committee that reviews new legislation",
+        "The agency that investigates corruption by politicians"
+      ],
+      "correct_index": 1,
+      "explanation": "Riksrevisionen independently examines whether the government and state agencies manage public funds effectively and in accordance with law. It is accountable to the Riksdag, not the government, ensuring independence.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 90,
+      "category": "Government & Democracy",
+      "question": "What are Sweden's regional councils (regioner) primarily responsible for?",
+      "options": [
+        "Primary school education and childcare",
+        "Healthcare, public transport, and regional development",
+        "Police and emergency services",
+        "Housing and urban planning"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden's 21 regions (regioner) are elected bodies responsible mainly for healthcare (including hospitals and primary care), public transport, and regional development. They are funded primarily through regional income tax.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 91,
+      "category": "Government & Democracy",
+      "question": "Which authority is responsible for administering Swedish elections?",
+      "options": [
+        "The Riksdag's administrative department",
+        "The Ministry of the Interior",
+        "Valmyndigheten (the Swedish Election Authority)",
+        "Länsstyrelsen (the County Administrative Board)"
+      ],
+      "correct_index": 2,
+      "explanation": "Valmyndigheten is the independent government authority responsible for planning and administering elections in Sweden, including producing ballot papers and announcing results.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 92,
+      "category": "Government & Democracy",
+      "question": "What is the Swedish Chancellor of Justice (Justitiekanslern, JK)?",
+      "options": [
+        "The head of the Swedish police",
+        "The government's own ombudsman and legal representative, also guarding press freedom",
+        "The chief justice of the Supreme Court",
+        "The head of the prosecution service"
+      ],
+      "correct_index": 1,
+      "explanation": "The JK (Justitiekanslern) is appointed by the government and serves as both the government's legal adviser and a supervisory body. The JK also has a unique role as the sole prosecutor for certain press and expression freedom cases.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 93,
+      "category": "Government & Democracy",
+      "question": "What are Sweden's two main political blocs?",
+      "options": [
+        "The Red-Green bloc and the Blue-Yellow bloc",
+        "The left-wing bloc (Socialdemokraterna and allies) and the centre-right bloc (Moderaterna and allies)",
+        "The governing party and the opposition party",
+        "The labour movement and the business movement"
+      ],
+      "correct_index": 1,
+      "explanation": "Swedish politics is typically organised around two broad blocs: the red-green left-wing bloc (led by the Social Democrats) and the Tidö alliance / centre-right bloc (led by the Moderates). Coalition governments are common as no single party wins a majority.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 94,
+      "category": "Government & Democracy",
+      "question": "What does Sweden's principle of 'ministerial rule' (ministerstyre) prohibition mean?",
+      "options": [
+        "Ministers cannot personally intervene in individual decisions made by government agencies",
+        "Ministers must be members of parliament",
+        "Ministers cannot hold any other jobs while in office",
+        "Ministers must resign if they lose a vote in the Riksdag"
+      ],
+      "correct_index": 0,
+      "explanation": "Sweden's constitution prohibits ministerial rule (ministerstyre) — meaning government ministers cannot instruct independent government agencies on how to handle individual cases. Agencies apply the law independently. This protects citizens from political interference in administrative decisions.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 95,
+      "category": "Government & Democracy",
+      "question": "What does 'Regeringskansliet' refer to?",
+      "options": [
+        "The Swedish parliament building",
+        "The Swedish royal court",
+        "The Government Offices — the ministries and central administration that support the government",
+        "The Supreme Court building"
+      ],
+      "correct_index": 2,
+      "explanation": "Regeringskansliet (the Government Offices of Sweden) is the collective term for the Prime Minister's Office and all government ministries. It provides administrative and expert support to the government and its ministers.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 96,
+      "category": "History",
+      "question": "In what year did women in Sweden gain the right to vote in national elections?",
+      "options": [
+        "1909",
+        "1915",
+        "1921",
+        "1929"
+      ],
+      "correct_index": 2,
+      "explanation": "Swedish women won the right to vote in 1921. The first election in which women could vote was the 1921 general election. Sweden was among the earlier European countries to grant women full voting rights.",
+      "difficulty": "expert",
+      "distractor_notes": [
+        "1909 is when Swedish women gained the right to vote in municipal elections only — not national elections.",
+        "1915 is when Danish women gained full voting rights. Sweden followed in 1921.",
+        null,
+        "By 1929, Swedish women had already been voting in national elections for eight years."
+      ]
+    },
+    {
+      "id": 97,
+      "category": "History",
+      "question": "Who was Gustav Vasa and why is he significant?",
+      "options": [
+        "A Viking king who expanded Sweden's territory to Russia",
+        "The founder of modern Sweden, who led a rebellion against Denmark and became king in 1523",
+        "The king who created the Swedish welfare state",
+        "A Swedish general who defeated Russia in the Great Northern War"
+      ],
+      "correct_index": 1,
+      "explanation": "Gustav Vasa (1496–1560) led Sweden's break from the Kalmar Union and became king in 1523, establishing Sweden as an independent nation. He also introduced the Reformation, making Sweden Lutheran. June 6 — Sweden's National Day — marks his election as king.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        null,
+        null,
+        "The welfare state was built by 20th-century Social Democratic governments, not by Gustav Vasa in the 16th century.",
+        "This confuses Gustav Vasa with Charles XII, who fought the ill-fated Great Northern War against Peter the Great's Russia (1700–1721)."
+      ]
+    },
+    {
+      "id": 98,
+      "category": "History",
+      "question": "What was the 'era of Swedish great power' (stormaktstiden)?",
+      "options": [
+        "Sweden's economic boom in the 1960s and 1970s",
+        "The Viking Age when Swedish traders reached Constantinople",
+        "The 17th–early 18th century when Sweden dominated northern Europe militarily and politically",
+        "The period of the Kalmar Union when Sweden controlled Scandinavia"
+      ],
+      "correct_index": 2,
+      "explanation": "Stormaktstiden (roughly 1611–1721) was the period when Sweden was a major European power, controlling much of the Baltic Sea region. It ended with Sweden's defeat in the Great Northern War (1700–1721) against Russia and its allies.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        null,
+        "The Viking Age (793–1066 AD) refers to a much earlier period of Norse seafaring and raiding.",
+        null,
+        "The Kalmar Union (1397–1523) preceded the 'stormaktstid' — the era of great power covers the 17th–early 18th century."
+      ]
+    },
+    {
+      "id": 99,
+      "category": "History",
+      "question": "The Great Northern War (1700–1721) ended Sweden's status as a great power. Who defeated Sweden?",
+      "options": [
+        "Denmark and Norway",
+        "Russia, led by Peter the Great, along with allied powers",
+        "Prussia and Austria",
+        "The Ottoman Empire and France"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden under Karl XII was defeated by a coalition led by Russia's Peter the Great. The resulting Treaty of Nystad (1721) saw Sweden cede most of its Baltic territories. Russia emerged as the dominant power in northern Europe.",
+      "difficulty": "expert",
+      "distractor_notes": [
+        "Denmark and Norway were part of the opposing coalition, but the decisive power was Peter the Great's Russia.",
+        null,
+        "Prussia and Austria were not the primary forces that ended Swedish great-power status.",
+        null
+      ]
+    },
+    {
+      "id": 100,
+      "category": "History",
+      "question": "The Peace of Roskilde (1658) was significant for Sweden because:",
+      "options": [
+        "Sweden gained the provinces of Skåne, Blekinge, and Halland from Denmark, completing its current mainland borders",
+        "Sweden signed a peace treaty with Russia ending a long war",
+        "Sweden united with Norway under one king",
+        "Sweden joined the Holy Roman Empire"
+      ],
+      "correct_index": 0,
+      "explanation": "The Peace of Roskilde resulted in Denmark ceding the provinces of Skåne, Blekinge, Halland, and the island of Bornholm (briefly) to Sweden. This is why the southernmost part of Sweden, including Malmö, was historically Danish.",
+      "difficulty": "expert",
+      "distractor_notes": [
+        null,
+        "A peace with Russia came later — the Treaty of Nystad in 1721, after the Great Northern War.",
+        "Sweden and Norway's union began in 1814, long after the Peace of Roskilde (1658).",
+        null
+      ]
+    },
+    {
+      "id": 101,
+      "category": "History",
+      "question": "Who was Tage Erlander and what is he notable for?",
+      "options": [
+        "Sweden's first Social Democratic Prime Minister",
+        "The longest-serving Swedish Prime Minister, in office from 1946 to 1969",
+        "The Prime Minister who took Sweden into the EU",
+        "The Social Democrat who founded Sweden's pension system"
+      ],
+      "correct_index": 1,
+      "explanation": "Tage Erlander (Social Democrats) served as Prime Minister from 1946 to 1969 — 23 years, making him one of the longest-serving democratically elected leaders in the world. Under his leadership, Sweden built much of its modern welfare state.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Sweden's first Social Democratic PM was Hjalmar Branting in the 1920s — not Erlander.",
+        null,
+        null,
+        "The pension system was built over decades by the Social Democrats, but Tage Erlander is specifically known for his record 23 years as PM."
+      ]
+    },
+    {
+      "id": 102,
+      "category": "History",
+      "question": "What was the 'Saltsjöbadsavtalet' (Saltsjöbaden Agreement) of 1938?",
+      "options": [
+        "A trade deal between Sweden and Germany",
+        "A historic agreement between Swedish employers (SAF) and trade unions (LO) establishing peaceful industrial relations",
+        "A Nordic defence pact between Sweden, Norway, and Denmark",
+        "An agreement to keep Sweden neutral in the approaching world war"
+      ],
+      "correct_index": 1,
+      "explanation": "The Saltsjöbaden Agreement was a landmark accord between the Swedish Employers' Association (SAF) and the main trade union confederation (LO) that established a framework for resolving labour disputes without government intervention. It became a cornerstone of the 'Swedish model'.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 103,
+      "category": "History",
+      "question": "What was the Swedish 'miljonprogrammet' (the million programme)?",
+      "options": [
+        "A 1960s–70s government programme that built one million new homes to address a housing shortage",
+        "A post-war economic plan to industrialise Sweden",
+        "An immigration policy that brought one million workers to Sweden",
+        "A Cold War civil defence programme"
+      ],
+      "correct_index": 0,
+      "explanation": "Miljonprogrammet (1965–1974) was a Social Democratic government initiative to build one million new homes in ten years to address Sweden's severe housing shortage. Many of these estates still exist as suburban housing areas throughout Sweden.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 104,
+      "category": "History",
+      "question": "Who was Anna Lindh, and what happened to her in 2003?",
+      "options": [
+        "Sweden's first female Prime Minister, who resigned in 2003",
+        "Sweden's Foreign Minister, who was assassinated in Stockholm in September 2003",
+        "A Swedish EU Commissioner who died in a plane crash in 2003",
+        "A Swedish Nobel laureate who won the Peace Prize in 2003"
+      ],
+      "correct_index": 1,
+      "explanation": "Anna Lindh was Sweden's popular Foreign Minister and a prominent Social Democrat. She was stabbed in a Stockholm department store on 10 September 2003 and died the following day. Her death shocked Sweden and came just days before Sweden's euro referendum.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 105,
+      "category": "History",
+      "question": "Hjalmar Branting was significant in Swedish history because he was:",
+      "options": [
+        "The founder of IKEA",
+        "The first Social Democratic Prime Minister and a Nobel Peace Prize laureate",
+        "Sweden's first King after becoming a constitutional monarchy",
+        "The general who won the Napoleonic Wars for Sweden"
+      ],
+      "correct_index": 1,
+      "explanation": "Hjalmar Branting (1860–1925) was Sweden's first Social Democratic Prime Minister and won the Nobel Peace Prize in 1921 for his work in international arbitration and the League of Nations. He was a founding father of the Swedish labour movement.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 106,
+      "category": "History",
+      "question": "Sweden held a brief overseas colonial possession. Which Caribbean island was Swedish from 1784 to 1878?",
+      "options": [
+        "Martinique",
+        "Saint Barthélemy (Saint Barts)",
+        "Guadeloupe",
+        "Sint Eustatius"
+      ],
+      "correct_index": 1,
+      "explanation": "France ceded Saint Barthélemy to Sweden in 1784 in exchange for trading rights in Gothenburg. Sweden sold the island back to France in 1878 following a referendum of the island's inhabitants. The island's capital, Gustavia, is still named after Swedish King Gustav III.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 107,
+      "category": "History",
+      "question": "What was Gustav II Adolf (Gustavus Adolphus) known for in the 17th century?",
+      "options": [
+        "Uniting Sweden and Denmark under one crown",
+        "Establishing Sweden as a major military power and intervening in the Thirty Years' War on the Protestant side",
+        "Signing the first Swedish constitution",
+        "Founding Stockholm as Sweden's capital"
+      ],
+      "correct_index": 1,
+      "explanation": "Gustav II Adolf (1594–1632) transformed Sweden into a major European power. He led Sweden into the Thirty Years' War (1618–1648) on the Protestant side, achieving major military successes before dying at the Battle of Lützen in 1632. He is considered one of the greatest military commanders in history.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Sweden and Denmark were long-standing rivals. They were not united under Gustav II Adolf.",
+        null,
+        "Sweden's first written constitution dates to 1634 (Riksdag Act) and the major one to 1809, long after Gustav II Adolf's death in 1632.",
+        "Stockholm was founded in the 13th century — long before Gustav II Adolf."
+      ]
+    },
+    {
+      "id": 108,
+      "category": "History",
+      "question": "When did the Viking Age conventionally begin and end?",
+      "options": [
+        "500 AD to 900 AD",
+        "793 AD to around 1066 AD",
+        "1000 AD to 1200 AD",
+        "700 AD to 1300 AD"
+      ],
+      "correct_index": 1,
+      "explanation": "The Viking Age is conventionally dated from the raid on the monastery at Lindisfarne (793 AD) to the Norman Conquest of England (1066 AD). Swedish Vikings — known as Varangians — primarily traded and raided eastward, establishing routes through Russia to Byzantium.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "500 AD covers the Migration Period in European history, before the Viking Age.",
+        null,
+        "1000 AD is during the Viking Age but too late for its start, which conventionally begins with the raid on Lindisfarne in 793.",
+        "700 AD is slightly early, and 1300 AD is well after the conventional end (Battle of Hastings, 1066)."
+      ]
+    },
+    {
+      "id": 109,
+      "category": "History",
+      "question": "Sweden was among the founding members of the United Nations in 1945. What role did Sweden play in the UN during the Cold War?",
+      "options": [
+        "Sweden was aligned with the Western NATO bloc in the UN",
+        "Sweden acted as a neutral mediator and was active in UN peacekeeping operations",
+        "Sweden boycotted the UN Security Council throughout the Cold War",
+        "Sweden mainly focused on economic rather than political UN activities"
+      ],
+      "correct_index": 1,
+      "explanation": "As a neutral state, Sweden played an active mediating role in the UN during the Cold War. Swedish diplomats including Dag Hammarskjöld and Gunnar Jarring were prominent international figures. Sweden has participated in numerous UN peacekeeping missions.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 110,
+      "category": "History",
+      "question": "What was the significance of 1809 for Sweden's constitutional development?",
+      "options": [
+        "Sweden became a republic for the first time",
+        "Sweden adopted a new constitution limiting royal power after a coup removed King Gustav IV Adolf",
+        "Sweden and Norway formed their union under one king",
+        "Sweden adopted its first written constitution after joining the Holy Roman Empire"
+      ],
+      "correct_index": 1,
+      "explanation": "Following Sweden's defeat in the Finnish War and the loss of Finland to Russia, a coup removed Gustav IV Adolf. Sweden adopted the 1809 Instrument of Government which significantly limited royal power and established a balance of power between king and parliament. A new dynasty (Bernadotte) was also established.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 111,
+      "category": "Geography",
+      "question": "Which Swedish island is a UNESCO World Heritage Site known for its medieval Hanseatic town of Visby?",
+      "options": [
+        "Öland",
+        "Gotland",
+        "Hven",
+        "Björkö"
+      ],
+      "correct_index": 1,
+      "explanation": "Gotland is Sweden's largest island, located in the Baltic Sea. Its main town, Visby, is a remarkably well-preserved medieval Hanseatic city surrounded by a 13th-century ring wall. It was designated a UNESCO World Heritage Site in 1995.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Öland is also a UNESCO World Heritage Site (southern Öland's agricultural landscape), so it's a reasonable guess — but Visby is on Gotland.",
+        null,
+        "Hven (Ven) is a small Swedish island in Öresund, not a UNESCO site known for a medieval town.",
+        null
+      ]
+    },
+    {
+      "id": 112,
+      "category": "Geography",
+      "question": "What is 'Norrland' in Swedish geography?",
+      "options": [
+        "The Stockholm metropolitan region",
+        "The northern half of Sweden, covering about 60% of the country's land area",
+        "The coastal strip along the Norwegian border",
+        "The region between Stockholm and Gothenburg"
+      ],
+      "correct_index": 1,
+      "explanation": "Norrland refers to the northern part of Sweden, encompassing the counties from Gävleborg northward. It covers approximately 60% of Sweden's land area but is home to only about 12% of the population. It is characterised by forests, rivers, mountains, and the Sami reindeer-herding lands.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 113,
+      "category": "Geography",
+      "question": "What does the Göta Canal (Göta kanal) connect?",
+      "options": [
+        "Stockholm to Gothenburg via Sweden's interior lakes and waterways",
+        "Sweden to Denmark under the Öresund strait",
+        "Gothenburg's harbour to the open sea",
+        "Lake Mälaren to the Baltic Sea"
+      ],
+      "correct_index": 0,
+      "explanation": "The Göta Canal connects the west coast of Sweden (Gothenburg area) to the east coast (Baltic Sea near Söderköping) via a series of lakes, rivers, and canals. Built between 1810 and 1832, it stretches about 190 km and is a popular tourist route.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 114,
+      "category": "Geography",
+      "question": "What is Sweden's third largest city?",
+      "options": [
+        "Uppsala",
+        "Linköping",
+        "Malmö",
+        "Örebro"
+      ],
+      "correct_index": 2,
+      "explanation": "Malmö is Sweden's third largest city, located in the far south in the region of Skåne, directly across the Öresund strait from Copenhagen, Denmark. It is connected to Denmark by the Öresund Bridge.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Uppsala is a major city and Sweden's oldest university town, but it's the fourth-largest city.",
+        null,
+        null,
+        "Örebro is a significant city in central Sweden but smaller than Malmö."
+      ]
+    },
+    {
+      "id": 115,
+      "category": "Geography",
+      "question": "The island of Öland is connected to mainland Sweden by a bridge and is a UNESCO World Heritage Site. In which county does it belong?",
+      "options": [
+        "Blekinge",
+        "Skåne",
+        "Kalmar",
+        "Kronoberg"
+      ],
+      "correct_index": 2,
+      "explanation": "Öland belongs to Kalmar County and is connected to the city of Kalmar by a bridge. Its southern part, the 'Agricultural Landscape of Southern Öland', is a UNESCO World Heritage Site. The Swedish royal family has their summer residence (Solliden Palace) on Öland.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 116,
+      "category": "Geography",
+      "question": "The Stockholm Archipelago (Stockholms skärgård) consists of approximately how many islands?",
+      "options": [
+        "Around 3,000",
+        "Around 10,000",
+        "Around 30,000",
+        "Around 100,000"
+      ],
+      "correct_index": 2,
+      "explanation": "The Stockholm Archipelago stretches east into the Baltic Sea and contains approximately 30,000 islands, islets, and skerries. It is a popular recreational area for Stockholmers, with many families owning summer cottages there.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 117,
+      "category": "Geography",
+      "question": "Which Swedish city is home to the country's oldest university, founded in 1477?",
+      "options": [
+        "Stockholm",
+        "Lund",
+        "Uppsala",
+        "Gothenburg"
+      ],
+      "correct_index": 2,
+      "explanation": "Uppsala University, founded in 1477, is Sweden's oldest university. Though it was refounded in 1593 after a period of inactivity, it retains its 1477 founding date. Uppsala is located about 70 km north of Stockholm.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Stockholm University was founded much later (as a private college in 1878), nearly 400 years after Uppsala.",
+        "Lund University (founded 1666) is another prestigious Swedish university, but it's 189 years younger than Uppsala.",
+        null,
+        "Gothenburg University (GU) was founded in 1891."
+      ]
+    },
+    {
+      "id": 118,
+      "category": "Geography",
+      "question": "Which countries share a land border with Sweden?",
+      "options": [
+        "Norway and Denmark",
+        "Norway, Denmark, and Finland",
+        "Norway and Finland",
+        "Norway, Finland, and Russia"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden shares land borders with Norway to the west and north, and Finland to the northeast. Sweden and Denmark are separated by water (the Öresund and Kattegat) — there is no land border, though the Öresund Bridge creates a fixed link.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Sweden borders Norway but NOT Denmark by land — the Öresund crossing is over water.",
+        "Sweden does not share a land border with Denmark. Only Norway and Finland.",
+        null,
+        "Russia does not border Sweden — Finland lies between them."
+      ]
+    },
+    {
+      "id": 119,
+      "category": "Geography",
+      "question": "What is 'Skåne' and what is it sometimes called?",
+      "options": [
+        "Sweden's northernmost region, known for reindeer herding",
+        "Sweden's southernmost region, often called 'Sweden's breadbasket' for its fertile farmland",
+        "The region surrounding Stockholm, known for its archipelago",
+        "Sweden's westernmost coastal region, known for fishing"
+      ],
+      "correct_index": 1,
+      "explanation": "Skåne (Scania) is Sweden's southernmost region, known for flat, fertile agricultural land. It was part of Denmark until the Peace of Roskilde in 1658. Malmö is its largest city, and it is the most densely populated region outside the Stockholm area.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 120,
+      "category": "Geography",
+      "question": "Where in Sweden is the city of Kiruna, and what is it particularly known for?",
+      "options": [
+        "On the west coast, known for its port and shipping industry",
+        "In northern Lapland, known for iron ore mining and the nearby Icehotel",
+        "In central Sweden, known for steel manufacturing",
+        "In the south, known for its university and research institutions"
+      ],
+      "correct_index": 1,
+      "explanation": "Kiruna is Sweden's northernmost city, located in Norrbotten (Swedish Lapland) above the Arctic Circle. It is home to one of the world's largest iron ore mines (operated by LKAB) and is near the famous Icehotel in Jukkasjärvi. Parts of the city are being physically relocated due to mine subsidence.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 121,
+      "category": "Culture & Traditions",
+      "question": "What is a 'semla' (plural: semlor)?",
+      "options": [
+        "A type of Swedish crispbread eaten at Christmas",
+        "A cardamom-spiced wheat bun filled with almond paste and whipped cream, traditionally eaten before Lent",
+        "A Midsommar celebration cake",
+        "A savoury pastry eaten at fika"
+      ],
+      "correct_index": 1,
+      "explanation": "Semla (also called fettisdagsbulle) is a traditional Swedish pastry eaten on Shrove Tuesday (fettisdagen) and increasingly throughout January–March. It consists of a cardamom-spiced bun filled with almond paste and topped with whipped cream.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 122,
+      "category": "Culture & Traditions",
+      "question": "What is a 'kräftskiva' in Sweden?",
+      "options": [
+        "A Christmas seafood buffet",
+        "A traditional crayfish party held in August",
+        "A herring dish served at Midsommar",
+        "An Easter seafood celebration"
+      ],
+      "correct_index": 1,
+      "explanation": "Kräftskiva (crayfish party) is a Swedish summer tradition, typically held in August. Friends gather outdoors to eat freshwater crayfish (kräftor), wear silly paper hats, drink schnapps (snaps), and sing drinking songs (snapsvisa).",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 123,
+      "category": "Culture & Traditions",
+      "question": "What does the Swedish tradition of 'Valborg' (Walpurgis Night, 30 April) celebrate?",
+      "options": [
+        "The birthday of Gustav Vasa",
+        "The beginning of spring, marked with bonfires, songs, and student celebrations",
+        "The commemoration of Sweden's war dead",
+        "The start of the fishing season"
+      ],
+      "correct_index": 1,
+      "explanation": "Valborg (Walpurgis Night) on the evening of 30 April marks the arrival of spring. Swedes traditionally gather around large bonfires and sing spring songs. It is especially celebrated in university cities such as Uppsala and Lund, where student traditions are elaborate.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 124,
+      "category": "Culture & Traditions",
+      "question": "What is 'julskinka' in Swedish Christmas tradition?",
+      "options": [
+        "A Christmas herring dish",
+        "A glazed Christmas ham that is the centrepiece of the Swedish Christmas table",
+        "Christmas meatballs served with lingonberry sauce",
+        "A smoked reindeer meat dish"
+      ],
+      "correct_index": 1,
+      "explanation": "Julskinka (Christmas ham) is the traditional centrepiece of the Swedish julbord (Christmas table). It is typically boiled or baked and coated in a mustard and breadcrumb glaze. The julbord also features herring, meatballs, Jansson's temptation, and rice porridge (risgrynsgröt).",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 125,
+      "category": "Culture & Traditions",
+      "question": "What is 'Vasaloppet' and where does it take place?",
+      "options": [
+        "A Viking ship-rowing race on Lake Mälaren",
+        "The world's oldest and largest long-distance cross-country ski race, held in Dalarna",
+        "A marathon race from Stockholm to Uppsala",
+        "A traditional reindeer race in Swedish Lapland"
+      ],
+      "correct_index": 1,
+      "explanation": "Vasaloppet is a 90-km cross-country ski race held each March in Dalarna, Sweden. First run in 1922, it commemorates Gustav Vasa's journey through Dalarna in 1521. It attracts up to 15,000 participants and is the world's oldest, longest, and largest cross-country ski race.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 126,
+      "category": "Culture & Traditions",
+      "question": "What is 'innebandy' and how popular is it in Sweden?",
+      "options": [
+        "A traditional Swedish folk dance performed indoors",
+        "An indoor team sport similar to floor hockey, one of Sweden's most popular participation sports",
+        "A competitive indoor rowing sport",
+        "A card game played at fika"
+      ],
+      "correct_index": 1,
+      "explanation": "Innebandy (floorball) is a form of indoor floor hockey played with a lightweight plastic stick and ball. It is one of Sweden's most popular participation sports, with hundreds of thousands of registered players. Sweden's national teams are among the strongest in the world.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 127,
+      "category": "Culture & Traditions",
+      "question": "Which languages have official national minority language status in Sweden?",
+      "options": [
+        "English and Arabic",
+        "Danish, Norwegian, and Finnish",
+        "Sami, Finnish, Meänkieli, Romani, and Yiddish",
+        "Finnish and Estonian only"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden officially recognises five national minority languages: the Sami languages (several dialects), Finnish, Meänkieli (Tornedalian Finnish), Romani, and Yiddish. These groups have special linguistic and cultural rights under the 2009 Language Act and minority rights legislation.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "English and Arabic are widely spoken in Sweden but have no official national minority language status.",
+        "Danish and Norwegian are not among Sweden's five protected minority languages, despite Scandinavian mutual intelligibility.",
+        null,
+        "Estonian is not a national minority language in Sweden."
+      ]
+    },
+    {
+      "id": 128,
+      "category": "Culture & Traditions",
+      "question": "What is 'Janssons frestelse' (Jansson's Temptation)?",
+      "options": [
+        "A Swedish dessert made with cream and berries",
+        "A baked casserole of potatoes, onions, and anchovy-like sprats — a traditional Christmas dish",
+        "A type of Swedish cheese",
+        "A Midsommar cake"
+      ],
+      "correct_index": 1,
+      "explanation": "Janssons frestelse is a classic Swedish dish made with thinly sliced potatoes, onions, Swedish sprats (ansjovis), and cream, baked until golden. It is a staple of the Swedish julbord (Christmas buffet) and often served at other festive occasions.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 129,
+      "category": "Culture & Traditions",
+      "question": "What is Drottningholm Palace and why is it significant?",
+      "options": [
+        "Sweden's parliament building, built in the 17th century",
+        "The Swedish royal family's primary residence and a UNESCO World Heritage Site, located near Stockholm",
+        "A medieval castle on the island of Gotland",
+        "The venue for the annual Nobel Prize banquet"
+      ],
+      "correct_index": 1,
+      "explanation": "Drottningholm Palace, located on an island in Lake Mälaren near Stockholm, is the permanent residence of Sweden's royal family. It was designated a UNESCO World Heritage Site in 1991, along with its grounds, Chinese Pavilion, and 18th-century court theatre.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 130,
+      "category": "Culture & Traditions",
+      "question": "Astrid Lindgren is one of Sweden's most celebrated cultural figures. What is she best known for?",
+      "options": [
+        "Winning the Nobel Prize in Literature for adult novels",
+        "Creating beloved children's characters including Pippi Longstocking, Emil of Lönneberga, and Karlsson-on-the-Roof",
+        "Composing Sweden's most popular folk songs",
+        "Writing Sweden's national anthem 'Du gamla, du fria'"
+      ],
+      "correct_index": 1,
+      "explanation": "Astrid Lindgren (1907–2002) was a Swedish author who created some of the world's best-loved children's characters, including Pippi Långstrump (Pippi Longstocking). She was also a prominent advocate for children's rights and animal welfare. The Astrid Lindgren Memorial Award is the world's largest children's literature prize.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Astrid Lindgren did receive literary honours, but she's celebrated for children's literature, not adult novels.",
+        null,
+        "Astrid Lindgren adapted folk songs but did not compose Sweden's best-known folk music.",
+        "Sweden's national anthem was written by Richard Dybeck (1844), not Astrid Lindgren."
+      ]
+    },
+    {
+      "id": 131,
+      "category": "Culture & Traditions",
+      "question": "What does the first line of Sweden's national anthem 'Du gamla, du fria' translate to?",
+      "options": [
+        "'Land of the midnight sun and northern lights'",
+        "'You ancient, you free'",
+        "'Beautiful land of endless forests'",
+        "'Our proud and noble homeland'"
+      ],
+      "correct_index": 1,
+      "explanation": "'Du gamla, du fria' translates as 'Thou ancient, thou free' (or 'You ancient, you free'). Written in 1844 by Richard Dybeck to a traditional folk melody, it became Sweden's national anthem through tradition rather than any formal legal designation.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "'Land of the midnight sun' would describe the midnight sun phenomenon, but is not the first line.",
+        null,
+        "'Beautiful land of endless forests' paraphrases later content but is not the opening line.",
+        "'Our proud and noble homeland' does not appear in the Swedish anthem."
+      ]
+    },
+    {
+      "id": 132,
+      "category": "Culture & Traditions",
+      "question": "What is Skansen in Stockholm and why is it historically significant?",
+      "options": [
+        "Stockholm's main concert hall and opera house",
+        "The world's first open-air museum, showcasing historic Swedish buildings, crafts, and folk traditions",
+        "Sweden's largest amusement park",
+        "The royal botanical gardens founded in the 18th century"
+      ],
+      "correct_index": 1,
+      "explanation": "Skansen, opened in 1891, is the world's first open-air museum. It features over 150 historic buildings relocated from across Sweden, along with demonstrations of traditional crafts, a zoo with Scandinavian animals, and live performances of folk music and dance.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 133,
+      "category": "Culture & Traditions",
+      "question": "What is 'Melodifestivalen'?",
+      "options": [
+        "Sweden's annual classical music competition",
+        "Sweden's national selection competition to choose its Eurovision Song Contest entry",
+        "A folk music festival held in Dalarna each summer",
+        "A Swedish version of a talent show selecting pop artists for record deals"
+      ],
+      "correct_index": 1,
+      "explanation": "Melodifestivalen is the Swedish national broadcaster SVT's annual competition to select Sweden's entry for the Eurovision Song Contest. It is one of Sweden's most watched TV events of the year. Sweden is one of the most successful countries in Eurovision history.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 134,
+      "category": "Culture & Traditions",
+      "question": "What is 'Allehelgonadagen' (All Saints' Day) in Sweden?",
+      "options": [
+        "A spring festival marking the start of the growing season",
+        "A day to remember the dead, when Swedes visit cemeteries and light candles on graves",
+        "A harvest festival celebrated with a large communal feast",
+        "A day equivalent to Halloween, with costumes and trick-or-treating"
+      ],
+      "correct_index": 1,
+      "explanation": "Allehelgonadagen (All Saints' Day) is a public holiday on the Saturday between 31 October and 6 November. Swedes visit cemeteries to place candles and flowers on relatives' graves. In the evenings, cemeteries glow with candlelight in a distinctive and moving tradition.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 135,
+      "category": "Culture & Traditions",
+      "question": "What Swedish Easter tradition involves children dressing up as witches?",
+      "options": [
+        "Lucia witches (luciahäxor) carrying lanterns on Easter eve",
+        "Children dressed as 'påskkärringar' (Easter witches) who go door to door exchanging drawings for sweets",
+        "Children wearing witch costumes to church on Good Friday",
+        "Boys dressed as wizards acting out Viking legends"
+      ],
+      "correct_index": 1,
+      "explanation": "A traditional Swedish Easter custom (especially in western Sweden) involves children dressing up as påskkärringar (Easter witches) — wearing headscarves, carrying broomsticks, and going door to door to exchange hand-drawn pictures for sweets. The tradition is linked to old beliefs about witches flying to Blåkulla at Easter.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 136,
+      "category": "Society & Welfare",
+      "question": "What does Sweden's 'patientlag' (Patient Act) guarantee?",
+      "options": [
+        "Free treatment for all conditions regardless of citizenship",
+        "Patients' rights including the right to information, participation in their care, and freedom to choose a healthcare provider",
+        "A guaranteed maximum waiting time for all treatments",
+        "The right to sue the healthcare system for any misdiagnosis"
+      ],
+      "correct_index": 1,
+      "explanation": "The Patient Act (patientlag, 2015) strengthens patients' rights in Sweden, including the right to information about their condition and treatment options, the right to participate in decisions about their care, and the right to seek a second opinion or transfer to another care provider.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 137,
+      "category": "Society & Welfare",
+      "question": "What does CSN (Centrala studiestödsnämnden) provide?",
+      "options": [
+        "Childcare subsidies for working parents",
+        "Study grants and low-interest loans for students in post-secondary education",
+        "Unemployment benefits for recent graduates",
+        "Scholarships for students from low-income families only"
+      ],
+      "correct_index": 1,
+      "explanation": "CSN (the Swedish Board of Student Finance) administers Sweden's study support system, which includes both a non-repayable grant (studiebidrag) and a repayable loan (studielån) for Swedish students in upper secondary and higher education. This helps make higher education accessible to all.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 138,
+      "category": "Society & Welfare",
+      "question": "What is 'bostadsbidrag' in Sweden?",
+      "options": [
+        "A grant to buy your first home",
+        "A housing benefit — monthly financial support for low-income households renting their accommodation",
+        "A tax relief for mortgage interest payments",
+        "A subsidy for energy-efficient home improvements"
+      ],
+      "correct_index": 1,
+      "explanation": "Bostadsbidrag (housing benefit) is a means-tested benefit administered by Försäkringskassan. It helps cover housing costs for families with children and certain young adults with low incomes. The amount depends on income, housing costs, and family size.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 139,
+      "category": "Society & Welfare",
+      "question": "What does the Swedish law 'LSS' (Lag om stöd och service till vissa funktionshindrade) provide?",
+      "options": [
+        "Income support for all people unable to work",
+        "Legal rights and support services for people with significant and lasting functional impairments",
+        "A general social care framework for elderly people",
+        "Occupational health and rehabilitation services"
+      ],
+      "correct_index": 1,
+      "explanation": "LSS (the Act Concerning Support and Service for Persons with Certain Functional Impairments, 1993) gives people with significant disabilities the right to specific support services such as personal assistance, daily activities, and housing with special support. It is considered one of the world's most progressive disability rights laws.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 140,
+      "category": "Society & Welfare",
+      "question": "What is 'hemtjänst' in Sweden?",
+      "options": [
+        "A home tutoring service for school children",
+        "State-funded home care services provided to elderly and disabled people to help with daily life",
+        "An emergency home repair service",
+        "In-home childcare provided by the municipality"
+      ],
+      "correct_index": 1,
+      "explanation": "Hemtjänst (home care service) is organised by municipalities and provides practical help in the home — such as cleaning, cooking, and personal hygiene — to elderly and disabled people who need assistance. It allows people to live independently in their own homes for longer.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 141,
+      "category": "Society & Welfare",
+      "question": "What is 'sjukpenning' in Sweden?",
+      "options": [
+        "A disability pension for those who can never work again",
+        "Short-term sickness benefit replacing income when a person cannot work due to illness or injury",
+        "Medicine subsidies for people with chronic conditions",
+        "A government top-up for low sick pay from employers"
+      ],
+      "correct_index": 1,
+      "explanation": "Sjukpenning (sickness benefit) is paid by Försäkringskassan from day 15 of illness (the employer pays the first 14 days via sjuklön). It replaces approximately 80% of income up to a ceiling. After extended absence, different rules and forms of support apply.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 142,
+      "category": "Society & Welfare",
+      "question": "What are 'friskolor' (independent schools) in Sweden?",
+      "options": [
+        "Elite boarding schools that charge high fees to private students",
+        "Publicly funded schools run by private or non-profit organisations, free for students to attend",
+        "Home-schooling arrangements for children with special needs",
+        "Religious schools that are exempt from the national curriculum"
+      ],
+      "correct_index": 1,
+      "explanation": "Friskolor are independently run but publicly funded schools. Parents can choose a fristående skola (independent school) instead of the local municipal school. The school receives a per-pupil grant from the municipality. They must follow the national curriculum and cannot charge students fees.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 143,
+      "category": "Society & Welfare",
+      "question": "What is 'Migrationsverket' responsible for?",
+      "options": [
+        "Managing Sweden's borders and passport control",
+        "Processing applications for visas, residence permits, asylum, and citizenship",
+        "Administering integration programmes for new arrivals",
+        "Deporting people whose applications have been rejected"
+      ],
+      "correct_index": 1,
+      "explanation": "Migrationsverket (the Swedish Migration Agency) is the government authority that examines and decides on applications for residence permits, work permits, asylum, and Swedish citizenship. It also coordinates reception of asylum seekers and provides information about the migration process.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 144,
+      "category": "Society & Welfare",
+      "question": "What is 'Komvux' in Sweden?",
+      "options": [
+        "A distance learning university for working professionals",
+        "Municipal adult education offering courses to complete or supplement secondary schooling",
+        "A private language school chain",
+        "A vocational training programme exclusively for immigrants"
+      ],
+      "correct_index": 1,
+      "explanation": "Komvux (Kommunal vuxenutbildning — municipal adult education) allows adults to complete or upgrade secondary school qualifications through their municipality. It is free and offers courses equivalent to both compulsory school (grundläggande vuxenutbildning) and upper secondary level (gymnasial vuxenutbildning).",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 145,
+      "category": "Society & Welfare",
+      "question": "What is Sweden's 'högkostnadsskydd' (high-cost protection) for healthcare?",
+      "options": [
+        "A cap on hospital treatment costs for serious illnesses",
+        "A 12-month rolling ceiling on how much a patient pays in healthcare fees and prescription costs",
+        "Free healthcare for everyone over the age of 65",
+        "A maximum fee for private healthcare treatments"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden's high-cost protection (högkostnadsskydd) limits how much a patient pays in healthcare visit fees and prescription medicine costs within a rolling 12-month period. Once the ceiling is reached, further care or medicine is provided free. This ensures healthcare remains affordable even for people with high health needs.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 146,
+      "category": "Society & Welfare",
+      "question": "What does 'Socialtjänsten' (Social Services) do in Sweden?",
+      "options": [
+        "It is Sweden's national social insurance authority managing pensions",
+        "It is the municipal authority providing welfare support, child protection, and assistance to vulnerable individuals and families",
+        "It is a government agency managing Sweden's foster care system nationally",
+        "It is the body that distributes unemployment benefits"
+      ],
+      "correct_index": 1,
+      "explanation": "Socialtjänsten is organised by each municipality and has broad responsibilities for the social welfare of residents. This includes supporting children and families at risk, providing assistance to people with addiction or mental health problems, administering social assistance (försörjningsstöd), and running elderly care.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 147,
+      "category": "Society & Welfare",
+      "question": "What does the term 'arbetsgivaravgift' (employer's social contribution) refer to in Sweden?",
+      "options": [
+        "The income tax deducted from an employee's salary",
+        "The mandatory contribution employers pay on top of wages to fund social insurance and pensions",
+        "A levy on companies to fund unemployment insurance",
+        "The employer's contribution to a private pension scheme"
+      ],
+      "correct_index": 1,
+      "explanation": "Arbetsgivaravgifter are social security contributions paid by employers in addition to employees' wages. They fund the social insurance system (including pensions, parental leave, and sickness benefits) and are calculated as a percentage of gross wages. The total rate is approximately 31.42%.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 148,
+      "category": "Society & Welfare",
+      "question": "What is a 'samordningsnummer' in Sweden?",
+      "options": [
+        "A social security number for Swedish citizens from birth",
+        "A coordination number assigned to people who need to engage with Swedish authorities but are not registered as permanent residents",
+        "A tax code for foreign workers",
+        "A number assigned to companies for VAT purposes"
+      ],
+      "correct_index": 1,
+      "explanation": "A samordningsnummer (coordination number) is issued by Skatteverket to people who are not permanently resident in Sweden but need to interact with Swedish authorities — for example, temporary workers, students, or people receiving Swedish-sourced income. It is different from a personnummer (personal identity number).",
+      "difficulty": "expert"
+    },
+    {
+      "id": 149,
+      "category": "Society & Welfare",
+      "question": "What is 'aktivitetsersättning' (activity compensation) in Sweden?",
+      "options": [
+        "A bonus paid to employees who achieve performance targets",
+        "A form of income support for young people aged 19–29 who cannot work due to illness or disability",
+        "A grant for participation in sports and recreational activities",
+        "Compensation for injuries sustained in the workplace"
+      ],
+      "correct_index": 1,
+      "explanation": "Aktivitetsersättning is a benefit from Försäkringskassan for people aged 19–29 whose work capacity is reduced by at least 25% due to illness or disability. It also encourages participation in activities aimed at improving health and work ability.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 150,
+      "category": "Society & Welfare",
+      "question": "Sweden provides a 'tandvårdsbidrag' (dental care allowance). What is this?",
+      "options": [
+        "Completely free dental care for all Swedish residents",
+        "An annual allowance towards dental care costs for adults, with higher support for those over 65",
+        "A subsidy only for children's dental care up to age 16",
+        "A tax deduction for dental care costs"
+      ],
+      "correct_index": 1,
+      "explanation": "Children and young people in Sweden receive free dental care up to age 23. Adults receive a tandvårdsbidrag (general dental care allowance) — an annual contribution towards dental costs. Additional support (tandvårdsstöd) protects against very high costs, similar to healthcare's high-cost protection.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 151,
+      "category": "Rights & Law",
+      "question": "Under Swedish law, can the police search your home without legal authority?",
+      "options": [
+        "Yes, police may always conduct a home search if they suspect a crime",
+        "No — a search of the home (husrannsakan) generally requires a legal basis such as a court decision or specific statutory power",
+        "Yes, but only in relation to drug offences",
+        "No — only the prosecutor can authorise a home search"
+      ],
+      "correct_index": 1,
+      "explanation": "The Swedish constitution protects individuals against arbitrary intrusions into the home. As a general rule, a house search (husrannsakan) must have a legal basis. In criminal investigations, this usually means a decision by a prosecutor or court, depending on the seriousness of the suspected offence.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 152,
+      "category": "Rights & Law",
+      "question": "What does Sweden's 'lagen om offentlig upphandling' (LOU) regulate?",
+      "options": [
+        "How government ministers declare financial interests",
+        "How public sector bodies must run competitive procurement processes to buy goods and services",
+        "State ownership of major companies",
+        "How the government manages national assets and property"
+      ],
+      "correct_index": 1,
+      "explanation": "LOU (the Public Procurement Act) implements EU procurement directives in Sweden. It requires public authorities to advertise contracts above certain thresholds and conduct fair, transparent competitive tendering. This helps ensure taxpayer money is spent effectively and prevents corruption.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 153,
+      "category": "Rights & Law",
+      "question": "What is the principle of 'yttrandefrihet' (freedom of expression) in Sweden?",
+      "options": [
+        "An absolute right to say anything with no legal limits whatsoever",
+        "The constitutional right to freely express opinions, with limited exceptions such as incitement to hatred and defamation",
+        "A right that applies only to political speech and journalism",
+        "A right that can be suspended in times of national emergency"
+      ],
+      "correct_index": 1,
+      "explanation": "Freedom of expression is protected by Sweden's constitution, including the Fundamental Law on Freedom of Expression (Yttrandefrihetsgrundlagen). However, it is not absolute — exceptions include incitement to hatred against groups (hets mot folkgrupp), defamation, and certain other specified offences.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 154,
+      "category": "Rights & Law",
+      "question": "What is the statute of limitations ('preskription') in Swedish law?",
+      "options": [
+        "A maximum sentence limit for any criminal offence",
+        "A time limit after which a legal claim or prosecution can no longer be brought",
+        "A mandatory review period for all prison sentences",
+        "The maximum time a person can be held in custody before charge"
+      ],
+      "correct_index": 1,
+      "explanation": "Preskription (statute of limitations) sets time limits within which civil claims must be brought or criminal prosecutions initiated. In Sweden, the general statute of limitations for civil claims is 10 years (3 years for consumer claims). For the most serious crimes (such as murder), there is no limitation period.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 155,
+      "category": "Rights & Law",
+      "question": "What is a Swedish 'advokat' (advocate)?",
+      "options": [
+        "Any person who has completed a law degree in Sweden",
+        "A lawyer who is a member of the Swedish Bar Association (Advokatsamfundet) and bound by its professional rules",
+        "A government-appointed public defender",
+        "A legal expert who advises businesses but cannot appear in court"
+      ],
+      "correct_index": 1,
+      "explanation": "In Sweden, only lawyers who are members of Advokatsamfundet (the Swedish Bar Association) may use the title 'advokat'. Membership requires a law degree, at least three years of practice, and passing professional examinations. Advokater are bound by ethical rules and the duty of confidentiality (tystnadsplikt).",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 156,
+      "category": "Rights & Law",
+      "question": "What is 'häktning' (remand in custody) in Sweden?",
+      "options": [
+        "A suspended sentence allowing the convicted person to remain free",
+        "Being detained in custody before trial if certain criteria are met, such as risk of reoffending or obstructing justice",
+        "A form of community service ordered before conviction",
+        "House arrest with an electronic tag"
+      ],
+      "correct_index": 1,
+      "explanation": "Häktning (remand) means being held in jail before trial. In Sweden, a court must order remand — a prosecutor applies, and the court decides within 96 hours of arrest. Remand is only ordered if there are specific grounds, such as flight risk, risk of obstructing the investigation, or risk of further offending.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 157,
+      "category": "Rights & Law",
+      "question": "What is IMY (Integritetsskyddsmyndigheten) responsible for?",
+      "options": [
+        "Overseeing Sweden's immigration and asylum system",
+        "Protecting personal data and privacy rights, and enforcing GDPR in Sweden",
+        "Managing Sweden's classified security information",
+        "Regulating media and broadcasting content"
+      ],
+      "correct_index": 1,
+      "explanation": "IMY (the Swedish Authority for Privacy Protection, formerly Datainspektionen) is Sweden's data protection authority. It supervises compliance with GDPR and Swedish data protection law, handles complaints about personal data processing, and can impose fines for breaches.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 158,
+      "category": "Rights & Law",
+      "question": "What does 'Kronofogden' (the Swedish Enforcement Authority) do?",
+      "options": [
+        "It investigates financial crime and fraud",
+        "It enforces court judgments and collects unpaid debts, taxes, and other claims",
+        "It manages Sweden's national debt",
+        "It prosecutes tax evaders on behalf of the state"
+      ],
+      "correct_index": 1,
+      "explanation": "Kronofogdemyndigheten enforces legal obligations — collecting debts when a person has not paid voluntarily after a court judgment or administrative decision. This includes recovering unpaid taxes, child maintenance, and other debts. Kronofogden can seize assets (utmätning) to satisfy debts.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 159,
+      "category": "Rights & Law",
+      "question": "What is 'förvaltningsrätten' (the administrative court) in Sweden?",
+      "options": [
+        "A court that handles disputes between businesses",
+        "A court that reviews decisions by public authorities and hears appeals from citizens against government decisions",
+        "A court that handles constitutional questions",
+        "A court that deals with environmental law"
+      ],
+      "correct_index": 1,
+      "explanation": "Förvaltningsrätten (administrative court) is where citizens can appeal decisions made by public authorities — for example, decisions about social benefits, tax assessments, or planning permissions. There are 12 administrative courts in Sweden, with the Supreme Administrative Court (Högsta förvaltningsdomstolen) at the top.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 160,
+      "category": "Rights & Law",
+      "question": "Sweden incorporated the UN Convention on the Rights of the Child (barnkonventionen) into Swedish law in which year?",
+      "options": [
+        "1989",
+        "1999",
+        "2010",
+        "2020"
+      ],
+      "correct_index": 3,
+      "explanation": "Sweden ratified the UN Convention on the Rights of the Child in 1990 and formally incorporated it into Swedish domestic law on 1 January 2020. This means Swedish courts and authorities must directly apply the Convention's provisions when making decisions affecting children.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "1989 is when the UN adopted the Convention on the Rights of the Child — but Sweden didn't make it domestic law until much later.",
+        "Sweden ratified the Convention in 1990. But ratification is different from incorporating it directly into Swedish law, which happened in 2020.",
+        "2010 is not the year — several reform proposals were debated but incorporation came in 2020.",
+        null
+      ]
+    },
+    {
+      "id": 161,
+      "category": "Rights & Law",
+      "question": "What does the right to a 'rättvis rättegång' (fair trial) guarantee in Sweden?",
+      "options": [
+        "That every case will be heard by the Supreme Court",
+        "The right to be heard by an independent court, with access to a defence lawyer and the presumption of innocence",
+        "A guarantee that the trial will be completed within 30 days",
+        "The right to choose your own judge"
+      ],
+      "correct_index": 1,
+      "explanation": "The right to a fair trial in Sweden (protected by the European Convention on Human Rights, which is part of Swedish law) includes the right to an independent and impartial tribunal, the presumption of innocence, the right to a defence, and the right to know the charges against you.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 162,
+      "category": "Rights & Law",
+      "question": "Sweden implements the European Arrest Warrant. What does this mean for Swedish citizens?",
+      "options": [
+        "Swedish citizens can never be extradited to another country",
+        "Sweden can surrender individuals — including Swedish citizens — to other EU member states for prosecution or to serve sentences",
+        "Swedish citizens can only be tried abroad if they consent",
+        "The European Arrest Warrant only applies to non-EU nationals in Sweden"
+      ],
+      "correct_index": 1,
+      "explanation": "Under the European Arrest Warrant framework (implemented in Sweden through the Act on European Arrest Warrants), Sweden can surrender persons — including Swedish nationals — to other EU countries for prosecution or to serve a sentence for recognised offences, replacing slower traditional extradition processes.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 163,
+      "category": "Rights & Law",
+      "question": "What is the difference between a 'brottmål' and a 'tvistemål' in Swedish courts?",
+      "options": [
+        "Brottmål are heard in administrative courts; tvistemål in criminal courts",
+        "Brottmål are criminal cases prosecuted by the state; tvistemål are civil cases between private parties",
+        "Brottmål involve minor offences; tvistemål involve serious crimes",
+        "Brottmål are decided by judges; tvistemål by juries"
+      ],
+      "correct_index": 1,
+      "explanation": "In Swedish law, brottmål (criminal cases) are brought by the state (åklagare/prosecutor) against a person accused of a crime. Tvistemål (civil cases) are disputes between private parties — for example, contract disputes, inheritance matters, or personal injury claims.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 164,
+      "category": "Rights & Law",
+      "question": "What does 'presumtionen för oskuld' (presumption of innocence) mean in Swedish criminal law?",
+      "options": [
+        "A person cannot be arrested until the prosecution has proof of guilt",
+        "A person is considered innocent until proven guilty beyond reasonable doubt by a court",
+        "A first-time offender is automatically given a lighter sentence",
+        "Any doubt in the evidence automatically results in a verdict of not guilty"
+      ],
+      "correct_index": 1,
+      "explanation": "The presumption of innocence means that in Swedish criminal proceedings, the burden of proof lies with the prosecution. The accused does not need to prove their innocence. A conviction requires that guilt is proven beyond reasonable doubt (bortom rimligt tvivel).",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "A person can be arrested on reasonable suspicion before proof is established. Presumption of innocence relates to conviction, not arrest.",
+        null,
+        null,
+        "The principle requires proof 'beyond reasonable doubt' — not the absence of any doubt whatsoever. Some degree of uncertainty is acceptable if the core facts are clearly established."
+      ]
+    },
+    {
+      "id": 165,
+      "category": "Rights & Law",
+      "question": "What is 'Åklagarmyndigheten' (the Swedish Prosecution Authority)?",
+      "options": [
+        "The Swedish police authority",
+        "The independent authority responsible for prosecuting crimes in Sweden",
+        "The body that investigates complaints against the judiciary",
+        "The government's legal advisors"
+      ],
+      "correct_index": 1,
+      "explanation": "Åklagarmyndigheten is the national prosecution authority. Independent of the government, it decides whether to bring criminal charges and prosecutes cases in court. It also leads certain criminal investigations jointly with the police. Sweden also has a separate Ekobrottsmyndigheten (Economic Crime Authority) for financial crimes.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 166,
+      "category": "Economy",
+      "question": "Sweden is known for having one of the world's highest tax-to-GDP ratios. What does this broadly fund?",
+      "options": [
+        "Primarily military spending and national defence",
+        "A comprehensive welfare state including free healthcare, education, parental leave, and pensions",
+        "Mainly foreign aid and international development",
+        "Infrastructure projects and industrial subsidies"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden's high tax burden (around 43–44% of GDP) primarily funds the universal welfare state: free schooling (including university), largely tax-funded healthcare, generous parental leave, unemployment benefits, and state pensions. Sweden is often cited as an example of a high-tax, high-service economy.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        null,
+        null,
+        "Sweden's foreign aid budget is significant but is not the primary driver of high taxes.",
+        null
+      ]
+    },
+    {
+      "id": 167,
+      "category": "Economy",
+      "question": "What is 'F-skatt' in Sweden?",
+      "options": [
+        "A special flat tax rate for high earners",
+        "A tax registration for self-employed people and sole traders, indicating they are responsible for their own taxes",
+        "A financial transaction tax on stock market trades",
+        "A carbon tax on fuel"
+      ],
+      "correct_index": 1,
+      "explanation": "F-skatt (F-tax) is a registration with Skatteverket that confirms a person is responsible for their own tax and social contributions. Freelancers, self-employed individuals, and company owners typically hold F-skatt. A business paying someone with F-skatt does not need to deduct tax at source.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 168,
+      "category": "Economy",
+      "question": "What is 'Finansinspektionen' (FI)?",
+      "options": [
+        "Sweden's ministry of finance",
+        "The supervisory authority overseeing banks, insurance companies, and financial markets in Sweden",
+        "The body that sets Sweden's interest rates",
+        "The national tax collection agency"
+      ],
+      "correct_index": 1,
+      "explanation": "Finansinspektionen (FI) is Sweden's financial supervisory authority (equivalent to the UK's FCA). It supervises and licenses banks, insurance companies, pension funds, and other financial institutions, and works to maintain financial stability and consumer protection in financial markets.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 169,
+      "category": "Economy",
+      "question": "Which of the following is a globally successful Swedish tech/streaming company founded in Stockholm?",
+      "options": [
+        "Netflix",
+        "Spotify",
+        "SoundCloud",
+        "Deezer"
+      ],
+      "correct_index": 1,
+      "explanation": "Spotify was founded in Stockholm in 2006 by Daniel Ek and Martin Lorentzon and launched publicly in 2008. It is the world's largest music streaming platform. Sweden has a notable tech startup ecosystem — other Swedish tech successes include King (Candy Crush), Mojang (Minecraft), and Klarna.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Netflix is American, founded in California in 1997.",
+        null,
+        "SoundCloud is German, founded in Berlin in 2007.",
+        "Deezer is French, founded in Paris in 2006."
+      ]
+    },
+    {
+      "id": 170,
+      "category": "Economy",
+      "question": "What is an 'investeringssparkonto' (ISK) in Sweden?",
+      "options": [
+        "A state-guaranteed fixed-rate savings account",
+        "A tax-advantaged investment savings account where tax is based on a standard rate rather than actual gains",
+        "A government bond savings scheme",
+        "A children's savings account provided by municipalities"
+      ],
+      "correct_index": 1,
+      "explanation": "An ISK (investment savings account) is a tax-advantaged account where Swedish residents can hold shares, funds, and other securities. Instead of paying capital gains tax on actual profits, account holders pay a standard rate (schablonbeskattning) based on a percentage of the account's value. This simplifies the tax on investment returns.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 171,
+      "category": "Economy",
+      "question": "The 'ROT-avdrag' allows Swedish homeowners to deduct costs from their taxes. What does ROT stand for and what does it cover?",
+      "options": [
+        "Regional Operational Tax — a local business rate reduction",
+        "Reparation, Ombyggnad, Tillbyggnad — a tax deduction for labour costs on home repairs, conversion, and extension",
+        "Reduced Operating Tariff — a discount on energy costs for homeowners",
+        "Real estate and Ownership Tax — a tax credit for property owners"
+      ],
+      "correct_index": 1,
+      "explanation": "ROT stands for Reparation, Ombyggnad, Tillbyggnad (repair, conversion, extension). The ROT-avdrag allows homeowners to deduct 30% of labour costs on approved home renovation and repair work from their tax bill. It is designed to combat undeclared work in the construction sector.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 172,
+      "category": "Economy",
+      "question": "What is the 'RUT-avdrag' in Sweden?",
+      "options": [
+        "A tax relief for rural businesses and farmers",
+        "A tax deduction for domestic service costs such as cleaning, childcare, and gardening",
+        "A research and technology tax credit for companies",
+        "A reduced VAT rate for restaurants and hospitality"
+      ],
+      "correct_index": 1,
+      "explanation": "RUT stands for Rengöring, Underhåll, Tvätt (cleaning, maintenance, laundry). The RUT-avdrag is a tax deduction for domestic services including home cleaning, childcare, and gardening. Like ROT, it is intended to reduce undeclared work in the domestic services sector.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 173,
+      "category": "Economy",
+      "question": "Vattenfall is a major Swedish company. What does it do?",
+      "options": [
+        "It is Sweden's largest telecommunications company",
+        "It is a state-owned energy company producing and distributing electricity across Sweden and parts of Europe",
+        "It manages Sweden's hydroelectric dams for water supply",
+        "It is a private Swedish water utility"
+      ],
+      "correct_index": 1,
+      "explanation": "Vattenfall is a Swedish state-owned energy company and one of Europe's largest electricity generators. It operates hydroelectric, nuclear, wind, and thermal power plants in Sweden and several other European countries. 'Vattenfall' means 'waterfall' in Swedish.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Sweden's largest telecom is Telia (formerly Televerket/TeliaSonera). Vattenfall is an energy company.",
+        null,
+        "Vattenfall does manage hydroelectric dams, but it is an energy production and distribution company with operations across Europe.",
+        null
+      ]
+    },
+    {
+      "id": 174,
+      "category": "Economy",
+      "question": "What is 'Trafikverket' responsible for?",
+      "options": [
+        "Regulating road safety and issuing driving licences",
+        "Planning, building, and maintaining Sweden's national road and rail infrastructure",
+        "Organising public transport in Swedish cities",
+        "Regulating Sweden's airlines and airports"
+      ],
+      "correct_index": 1,
+      "explanation": "Trafikverket (the Swedish Transport Administration) is responsible for planning, building, operating, and maintaining the national road network and state-owned railways. It also coordinates with regional and local authorities on public transport planning.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 175,
+      "category": "Economy",
+      "question": "What is 'SMHI' in Sweden?",
+      "options": [
+        "The Swedish Ministry of Health and Infrastructure",
+        "The Swedish Meteorological and Hydrological Institute — providing weather forecasts, climate data, and environmental monitoring",
+        "The Swedish Maritime and Harbour Inspectorate",
+        "Sweden's main environmental research institute"
+      ],
+      "correct_index": 1,
+      "explanation": "SMHI (Sveriges meteorologiska och hydrologiska institut) is the government agency responsible for weather and climate forecasting, water and oceanographic monitoring. It provides forecasts for the public, aviation, shipping, and emergency services, and conducts climate research.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 176,
+      "category": "Economy",
+      "question": "How does Sweden generate most of its electricity?",
+      "options": [
+        "Primarily from coal and natural gas",
+        "Primarily from hydropower and nuclear power, with growing wind power",
+        "Primarily from solar and biomass energy",
+        "Primarily from offshore oil and natural gas"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden generates the large majority of its electricity from hydropower (vattenkraft) and nuclear power (kärnkraft), each contributing roughly 30–40%. Wind power (vindkraft) is growing rapidly. Sweden has very low carbon emissions from its electricity sector as a result.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        null,
+        null,
+        "Solar and biomass provide a growing share but are not Sweden's dominant sources.",
+        "Unlike Norway (oil) or the Netherlands (gas), Sweden does not have significant offshore fossil fuel production."
+      ]
+    },
+    {
+      "id": 177,
+      "category": "Economy",
+      "question": "Volvo Cars is one of Sweden's best-known manufacturers. In which city is it headquartered?",
+      "options": [
+        "Stockholm",
+        "Malmö",
+        "Gothenburg (Göteborg)",
+        "Linköping"
+      ],
+      "correct_index": 2,
+      "explanation": "Volvo Cars is headquartered in Gothenburg, where it was founded in 1927. Gothenburg is also home to Volvo's truck division (Volvo AB), SSAB steel operations, and several other major industries. Volvo Cars was sold to Chinese company Geely in 2010.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Stockholm is the capital and headquarters of many Swedish companies, but Volvo was specifically founded in and remains headquartered in Gothenburg.",
+        "Malmö is Sweden's third-largest city in the south, connected to Copenhagen, but not where Volvo is based.",
+        null,
+        null
+      ]
+    },
+    {
+      "id": 178,
+      "category": "Economy",
+      "question": "What is 'SSAB', a major company in Sweden's industrial sector?",
+      "options": [
+        "Sweden's largest supermarket group",
+        "A major Swedish steel company known for high-strength and fossil-free steel production",
+        "A Swedish defence and aerospace manufacturer",
+        "Sweden's largest private employer in the IT sector"
+      ],
+      "correct_index": 1,
+      "explanation": "SSAB is a leading Swedish-Finnish steel company known for producing high-strength steel and pioneering fossil-free steel production through its HYBRIT initiative (using hydrogen instead of coal in the steelmaking process). SSAB has major operations in Luleå, Oxelösund, and Borlänge.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 179,
+      "category": "Economy",
+      "question": "What is 'Telia' in Sweden?",
+      "options": [
+        "Sweden's national postal service",
+        "Sweden's former state-owned telecoms company, now a major listed Nordic telecom operator",
+        "A Swedish state-owned TV and radio broadcaster",
+        "A Swedish technology manufacturing company"
+      ],
+      "correct_index": 1,
+      "explanation": "Telia (formerly Televerket, then Telia AB) was Sweden's state-owned telephone monopoly, privatised in stages from the 1990s. Now listed on the stock exchange (with the Swedish state still a major shareholder), Telia Company is a major telecom operator in the Nordic and Baltic regions.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 180,
+      "category": "Economy",
+      "question": "Sweden is home to one of the world's most successful fast-fashion companies. Which is it?",
+      "options": [
+        "Zara",
+        "Primark",
+        "H&M (Hennes & Mauritz)",
+        "Mango"
+      ],
+      "correct_index": 2,
+      "explanation": "H&M (Hennes & Mauritz) was founded in Sweden in 1947 and is one of the world's largest fashion retailers, with thousands of stores globally. It is headquartered in Stockholm. Other major Swedish retail brands include Acne Studios, COS, and Filippa K.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        "Zara is Spanish, from the Inditex group founded by Amancio Ortega in Galicia.",
+        "Primark is Irish, founded in Dublin in 1969.",
+        null,
+        "Mango is Spanish, founded in Barcelona in 1984."
+      ]
+    },
+    {
+      "id": 181,
+      "category": "Swedish Values & Society",
+      "question": "What does 'barnets bästa' (the best interests of the child) mean in Swedish law?",
+      "options": [
+        "Parents always have the final say in all matters concerning their children",
+        "The welfare and best interests of the child must be the primary consideration in all legal and administrative decisions affecting children",
+        "The state takes over responsibility for all child welfare decisions",
+        "A principle that applies only in custody disputes after separation"
+      ],
+      "correct_index": 1,
+      "explanation": "Barnets bästa (the best interests of the child) is a fundamental principle in Swedish family and child welfare law, derived from the UN Convention on the Rights of the Child. It applies across areas from custody disputes to social service decisions and school arrangements.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 182,
+      "category": "Swedish Values & Society",
+      "question": "Sweden is notable for the proportion of women in its parliament. Approximately what share of Riksdag members are women?",
+      "options": [
+        "About 20%",
+        "About 30%",
+        "About 46%",
+        "Exactly 50% by law"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden consistently has one of the world's highest proportions of women in parliament — around 46–47%. This has been achieved through voluntary gender equality policies by parties (such as alternating male-female candidate lists), rather than through a legally mandated quota.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "20% is roughly the world average for women in parliament — Sweden is far above this.",
+        "30% is significantly below Sweden's actual figure.",
+        null,
+        "There is no legal gender quota mandating exactly 50% in the Riksdag. Sweden achieves near-parity through political culture and party practices."
+      ]
+    },
+    {
+      "id": 183,
+      "category": "Swedish Values & Society",
+      "question": "What does 'allas lika värde' (equal worth of all people) mean in the Swedish context?",
+      "options": [
+        "A constitutional principle that all Swedish citizens have equal political rights",
+        "A foundational social value affirming that every person has equal dignity and worth, regardless of background, identity, or status",
+        "A law guaranteeing equal pay for equal work across all sectors",
+        "A principle of equal access to government services"
+      ],
+      "correct_index": 1,
+      "explanation": "Allas lika värde ('the equal worth of all people') is a core value in Swedish society and is embedded in the Swedish school system's curriculum and public policy. It reflects a commitment to human dignity and non-discrimination that goes beyond legal rights to encompass social attitudes.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 184,
+      "category": "Swedish Values & Society",
+      "question": "Sweden legalized same-sex marriage in which year?",
+      "options": [
+        "2000",
+        "2003",
+        "2009",
+        "2015"
+      ],
+      "correct_index": 2,
+      "explanation": "Sweden introduced gender-neutral marriage in 2009, allowing same-sex couples to marry with the same legal rights as opposite-sex couples. The Church of Sweden also began conducting same-sex weddings in 2009. Sweden was an early adopter of equal marriage rights.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "2000 is when the Church of Sweden separated from the state. Same-sex registered partnerships had existed since 1995, but marriage came in 2009.",
+        "2003 was Sweden's euro referendum. The Netherlands was the first country to legalise same-sex marriage in 2001, which people may confuse with Sweden's date.",
+        null,
+        "2015 is when the US Supreme Court ruled on marriage equality in Obergefell v. Hodges. Sweden had acted six years earlier."
+      ]
+    },
+    {
+      "id": 185,
+      "category": "Swedish Values & Society",
+      "question": "What is the Swedish concept of 'öppenhet' (openness/transparency) in governance?",
+      "options": [
+        "A requirement that all politicians hold public town-hall meetings",
+        "A culture and legal tradition emphasising that government work and documents should be accessible and accountable to the public",
+        "A policy of publishing all government employees' salaries",
+        "A requirement for government ministers to declare all personal assets"
+      ],
+      "correct_index": 1,
+      "explanation": "Öppenhet (openness/transparency) in Swedish governance refers to the strong tradition — backed by the world's oldest freedom of information law — that government and public administration should be open and accountable to citizens. This includes public access to official documents, open court proceedings, and transparency in political processes.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 186,
+      "category": "Swedish Values & Society",
+      "question": "What is 'Folkhälsomyndigheten' (the Public Health Agency of Sweden)?",
+      "options": [
+        "The authority that runs Sweden's hospitals and primary care",
+        "The government agency responsible for population health, infectious disease control, and national public health strategy",
+        "The authority regulating pharmaceuticals and medical devices",
+        "The body overseeing occupational health and workplace safety"
+      ],
+      "correct_index": 1,
+      "explanation": "Folkhälsomyndigheten is the national agency responsible for monitoring public health, controlling infectious diseases (such as COVID-19), setting public health recommendations, and conducting research. It became particularly prominent during the COVID-19 pandemic and Sweden's approach to managing it.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 187,
+      "category": "Swedish Values & Society",
+      "question": "When did the Church of Sweden (Svenska kyrkan) separate from the Swedish state?",
+      "options": [
+        "1971",
+        "1990",
+        "2000",
+        "2010"
+      ],
+      "correct_index": 2,
+      "explanation": "The Church of Sweden formally separated from the state on 1 January 2000. Before this, it was the state church. Now Svenska kyrkan is an independent church — though still the largest denomination in Sweden — without special legal constitutional status. Members pay a church fee collected by Skatteverket.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "1971 was a major Swedish local government reform, but the Church of Sweden did not separate from the state until 2000.",
+        "1990 is not associated with a specific church-state milestone in Sweden.",
+        null,
+        null
+      ]
+    },
+    {
+      "id": 188,
+      "category": "Swedish Values & Society",
+      "question": "What does 'medborgarskap' mean, and what are its key requirements in Sweden (from 2026)?",
+      "options": [
+        "Residence permit — requiring 5 years of uninterrupted residency",
+        "Citizenship — from 2026 requiring 8 years of residence, language and civics knowledge, and proof of self-sufficiency",
+        "Permanent residency — automatically granted after 5 years",
+        "EU freedom of movement rights for Nordic citizens"
+      ],
+      "correct_index": 1,
+      "explanation": "Medborgarskap means citizenship. Under the 2026 reforms, Swedish citizenship (medborgarskap) requires (among other things) 8 years of residence (up from 5), demonstrated knowledge of Swedish language and Swedish society, and a maintenance requirement. These are among the most significant changes to Swedish citizenship law in decades.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        null,
+        null,
+        "Permanent residency (permanent uppehållstillstånd) is typically available after 3–5 years and does not require a language or civics test.",
+        "Nordic citizens have special freedom of movement rights, but 'medborgarskap' refers to full citizenship, not just movement rights."
+      ]
+    },
+    {
+      "id": 189,
+      "category": "Swedish Values & Society",
+      "question": "What is 'civilsamhället' (civil society) in Sweden?",
+      "options": [
+        "The civilian branch of the Swedish armed forces",
+        "The non-governmental sphere of voluntary associations, sports clubs, charities, and civic organisations that play a major role alongside the state",
+        "The private sector businesses operating in Sweden",
+        "Local elected councils and their administration"
+      ],
+      "correct_index": 1,
+      "explanation": "Civilsamhälle (civil society) encompasses Sweden's rich tradition of voluntary organisations (ideella föreningar) — sports clubs, religious organisations, humanitarian NGOs, hobby associations, and political organisations. Sweden has one of the highest levels of associational membership in the world, and civil society plays a recognised role in Swedish democracy.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 190,
+      "category": "Swedish Values & Society",
+      "question": "What does 'solidaritet' (solidarity) mean in the context of Sweden's welfare model?",
+      "options": [
+        "A policy of providing support only to the very poorest in society",
+        "The principle that all contribute to and benefit from a shared social safety net, spreading risk across the whole population",
+        "A foreign aid commitment to developing countries",
+        "Trade union cooperation between Nordic countries"
+      ],
+      "correct_index": 1,
+      "explanation": "Solidarity (solidaritet) is a foundational principle of Sweden's welfare state — the idea that risk (illness, unemployment, old age) is shared collectively rather than borne by individuals alone. Everyone contributes through taxes and social contributions, and everyone is entitled to support when needed, regardless of wealth.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 191,
+      "category": "Swedish Values & Society",
+      "question": "What is the Swedish concept of 'trygghet' in the welfare state?",
+      "options": [
+        "Military security and national defence",
+        "A sense of security and safety — knowing that you and your family will be protected against life's uncertainties such as illness, unemployment, and old age",
+        "Physical safety from crime and violence",
+        "Job security and employment protection law"
+      ],
+      "correct_index": 1,
+      "explanation": "Trygghet (security/safety) is a central value in Swedish society and welfare thinking. It reflects the idea that the welfare state should provide economic and social security so that people can live without fear of poverty due to illness, job loss, or old age. It is closely linked to the folkhemmet concept.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 192,
+      "category": "Swedish Values & Society",
+      "question": "What is the Swedish gender-neutral pronoun 'hen', and when did it become mainstream?",
+      "options": [
+        "A formal legal term used in court documents since 2000",
+        "A gender-neutral alternative to 'han' (he) and 'hon' (she) that entered common use in the 2010s and was added to the official Swedish dictionary in 2015",
+        "A plural pronoun meaning 'they', used only for groups",
+        "A term rejected by the Swedish Academy as grammatically incorrect"
+      ],
+      "correct_index": 1,
+      "explanation": "'Hen' was proposed as a gender-neutral third-person singular pronoun in the 1960s but gained wide public attention around 2012. It was added to the official Swedish dictionary SAOL in 2015. 'Hen' is used when gender is unknown, irrelevant, or when a person prefers a gender-neutral pronoun — now widely accepted in everyday use.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 193,
+      "category": "Swedish Values & Society",
+      "question": "Sweden consistently scores at the top of international corruption indices. Which organisation publishes the Corruption Perceptions Index?",
+      "options": [
+        "The World Economic Forum",
+        "Transparency International",
+        "The United Nations",
+        "Freedom House"
+      ],
+      "correct_index": 1,
+      "explanation": "Transparency International publishes the annual Corruption Perceptions Index (CPI), which ranks countries by perceived levels of public sector corruption. Sweden consistently ranks among the top five least corrupt countries in the world, reflecting strong institutional integrity and transparency.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 194,
+      "category": "Swedish Values & Society",
+      "question": "What does Sweden's 'barnombudsman' (Children's Ombudsman) do?",
+      "options": [
+        "Prosecutes cases of child abuse on behalf of the state",
+        "Monitors and advocates for children's rights in Sweden, ensuring laws and policies comply with the UN Convention on the Rights of the Child",
+        "Appoints guardians for children without parents",
+        "Runs Sweden's foster care and adoption system"
+      ],
+      "correct_index": 1,
+      "explanation": "Barnombudsmannen (BO) is a government authority that monitors how Sweden's laws and policies comply with the UN Convention on the Rights of the Child (incorporated into Swedish law in 2020). The BO advocates for children's rights, produces reports, and consults directly with children to understand their experiences.",
+      "difficulty": "expert"
+    },
+    {
+      "id": 195,
+      "category": "Swedish Values & Society",
+      "question": "Sweden is part of the Nordic Council. What other four countries are members of the Nordic Council?",
+      "options": [
+        "Denmark, Finland, Iceland, and Estonia",
+        "Denmark, Finland, Norway, and Iceland",
+        "Denmark, Norway, Iceland, and the Faroe Islands",
+        "Denmark, Finland, Norway, and the Baltic states"
+      ],
+      "correct_index": 1,
+      "explanation": "The Nordic Council has five member countries: Sweden, Denmark, Finland, Norway, and Iceland. The autonomous territories of the Faroe Islands, Greenland, and Åland Islands also have representation. The Council was founded in 1952 and promotes cooperation in legislation, culture, and social affairs.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "Estonia is a Baltic state (with Latvia and Lithuania) — not a Nordic Council member.",
+        null,
+        "The Faroe Islands and Greenland have associate/observer status in the Nordic Council, not full membership.",
+        "The Baltic states (Estonia, Latvia, Lithuania) are not part of the Nordic Council."
+      ]
+    },
+    {
+      "id": 196,
+      "category": "Environment & Nature",
+      "question": "Approximately what percentage of Sweden's land area is covered by forest?",
+      "options": [
+        "About 30%",
+        "About 50%",
+        "About 70%",
+        "About 90%"
+      ],
+      "correct_index": 2,
+      "explanation": "Approximately 70% of Sweden's land area — around 28 million hectares — is covered by forest, making Sweden one of the most forested countries in Europe. Swedish forestry is a major industry, producing timber, paper, and biomass. Sustainable forestry practices are governed by the Swedish Forestry Act.",
+      "difficulty": "beginner",
+      "distractor_notes": [
+        null,
+        "50% would still be a high figure, but Sweden's actual forest coverage (~70%) is among the highest in Europe.",
+        null,
+        "90% would leave almost no farmland or developed areas — even heavily forested Sweden has significant agricultural and urban land."
+      ]
+    },
+    {
+      "id": 197,
+      "category": "Environment & Nature",
+      "question": "What is the Swedish 'pant' (deposit-refund) system?",
+      "options": [
+        "A government scheme for recycling household waste",
+        "A deposit-refund system where consumers pay a small deposit on bottles and cans, refunded when they return them to collection points",
+        "A tax on single-use plastics",
+        "A municipal collection scheme for organic waste"
+      ],
+      "correct_index": 1,
+      "explanation": "The Swedish pant system is a highly successful deposit-refund scheme for bottles and cans. Consumers pay a small deposit (pant) when buying beverages, refunded when they return the container to a pantmaskin (reverse vending machine) in a supermarket. Sweden recycles over 85% of eligible bottles and cans through this system.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 198,
+      "category": "Environment & Nature",
+      "question": "What is Sweden's target under its Climate Act (klimatlag) for greenhouse gas emissions?",
+      "options": [
+        "Net zero by 2050, in line with EU targets",
+        "Net zero greenhouse gas emissions by 2045, making Sweden climate-neutral earlier than the EU target",
+        "A 50% reduction in emissions by 2030",
+        "Carbon neutrality by 2040 for the public sector only"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden's Climate Act (2018) sets a legally binding target of net zero greenhouse gas emissions by 2045 — five years ahead of the EU's 2050 net-zero target. Sweden also aims for at least 63% reduction in emissions from domestic transport by 2030 compared to 2010 levels.",
+      "difficulty": "intermediate",
+      "distractor_notes": [
+        "2050 is the EU's official net-zero target, which is widely discussed. Sweden set a more ambitious domestic target of 2045.",
+        null,
+        "A 50% reduction by 2030 is a milestone, but Sweden's headline Climate Act target is full net-zero by 2045.",
+        null
+      ]
+    },
+    {
+      "id": 199,
+      "category": "Environment & Nature",
+      "question": "What are 'naturreservat' (nature reserves) in Sweden?",
+      "options": [
+        "National parks managed by private foundations",
+        "Legally protected areas designated to conserve biodiversity, natural habitats, landscapes, or cultural heritage",
+        "Areas exclusively reserved for scientific research with no public access",
+        "Zones where all hunting and fishing is permanently banned"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden has over 5,000 nature reserves (naturreservat) covering approximately 9% of Sweden's land area. They are designated by county administrative boards or municipalities to protect biodiversity, valuable landscapes, or sites of cultural interest. Many are open to the public under Allemansrätten.",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 200,
+      "category": "Environment & Nature",
+      "question": "Sweden introduced one of the world's first carbon taxes (koldioxidskatt) in which year?",
+      "options": [
+        "1980",
+        "1991",
+        "2000",
+        "2005"
+      ],
+      "correct_index": 1,
+      "explanation": "Sweden introduced a carbon tax (koldioxidskatt) in 1991 as part of a major tax reform. It was one of the first countries in the world to do so. The tax applies to fossil fuels used for heating and road transport, and has contributed to Sweden significantly reducing its carbon emissions while maintaining economic growth.",
+      "difficulty": "expert",
+      "distractor_notes": [
+        "1980 is plausible given growing environmental awareness in the 1970s–80s, but the Swedish carbon tax was actually introduced in 1991.",
+        null,
+        "2000 is too late — Sweden introduced its carbon tax nine years before this.",
+        "2005 is when the EU Emissions Trading System (EU ETS) launched. Sweden's own carbon tax predates this by 14 years."
+      ]
+    }
+  ]
+}
