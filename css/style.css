@@ -83,6 +83,14 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+#app.app-fade-in {
+  animation: appFadeIn 1s ease both;
+}
+@keyframes appFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 /* ============================================================
    Landing page
    ============================================================ */

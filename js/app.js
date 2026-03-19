@@ -78,7 +78,11 @@ function esc(str) {
 }
 
 function setHTML(html) {
-  document.getElementById('app').innerHTML = html;
+  const app = document.getElementById('app');
+  app.classList.remove('app-fade-in');
+  void app.offsetWidth;              // force reflow — makes animation restart
+  app.innerHTML = html;
+  app.classList.add('app-fade-in');
   window.scrollTo({ top: 0, behavior: 'instant' });
 }
 
