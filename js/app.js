@@ -115,7 +115,7 @@ function showExitModal() {
     <p class="modal-body">${t('exitModalBody')}</p>
     <div class="modal-actions">
       <button class="btn-modal-secondary" id="btnExitStart">${t('exitModalStart')}</button>
-      <button class="btn-modal-primary" id="btnExitCancel">${t('exitModalCancel')}</button>
+      <button class="btn-modal-secondary" id="btnExitCancel">${t('exitModalCancel')}</button>
     </div>
   `, overlay => {
     overlay.querySelector('#btnExitStart').addEventListener('click', () => {
@@ -126,7 +126,6 @@ function showExitModal() {
     });
     overlay.querySelector('#btnExitCancel').addEventListener('click', () => {
       dismissModal();
-      state.lang = state.lang === 'en' ? 'sv' : 'en';
       render();
     });
   });
@@ -223,16 +222,13 @@ function progressHeaderHTML(questionNum, total) {
   const pct = (questionNum / total) * 100;
   return `
     <header class="progress-header">
-      <div class="progress-left">
-        <button class="btn-exit" id="btnExit">${t('exitBtn')}</button>
-      </div>
+      <button class="header-button" id="btnExit">${t('exitBtn')}</button>
       <div class="progress-center">
-        <span class="progress-brand">🇸🇪 ${t('appTitle')}</span>
-        <span class="progress-label">${t('questionOf', questionNum, total)}</span>
+        <div class="progress-title">🇸🇪 ${t('appTitle')}</div>
+        <div class="progress-label">${t('questionOf', questionNum, total)}</div>
+        <div class="progress-track"><div class="progress-fill" style="width:${pct.toFixed(1)}%"></div></div>
       </div>
-      <div class="progress-right">
-        <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
-      </div>
+      <button class="header-button" id="btnLangToggle">${t('langToggle')}</button>
     </header>`;
 }
 
