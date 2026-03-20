@@ -26,6 +26,7 @@ const STRINGS = {
                       'History, Geography, Society &amp; Welfare, Rights &amp; Law, Culture, ' +
                       'Economy, Swedish Values, and Environment.',
     landingInfo2:    '',
+    landingDisclaimer: 'Disclaimer: These practice questions have not been officially validated and are not affiliated with the Swedish government or UHR. The official test is being developed by UHR for August 2026. These questions are intended for study purposes only to help prepare for the official citizenship knowledge test.',
 
     // Progress header / question phase
     questionOf:  (n, total) => `Question ${n} of ${total}`,
@@ -96,10 +97,10 @@ const STRINGS = {
       `Endast <strong>${size}</strong> ${diff.toLowerCase()}-frågor tillgängliga — provet använder alla.`,
     startBtn:        'Starta provet →',
     landingInfo1:    'Innehåller 200 frågor inom 9 kategorier: Demokrati &amp; Styrning, ' +
-                     'Historia, Geografi, Samhälle &amp; Välfärd, Rättigheter &amp; Lag, ' +
-                     'Kultur &amp; Traditioner, Ekonomi, Svenska värderingar och Miljö &amp; Natur.',
-    landingInfo2:    'Det officiella provet utvecklas av UHR och förväntas lanseras i augusti 2026. ' +
-                     'Dessa är övningsfrågor.',
+                      'Historia, Geografi, Samhälle &amp; Välfärd, Rättigheter &amp; Lag, ' +
+                      'Kultur &amp; Traditioner, Ekonomi, Svenska värderingar och Miljö &amp; Natur.',
+    landingInfo2:    '',
+    landingDisclaimer: 'Ansvarsfriskrivning: Dessa övningsfrågor har inte granskats officiellt och är inte knutna till Sveriges regering eller UHR. Det officiella provet utvecklas av UHR till augusti 2026. Dessa frågor är endast avsedda för studieändamål för att hjälpa till med förberedelserna inför det officiella kunskapsprovet för medborgarskap.',
 
     // Progress header / question phase
     questionOf:  (n, total) => `Fråga ${n} av ${total}`,
