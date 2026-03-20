@@ -110,26 +110,23 @@ function dismissModal() {
 
 /** Show the exit modal (✕ Exit button clicked during question/feedback). */
 function showExitModal() {
-  const hasAnswers = state.answers.length > 0;
   showModal(`
     <h3 class="modal-title">${t('exitModalTitle')}</h3>
     <p class="modal-body">${t('exitModalBody')}</p>
     <div class="modal-actions">
-      <button class="btn-modal-secondary" id="btnExitCancel">${t('exitModalCancel')}</button>
       <button class="btn-modal-secondary" id="btnExitStart">${t('exitModalStart')}</button>
-      ${hasAnswers ? `<button class="btn-modal-primary" id="btnExitResults">${t('exitModalResults')}</button>` : ''}
+      <button class="btn-modal-primary" id="btnExitCancel">${t('exitModalCancel')}</button>
     </div>
   `, overlay => {
-    overlay.querySelector('#btnExitCancel').addEventListener('click', dismissModal);
     overlay.querySelector('#btnExitStart').addEventListener('click', () => {
       dismissModal();
       state.phase = 'landing'; state.currentIndex = 0;
       state.answers = []; state.selectedOption = null; state.questions = [];
       render();
     });
-    overlay.querySelector('#btnExitResults')?.addEventListener('click', () => {
+    overlay.querySelector('#btnExitCancel').addEventListener('click', () => {
       dismissModal();
-      state.phase = 'summary';
+      state.lang = state.lang === 'en' ? 'sv' : 'en';
       render();
     });
   });
@@ -141,18 +138,16 @@ function showLangWarningModal() {
     <h3 class="modal-title">${t('langModalTitle')}</h3>
     <p class="modal-body">${t('langModalBody')}</p>
     <div class="modal-actions">
-      <button class="btn-modal-secondary" id="btnLangCancel">${t('langModalCancel')}</button>
+      <button class="btn-modal-secondary" id="btnLangConfirm">${t('langModalCancel')}</button>
       <button class="btn-modal-primary" id="btnLangSwitch">${t('langModalConfirm')}</button>
     </div>
   `, overlay => {
-    overlay.querySelector('#btnLangCancel').addEventListener('click', dismissModal);
-    overlay.querySelector('#btnLangSwitch').addEventListener('click', () => {
+    overlay.querySelector('#btnLangConfirm').addEventListener('click', () => {
       dismissModal();
       state.lang = state.lang === 'en' ? 'sv' : 'en';
-      state.phase = 'landing'; state.currentIndex = 0;
-      state.answers = []; state.selectedOption = null; state.questions = [];
       render();
     });
+    overlay.querySelector('#btnLangSwitch').addEventListener('click', dismissModal);
   });
 }
 
@@ -230,16 +225,15 @@ function progressHeaderHTML(questionNum, total) {
     <header class="progress-header">
       <div class="progress-left">
         <button class="btn-exit" id="btnExit">${t('exitBtn')}</button>
+      </div>
+      <div class="progress-center">
         <span class="progress-brand">🇸🇪 ${t('appTitle')}</span>
+        <span class="progress-label">${t('questionOf', questionNum, total)}</span>
       </div>
       <div class="progress-right">
-        <span class="progress-label">${t('questionOf', questionNum, total)}</span>
-        <div class="progress-track">
-          <div class="progress-fill" style="width:${pct.toFixed(1)}%"></div>
-        </div>
+        <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
       </div>
-    </header>
-    <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>`;
+    </header>`;
 }
 
 /**
