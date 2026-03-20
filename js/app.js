@@ -319,12 +319,16 @@ function renderLanding() {
         </div>
 
         <div id="poolNoteWrap">${diffPoolNoteHTML()}</div>
+        <hr class="divider" />
 
         <button class="btn-primary" id="btnStart">${t('startBtn')}</button>
 
         <p class="landing-info">
           ${t('landingInfo1')}<br><br>
           ${t('landingInfo2')}
+        </p>
+        <p class="landing-disclaimer">
+          Please note: These practice questions have not been officially validated and are not affiliated with the Swedish government or UHR. They are intended for study purposes only to help prepare for the official citizenship knowledge test.
         </p>
       </div>
     </div>

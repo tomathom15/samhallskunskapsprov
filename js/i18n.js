@@ -10,7 +10,7 @@ const STRINGS = {
     langToggle:      '🇸🇪 Svenska',
 
     // Landing
-    landingSubtitle:  'Practise for the 2026 Swedish citizenship knowledge test.',
+    landingSubtitle:  'Practise for the Swedish citizenship knowledge test.',
     passMarkBadge:    'Pass mark: 80%',
     chooseQuestions:  'Choose number of questions',
     questionsWord:    'questions',
