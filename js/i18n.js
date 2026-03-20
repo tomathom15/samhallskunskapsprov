@@ -23,10 +23,9 @@ const STRINGS = {
       `Only <strong>${size}</strong> ${diff} questions available — your test will use all of them.`,
     startBtn:        'Start Test →',
     landingInfo1:    'Draws from 200 questions across 9 categories: Government &amp; Democracy, ' +
-                     'History, Geography, Society &amp; Welfare, Rights &amp; Law, Culture, ' +
-                     'Economy, Swedish Values, and Environment.',
-    landingInfo2:    'The official test is being developed by UHR for August 2026. ' +
-                     'These are practice questions only.',
+                      'History, Geography, Society &amp; Welfare, Rights &amp; Law, Culture, ' +
+                      'Economy, Swedish Values, and Environment.',
+    landingInfo2:    '',
 
     // Progress header / question phase
     questionOf:  (n, total) => `Question ${n} of ${total}`,

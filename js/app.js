@@ -328,7 +328,7 @@ function renderLanding() {
           ${t('landingInfo2')}
         </p>
         <p class="landing-disclaimer">
-          Please note: These practice questions have not been officially validated and are not affiliated with the Swedish government or UHR. They are intended for study purposes only to help prepare for the official citizenship knowledge test.
+          Disclaimer: These practice questions have not been officially validated and are not affiliated with the Swedish government or UHR. The official test is being developed by UHR for August 2026. These questions are intended for study purposes only to help prepare for the official citizenship knowledge test.
         </p>
       </div>
     </div>
