@@ -222,13 +222,15 @@ function progressHeaderHTML(questionNum, total) {
   const pct = (questionNum / total) * 100;
   return `
     <header class="progress-header">
-      <button class="header-button" id="btnExit">${t('exitBtn')}</button>
+      <button class="lang-toggle floating" id="btnExit">${t('exitBtn')}</button>
       <div class="progress-center">
-        <div class="progress-title">🇸🇪 ${t('appTitle')}</div>
-        <div class="progress-label">${t('questionOf', questionNum, total)}</div>
-        <div class="progress-track"><div class="progress-fill" style="width:${pct.toFixed(1)}%"></div></div>
+        <div class="progress-card">
+          <div class="progress-title">🇸🇪 ${t('appTitle')}</div>
+          <div class="progress-label">${t('questionOf', questionNum, total)}</div>
+          <div class="progress-track"><div class="progress-fill" style="width:${pct.toFixed(1)}%"></div></div>
+        </div>
       </div>
-      <button class="header-button" id="btnLangToggle">${t('langToggle')}</button>
+      <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
     </header>`;
 }
 

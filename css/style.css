@@ -725,7 +725,7 @@ body {
   white-space: nowrap;
   font-family: inherit;
   width: 110px;
-  text-align: left;
+  text-align: center;
 }
 
 .lang-toggle:hover {
@@ -743,25 +743,7 @@ body {
   background: #fff;
 }
 
-.exit-button {
-  position: fixed;
-  top: 25px;
-  left: 25px;
-  z-index: 1000;
-  width: 110px;
-  background: #fff;
-  border: 1.5px solid var(--border);
-  border-radius: 99px;
-  padding: 0.5rem 1rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  cursor: pointer;
-  color: var(--text-muted);
-  transition: all var(--ease);
-  white-space: nowrap;
-  font-family: inherit;
-  text-align: center;
-}
+
 
 /* Left side of progress header (brand + lang toggle) */
 .progress-left {
