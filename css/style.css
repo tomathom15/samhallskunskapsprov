@@ -699,13 +699,13 @@ body {
 }
 
 /* ============================================================
-   Language toggle button (Feature 1 — wired up later)
+   Language toggle button
    ============================================================ */
 .lang-toggle {
-  background: transparent;
+  background: #fff;
   border: 1.5px solid var(--border);
   border-radius: 99px;
-  padding: 0.3rem 0.75rem;
+  padding: 0.5rem 1rem;
   font-size: 0.75rem;
   font-weight: 600;
   cursor: pointer;
@@ -713,6 +713,8 @@ body {
   transition: all var(--ease);
   white-space: nowrap;
   font-family: inherit;
+  width: 110px;
+  text-align: left;
 }
 
 .lang-toggle:hover {
@@ -721,11 +723,13 @@ body {
   background: var(--blue-light);
 }
 
-/* Topbar in landing card that holds the lang toggle */
-.landing-card-topbar {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 1rem;
+.lang-toggle.floating {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  z-index: 1000;
+  width: 110px;
+  background: #fff;
 }
 
 /* Left side of progress header (brand + lang toggle) */
@@ -899,7 +903,6 @@ body {
   .score-pct { font-size: 3rem; }
   .score-stats { gap: 1.5rem; }
   .progress-track { width: 70px; }
-  .progress-left .lang-toggle { font-size: 0.7rem; padding: 0.25rem 0.5rem; }
 }
 
 /* ============================================================

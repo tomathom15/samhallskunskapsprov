@@ -231,7 +231,6 @@ function progressHeaderHTML(questionNum, total) {
       <div class="progress-left">
         <button class="btn-exit" id="btnExit">${t('exitBtn')}</button>
         <span class="progress-brand">🇸🇪 ${t('appTitle')}</span>
-        <button class="lang-toggle" id="btnLangToggle">${t('langToggle')}</button>
       </div>
       <div class="progress-right">
         <span class="progress-label">${t('questionOf', questionNum, total)}</span>
@@ -239,7 +238,8 @@ function progressHeaderHTML(questionNum, total) {
           <div class="progress-fill" style="width:${pct.toFixed(1)}%"></div>
         </div>
       </div>
-    </header>`;
+    </header>
+    <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>`;
 }
 
 /**
@@ -287,10 +287,6 @@ function renderLanding() {
   setHTML(`
     <div class="landing page-fade">
       <div class="landing-card">
-        <div class="landing-card-topbar">
-          <button class="lang-toggle" id="btnLangToggle">${t('langToggle')}</button>
-        </div>
-
         <div class="flag-icon">🇸🇪</div>
         <h1 class="landing-title">${t('appTitle')}</h1>
         <p class="landing-subtitle">
@@ -331,7 +327,9 @@ function renderLanding() {
           ${t('landingInfo2')}
         </p>
       </div>
-    </div>`);
+    </div>
+    <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
+  `);
 
   // Length selection
   document.getElementById('lengthOptions').addEventListener('click', e => {
@@ -593,9 +591,9 @@ function renderSummary() {
       <span class="summary-brand">🇸🇪 ${t('appTitle')}</span>
       <div class="summary-header-right">
         <button class="btn-restart" id="btnRestart">${t('startAgain')}</button>
-        <button class="lang-toggle" id="btnLangToggle">${t('langToggle')}</button>
       </div>
     </header>
+    <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
 
     <div class="summary-page page-fade">
 
