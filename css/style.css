@@ -245,6 +245,7 @@ body {
   border-top: 1px solid var(--border);
   padding-top: 1.5rem;
   max-width: 500px;
+  font-style: italic;
 }
 
 /* ============================================================
