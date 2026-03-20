@@ -4,7 +4,14 @@
     {
       "id": 21,
       "question": "In what year did Sweden join the European Union?",
+      "question_sv": "Vilket år gick Sverige med i Europeiska unionen (EU)?",
       "options": [
+        "1990",
+        "1993",
+        "1995",
+        "2004"
+      ],
+      "options_sv": [
         "1990",
         "1993",
         "1995",
@@ -12,18 +19,32 @@
       ],
       "correct_index": 2,
       "explanation": "Sweden joined the EU on 1 January 1995, along with Finland and Austria. Swedish voters approved EU membership in a referendum in November 1994.",
+      "explanation_sv": "Sverige gick med i EU den 1 januari 1995, tillsammans med Finland och Österrike. De svenska väljarna godkände EU-medlemskapet i en folkomröstning i november 1994.",
       "difficulty": "intermediate",
       "distractor_notes": [
         "1990 is close, but Sweden applied for EU membership in 1991.",
         "1993 is when the Maastricht Treaty transformed the EEC into the European Union. Sweden joined after its referendum in 1994, with membership taking effect 1 January 1995.",
         null,
         "2004 was the 'big bang' EU enlargement of 10 mainly Eastern European countries. Sweden had already been a member for 9 years."
+      ],
+      "distractor_notes_sv": [
+        "1990 är nära, men Sverige ansökte om EU-medlemskap 1991.",
+        "1993 var året då Maastrichtfördraget omvandlade EG till Europeiska unionen. Sverige gick med efter sin folkomröstning 1994, och medlemskapet trädde i kraft den 1 januari 1995.",
+        null,
+        "2004 skedde EU:s 'big bang'-utvidgning med 10 huvudsakligen östeuropeiska länder. Sverige hade då redan varit medlem i 9 år."
       ]
     },
     {
       "id": 22,
       "question": "In what year did Sweden join NATO?",
+      "question_sv": "Vilket år gick Sverige med i Nato?",
       "options": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "options_sv": [
         "2022",
         "2023",
         "2024",
@@ -31,31 +52,53 @@
       ],
       "correct_index": 2,
       "explanation": "Sweden formally became NATO's 32nd member state on 7 March 2024, ending approximately 200 years of military non-alignment.",
+      "explanation_sv": "Sverige blev formellt Natos 32:a medlemsland den 7 mars 2024, vilket avslutade cirka 200 år av militär alliansfrihet.",
       "difficulty": "intermediate",
       "distractor_notes": [
         null,
         "2022 is when Sweden and Finland formally applied to NATO following Russia's full invasion of Ukraine.",
         null,
         "Finland joined NATO in April 2023. Sweden's ratification was delayed and completed in March 2024 — they applied together but Finland was ratified first."
+      ],
+      "distractor_notes_sv": [
+        null,
+        "2022 var året då Sverige och Finland formellt ansökte till Nato till följd av Rysslands fullskaliga invasion av Ukraina.",
+        null,
+        "Finland gick med i Nato i april 2023. Sveriges ratificering försenades och slutfördes i mars 2024 – de ansökte tillsammans men Finland ratificerades först."
       ]
     },
     {
       "id": 23,
       "question": "What was Sweden's official policy during the Second World War (1939–1945)?",
+      "question_sv": "Vad var Sveriges officiella politik under andra världskriget (1939–1945)?",
       "options": [
         "Sweden was part of the Allied forces",
         "Sweden was allied with Germany",
         "Sweden maintained neutrality",
         "Sweden was occupied by Germany"
       ],
+      "options_sv": [
+        "Sverige var en del av de allierade styrkorna",
+        "Sverige var allierat med Tyskland",
+        "Sverige förhöll sig neutralt",
+        "Sverige ockuperades av Tyskland"
+      ],
       "correct_index": 2,
       "explanation": "Sweden declared neutrality and stayed out of the Second World War, though it made some controversial concessions to Nazi Germany (such as allowing the transit of German troops). Sweden's neutrality policy dates back to the Napoleonic Wars.",
+      "explanation_sv": "Sverige förklarade sig neutralt och stod utanför andra världskriget, även om man gjorde vissa kontroversiella eftergifter till Nazityskland (som att tillåta transitering av tyska trupper). Sveriges neutralitetspolitik går tillbaka till Napoleonkrigen.",
       "difficulty": "beginner"
     },
     {
       "id": 24,
       "question": "Which Swedish Prime Minister was assassinated in Stockholm in 1986?",
+      "question_sv": "Vilken svensk statsminister mördades i Stockholm 1986?",
       "options": [
+        "Tage Erlander",
+        "Dag Hammarskjöld",
+        "Olof Palme",
+        "Göran Persson"
+      ],
+      "options_sv": [
         "Tage Erlander",
         "Dag Hammarskjöld",
         "Olof Palme",
@@ -63,38 +106,62 @@
       ],
       "correct_index": 2,
       "explanation": "Olof Palme was shot and killed on 28 February 1986 while walking home from a cinema in central Stockholm. The murder shocked Sweden and remains one of the most prominent unsolved (officially) crimes in Swedish history.",
+      "explanation_sv": "Olof Palme sköts till döds den 28 februari 1986 när han promenerade hem från en biograf i centrala Stockholm. Mordet chockade Sverige och förblir ett av de mest framträdande (officiellt) olösta brotten i svensk historia.",
       "difficulty": "beginner"
     },
     {
       "id": 25,
       "question": "Who was Dag Hammarskjöld?",
+      "question_sv": "Vem var Dag Hammarskjöld?",
       "options": [
         "A Swedish king who expanded the Swedish empire",
         "The Swedish inventor of dynamite",
         "A Swedish Secretary-General of the United Nations",
         "A Swedish explorer who mapped Lapland"
       ],
+      "options_sv": [
+        "En svensk kung som utvidgade det svenska riket",
+        "Den svenske uppfinnaren av dynamit",
+        "En svensk generalsekreterare för Förenta nationerna",
+        "En svensk upptäcktsresande som kartlade Lappland"
+      ],
       "correct_index": 2,
       "explanation": "Dag Hammarskjöld served as UN Secretary-General from 1953 until his death in a plane crash in 1961. He was posthumously awarded the Nobel Peace Prize and is widely regarded as one of the greatest UN secretaries-general.",
+      "explanation_sv": "Dag Hammarskjöld var FN:s generalsekreterare från 1953 fram till sin död i en flygkrasch 1961. Han tilldelades Nobels fredspris postumt och anses allmänt vara en av de främsta generalsekreterarna i FN:s historia.",
       "difficulty": "beginner"
     },
     {
       "id": 26,
       "question": "Who invented dynamite and founded the Nobel Prizes?",
+      "question_sv": "Vem uppfann dynamiten och instiftade Nobelprisen?",
       "options": [
         "Carl Linnaeus",
         "Anders Celsius",
         "Alfred Nobel",
         "Arvid Carlsson"
       ],
+      "options_sv": [
+        "Carl von Linné",
+        "Anders Celsius",
+        "Alfred Nobel",
+        "Arvid Carlsson"
+      ],
       "correct_index": 2,
       "explanation": "Alfred Nobel (1833–1896) was a Swedish chemist who invented dynamite. He left his fortune to fund annual prizes in physics, chemistry, medicine, literature, and peace — the Nobel Prizes.",
+      "explanation_sv": "Alfred Nobel (1833–1896) var en svensk kemist som uppfann dynamiten. Han testamenterade sin förmögenhet för att finansiera årliga priser i fysik, kemi, medicin, litteratur och fred – Nobelprisen.",
       "difficulty": "beginner"
     },
     {
       "id": 27,
       "question": "In what year did the union between Sweden and Norway dissolve?",
+      "question_sv": "Vilket år upplöstes unionen mellan Sverige och Norge?",
       "options": [
+        "1864",
+        "1905",
+        "1918",
+        "1920"
+      ],
+      "options_sv": [
         "1864",
         "1905",
         "1918",
@@ -102,37 +169,65 @@
       ],
       "correct_index": 1,
       "explanation": "The union between Sweden and Norway, established in 1814, was peacefully dissolved in 1905 following a Norwegian referendum, making Norway fully independent.",
+      "explanation_sv": "Unionen mellan Sverige och Norge, som bildades 1814, upplöstes fredligt 1905 efter en norsk folkomröstning, vilket gjorde Norge helt självständigt.",
       "difficulty": "intermediate",
       "distractor_notes": [
         "1864 is when Denmark lost Schleswig-Holstein to Prussia/Austria — a different Nordic border change.",
         null,
         "1918 is when Finland declared independence from Russia. Norway had already been independent for 13 years by then.",
         "1920 is when Finland held a plebiscite on Åland. The Sweden–Norway union dissolved in 1905."
+      ],
+      "distractor_notes_sv": [
+        "1864 var året då Danmark förlorade Schleswig-Holstein till Preussen/Österrike – en annan nordisk gränsförändring.",
+        null,
+        "1918 var året då Finland förklarade sig självständigt från Ryssland. Norge hade då redan varit självständigt i 13 år.",
+        "1920 var året då Finland höll en folkomröstning om Åland. Unionen mellan Sverige och Norge upplöstes 1905."
       ]
     },
     {
       "id": 28,
       "question": "What was the significance of 1809 in Swedish history?",
+      "question_sv": "Vilken betydelse hade år 1809 i den svenska historien?",
       "options": [
         "Sweden was founded as a unified kingdom",
         "Sweden lost Finland to Russia and adopted a new constitution",
         "Sweden joined the Kalmar Union",
         "Sweden won the Battle of Poltava against Russia"
       ],
+      "options_sv": [
+        "Sverige grundades som ett enat kungarike",
+        "Sverige förlorade Finland till Ryssland och antog en ny regeringsform",
+        "Sverige gick med i Kalmarunionen",
+        "Sverige vann slaget vid Poltava mot Ryssland"
+      ],
       "correct_index": 1,
       "explanation": "In 1809, Sweden lost Finland (then ruled by Sweden for over 600 years) to Russia following war. Sweden also adopted a new constitution that year, significantly limiting royal power. Jean-Baptiste Bernadotte (later Karl XIV Johan) became the new dynasty's founder.",
+      "explanation_sv": "År 1809 förlorade Sverige Finland (som då hade styrts av Sverige i över 600 år) till Ryssland efter ett krig. Sverige antog också en ny regeringsform det året, som avsevärt begränsade den kungliga makten. Jean-Baptiste Bernadotte (senare Karl XIV Johan) blev grundaren av den nya dynastin.",
       "difficulty": "intermediate",
       "distractor_notes": [
         null,
         null,
         "The Kalmar Union was formed in 1397 — over 400 years before 1809.",
         "Sweden lost the Battle of Poltava in 1709 to Peter the Great's Russia — 100 years before 1809, not in 1809."
+      ],
+      "distractor_notes_sv": [
+        null,
+        null,
+        "Kalmarunionen bildades 1397 – över 400 år före 1809.",
+        "Sverige förlorade slaget vid Poltava år 1709 mot Peter den stores Ryssland – 100 år före 1809, inte under 1809."
       ]
     },
     {
       "id": 29,
       "question": "Who was Sweden's first female Prime Minister?",
+      "question_sv": "Vem var Sveriges första kvinnliga statsminister?",
       "options": [
+        "Anna Lindh",
+        "Mona Sahlin",
+        "Magdalena Andersson",
+        "Ebba Busch"
+      ],
+      "options_sv": [
         "Anna Lindh",
         "Mona Sahlin",
         "Magdalena Andersson",
@@ -140,70 +235,116 @@
       ],
       "correct_index": 2,
       "explanation": "Magdalena Andersson (Social Democrats) became Sweden's first female Prime Minister in November 2021. She served until October 2022 when the centre-right bloc won the election.",
+      "explanation_sv": "Magdalena Andersson (Socialdemokraterna) blev Sveriges första kvinnliga statsminister i november 2021. Hon satt kvar till oktober 2022 då det borgerliga blocket vann valet.",
       "difficulty": "beginner"
     },
     {
       "id": 30,
       "question": "Sweden held a referendum on adopting the euro in 2003. What was the result?",
+      "question_sv": "Sverige höll en folkomröstning om att införa euron 2003. Vad blev resultatet?",
       "options": [
         "Swedes voted in favour of adopting the euro",
         "Swedes voted against adopting the euro",
         "The referendum was inconclusive with too low a turnout",
         "There was no referendum — parliament decided"
       ],
+      "options_sv": [
+        "Svenskarna röstade för att införa euron",
+        "Svenskarna röstade emot att införa euron",
+        "Folkomröstningen var resultatlös på grund av för lågt valdeltagande",
+        "Det hölls ingen folkomröstning – riksdagen beslutade"
+      ],
       "correct_index": 1,
       "explanation": "In September 2003, Swedish voters rejected euro adoption with approximately 56% voting against. Sweden therefore continues to use the Swedish krona (SEK), despite being an EU member.",
+      "explanation_sv": "I september 2003 avvisade de svenska väljarna ett införande av euron med cirka 56 % som röstade emot. Sverige fortsätter därför att använda den svenska kronan (SEK), trots att man är medlem i EU.",
       "difficulty": "intermediate"
     },
     {
       "id": 31,
       "question": "Carl Linnaeus is famous for:",
+      "question_sv": "Carl von Linné är känd för:",
       "options": [
         "Inventing the Celsius temperature scale",
         "Developing the scientific system for classifying and naming living organisms",
         "Founding the Nobel Prize",
         "Discovering Swedish iron ore deposits"
       ],
+      "options_sv": [
+        "Att ha uppfunnit temperaturskalan Celsius",
+        "Att ha utvecklat det vetenskapliga systemet för att klassificera och namnge levande organismer",
+        "Att ha instiftat Nobelpriset",
+        "Att ha upptäckt de svenska järnmalmsfyndigheterna"
+      ],
       "correct_index": 1,
       "explanation": "Carl Linnaeus (1707–1778) was a Swedish botanist who developed the binomial nomenclature system for classifying all living organisms — a system still used worldwide today. He is known as the 'father of modern taxonomy'.",
+      "explanation_sv": "Carl von Linné (1707–1778) var en svensk botaniker som utvecklade den binominala nomenklaturen för att klassificera alla levande organismer – ett system som fortfarande används över hela världen idag. Han kallas för 'den moderna taxonomins fader'.",
       "difficulty": "beginner"
     },
     {
       "id": 32,
       "question": "The Kalmar Union (1397–1523) united which countries under one monarch?",
+      "question_sv": "Vilka länder enades under en monark i Kalmarunionen (1397–1523)?",
       "options": [
         "Sweden, Norway, and Finland",
         "Sweden, Denmark, and Norway",
         "Sweden, Denmark, Norway, and Finland",
         "Denmark, Sweden, and Germany"
       ],
+      "options_sv": [
+        "Sverige, Norge och Finland",
+        "Sverige, Danmark och Norge",
+        "Sverige, Danmark, Norge och Finland",
+        "Danmark, Sverige och Tyskland"
+      ],
       "correct_index": 2,
       "explanation": "The Kalmar Union united the kingdoms of Denmark, Norway, and Sweden (which then included Finland) under a single monarch. It ended when Sweden broke away under Gustav Vasa in 1523.",
+      "explanation_sv": "Kalmarunionen förenade kungarikena Danmark, Norge och Sverige (som då inkluderade Finland) under en enda monark. Den upphörde när Sverige bröt sig ur under Gustav Vasa 1523.",
       "difficulty": "expert",
       "distractor_notes": [
         "Denmark is missing here, but Denmark was actually the dominant power in the Kalmar Union.",
         "Finland is missing from this option. Although not an independent state, the Finnish region was part of the Swedish realm and thus part of the Union.",
         null,
         "Germany was not part of the Kalmar Union — it was a Scandinavian union."
+      ],
+      "distractor_notes_sv": [
+        "Danmark saknas här, men Danmark var faktiskt den dominerande makten i Kalmarunionen.",
+        "Finland saknas i detta alternativ. Även om det inte var en självständig stat, var den finska regionen en del av det svenska riket och därmed en del av unionen.",
+        null,
+        "Tyskland var inte en del av Kalmarunionen – det var en skandinavisk union."
       ]
     },
     {
       "id": 33,
       "question": "What was the approximate period of Swedish military non-alignment before joining NATO in 2024?",
+      "question_sv": "Ungefär hur lång var perioden av svensk militär alliansfrihet innan man gick med i Nato 2024?",
       "options": [
         "About 50 years",
         "About 100 years",
         "About 200 years",
         "About 75 years"
       ],
+      "options_sv": [
+        "Ungefär 50 år",
+        "Ungefär 100 år",
+        "Ungefär 200 år",
+        "Ungefär 75 år"
+      ],
       "correct_index": 2,
       "explanation": "Sweden maintained a policy of military non-alignment for approximately 200 years — from the end of the Napoleonic Wars (1814) until joining NATO in March 2024. This was a cornerstone of Swedish foreign policy.",
+      "explanation_sv": "Sverige upprätthöll en politik av militär alliansfrihet i cirka 200 år – från slutet av Napoleonkrigen (1814) fram till Nato-inträdet i mars 2024. Detta var en hörnsten i svensk utrikespolitik.",
       "difficulty": "beginner"
     },
     {
       "id": 34,
       "question": "In which year was Sweden's current constitution (Instrument of Government / Regeringsformen) adopted?",
+      "question_sv": "Vilket år antogs Sveriges nuvarande regeringsform?",
       "options": [
+        "1809",
+        "1920",
+        "1974",
+        "1991"
+      ],
+      "options_sv": [
         "1809",
         "1920",
         "1974",
@@ -211,25 +352,41 @@
       ],
       "correct_index": 2,
       "explanation": "Sweden's current Instrument of Government (Regeringsformen) came into force on 1 January 1975, replacing the 1809 constitution. It fundamentally reformed Sweden's political system, transferring symbolic power away from the monarchy.",
+      "explanation_sv": "Sveriges nuvarande regeringsform trädde i kraft den 1 januari 1975 och ersatte 1809 års regeringsform. Den reformerade i grunden Sveriges politiska system och flyttade den symboliska makten bort från monarkin. (Antogs 1974).",
       "difficulty": "intermediate"
     },
     {
       "id": 35,
       "question": "Sweden became a member of NATO as which numbered member state?",
+      "question_sv": "Sverige blev medlem i Nato som vilket nummer i ordningen av medlemsländer?",
       "options": [
         "29th",
         "30th",
         "31st",
         "32nd"
       ],
+      "options_sv": [
+        "29:e",
+        "30:e",
+        "31:a",
+        "32:a"
+      ],
       "correct_index": 3,
       "explanation": "Sweden became NATO's 32nd member on 7 March 2024. Finland had joined as the 31st member in April 2023.",
+      "explanation_sv": "Sverige blev Natos 32:a medlem den 7 mars 2024. Finland hade gått med som 31:a medlem i april 2023.",
       "difficulty": "intermediate"
     },
     {
       "id": 96,
       "question": "In what year did women in Sweden gain the right to vote in national elections?",
+      "question_sv": "Vilket år fick kvinnor i Sverige rösträtt i riksdagsval?",
       "options": [
+        "1909",
+        "1915",
+        "1921",
+        "1929"
+      ],
+      "options_sv": [
         "1909",
         "1915",
         "1921",
@@ -237,236 +394,397 @@
       ],
       "correct_index": 2,
       "explanation": "Swedish women won the right to vote in 1921. The first election in which women could vote was the 1921 general election. Sweden was among the earlier European countries to grant women full voting rights.",
+      "explanation_sv": "Svenska kvinnor fick rösträtt 1921. Det första valet där kvinnor fick rösta var riksdagsvalet 1921. Sverige var bland de tidigare europeiska länderna att ge kvinnor fullständig rösträtt.",
       "difficulty": "expert",
       "distractor_notes": [
         "1909 is when Swedish women gained the right to vote in municipal elections only — not national elections.",
         "1915 is when Danish women gained full voting rights. Sweden followed in 1921.",
         null,
         "By 1929, Swedish women had already been voting in national elections for eight years."
+      ],
+      "distractor_notes_sv": [
+        "1909 var året då svenska kvinnor fick rösträtt i kommunalval enbart – inte i riksdagsval.",
+        "1915 var året då danska kvinnor fick full rösträtt. Sverige följde efter 1921.",
+        null,
+        "År 1929 hade svenska kvinnor redan röstat i riksdagsval i åtta år."
       ]
     },
     {
       "id": 97,
       "question": "Who was Gustav Vasa and why is he significant?",
+      "question_sv": "Vem var Gustav Vasa och varför är han betydelsefull?",
       "options": [
         "A Viking king who expanded Sweden's territory to Russia",
         "The founder of modern Sweden, who led a rebellion against Denmark and became king in 1523",
         "The king who created the Swedish welfare state",
         "A Swedish general who defeated Russia in the Great Northern War"
       ],
+      "options_sv": [
+        "En vikingakung som utvidgade Sveriges territorium till Ryssland",
+        "Grundaren av det moderna Sverige, som ledde ett uppror mot Danmark och blev kung 1523",
+        "Kungen som skapade den svenska välfärdsstaten",
+        "En svensk general som besegrade Ryssland i stora nordiska kriget"
+      ],
       "correct_index": 1,
       "explanation": "Gustav Vasa (1496–1560) led Sweden's break from the Kalmar Union and became king in 1523, establishing Sweden as an independent nation. He also introduced the Reformation, making Sweden Lutheran. June 6 — Sweden's National Day — marks his election as king.",
+      "explanation_sv": "Gustav Vasa (1496–1560) ledde Sveriges utträde ur Kalmarunionen och blev kung 1523, vilket etablerade Sverige som en självständig nation. Han införde också reformationen, vilket gjorde Sverige lutherskt. Den 6 juni – Sveriges nationaldag – uppmärksammar hans val till kung.",
       "difficulty": "intermediate",
       "distractor_notes": [
         null,
         null,
         "The welfare state was built by 20th-century Social Democratic governments, not by Gustav Vasa in the 16th century.",
         "This confuses Gustav Vasa with Charles XII, who fought the ill-fated Great Northern War against Peter the Great's Russia (1700–1721)."
+      ],
+      "distractor_notes_sv": [
+        null,
+        null,
+        "Välfärdsstaten byggdes upp av 1900-talets socialdemokratiska regeringar, inte av Gustav Vasa på 1500-talet.",
+        "Här förväxlas Gustav Vasa med Karl XII, som utkämpade det olycksaliga stora nordiska kriget mot Peter den stores Ryssland (1700–1721)."
       ]
     },
     {
       "id": 98,
       "question": "What was the 'era of Swedish great power' (stormaktstiden)?",
+      "question_sv": "Vad var 'stormaktstiden' i Sverige?",
       "options": [
         "Sweden's economic boom in the 1960s and 1970s",
         "The Viking Age when Swedish traders reached Constantinople",
         "The 17th–early 18th century when Sweden dominated northern Europe militarily and politically",
         "The period of the Kalmar Union when Sweden controlled Scandinavia"
       ],
+      "options_sv": [
+        "Sveriges ekonomiska högkonjunktur under 1960- och 1970-talen",
+        "Vikingatiden då svenska köpmän nådde Konstantinopel",
+        "1600-talet till tidigt 1700-tal då Sverige dominerade norra Europa militärt och politiskt",
+        "Perioden för Kalmarunionen då Sverige kontrollerade Skandinavien"
+      ],
       "correct_index": 2,
       "explanation": "Stormaktstiden (roughly 1611–1721) was the period when Sweden was a major European power, controlling much of the Baltic Sea region. It ended with Sweden's defeat in the Great Northern War (1700–1721) against Russia and its allies.",
+      "explanation_sv": "Stormaktstiden (ungefär 1611–1721) var den period då Sverige var en europeisk stormakt och kontrollerade stora delar av Östersjöregionen. Den slutade i och med Sveriges nederlag i stora nordiska kriget (1700–1721) mot Ryssland och dess allierade.",
       "difficulty": "intermediate",
       "distractor_notes": [
         null,
         "The Viking Age (793–1066 AD) refers to a much earlier period of Norse seafaring and raiding.",
         null,
         "The Kalmar Union (1397–1523) preceded the 'stormaktstid' — the era of great power covers the 17th–early 18th century."
+      ],
+      "distractor_notes_sv": [
+        null,
+        "Vikingatiden (793–1066 e.Kr.) avser en mycket tidigare period av nordisk sjöfart och plundring.",
+        null,
+        "Kalmarunionen (1397–1523) föregick stormaktstiden – stormaktstiden omfattar 1600-talet och tidigt 1700-tal."
       ]
     },
     {
       "id": 99,
       "question": "The Great Northern War (1700–1721) ended Sweden's status as a great power. Who defeated Sweden?",
+      "question_sv": "Stora nordiska kriget (1700–1721) gjorde slut på Sveriges status som stormakt. Vilka besegrade Sverige?",
       "options": [
         "Denmark and Norway",
         "Russia, led by Peter the Great, along with allied powers",
         "Prussia and Austria",
         "The Ottoman Empire and France"
       ],
+      "options_sv": [
+        "Danmark och Norge",
+        "Ryssland, ledda av Peter den store, tillsammans med allierade makter",
+        "Preussen och Österrike",
+        "Osmanska riket och Frankrike"
+      ],
       "correct_index": 1,
       "explanation": "Sweden under Karl XII was defeated by a coalition led by Russia's Peter the Great. The resulting Treaty of Nystad (1721) saw Sweden cede most of its Baltic territories. Russia emerged as the dominant power in northern Europe.",
+      "explanation_sv": "Sverige under Karl XII besegrades av en koalition ledd av Rysslands Peter den store. Den resulterande freden i Nystad (1721) innebar att Sverige fick avträda de flesta av sina baltiska territorier. Ryssland framträdde som den dominerande makten i norra Europa.",
       "difficulty": "expert",
       "distractor_notes": [
         "Denmark and Norway were part of the opposing coalition, but the decisive power was Peter the Great's Russia.",
         null,
         "Prussia and Austria were not the primary forces that ended Swedish great-power status.",
         null
+      ],
+      "distractor_notes_sv": [
+        "Danmark och Norge ingick i den motsatta koalitionen, men den avgörande makten var Peter den stores Ryssland.",
+        null,
+        "Preussen och Österrike var inte de primära krafterna som gjorde slut på den svenska stormaktsstatusen.",
+        null
       ]
     },
     {
       "id": 100,
       "question": "The Peace of Roskilde (1658) was significant for Sweden because:",
+      "question_sv": "Freden i Roskilde (1658) var betydelsefull för Sverige eftersom:",
       "options": [
         "Sweden gained the provinces of Skåne, Blekinge, and Halland from Denmark, completing its current mainland borders",
         "Sweden signed a peace treaty with Russia ending a long war",
         "Sweden united with Norway under one king",
         "Sweden joined the Holy Roman Empire"
       ],
+      "options_sv": [
+        "Sverige erhöll landskapen Skåne, Blekinge och Halland från Danmark, vilket fullbordade dess nuvarande gränser på fastlandet",
+        "Sverige skrev under ett fredsavtal med Ryssland som avslutade ett långt krig",
+        "Sverige ingick en union med Norge under en kung",
+        "Sverige anslöt sig till Tysk-romerska riket"
+      ],
       "correct_index": 0,
       "explanation": "The Peace of Roskilde resulted in Denmark ceding the provinces of Skåne, Blekinge, Halland, and the island of Bornholm (briefly) to Sweden. This is why the southernmost part of Sweden, including Malmö, was historically Danish.",
+      "explanation_sv": "Freden i Roskilde resulterade i att Danmark avträdde landskapen Skåne, Blekinge, Halland och ön Bornholm (kortvarigt) till Sverige. Det är därför den sydligaste delen av Sverige, inklusive Malmö, historiskt sett var dansk.",
       "difficulty": "expert",
       "distractor_notes": [
         null,
         "A peace with Russia came later — the Treaty of Nystad in 1721, after the Great Northern War.",
         "Sweden and Norway's union began in 1814, long after the Peace of Roskilde (1658).",
         null
+      ],
+      "distractor_notes_sv": [
+        null,
+        "Ett fredsavtal med Ryssland kom senare – freden i Nystad 1721, efter stora nordiska kriget.",
+        "Sveriges och Norges union började 1814, långt efter freden i Roskilde (1658).",
+        null
       ]
     },
     {
       "id": 101,
       "question": "Who was Tage Erlander and what is he notable for?",
+      "question_sv": "Vem var Tage Erlander och vad är han känd för?",
       "options": [
         "Sweden's first Social Democratic Prime Minister",
         "The longest-serving Swedish Prime Minister, in office from 1946 to 1969",
         "The Prime Minister who took Sweden into the EU",
         "The Social Democrat who founded Sweden's pension system"
       ],
+      "options_sv": [
+        "Sveriges första socialdemokratiska statsminister",
+        "Den svenske statsminister som suttit längst, på posten från 1946 till 1969",
+        "Statsministern som tog Sverige in i EU",
+        "Socialdemokraten som grundade Sveriges pensionssystem"
+      ],
       "correct_index": 1,
       "explanation": "Tage Erlander (Social Democrats) served as Prime Minister from 1946 to 1969 — 23 years, making him one of the longest-serving democratically elected leaders in the world. Under his leadership, Sweden built much of its modern welfare state.",
+      "explanation_sv": "Tage Erlander (Socialdemokraterna) var statsminister från 1946 till 1969 – i 23 år, vilket gör honom till en av de längst sittande demokratiskt valda ledarna i världen. Under hans ledning byggde Sverige upp mycket av sin moderna välfärdsstat.",
       "difficulty": "intermediate",
       "distractor_notes": [
         "Sweden's first Social Democratic PM was Hjalmar Branting in the 1920s — not Erlander.",
         null,
         null,
         "The pension system was built over decades by the Social Democrats, but Tage Erlander is specifically known for his record 23 years as PM."
+      ],
+      "distractor_notes_sv": [
+        "Sveriges första socialdemokratiska statsminister var Hjalmar Branting på 1920-talet – inte Erlander.",
+        null,
+        null,
+        "Pensionssystemet byggdes upp under decennier av Socialdemokraterna, men Tage Erlander är specifikt känd för sina rekordlånga 23 år som statsminister."
       ]
     },
     {
       "id": 102,
       "question": "What was the 'Saltsjöbadsavtalet' (Saltsjöbaden Agreement) of 1938?",
+      "question_sv": "Vad var Saltsjöbadsavtalet 1938?",
       "options": [
         "A trade deal between Sweden and Germany",
         "A historic agreement between Swedish employers (SAF) and trade unions (LO) establishing peaceful industrial relations",
         "A Nordic defence pact between Sweden, Norway, and Denmark",
         "An agreement to keep Sweden neutral in the approaching world war"
       ],
+      "options_sv": [
+        "Ett handelsavtal mellan Sverige och Tyskland",
+        "Ett historiskt avtal mellan Svenska Arbetsgivareföreningen (SAF) och Landsorganisationen (LO) som etablerade fredliga relationer på arbetsmarknaden",
+        "En nordisk försvarspakt mellan Sverige, Norge och Danmark",
+        "Ett avtal om att hålla Sverige neutralt i det annalkande världskriget"
+      ],
       "correct_index": 1,
       "explanation": "The Saltsjöbaden Agreement was a landmark accord between the Swedish Employers' Association (SAF) and the main trade union confederation (LO) that established a framework for resolving labour disputes without government intervention. It became a cornerstone of the 'Swedish model'.",
+      "explanation_sv": "Saltsjöbadsavtalet var en milstolpe och en överenskommelse mellan Svenska Arbetsgivareföreningen (SAF) och Landsorganisationen (LO) som skapade ett ramverk för att lösa arbetsmarknadskonflikter utan statlig inblandning. Det blev en hörnsten i den 'svenska modellen'.",
       "difficulty": "expert"
     },
     {
       "id": 103,
       "question": "What was the Swedish 'miljonprogrammet' (the million programme)?",
+      "question_sv": "Vad var det svenska 'miljonprogrammet'?",
       "options": [
         "A 1960s–70s government programme that built one million new homes to address a housing shortage",
         "A post-war economic plan to industrialise Sweden",
         "An immigration policy that brought one million workers to Sweden",
         "A Cold War civil defence programme"
       ],
+      "options_sv": [
+        "Ett statligt program på 1960- och 70-talen som byggde en miljon nya bostäder för att åtgärda bostadsbristen",
+        "En ekonomisk efterkrigsplan för att industrialisera Sverige",
+        "En invandringspolitik som förde en miljon arbetare till Sverige",
+        "Ett civilförsvarsprogram under kalla kriget"
+      ],
       "correct_index": 0,
       "explanation": "Miljonprogrammet (1965–1974) was a Social Democratic government initiative to build one million new homes in ten years to address Sweden's severe housing shortage. Many of these estates still exist as suburban housing areas throughout Sweden.",
+      "explanation_sv": "Miljonprogrammet (1965–1974) var ett initiativ av den socialdemokratiska regeringen för att bygga en miljon nya bostäder på tio år i syfte att åtgärda Sveriges allvarliga bostadsbrist. Många av dessa bostadsområden finns fortfarande kvar som förortsområden runt om i Sverige.",
       "difficulty": "intermediate"
     },
     {
       "id": 104,
       "question": "Who was Anna Lindh, and what happened to her in 2003?",
+      "question_sv": "Vem var Anna Lindh, och vad hände henne 2003?",
       "options": [
         "Sweden's first female Prime Minister, who resigned in 2003",
         "Sweden's Foreign Minister, who was assassinated in Stockholm in September 2003",
         "A Swedish EU Commissioner who died in a plane crash in 2003",
         "A Swedish Nobel laureate who won the Peace Prize in 2003"
       ],
+      "options_sv": [
+        "Sveriges första kvinnliga statsminister, som avgick 2003",
+        "Sveriges utrikesminister, som mördades i Stockholm i september 2003",
+        "En svensk EU-kommissionär som omkom i en flygkrasch 2003",
+        "En svensk Nobelpristagare som vann fredspriset 2003"
+      ],
       "correct_index": 1,
       "explanation": "Anna Lindh was Sweden's popular Foreign Minister and a prominent Social Democrat. She was stabbed in a Stockholm department store on 10 September 2003 and died the following day. Her death shocked Sweden and came just days before Sweden's euro referendum.",
+      "explanation_sv": "Anna Lindh var Sveriges populära utrikesminister och en framträdande socialdemokrat. Hon knivhöggs i ett varuhus i Stockholm den 10 september 2003 och avled dagen därpå. Hennes död chockade Sverige och inträffade bara dagar före Sveriges folkomröstning om euron.",
       "difficulty": "expert"
     },
     {
       "id": 105,
       "question": "Hjalmar Branting was significant in Swedish history because he was:",
+      "question_sv": "Hjalmar Branting var betydelsefull i svensk historia eftersom han var:",
       "options": [
         "The founder of IKEA",
         "The first Social Democratic Prime Minister and a Nobel Peace Prize laureate",
         "Sweden's first King after becoming a constitutional monarchy",
         "The general who won the Napoleonic Wars for Sweden"
       ],
+      "options_sv": [
+        "Grundaren av IKEA",
+        "Den första socialdemokratiska statsministern och en mottagare av Nobels fredspris",
+        "Sveriges första kung efter att ha blivit en konstitutionell monarki",
+        "Generalen som vann Napoleonkrigen åt Sverige"
+      ],
       "correct_index": 1,
       "explanation": "Hjalmar Branting (1860–1925) was Sweden's first Social Democratic Prime Minister and won the Nobel Peace Prize in 1921 for his work in international arbitration and the League of Nations. He was a founding father of the Swedish labour movement.",
+      "explanation_sv": "Hjalmar Branting (1860–1925) var Sveriges första socialdemokratiska statsminister och vann Nobels fredspris 1921 för sitt arbete med internationell skiljedom och Nationernas förbund. Han var en av den svenska arbetarrörelsens grundare.",
       "difficulty": "expert"
     },
     {
       "id": 106,
       "question": "Sweden held a brief overseas colonial possession. Which Caribbean island was Swedish from 1784 to 1878?",
+      "question_sv": "Sverige hade under en kort period en koloni i Västindien. Vilken ö i Karibien var svensk från 1784 till 1878?",
       "options": [
         "Martinique",
         "Saint Barthélemy (Saint Barts)",
         "Guadeloupe",
         "Sint Eustatius"
       ],
+      "options_sv": [
+        "Martinique",
+        "Saint-Barthélemy",
+        "Guadeloupe",
+        "Sint Eustatius"
+      ],
       "correct_index": 1,
       "explanation": "France ceded Saint Barthélemy to Sweden in 1784 in exchange for trading rights in Gothenburg. Sweden sold the island back to France in 1878 following a referendum of the island's inhabitants. The island's capital, Gustavia, is still named after Swedish King Gustav III.",
+      "explanation_sv": "Frankrike avträdde Saint-Barthélemy till Sverige 1784 i utbyte mot handelsrättigheter i Göteborg. Sverige sålde tillbaka ön till Frankrike 1878 efter en folkomröstning bland öns invånare. Öns huvudort, Gustavia, är fortfarande uppkallad efter den svenske kungen Gustav III.",
       "difficulty": "expert"
     },
     {
       "id": 107,
       "question": "What was Gustav II Adolf (Gustavus Adolphus) known for in the 17th century?",
+      "question_sv": "Vad var Gustav II Adolf känd för på 1600-talet?",
       "options": [
         "Uniting Sweden and Denmark under one crown",
         "Establishing Sweden as a major military power and intervening in the Thirty Years' War on the Protestant side",
         "Signing the first Swedish constitution",
         "Founding Stockholm as Sweden's capital"
       ],
+      "options_sv": [
+        "Att ha förenat Sverige och Danmark under en krona",
+        "Att ha etablerat Sverige som en stor militärmakt och gripit in i trettioåriga kriget på protestanternas sida",
+        "Att ha undertecknat Sveriges första regeringsform",
+        "Att ha grundat Stockholm som Sveriges huvudstad"
+      ],
       "correct_index": 1,
       "explanation": "Gustav II Adolf (1594–1632) transformed Sweden into a major European power. He led Sweden into the Thirty Years' War (1618–1648) on the Protestant side, achieving major military successes before dying at the Battle of Lützen in 1632. He is considered one of the greatest military commanders in history.",
+      "explanation_sv": "Gustav II Adolf (1594–1632) förvandlade Sverige till en europeisk stormakt. Han förde in Sverige i trettioåriga kriget (1618–1648) på den protestantiska sidan och nådde stora militära framgångar innan han stupade i slaget vid Lützen 1632. Han anses vara en av historiens främsta militära fältherrar.",
       "difficulty": "intermediate",
       "distractor_notes": [
         "Sweden and Denmark were long-standing rivals. They were not united under Gustav II Adolf.",
         null,
         "Sweden's first written constitution dates to 1634 (Riksdag Act) and the major one to 1809, long after Gustav II Adolf's death in 1632.",
         "Stockholm was founded in the 13th century — long before Gustav II Adolf."
+      ],
+      "distractor_notes_sv": [
+        "Sverige och Danmark var mångåriga rivaler. De förenades inte under Gustav II Adolf.",
+        null,
+        "Sveriges första nedskrivna regeringsform är från 1634 och den största från 1809, långt efter Gustav II Adolfs död 1632.",
+        "Stockholm grundades på 1200-talet – långt före Gustav II Adolf."
       ]
     },
     {
       "id": 108,
       "question": "When did the Viking Age conventionally begin and end?",
+      "question_sv": "När började och slutade vikingatiden enligt gängse tideräkning?",
       "options": [
         "500 AD to 900 AD",
         "793 AD to around 1066 AD",
         "1000 AD to 1200 AD",
         "700 AD to 1300 AD"
       ],
+      "options_sv": [
+        "500 e.Kr. till 900 e.Kr.",
+        "793 e.Kr. till cirka 1066 e.Kr.",
+        "1000 e.Kr. till 1200 e.Kr.",
+        "700 e.Kr. till 1300 e.Kr."
+      ],
       "correct_index": 1,
       "explanation": "The Viking Age is conventionally dated from the raid on the monastery at Lindisfarne (793 AD) to the Norman Conquest of England (1066 AD). Swedish Vikings — known as Varangians — primarily traded and raided eastward, establishing routes through Russia to Byzantium.",
+      "explanation_sv": "Vikingatiden dateras traditionellt från attacken mot klostret i Lindisfarne (793 e.Kr.) till den normandiska erövringen av England (1066 e.Kr.). Svenska vikingar – kända som varjager – ägnade sig främst åt handel och plundring österut, och etablerade rutter genom Ryssland till Bysans.",
       "difficulty": "beginner",
       "distractor_notes": [
         "500 AD covers the Migration Period in European history, before the Viking Age.",
         null,
         "1000 AD is during the Viking Age but too late for its start, which conventionally begins with the raid on Lindisfarne in 793.",
         "700 AD is slightly early, and 1300 AD is well after the conventional end (Battle of Hastings, 1066)."
+      ],
+      "distractor_notes_sv": [
+        "500 e.Kr. omfattar folkvandringstiden i europeisk historia, före vikingatiden.",
+        null,
+        "1000 e.Kr. infaller under vikingatiden men är för sent för dess början, som konventionellt sätts till attacken mot Lindisfarne 793.",
+        "700 e.Kr. är aningen för tidigt, och 1300 e.Kr. är långt efter det konventionella slutet (slaget vid Hastings, 1066)."
       ]
     },
     {
       "id": 109,
       "question": "Sweden was among the founding members of the United Nations in 1945. What role did Sweden play in the UN during the Cold War?",
+      "question_sv": "Sverige var ett av de länder som grundade Förenta nationerna 1945. Vilken roll spelade Sverige i FN under kalla kriget?",
       "options": [
         "Sweden was aligned with the Western NATO bloc in the UN",
         "Sweden acted as a neutral mediator and was active in UN peacekeeping operations",
         "Sweden boycotted the UN Security Council throughout the Cold War",
         "Sweden mainly focused on economic rather than political UN activities"
       ],
+      "options_sv": [
+        "Sverige var allierat med västblocket (Nato) i FN",
+        "Sverige agerade som en neutral medlare och var aktivt i FN:s fredsbevarande insatser",
+        "Sverige bojkottade FN:s säkerhetsråd under hela kalla kriget",
+        "Sverige fokuserade huvudsakligen på ekonomiska snarare än politiska FN-aktiviteter"
+      ],
       "correct_index": 1,
       "explanation": "As a neutral state, Sweden played an active mediating role in the UN during the Cold War. Swedish diplomats including Dag Hammarskjöld and Gunnar Jarring were prominent international figures. Sweden has participated in numerous UN peacekeeping missions.",
+      "explanation_sv": "Som en neutral stat spelade Sverige en aktiv medlande roll i FN under kalla kriget. Svenska diplomater, bland andra Dag Hammarskjöld och Gunnar Jarring, var framträdande internationella figurer. Sverige har deltagit i många av FN:s fredsbevarande insatser.",
       "difficulty": "expert"
     },
     {
       "id": 110,
       "question": "What was the significance of 1809 for Sweden's constitutional development?",
+      "question_sv": "Vilken betydelse hade året 1809 för Sveriges konstitutionella utveckling?",
       "options": [
         "Sweden became a republic for the first time",
         "Sweden adopted a new constitution limiting royal power after a coup removed King Gustav IV Adolf",
         "Sweden and Norway formed their union under one king",
         "Sweden adopted its first written constitution after joining the Holy Roman Empire"
       ],
+      "options_sv": [
+        "Sverige blev en republik för första gången",
+        "Sverige antog en ny regeringsform som begränsade den kungliga makten efter en statskupp som avsatte kung Gustav IV Adolf",
+        "Sverige och Norge bildade sin union under en gemensam kung",
+        "Sverige antog sin första skrivna grundlag efter att ha anslutit sig till Tysk-romerska riket"
+      ],
       "correct_index": 1,
       "explanation": "Following Sweden's defeat in the Finnish War and the loss of Finland to Russia, a coup removed Gustav IV Adolf. Sweden adopted the 1809 Instrument of Government which significantly limited royal power and established a balance of power between king and parliament. A new dynasty (Bernadotte) was also established.",
+      "explanation_sv": "Efter Sveriges nederlag i finska kriget och förlusten av Finland till Ryssland avsattes Gustav IV Adolf i en statskupp. Sverige antog 1809 års regeringsform, vilken kraftigt begränsade den kungliga makten och skapade en maktbalans mellan kung och riksdag. En ny dynasti (Bernadotte) etablerades också.",
       "difficulty": "expert"
     }
   ]

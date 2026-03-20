@@ -4,26 +4,47 @@
     {
       "id": 73,
       "question": "What currency does Sweden use?",
+      "question_sv": "Vilken valuta använder Sverige?",
       "options": [
         "The euro (EUR)",
         "The Swedish krona (SEK)",
         "The Nordic krone",
         "The Swedish mark"
       ],
+      "options_sv": [
+        "Euro (EUR)",
+        "Svensk krona (SEK)",
+        "Nordisk krona",
+        "Svensk mark"
+      ],
       "correct_index": 1,
       "explanation": "Sweden uses the Swedish krona (SEK — Svenska kronor). Although Sweden is an EU member, it has not adopted the euro, following the 2003 referendum in which Swedes voted against joining the eurozone.",
+      "explanation_sv": "Sverige använder den svenska kronan (SEK). Även om Sverige är medlem i EU har man inte infört euron, till följd av folkomröstningen 2003 då svenskarna röstade nej till att gå med i eurozonen.",
       "difficulty": "beginner",
       "distractor_notes": [
         "Sweden is in the EU but voted against adopting the euro in a 2003 referendum. It keeps its own currency.",
         null,
         "There is no currency called the 'Nordic krone.'",
         "The Swedish mark is not a real currency — Sweden has used the krona since 1873."
+      ],
+      "distractor_notes_sv": [
+        "Sverige är med i EU men röstade emot att införa euron i en folkomröstning 2003. Landet behåller sin egen valuta.",
+        null,
+        "Det finns ingen valuta som heter 'nordisk krona'.",
+        "Svensk mark är inte en riktig valuta – Sverige har använt kronan sedan 1873."
       ]
     },
     {
       "id": 74,
       "question": "Which of the following is NOT a Swedish company?",
+      "question_sv": "Vilket av följande är INTE ett svenskt företag?",
       "options": [
+        "IKEA",
+        "Volvo",
+        "Lego",
+        "Ericsson"
+      ],
+      "options_sv": [
         "IKEA",
         "Volvo",
         "Lego",
@@ -31,18 +52,32 @@
       ],
       "correct_index": 2,
       "explanation": "Lego is a Danish company. IKEA (furniture), Volvo (vehicles), and Ericsson (telecommunications) are all Swedish companies. Other well-known Swedish brands include H&M, Spotify, Minecraft (Mojang), and Scania.",
+      "explanation_sv": "Lego är ett danskt företag. IKEA (möbler), Volvo (fordon) och Ericsson (telekommunikation) är alla svenska företag. Andra välkända svenska varumärken inkluderar H&M, Spotify, Minecraft (Mojang) och Scania.",
       "difficulty": "beginner",
       "distractor_notes": [
         "IKEA is Swedish — founded by Ingvar Kamprad in Älmhult, Småland, in 1943.",
         "Volvo is Swedish — founded in Gothenburg in 1927. Both the car company and Volvo Trucks are from Sweden.",
         null,
         "Ericsson is Swedish — a global telecoms equipment company headquartered in Stockholm."
+      ],
+      "distractor_notes_sv": [
+        "IKEA är svenskt – grundat av Ingvar Kamprad i Älmhult, Småland, 1943.",
+        "Volvo är svenskt – grundat i Göteborg 1927. Både personbilsföretaget och lastbilstillverkaren Volvo kommer från Sverige.",
+        null,
+        "Ericsson är svenskt – ett globalt företag inom telekomutrustning med huvudkontor i Stockholm."
       ]
     },
     {
       "id": 75,
       "question": "Which Swedish company created the video game Minecraft?",
+      "question_sv": "Vilket svenskt företag skapade tv-spelet Minecraft?",
       "options": [
+        "King",
+        "DICE",
+        "Paradox Interactive",
+        "Mojang"
+      ],
+      "options_sv": [
         "King",
         "DICE",
         "Paradox Interactive",
@@ -50,108 +85,182 @@
       ],
       "correct_index": 3,
       "explanation": "Mojang, a Swedish game studio founded by Markus 'Notch' Persson, created Minecraft. It was released in 2011 and became one of the best-selling video games of all time. Mojang was acquired by Microsoft in 2014.",
+      "explanation_sv": "Mojang, en svensk spelstudio grundad av Markus 'Notch' Persson, skapade Minecraft. Det släpptes 2011 och blev ett av de bäst säljande tv-spelen genom tiderna. Mojang köptes upp av Microsoft 2014.",
       "difficulty": "beginner",
       "distractor_notes": [
         "King is a Swedish mobile games company (Candy Crush Saga), but not the maker of Minecraft.",
         "DICE (Digital Illusions CE) is Swedish and made Battlefield, but not Minecraft.",
         "Paradox Interactive is a Swedish studio known for grand strategy games, but not Minecraft.",
         null
+      ],
+      "distractor_notes_sv": [
+        "King är ett svenskt mobilspelsföretag (Candy Crush Saga), men inte skaparen av Minecraft.",
+        "DICE (Digital Illusions CE) är svenskt och skapade Battlefield, men inte Minecraft.",
+        "Paradox Interactive är en svensk studio känd för grand strategy-spel, men inte Minecraft.",
+        null
       ]
     },
     {
       "id": 76,
       "question": "Sweden is best known for which type of export industry?",
+      "question_sv": "Sverige är mest känt för vilken typ av exportindustri?",
       "options": [
         "Textiles and fashion",
         "Engineering, vehicles, telecommunications, and manufacturing",
         "Agriculture and food production",
         "Tourism and hospitality"
       ],
+      "options_sv": [
+        "Textil och mode",
+        "Verkstadsindustri, fordon, telekommunikation och tillverkning",
+        "Jordbruk och livsmedelsproduktion",
+        "Turism och besöksnäring"
+      ],
       "correct_index": 1,
       "explanation": "Sweden's economy is export-oriented with strengths in engineering, telecom equipment (Ericsson), vehicles (Volvo, Scania), pharmaceuticals, and forest products. Sweden also has a growing tech and digital economy.",
+      "explanation_sv": "Sveriges ekonomi är exportorienterad med styrkor inom verkstadsindustri, telekomutrustning (Ericsson), fordon (Volvo, Scania), läkemedel och skogsindustri. Sverige har också en växande tech- och digital ekonomi.",
       "difficulty": "beginner"
     },
     {
       "id": 77,
       "question": "What is Sweden's main collective bargaining institution for workers?",
+      "question_sv": "Vilken är Sveriges huvudsakliga institution för kollektivavtalsförhandlingar för arbetare?",
       "options": [
         "Riksbanken",
         "Arbetsförmedlingen",
         "LO (Landsorganisationen i Sverige) — the Swedish Trade Union Confederation",
         "Tillväxtverket"
       ],
+      "options_sv": [
+        "Riksbanken",
+        "Arbetsförmedlingen",
+        "LO (Landsorganisationen i Sverige)",
+        "Tillväxtverket"
+      ],
       "correct_index": 2,
       "explanation": "LO (the Swedish Trade Union Confederation) is the main umbrella organisation for blue-collar trade unions in Sweden. Sweden has very high rates of union membership, and wages are typically set through collective bargaining rather than government minimum wage legislation.",
+      "explanation_sv": "LO (Landsorganisationen i Sverige) är den centrala paraplyorganisationen för arbetarfackförbund i Sverige. Sverige har mycket hög facklig anslutningsgrad, och löner sätts vanligtvis genom kollektivavtal snarare än statlig minimilönelagstiftning.",
       "difficulty": "intermediate",
       "distractor_notes": [
         "Riksbanken is Sweden's central bank, not a labour organisation.",
         "Arbetsförmedlingen is the state employment agency, not a trade union.",
         null,
         "Tillväxtverket is the Swedish Agency for Economic and Regional Growth, focused on business development."
+      ],
+      "distractor_notes_sv": [
+        "Riksbanken är Sveriges centralbank, inte en arbetsmarknadsorganisation.",
+        "Arbetsförmedlingen är en statlig myndighet, inte ett fackförbund.",
+        null,
+        "Tillväxtverket är en statlig myndighet med inriktning på näringslivsutveckling."
       ]
     },
     {
       "id": 78,
       "question": "Sweden does not have a statutory national minimum wage set by law. How are most wages determined?",
+      "question_sv": "Sverige har ingen lagstadgad nationell minimilön. Hur bestäms de flesta lönerna?",
       "options": [
         "By government decree each year",
         "By the European Union",
         "Through collective bargaining agreements between employers and trade unions",
         "By each individual company independently"
       ],
+      "options_sv": [
+        "Genom regeringsbeslut varje år",
+        "Av Europeiska unionen",
+        "Genom kollektivavtal mellan arbetsgivare och fackförbund",
+        "Av varje enskilt företag oberoende av varandra"
+      ],
       "correct_index": 2,
       "explanation": "Unlike many countries, Sweden does not have a government-set minimum wage. Instead, wages are determined through collective agreements (kollektivavtal) negotiated between employer organisations and trade unions, covering most Swedish workers.",
+      "explanation_sv": "Till skillnad från många andra länder har Sverige ingen statligt fastställd minimilön. Istället bestäms lönerna genom kollektivavtal som förhandlas fram mellan arbetsgivarorganisationer och fackförbund, vilka täcker de flesta svenska arbetstagare.",
       "difficulty": "intermediate"
     },
     {
       "id": 166,
       "question": "Sweden is known for having one of the world's highest tax-to-GDP ratios. What does this broadly fund?",
+      "question_sv": "Sverige är känt för att ha ett av världens högsta skattetryck (skatt i förhållande till BNP). Vad finansierar detta i stora drag?",
       "options": [
         "Primarily military spending and national defence",
         "A comprehensive welfare state including free healthcare, education, parental leave, and pensions",
         "Mainly foreign aid and international development",
         "Infrastructure projects and industrial subsidies"
       ],
+      "options_sv": [
+        "I första hand militära utgifter och nationellt försvar",
+        "En omfattande välfärdsstat som inkluderar gratis sjukvård, utbildning, föräldrapenning och pensioner",
+        "Huvudsakligen utländskt bistånd och internationell utveckling",
+        "Infrastrukturprojekt och industrisubventioner"
+      ],
       "correct_index": 1,
       "explanation": "Sweden's high tax burden (around 43–44% of GDP) primarily funds the universal welfare state: free schooling (including university), largely tax-funded healthcare, generous parental leave, unemployment benefits, and state pensions. Sweden is often cited as an example of a high-tax, high-service economy.",
+      "explanation_sv": "Sveriges höga skattetryck (cirka 43–44 % av BNP) finansierar i första hand den generella välfärdsstaten: gratis skolgång (inklusive universitet), till stor del skattefinansierad sjukvård, generös föräldraförsäkring, arbetslöshetsersättning och statliga pensioner. Sverige lyfts ofta fram som ett exempel på en ekonomi med höga skatter och hög samhällsservice.",
       "difficulty": "beginner",
       "distractor_notes": [
         null,
         null,
         "Sweden's foreign aid budget is significant but is not the primary driver of high taxes.",
         null
+      ],
+      "distractor_notes_sv": [
+        null,
+        null,
+        "Sveriges biståndsbudget är betydande, men det är inte den främsta drivkraften bakom de höga skatterna.",
+        null
       ]
     },
     {
       "id": 167,
       "question": "What is 'F-skatt' in Sweden?",
+      "question_sv": "Vad är F-skatt i Sverige?",
       "options": [
         "A special flat tax rate for high earners",
         "A tax registration for self-employed people and sole traders, indicating they are responsible for their own taxes",
         "A financial transaction tax on stock market trades",
         "A carbon tax on fuel"
       ],
+      "options_sv": [
+        "En särskild platt skatt för höginkomsttagare",
+        "En skatteregistrering för egenföretagare och enskilda firmor, som visar att de själva ansvarar för sina skatter",
+        "En finansiell transaktionsskatt på aktiehandel",
+        "En koldioxidskatt på bränsle"
+      ],
       "correct_index": 1,
       "explanation": "F-skatt (F-tax) is a registration with Skatteverket that confirms a person is responsible for their own tax and social contributions. Freelancers, self-employed individuals, and company owners typically hold F-skatt. A business paying someone with F-skatt does not need to deduct tax at source.",
+      "explanation_sv": "F-skatt är en registrering hos Skatteverket som bekräftar att en person själv ansvarar för sina skatter och socialavgifter. Frilansare, egenföretagare och företagsägare har vanligtvis F-skatt. Ett företag som betalar någon med F-skatt behöver inte göra skatteavdrag (preliminärskatt) vid källan.",
       "difficulty": "intermediate"
     },
     {
       "id": 168,
       "question": "What is 'Finansinspektionen' (FI)?",
+      "question_sv": "Vad är Finansinspektionen (FI)?",
       "options": [
         "Sweden's ministry of finance",
         "The supervisory authority overseeing banks, insurance companies, and financial markets in Sweden",
         "The body that sets Sweden's interest rates",
         "The national tax collection agency"
       ],
+      "options_sv": [
+        "Sveriges finansdepartement",
+        "Tillsynsmyndigheten som övervakar banker, försäkringsbolag och finansmarknader i Sverige",
+        "Organet som fastställer Sveriges räntor",
+        "Den nationella skatteinkrävande myndigheten"
+      ],
       "correct_index": 1,
       "explanation": "Finansinspektionen (FI) is Sweden's financial supervisory authority (equivalent to the UK's FCA). It supervises and licenses banks, insurance companies, pension funds, and other financial institutions, and works to maintain financial stability and consumer protection in financial markets.",
+      "explanation_sv": "Finansinspektionen (FI) är Sveriges finansiella tillsynsmyndighet. Den övervakar och utfärdar tillstånd för banker, försäkringsbolag, pensionsfonder och andra finansiella institut, och arbetar för att upprätthålla finansiell stabilitet och konsumentskydd på finansmarknaderna.",
       "difficulty": "expert"
     },
     {
       "id": 169,
       "question": "Which of the following is a globally successful Swedish tech/streaming company founded in Stockholm?",
+      "question_sv": "Vilket av följande är ett globalt framgångsrikt svenskt tech-/streamingföretag som grundades i Stockholm?",
       "options": [
+        "Netflix",
+        "Spotify",
+        "SoundCloud",
+        "Deezer"
+      ],
+      "options_sv": [
         "Netflix",
         "Spotify",
         "SoundCloud",
@@ -159,132 +268,221 @@
       ],
       "correct_index": 1,
       "explanation": "Spotify was founded in Stockholm in 2006 by Daniel Ek and Martin Lorentzon and launched publicly in 2008. It is the world's largest music streaming platform. Sweden has a notable tech startup ecosystem — other Swedish tech successes include King (Candy Crush), Mojang (Minecraft), and Klarna.",
+      "explanation_sv": "Spotify grundades i Stockholm 2006 av Daniel Ek och Martin Lorentzon och lanserades för allmänheten 2008. Det är världens största plattform för musikströmning. Sverige har ett framstående ekosystem för tech-startups – andra svenska techframgångar inkluderar King (Candy Crush), Mojang (Minecraft) och Klarna.",
       "difficulty": "beginner",
       "distractor_notes": [
         "Netflix is American, founded in California in 1997.",
         null,
         "SoundCloud is German, founded in Berlin in 2007.",
         "Deezer is French, founded in Paris in 2006."
+      ],
+      "distractor_notes_sv": [
+        "Netflix är amerikanskt, grundat i Kalifornien 1997.",
+        null,
+        "SoundCloud är tyskt, grundat i Berlin 2007.",
+        "Deezer är franskt, grundat i Paris 2006."
       ]
     },
     {
       "id": 170,
       "question": "What is an 'investeringssparkonto' (ISK) in Sweden?",
+      "question_sv": "Vad är ett investeringssparkonto (ISK) i Sverige?",
       "options": [
         "A state-guaranteed fixed-rate savings account",
         "A tax-advantaged investment savings account where tax is based on a standard rate rather than actual gains",
         "A government bond savings scheme",
         "A children's savings account provided by municipalities"
       ],
+      "options_sv": [
+        "Ett statligt garanterat sparkonto med fast ränta",
+        "Ett skattegynnat investeringssparkonto där skatten baseras på en schablonränta snarare än faktiska vinster",
+        "Ett sparprogram för statsobligationer",
+        "Ett barnsparkonto som tillhandahålls av kommunerna"
+      ],
       "correct_index": 1,
       "explanation": "An ISK (investment savings account) is a tax-advantaged account where Swedish residents can hold shares, funds, and other securities. Instead of paying capital gains tax on actual profits, account holders pay a standard rate (schablonbeskattning) based on a percentage of the account's value. This simplifies the tax on investment returns.",
+      "explanation_sv": "Ett ISK (investeringssparkonto) är ett skattegynnat konto där personer bosatta i Sverige kan ha aktier, fonder och andra värdepapper. Istället för att betala kapitalskatt på faktiska vinster betalar kontohavarna en schablonskatt baserad på en procentandel av kontots värde. Detta förenklar beskattningen av avkastning på investeringar.",
       "difficulty": "intermediate"
     },
     {
       "id": 171,
       "question": "The 'ROT-avdrag' allows Swedish homeowners to deduct costs from their taxes. What does ROT stand for and what does it cover?",
+      "question_sv": "'ROT-avdraget' gör det möjligt för svenska husägare att dra av kostnader från skatten. Vad står ROT för och vad täcker det?",
       "options": [
         "Regional Operational Tax — a local business rate reduction",
         "Reparation, Ombyggnad, Tillbyggnad — a tax deduction for labour costs on home repairs, conversion, and extension",
         "Reduced Operating Tariff — a discount on energy costs for homeowners",
         "Real estate and Ownership Tax — a tax credit for property owners"
       ],
+      "options_sv": [
+        "Regional Operational Tax – en lokal skattereduktion för företag",
+        "Reparation, Ombyggnad, Tillbyggnad – ett skatteavdrag för arbetskostnader vid hemreparationer, ombyggnation och tillbyggnad",
+        "Reduced Operating Tariff – en rabatt på energikostnader för husägare",
+        "Real estate and Ownership Tax – en skattereduktion för fastighetsägare"
+      ],
       "correct_index": 1,
       "explanation": "ROT stands for Reparation, Ombyggnad, Tillbyggnad (repair, conversion, extension). The ROT-avdrag allows homeowners to deduct 30% of labour costs on approved home renovation and repair work from their tax bill. It is designed to combat undeclared work in the construction sector.",
+      "explanation_sv": "ROT står för Reparation, Ombyggnad, Tillbyggnad. ROT-avdraget gör det möjligt för bostadsägare att dra av 30 % av arbetskostnaden för godkända renoverings- och reparationsarbeten från sin skatt. Det är utformat för att motverka svartarbete i byggsektorn.",
       "difficulty": "expert"
     },
     {
       "id": 172,
       "question": "What is the 'RUT-avdrag' in Sweden?",
+      "question_sv": "Vad är 'RUT-avdraget' i Sverige?",
       "options": [
         "A tax relief for rural businesses and farmers",
         "A tax deduction for domestic service costs such as cleaning, childcare, and gardening",
         "A research and technology tax credit for companies",
         "A reduced VAT rate for restaurants and hospitality"
       ],
+      "options_sv": [
+        "En skattelättnad för landsbygdsföretag och bönder",
+        "Ett skatteavdrag för hushållsnära tjänster som städning, barnpassning och trädgårdsarbete",
+        "En skattereduktion för forskning och teknik för företag",
+        "En reducerad momssats för restauranger och besöksnäring"
+      ],
       "correct_index": 1,
       "explanation": "RUT stands for Rengöring, Underhåll, Tvätt (cleaning, maintenance, laundry). The RUT-avdrag is a tax deduction for domestic services including home cleaning, childcare, and gardening. Like ROT, it is intended to reduce undeclared work in the domestic services sector.",
+      "explanation_sv": "RUT står för Rengöring, Underhåll, Tvätt. RUT-avdraget är ett skatteavdrag för hushållsnära tjänster inklusive hemstädning, barnpassning och trädgårdsarbete. Liksom ROT-avdraget syftar det till att minska svartarbete inom sektorn för hushållstjänster.",
       "difficulty": "expert"
     },
     {
       "id": 173,
       "question": "Vattenfall is a major Swedish company. What does it do?",
+      "question_sv": "Vattenfall är ett stort svenskt företag. Vad gör de?",
       "options": [
         "It is Sweden's largest telecommunications company",
         "It is a state-owned energy company producing and distributing electricity across Sweden and parts of Europe",
         "It manages Sweden's hydroelectric dams for water supply",
         "It is a private Swedish water utility"
       ],
+      "options_sv": [
+        "Det är Sveriges största telekommunikationsföretag",
+        "Det är ett statligt energibolag som producerar och distribuerar el i Sverige och delar av Europa",
+        "Det förvaltar Sveriges vattenkraftsdammar för vattenförsörjning",
+        "Det är ett privat svenskt vattenverk"
+      ],
       "correct_index": 1,
       "explanation": "Vattenfall is a Swedish state-owned energy company and one of Europe's largest electricity generators. It operates hydroelectric, nuclear, wind, and thermal power plants in Sweden and several other European countries. 'Vattenfall' means 'waterfall' in Swedish.",
+      "explanation_sv": "Vattenfall är ett svenskt statligt energibolag och en av Europas största elproducenter. Bolaget driver vattenkrafts-, kärnkrafts-, vindkrafts- och värmekraftverk i Sverige och i flera andra europeiska länder.",
       "difficulty": "intermediate",
       "distractor_notes": [
         "Sweden's largest telecom is Telia (formerly Televerket/TeliaSonera). Vattenfall is an energy company.",
         null,
         "Vattenfall does manage hydroelectric dams, but it is an energy production and distribution company with operations across Europe.",
         null
+      ],
+      "distractor_notes_sv": [
+        "Sveriges största telekombolag är Telia (tidigare Televerket/TeliaSonera). Vattenfall är ett energibolag.",
+        null,
+        "Vattenfall förvaltar visserligen vattenkraftsdammar, men det är ett elproduktions- och distributionsföretag med verksamhet i hela Europa.",
+        null
       ]
     },
     {
       "id": 174,
       "question": "What is 'Trafikverket' responsible for?",
+      "question_sv": "Vad ansvarar 'Trafikverket' för?",
       "options": [
         "Regulating road safety and issuing driving licences",
         "Planning, building, and maintaining Sweden's national road and rail infrastructure",
         "Organising public transport in Swedish cities",
         "Regulating Sweden's airlines and airports"
       ],
+      "options_sv": [
+        "Att reglera trafiksäkerhet och utfärda körkort",
+        "Att planera, bygga och underhålla Sveriges nationella väg- och järnvägsinfrastruktur",
+        "Att organisera kollektivtrafiken i svenska städer",
+        "Att reglera Sveriges flygbolag och flygplatser"
+      ],
       "correct_index": 1,
       "explanation": "Trafikverket (the Swedish Transport Administration) is responsible for planning, building, operating, and maintaining the national road network and state-owned railways. It also coordinates with regional and local authorities on public transport planning.",
+      "explanation_sv": "Trafikverket är den statliga myndighet som ansvarar för att planera, bygga, driva och underhålla det statliga vägnätet och de statliga järnvägarna. Myndigheten samordnar också med regionala och lokala myndigheter gällande planering av kollektivtrafik.",
       "difficulty": "expert"
     },
     {
       "id": 175,
       "question": "What is 'SMHI' in Sweden?",
+      "question_sv": "Vad är 'SMHI' i Sverige?",
       "options": [
         "The Swedish Ministry of Health and Infrastructure",
         "The Swedish Meteorological and Hydrological Institute — providing weather forecasts, climate data, and environmental monitoring",
         "The Swedish Maritime and Harbour Inspectorate",
         "Sweden's main environmental research institute"
       ],
+      "options_sv": [
+        "Sveriges hälso- och infrastrukturdepartement",
+        "Sveriges meteorologiska och hydrologiska institut – som tillhandahåller väderprognoser, klimatdata och miljöövervakning",
+        "Sveriges sjöfarts- och hamninspektion",
+        "Sveriges främsta miljöforskningsinstitut"
+      ],
       "correct_index": 1,
-      "explanation": "SMHI (Sveriges meteorologiska och hydrologiska institut) is the government agency responsible for weather and climate forecasting, water and oceanographic monitoring. It provides forecasts for the public, aviation, shipping, and emergency services, and conducts climate research.",
+      "explanation": "SMHI (Sveriges meteorologiska och hydrologiska institut) is the government agency responsible for weather and climate forecasting, water and oceanographic monitoring. It provides forecasts for the public, aviation, shipping, and emergency services, and conduct climate research.",
+      "explanation_sv": "SMHI (Sveriges meteorologiska och hydrologiska institut) är en statlig myndighet under Miljödepartementet med expertis inom meteorologi, hydrologi, oceanografi och klimatologi. De förser allmänhet, flyg, sjöfart och räddningstjänst med prognoser och bedriver klimatforskning.",
       "difficulty": "expert"
     },
     {
       "id": 176,
       "question": "How does Sweden generate most of its electricity?",
+      "question_sv": "Hur producerar Sverige merparten av sin el?",
       "options": [
         "Primarily from coal and natural gas",
         "Primarily from hydropower and nuclear power, with growing wind power",
         "Primarily from solar and biomass energy",
         "Primarily from offshore oil and natural gas"
       ],
+      "options_sv": [
+        "I första hand från kol och naturgas",
+        "I första hand från vattenkraft och kärnkraft, med en växande vindkraft",
+        "I första hand från solenergi och biomassa",
+        "I första hand från olja och naturgas till havs"
+      ],
       "correct_index": 1,
       "explanation": "Sweden generates the large majority of its electricity from hydropower (vattenkraft) and nuclear power (kärnkraft), each contributing roughly 30–40%. Wind power (vindkraft) is growing rapidly. Sweden has very low carbon emissions from its electricity sector as a result.",
+      "explanation_sv": "Sverige producerar den allra största delen av sin el från vattenkraft och kärnkraft, som vardera bidrar med cirka 30–40 %. Vindkraften växer snabbt. Sverige har tack vare detta mycket låga koldioxidutsläpp från sin elsektor.",
       "difficulty": "intermediate",
       "distractor_notes": [
         null,
         null,
         "Solar and biomass provide a growing share but are not Sweden's dominant sources.",
         "Unlike Norway (oil) or the Netherlands (gas), Sweden does not have significant offshore fossil fuel production."
+      ],
+      "distractor_notes_sv": [
+        null,
+        null,
+        "Solenergi och biomassa står för en växande andel men är inte Sveriges dominerande kraftkällor.",
+        "Till skillnad från Norge (olja) eller Nederländerna (gas) har Sverige ingen betydande produktion av fossil energi till havs."
       ]
     },
     {
       "id": 177,
       "question": "Volvo Cars is one of Sweden's best-known manufacturers. In which city is it headquartered?",
+      "question_sv": "Volvo Cars är en av Sveriges mest kända tillverkare. I vilken stad har de sitt huvudkontor?",
       "options": [
         "Stockholm",
         "Malmö",
         "Gothenburg (Göteborg)",
         "Linköping"
       ],
+      "options_sv": [
+        "Stockholm",
+        "Malmö",
+        "Göteborg",
+        "Linköping"
+      ],
       "correct_index": 2,
       "explanation": "Volvo Cars is headquartered in Gothenburg, where it was founded in 1927. Gothenburg is also home to Volvo's truck division (Volvo AB), SSAB steel operations, and several other major industries. Volvo Cars was sold to Chinese company Geely in 2010.",
+      "explanation_sv": "Volvo Cars har sitt huvudkontor i Göteborg, där det grundades 1927. Göteborg är också hemvist för Volvos lastbilsdivision (AB Volvo), SSAB:s stålverksamhet och flera andra stora industrier. Volvo Cars såldes till det kinesiska företaget Geely 2010.",
       "difficulty": "intermediate",
       "distractor_notes": [
         "Stockholm is the capital and headquarters of many Swedish companies, but Volvo was specifically founded in and remains headquartered in Gothenburg.",
         "Malmö is Sweden's third-largest city in the south, connected to Copenhagen, but not where Volvo is based.",
+        null,
+        null
+      ],
+      "distractor_notes_sv": [
+        "Stockholm är huvudstad och säte för många svenska företags huvudkontor, men Volvo grundades specifikt i och har fortfarande sitt huvudkontor i Göteborg.",
+        "Malmö är Sveriges tredje största stad i söder, med förbindelse till Köpenhamn, men inte platsen där Volvo är baserat.",
         null,
         null
       ]
@@ -292,33 +490,56 @@
     {
       "id": 178,
       "question": "What is 'SSAB', a major company in Sweden's industrial sector?",
+      "question_sv": "Vad är 'SSAB', ett stort företag inom Sveriges industrisektor?",
       "options": [
         "Sweden's largest supermarket group",
         "A major Swedish steel company known for high-strength and fossil-free steel production",
         "A Swedish defence and aerospace manufacturer",
         "Sweden's largest private employer in the IT sector"
       ],
+      "options_sv": [
+        "Sveriges största matvarukedja",
+        "Ett stort svenskt stålföretag känt för höghållfast och fossilfri stålproduktion",
+        "En svensk försvars- och rymdindustritillverkare",
+        "Sveriges största privata arbetsgivare inom IT-sektorn"
+      ],
       "correct_index": 1,
       "explanation": "SSAB is a leading Swedish-Finnish steel company known for producing high-strength steel and pioneering fossil-free steel production through its HYBRIT initiative (using hydrogen instead of coal in the steelmaking process). SSAB has major operations in Luleå, Oxelösund, and Borlänge.",
+      "explanation_sv": "SSAB är ett ledande svensk-finskt stålföretag, känt för att tillverka höghållfast stål och för att bana väg för fossilfri stålproduktion genom sitt HYBRIT-initiativ (där vätgas används istället för kol i ståltillverkningsprocessen). SSAB har stora anläggningar i Luleå, Oxelösund och Borlänge.",
       "difficulty": "expert"
     },
     {
       "id": 179,
       "question": "What is 'Telia' in Sweden?",
+      "question_sv": "Vad är 'Telia' i Sverige?",
       "options": [
         "Sweden's national postal service",
         "Sweden's former state-owned telecoms company, now a major listed Nordic telecom operator",
         "A Swedish state-owned TV and radio broadcaster",
         "A Swedish technology manufacturing company"
       ],
+      "options_sv": [
+        "Sveriges nationella posttjänst",
+        "Sveriges tidigare statliga telekombolag, nu en stor börsnoterad nordisk telekomoperatör",
+        "Ett svenskt statligt tv- och radiobolag",
+        "Ett svenskt tekniktillverkningsföretag"
+      ],
       "correct_index": 1,
       "explanation": "Telia (formerly Televerket, then Telia AB) was Sweden's state-owned telephone monopoly, privatised in stages from the 1990s. Now listed on the stock exchange (with the Swedish state still a major shareholder), Telia Company is a major telecom operator in the Nordic and Baltic regions.",
+      "explanation_sv": "Telia (tidigare Televerket, därefter Telia AB) var Sveriges statliga telefonmonopol, som privatiserades i omgångar med start på 1990-talet. Telia Company är nu noterat på börsen (där svenska staten fortfarande är en stor aktieägare) och är en stor telekomoperatör i Norden och Baltikum.",
       "difficulty": "intermediate"
     },
     {
       "id": 180,
       "question": "Sweden is home to one of the world's most successful fast-fashion companies. Which is it?",
+      "question_sv": "Sverige är hemvist för ett av världens mest framgångsrika fast fashion-företag. Vilket är det?",
       "options": [
+        "Zara",
+        "Primark",
+        "H&M (Hennes & Mauritz)",
+        "Mango"
+      ],
+      "options_sv": [
         "Zara",
         "Primark",
         "H&M (Hennes & Mauritz)",
@@ -326,12 +547,19 @@
       ],
       "correct_index": 2,
       "explanation": "H&M (Hennes & Mauritz) was founded in Sweden in 1947 and is one of the world's largest fashion retailers, with thousands of stores globally. It is headquartered in Stockholm. Other major Swedish retail brands include Acne Studios, COS, and Filippa K.",
+      "explanation_sv": "H&M (Hennes & Mauritz) grundades i Sverige 1947 och är en av världens största modekedjor, med tusentals butiker globalt. Huvudkontoret ligger i Stockholm. Andra stora svenska modevarumärken inkluderar Acne Studios, COS och Filippa K.",
       "difficulty": "beginner",
       "distractor_notes": [
         "Zara is Spanish, from the Inditex group founded by Amancio Ortega in Galicia.",
         "Primark is Irish, founded in Dublin in 1969.",
         null,
         "Mango is Spanish, founded in Barcelona in 1984."
+      ],
+      "distractor_notes_sv": [
+        "Zara är spanskt, från Inditex-gruppen som grundades av Amancio Ortega i Galicien.",
+        "Primark är irländskt, grundat i Dublin 1969.",
+        null,
+        "Mango är spanskt, grundat i Barcelona 1984."
       ]
     }
   ]

@@ -4,331 +4,541 @@
     {
       "id": 46,
       "question": "What does 'Försäkringskassan' do?",
+      "question_sv": "Vad gör Försäkringskassan?",
       "options": [
         "Collects taxes on behalf of the government",
         "Manages Sweden's national insurance — paying sick pay, parental leave, and disability benefits",
         "Regulates Sweden's private insurance market",
         "Provides housing benefits only"
       ],
+      "options_sv": [
+        "Driver in skatter åt staten",
+        "Hanterar Sveriges socialförsäkring – betalar ut sjukpenning, föräldrapenning och ersättningar kopplade till funktionsnedsättning",
+        "Reglerar Sveriges privata försäkringsmarknad",
+        "Erbjuder enbart bostadsbidrag"
+      ],
       "correct_index": 1,
       "explanation": "Försäkringskassan (the Swedish Social Insurance Agency) administers a wide range of social insurance benefits including parental leave (föräldrapenning), sick pay (sjukpenning), disability allowance, and child benefit (barnbidrag).",
+      "explanation_sv": "Försäkringskassan administrerar ett brett utbud av socialförsäkringsförmåner, inklusive föräldrapenning, sjukpenning, handikappersättning och barnbidrag.",
       "difficulty": "beginner",
       "distractor_notes": [
         "Taxes are collected by Skatteverket, not Försäkringskassan.",
         null,
         "Försäkringskassan is a government agency, not a private insurance regulator. Private insurance is regulated by Finansinspektionen.",
         "Housing benefits (bostadsbidrag) are one of many things Försäkringskassan manages, not its only function."
+      ],
+      "distractor_notes_sv": [
+        "Skatter drivs in av Skatteverket, inte Försäkringskassan.",
+        null,
+        "Försäkringskassan är en statlig myndighet, inte en tillsynsmyndighet för privata försäkringar. Privata försäkringar regleras av Finansinspektionen.",
+        "Bostadsbidrag är en av många saker som Försäkringskassan hanterar, inte dess enda funktion."
       ]
     },
     {
       "id": 47,
       "question": "Who is primarily responsible for providing healthcare services in Sweden?",
+      "question_sv": "Vem har huvudansvaret för att tillhandahålla hälso- och sjukvård i Sverige?",
       "options": [
         "The national government (Riksdag and cabinet)",
         "Sweden's 21 regional councils (regioner)",
         "Municipal councils (kommuner)",
         "Private healthcare companies"
       ],
+      "options_sv": [
+        "Staten (riksdag och regering)",
+        "Sveriges 21 regioner",
+        "Kommunerna",
+        "Privata vårdbolag"
+      ],
       "correct_index": 1,
       "explanation": "Healthcare in Sweden is primarily organised and funded by the 21 regional councils (regioner). They manage hospitals, primary care, and specialist services. Healthcare is largely tax-funded and universally available.",
+      "explanation_sv": "Hälso- och sjukvården i Sverige organiseras och finansieras i första hand av de 21 regionerna. De driver sjukhus, primärvård och specialistvård. Vården är till största delen skattefinansierad och tillgänglig för alla.",
       "difficulty": "beginner",
       "distractor_notes": [
         "Healthcare in Sweden is decentralised — the national government sets frameworks but does not run hospitals.",
         null,
         "Municipalities (kommuner) run elderly care and social services, but healthcare is run by the 21 regions.",
         "Private healthcare companies operate in Sweden, but the majority of healthcare is publicly funded and region-run."
+      ],
+      "distractor_notes_sv": [
+        "Sjukvården i Sverige är decentraliserad – staten sätter ramarna men driver inte sjukhusen.",
+        null,
+        "Kommunerna driver äldreomsorg och socialtjänst, men sjukvården sköts av de 21 regionerna.",
+        "Privata vårdbolag är verksamma i Sverige, men den största delen av sjukvården är offentligt finansierad och drivs av regionerna."
       ]
     },
     {
       "id": 48,
       "question": "What is 'barnbidrag' in Sweden?",
+      "question_sv": "Vad är barnbidrag i Sverige?",
       "options": [
         "A childcare subsidy for working parents",
         "A universal monthly payment to all families with children under 16",
         "A one-off birth grant",
         "A tax deduction for families with children"
       ],
+      "options_sv": [
+        "Ett barnomsorgsbidrag för förvärvsarbetande föräldrar",
+        "En allmän månatlig utbetalning till alla familjer med barn under 16 år",
+        "Ett engångsbidrag vid födseln",
+        "Ett skatteavdrag för barnfamiljer"
+      ],
       "correct_index": 1,
       "explanation": "Barnbidrag (child benefit) is a universal monthly payment paid to all parents for each child living in Sweden under the age of 16, regardless of income. It is administered by Försäkringskassan.",
+      "explanation_sv": "Barnbidrag är en allmän månatlig utbetalning som betalas ut till alla föräldrar för varje barn som är bosatt i Sverige under 16 år, oavsett inkomst. Det administreras av Försäkringskassan.",
       "difficulty": "beginner"
     },
     {
       "id": 49,
       "question": "What is 'SFI' in Sweden?",
+      "question_sv": "Vad är 'SFI' i Sverige?",
       "options": [
         "The Swedish Film Institute",
         "Swedish for Immigrants — a free state-funded language course",
         "The Swedish Finance Inspectorate",
         "Swedish Federal Insurance"
       ],
+      "options_sv": [
+        "Svenska Filminstitutet",
+        "Svenska för invandrare – en gratis statligt finansierad språkkurs",
+        "Finansinspektionen",
+        "Svensk federal försäkring"
+      ],
       "correct_index": 1,
       "explanation": "SFI (Svenska för invandrare — Swedish for Immigrants) is a free, municipally organised Swedish language course available to all adult newcomers to Sweden who lack basic Swedish skills.",
+      "explanation_sv": "SFI (Svenska för invandrare) är en gratis, kommunalt organiserad kurs i svenska språket som är tillgänglig för alla vuxna nyanlända i Sverige som saknar grundläggande kunskaper i svenska.",
       "difficulty": "beginner"
     },
     {
       "id": 50,
       "question": "How many years of compulsory schooling are there in Sweden?",
+      "question_sv": "Hur många års skolplikt är det i Sverige?",
       "options": [
         "9 years",
         "10 years",
         "11 years",
         "12 years"
       ],
+      "options_sv": [
+        "9 år",
+        "10 år",
+        "11 år",
+        "12 år"
+      ],
       "correct_index": 1,
       "explanation": "Compulsory schooling in Sweden covers 10 years: one year of preschool class (förskoleklass, age 6) followed by nine years of primary and lower secondary school (grundskola, ages 7–16).",
+      "explanation_sv": "Skolplikten i Sverige omfattar 10 år: ett år i förskoleklass (vid 6 års ålder) följt av nio år i grundskolan (åldrarna 7–16).",
       "difficulty": "beginner"
     },
     {
       "id": 51,
       "question": "What is 'föräldraledighet' (parental leave) in Sweden?",
+      "question_sv": "Vad innebär föräldraledighet i Sverige?",
       "options": [
         "A 3-month maternity leave for mothers only",
         "Paid parental leave shared between parents, totalling 480 days per child",
         "A one-month paternity leave for fathers",
         "An unpaid right to take time off work after having a child"
       ],
+      "options_sv": [
+        "En tremånaders mammaledighet endast för mammor",
+        "Betald föräldraledighet som delas mellan föräldrarna, totalt 480 dagar per barn",
+        "En enmånaders pappaledighet för pappor",
+        "En obetald rätt att ta ledigt från jobbet efter att ha fått barn"
+      ],
       "correct_index": 1,
       "explanation": "Sweden has one of the world's most generous parental leave systems: 480 days of paid parental leave per child, which parents can share between them. A portion (90 days per parent) is reserved for each parent.",
+      "explanation_sv": "Sverige har ett av världens mest generösa föräldraförsäkringssystem: 480 dagars betald föräldraledighet per barn, som föräldrarna kan dela sinsemellan. En viss del (90 dagar per förälder) är reserverad för respektive förälder.",
       "difficulty": "beginner"
     },
     {
       "id": 52,
       "question": "What is 'maxtaxa' in Swedish childcare?",
+      "question_sv": "Vad är 'maxtaxa' inom svensk barnomsorg?",
       "options": [
         "The maximum income tax rate",
         "A maximum speed limit on Swedish roads",
         "A fee cap ensuring childcare costs no more than a set maximum amount",
         "The maximum rent allowed for student housing"
       ],
+      "options_sv": [
+        "Den maximala inkomstskattesatsen",
+        "En högsta hastighetsgräns på svenska vägar",
+        "Ett avgiftstak som säkerställer att barnomsorgen inte kostar mer än ett fastställt maxbelopp",
+        "Den maximala hyran som tillåts för studentbostäder"
+      ],
       "correct_index": 2,
       "explanation": "Maxtaxa (maximum fee) is a nationally set cap on what Swedish municipalities can charge for childcare (förskola/daycare). It ensures that childcare is affordable regardless of where in Sweden you live.",
+      "explanation_sv": "Maxtaxa är ett nationellt fastställt tak för vad svenska kommuner får ta ut i avgift för barnomsorg (förskola/fritidshem). Det säkerställer att barnomsorgen är ekonomiskt överkomlig oavsett var i Sverige man bor.",
       "difficulty": "beginner"
     },
     {
       "id": 53,
       "question": "What is 'Arbetsförmedlingen' in Sweden?",
+      "question_sv": "Vad är Arbetsförmedlingen i Sverige?",
       "options": [
         "The Swedish Trade Union Confederation",
         "The Swedish Employment Agency that helps job seekers find work",
         "The Swedish employer organisation",
         "The agency that administers unemployment insurance"
       ],
+      "options_sv": [
+        "Landsorganisationen (LO)",
+        "Den svenska myndighet som hjälper arbetssökande att hitta jobb",
+        "Den svenska arbetsgivarorganisationen",
+        "Myndigheten som administrerar arbetslöshetsförsäkringen"
+      ],
       "correct_index": 1,
       "explanation": "Arbetsförmedlingen (the Swedish Public Employment Service) is the government agency responsible for matching job seekers with employers, administering labour market programmes, and providing career guidance.",
+      "explanation_sv": "Arbetsförmedlingen är den statliga myndighet som ansvarar för att matcha arbetssökande med arbetsgivare, administrera arbetsmarknadsprogram och erbjuda yrkesvägledning.",
       "difficulty": "intermediate",
       "distractor_notes": [
         "LO (Landsorganisationen) is the Swedish Trade Union Confederation — Arbetsförmedlingen is a government agency, not a union body.",
         null,
         "The Swedish employer organisation is Svenskt Näringsliv (Confederation of Swedish Enterprise).",
         "Unemployment insurance (a-kassa) is mainly managed by union-affiliated funds, not Arbetsförmedlingen directly."
+      ],
+      "distractor_notes_sv": [
+        "LO (Landsorganisationen) är den svenska fackliga centralorganisationen – Arbetsförmedlingen är en statlig myndighet, inte ett fackligt organ.",
+        null,
+        "Den svenska arbetsgivarorganisationen är Svenskt Näringsliv.",
+        "Arbetslöshetsförsäkringen (a-kassan) hanteras i huvudsak av fackligt anslutna kassor, inte direkt av Arbetsförmedlingen."
       ]
     },
     {
       "id": 54,
       "question": "What does 'folkbokföring' mean in Sweden?",
+      "question_sv": "Vad innebär 'folkbokföring' i Sverige?",
       "options": [
         "Voter registration for elections",
         "Population registration — being registered as living at a Swedish address",
         "Registering a business in Sweden",
         "Applying for a Swedish passport"
       ],
+      "options_sv": [
+        "Röstregistrering inför val",
+        "Befolkningsregistrering – att vara registrerad som boende på en svensk adress",
+        "Att registrera ett företag i Sverige",
+        "Att ansöka om ett svenskt pass"
+      ],
       "correct_index": 1,
       "explanation": "Folkbokföring is the Swedish system of population registration. Anyone living in Sweden must register their address with Skatteverket. Your folkbokföring address affects your access to local services, tax, and benefits.",
+      "explanation_sv": "Folkbokföring är det svenska systemet för befolkningsregistrering. Alla som bor i Sverige måste registrera sin adress hos Skatteverket. Din folkbokföringsadress påverkar din tillgång till lokal service, skatter och bidrag.",
       "difficulty": "intermediate"
     },
     {
       "id": 136,
       "question": "What does Sweden's 'patientlag' (Patient Act) guarantee?",
+      "question_sv": "Vad garanterar den svenska patientlagen?",
       "options": [
         "Free treatment for all conditions regardless of citizenship",
         "Patients' rights including the right to information, participation in their care, and freedom to choose a healthcare provider",
         "A guaranteed maximum waiting time for all treatments",
         "The right to sue the healthcare system for any misdiagnosis"
       ],
+      "options_sv": [
+        "Gratis behandling för alla tillstånd oavsett medborgarskap",
+        "Patienters rättigheter, inklusive rätten till information, delaktighet i sin vård och frihet att välja vårdgivare",
+        "En garanterad maximal väntetid för alla behandlingar",
+        "Rätten att stämma sjukvården för alla eventuella feldiagnoser"
+      ],
       "correct_index": 1,
       "explanation": "The Patient Act (patientlag, 2015) strengthens patients' rights in Sweden, including the right to information about their condition and treatment options, the right to participate in decisions about their care, and the right to seek a second opinion or transfer to another care provider.",
+      "explanation_sv": "Patientlagen (2015) stärker patienternas rättigheter i Sverige, inklusive rätten till information om sitt tillstånd och behandlingsalternativ, rätten att vara delaktig i beslut om sin vård och rätten till en andra bedömning (second opinion) eller att byta vårdgivare.",
       "difficulty": "intermediate"
     },
     {
       "id": 137,
       "question": "What does CSN (Centrala studiestödsnämnden) provide?",
+      "question_sv": "Vad erbjuder CSN (Centrala studiestödsnämnden)?",
       "options": [
         "Childcare subsidies for working parents",
         "Study grants and low-interest loans for students in post-secondary education",
         "Unemployment benefits for recent graduates",
         "Scholarships for students from low-income families only"
       ],
+      "options_sv": [
+        "Barnomsorgsbidrag för förvärvsarbetande föräldrar",
+        "Studiebidrag och lån med låg ränta för studenter på eftergymnasial nivå",
+        "Arbetslöshetsersättning för nyutexaminerade",
+        "Stipendier enbart för studenter från familjer med låg inkomst"
+      ],
       "correct_index": 1,
       "explanation": "CSN (the Swedish Board of Student Finance) administers Sweden's study support system, which includes both a non-repayable grant (studiebidrag) and a repayable loan (studielån) for Swedish students in upper secondary and higher education. This helps make higher education accessible to all.",
+      "explanation_sv": "CSN administrerar det svenska studiestödssystemet, som omfattar både ett bidrag (studiebidrag) som inte behöver betalas tillbaka och ett återbetalningspliktigt lån (studielån) för svenska studerande på gymnasie- och högskolenivå. Detta bidrar till att göra högre utbildning tillgänglig för alla.",
       "difficulty": "intermediate"
     },
     {
       "id": 138,
       "question": "What is 'bostadsbidrag' in Sweden?",
+      "question_sv": "Vad är bostadsbidrag i Sverige?",
       "options": [
         "A grant to buy your first home",
         "A housing benefit — monthly financial support for low-income households renting their accommodation",
         "A tax relief for mortgage interest payments",
         "A subsidy for energy-efficient home improvements"
       ],
+      "options_sv": [
+        "Ett bidrag för att köpa din första bostad",
+        "Ett bostadsstöd – månatligt ekonomiskt stöd för hushåll med låg inkomst som hyr sin bostad",
+        "Ett skatteavdrag för ränteutgifter på bolån",
+        "Ett bidrag för energieffektiva hemförbättringar"
+      ],
       "correct_index": 1,
       "explanation": "Bostadsbidrag (housing benefit) is a means-tested benefit administered by Försäkringskassan. It helps cover housing costs for families with children and certain young adults with low incomes. The amount depends on income, housing costs, and family size.",
+      "explanation_sv": "Bostadsbidrag är en inkomstprövad förmån som administreras av Försäkringskassan. Det hjälper till att täcka boendekostnader för barnfamiljer och vissa unga vuxna med låg inkomst. Beloppet beror på inkomst, boendekostnad och familjens storlek.",
       "difficulty": "intermediate"
     },
     {
       "id": 139,
       "question": "What does the Swedish law 'LSS' (Lag om stöd och service till vissa funktionshindrade) provide?",
+      "question_sv": "Vad innebär den svenska lagen LSS (Lagen om stöd och service till vissa funktionshindrade)?",
       "options": [
         "Income support for all people unable to work",
         "Legal rights and support services for people with significant and lasting functional impairments",
         "A general social care framework for elderly people",
         "Occupational health and rehabilitation services"
       ],
+      "options_sv": [
+        "Inkomststöd för alla människor som inte kan arbeta",
+        "Juridiska rättigheter och insatser för personer med stora och varaktiga funktionsnedsättningar",
+        "Ett generellt ramverk för social omsorg av äldre",
+        "Företagshälsovård och rehabiliteringstjänster"
+      ],
       "correct_index": 1,
       "explanation": "LSS (the Act Concerning Support and Service for Persons with Certain Functional Impairments, 1993) gives people with significant disabilities the right to specific support services such as personal assistance, daily activities, and housing with special support. It is considered one of the world's most progressive disability rights laws.",
+      "explanation_sv": "LSS (Lagen om stöd och service till vissa funktionshindrade, 1993) ger personer med stora funktionsnedsättningar rätt till särskilda insatser som personlig assistans, daglig verksamhet och bostad med särskild service. Den anses vara en av världens mest progressiva lagar om rättigheter för personer med funktionsnedsättning.",
       "difficulty": "expert"
     },
     {
       "id": 140,
       "question": "What is 'hemtjänst' in Sweden?",
+      "question_sv": "Vad är hemtjänst i Sverige?",
       "options": [
         "A home tutoring service for school children",
         "State-funded home care services provided to elderly and disabled people to help with daily life",
         "An emergency home repair service",
         "In-home childcare provided by the municipality"
       ],
+      "options_sv": [
+        "En läxhjälp i hemmet för skolbarn",
+        "Skattemedelsfinansierad omvårdnad i hemmet som ges till äldre och personer med funktionsnedsättning som hjälp i vardagen",
+        "En akut reparationstjänst för hemmet",
+        "Barnomsorg i hemmet som tillhandahålls av kommunen"
+      ],
       "correct_index": 1,
       "explanation": "Hemtjänst (home care service) is organised by municipalities and provides practical help in the home — such as cleaning, cooking, and personal hygiene — to elderly and disabled people who need assistance. It allows people to live independently in their own homes for longer.",
+      "explanation_sv": "Hemtjänst organiseras av kommunerna och ger praktisk hjälp i hemmet – som städning, matlagning och personlig hygien – till äldre och personer med funktionsnedsättning som behöver stöd. Den gör det möjligt för människor att bo kvar självständigt i sina egna hem längre.",
       "difficulty": "intermediate"
     },
     {
       "id": 141,
       "question": "What is 'sjukpenning' in Sweden?",
+      "question_sv": "Vad är sjukpenning i Sverige?",
       "options": [
         "A disability pension for those who can never work again",
         "Short-term sickness benefit replacing income when a person cannot work due to illness or injury",
         "Medicine subsidies for people with chronic conditions",
         "A government top-up for low sick pay from employers"
       ],
+      "options_sv": [
+        "En sjukersättning för de som aldrig mer kan arbeta",
+        "En kortsiktig sjukförmån som ersätter inkomst när en person inte kan arbeta på grund av sjukdom eller skada",
+        "Läkemedelssubventioner för personer med kroniska sjukdomar",
+        "Ett statligt tillägg för låg sjuklön från arbetsgivare"
+      ],
       "correct_index": 1,
       "explanation": "Sjukpenning (sickness benefit) is paid by Försäkringskassan from day 15 of illness (the employer pays the first 14 days via sjuklön). It replaces approximately 80% of income up to a ceiling. After extended absence, different rules and forms of support apply.",
+      "explanation_sv": "Sjukpenning betalas ut av Försäkringskassan från och med den 15:e sjukdagen (arbetsgivaren betalar de första 14 dagarna via sjuklön). Den ersätter cirka 80 % av inkomsten upp till ett tak. Efter en längre tids frånvaro gäller andra regler och stödformer.",
       "difficulty": "intermediate"
     },
     {
       "id": 142,
       "question": "What are 'friskolor' (independent schools) in Sweden?",
+      "question_sv": "Vad är 'friskolor' i Sverige?",
       "options": [
         "Elite boarding schools that charge high fees to private students",
         "Publicly funded schools run by private or non-profit organisations, free for students to attend",
         "Home-schooling arrangements for children with special needs",
         "Religious schools that are exempt from the national curriculum"
       ],
+      "options_sv": [
+        "Elitinternatskolor som tar ut höga avgifter av privatelever",
+        "Offentligt finansierade skolor som drivs av privata eller ideella organisationer, och som är gratis för eleverna att gå i",
+        "Hemundervisningsarrangemang för barn med särskilda behov",
+        "Religiösa skolor som är undantagna från den nationella läroplanen"
+      ],
       "correct_index": 1,
       "explanation": "Friskolor are independently run but publicly funded schools. Parents can choose a fristående skola (independent school) instead of the local municipal school. The school receives a per-pupil grant from the municipality. They must follow the national curriculum and cannot charge students fees.",
+      "explanation_sv": "Friskolor är fristående men offentligt finansierade skolor. Föräldrar kan välja en fristående skola istället för den lokala kommunala skolan. Skolan får en elevpeng från kommunen. De måste följa den nationella läroplanen och får inte ta ut avgifter från eleverna.",
       "difficulty": "intermediate"
     },
     {
       "id": 143,
       "question": "What is 'Migrationsverket' responsible for?",
+      "question_sv": "Vad ansvarar Migrationsverket för?",
       "options": [
         "Managing Sweden's borders and passport control",
         "Processing applications for visas, residence permits, asylum, and citizenship",
         "Administering integration programmes for new arrivals",
         "Deporting people whose applications have been rejected"
       ],
+      "options_sv": [
+        "Att hantera Sveriges gränser och passkontroller",
+        "Att handlägga ansökningar om visum, uppehållstillstånd, asyl och medborgarskap",
+        "Att administrera integrationsprogram för nyanlända",
+        "Att utvisa personer vars ansökningar har avslagits"
+      ],
       "correct_index": 1,
       "explanation": "Migrationsverket (the Swedish Migration Agency) is the government authority that examines and decides on applications for residence permits, work permits, asylum, and Swedish citizenship. It also coordinates reception of asylum seekers and provides information about the migration process.",
+      "explanation_sv": "Migrationsverket är den statliga myndighet som prövar och beslutar om ansökningar om uppehållstillstånd, arbetstillstånd, asyl och svenskt medborgarskap. Den samordnar också mottagandet av asylsökande och informerar om migrationsprocessen.",
       "difficulty": "beginner"
     },
     {
       "id": 144,
       "question": "What is 'Komvux' in Sweden?",
+      "question_sv": "Vad är Komvux i Sverige?",
       "options": [
         "A distance learning university for working professionals",
         "Municipal adult education offering courses to complete or supplement secondary schooling",
         "A private language school chain",
         "A vocational training programme exclusively for immigrants"
       ],
+      "options_sv": [
+        "Ett distansuniversitet för yrkesverksamma",
+        "Kommunal vuxenutbildning som erbjuder kurser för att slutföra eller komplettera grundskole- och gymnasieutbildning",
+        "En privat språkskolekedja",
+        "Ett yrkesutbildningsprogram enbart för invandrare"
+      ],
       "correct_index": 1,
       "explanation": "Komvux (Kommunal vuxenutbildning — municipal adult education) allows adults to complete or upgrade secondary school qualifications through their municipality. It is free and offers courses equivalent to both compulsory school (grundläggande vuxenutbildning) and upper secondary level (gymnasial vuxenutbildning).",
+      "explanation_sv": "Komvux (Kommunal vuxenutbildning) gör det möjligt för vuxna att slutföra eller komplettera sina skolbetyg via sin kommun. Utbildningen är gratis och erbjuder kurser som motsvarar både grundskola (grundläggande vuxenutbildning) och gymnasienivå (gymnasial vuxenutbildning).",
       "difficulty": "intermediate"
     },
     {
       "id": 145,
       "question": "What is Sweden's 'högkostnadsskydd' (high-cost protection) for healthcare?",
+      "question_sv": "Vad är Sveriges högkostnadsskydd för sjukvård?",
       "options": [
         "A cap on hospital treatment costs for serious illnesses",
         "A 12-month rolling ceiling on how much a patient pays in healthcare fees and prescription costs",
         "Free healthcare for everyone over the age of 65",
         "A maximum fee for private healthcare treatments"
       ],
+      "options_sv": [
+        "Ett tak för sjukhusvårdskostnader vid allvarliga sjukdomar",
+        "Ett rullande 12-månaderstak för hur mycket en patient betalar i patientavgifter och läkemedelskostnader",
+        "Gratis sjukvård för alla över 65 år",
+        "En maxavgift för privata sjukvårdsbehandlingar"
+      ],
       "correct_index": 1,
       "explanation": "Sweden's high-cost protection (högkostnadsskydd) limits how much a patient pays in healthcare visit fees and prescription medicine costs within a rolling 12-month period. Once the ceiling is reached, further care or medicine is provided free. This ensures healthcare remains affordable even for people with high health needs.",
+      "explanation_sv": "Sveriges högkostnadsskydd begränsar hur mycket en patient betalar i patientavgifter och för receptbelagda läkemedel under en rullande 12-månadersperiod. När taket är nått blir fortsatt vård eller medicinering gratis. Detta säkerställer att sjukvården förblir ekonomiskt överkomlig även för personer med stora vårdbehov.",
       "difficulty": "intermediate"
     },
     {
       "id": 146,
       "question": "What does 'Socialtjänsten' (Social Services) do in Sweden?",
+      "question_sv": "Vad gör Socialtjänsten i Sverige?",
       "options": [
         "It is Sweden's national social insurance authority managing pensions",
         "It is the municipal authority providing welfare support, child protection, and assistance to vulnerable individuals and families",
         "It is a government agency managing Sweden's foster care system nationally",
         "It is the body that distributes unemployment benefits"
       ],
+      "options_sv": [
+        "Det är Sveriges nationella socialförsäkringsmyndighet som hanterar pensioner",
+        "Det är den kommunala myndighet som ger välfärdsstöd, barnskydd och hjälp till utsatta individer och familjer",
+        "Det är en statlig myndighet som hanterar Sveriges system för familjehem på nationell nivå",
+        "Det är organet som fördelar arbetslöshetsersättning"
+      ],
       "correct_index": 1,
       "explanation": "Socialtjänsten is organised by each municipality and has broad responsibilities for the social welfare of residents. This includes supporting children and families at risk, providing assistance to people with addiction or mental health problems, administering social assistance (försörjningsstöd), and running elderly care.",
+      "explanation_sv": "Socialtjänsten organiseras av varje kommun och har ett brett ansvar för invånarnas sociala välfärd. Detta inkluderar att stödja utsatta barn och familjer, ge hjälp till personer med missbruk eller psykisk ohälsa, administrera ekonomiskt bistånd (försörjningsstöd) och driva äldreomsorgen.",
       "difficulty": "expert"
     },
     {
       "id": 147,
       "question": "What does the term 'arbetsgivaravgift' (employer's social contribution) refer to in Sweden?",
+      "question_sv": "Vad avser begreppet 'arbetsgivaravgift' i Sverige?",
       "options": [
         "The income tax deducted from an employee's salary",
         "The mandatory contribution employers pay on top of wages to fund social insurance and pensions",
         "A levy on companies to fund unemployment insurance",
         "The employer's contribution to a private pension scheme"
       ],
+      "options_sv": [
+        "Den inkomstskatt som dras från en anställds lön",
+        "Det obligatoriska bidrag som arbetsgivare betalar utöver lönen för att finansiera socialförsäkring och pensioner",
+        "En avgift för företag för att finansiera arbetslöshetsförsäkringen",
+        "Arbetsgivarens bidrag till en privat pensionsplan"
+      ],
       "correct_index": 1,
       "explanation": "Arbetsgivaravgifter are social security contributions paid by employers in addition to employees' wages. They fund the social insurance system (including pensions, parental leave, and sickness benefits) and are calculated as a percentage of gross wages. The total rate is approximately 31.42%.",
+      "explanation_sv": "Arbetsgivaravgifter är socialavgifter som betalas av arbetsgivaren utöver den anställdes lön. De finansierar socialförsäkringssystemet (inklusive pensioner, föräldrapenning och sjukpenning) och beräknas som en procentandel av bruttolönen. Den totala avgiften ligger på cirka 31,42 %.",
       "difficulty": "expert"
     },
     {
       "id": 148,
       "question": "What is a 'samordningsnummer' in Sweden?",
+      "question_sv": "Vad är ett samordningsnummer i Sverige?",
       "options": [
         "A social security number for Swedish citizens from birth",
         "A coordination number assigned to people who need to engage with Swedish authorities but are not registered as permanent residents",
         "A tax code for foreign workers",
         "A number assigned to companies for VAT purposes"
       ],
+      "options_sv": [
+        "Ett personnummer för svenska medborgare från födseln",
+        "Ett samordningsnummer som tilldelas personer som behöver ha kontakt med svenska myndigheter men som inte är folkbokförda",
+        "En skattekod för utländsk arbetskraft",
+        "Ett nummer som tilldelas företag för momssyften"
+      ],
       "correct_index": 1,
       "explanation": "A samordningsnummer (coordination number) is issued by Skatteverket to people who are not permanently resident in Sweden but need to interact with Swedish authorities — for example, temporary workers, students, or people receiving Swedish-sourced income. It is different from a personnummer (personal identity number).",
+      "explanation_sv": "Ett samordningsnummer utfärdas av Skatteverket till personer som inte är folkbokförda i Sverige men som behöver ha kontakt med svenska myndigheter – till exempel tillfälliga arbetstagare, studenter eller personer med inkomst från Sverige. Det skiljer sig från ett personnummer.",
       "difficulty": "expert"
     },
     {
       "id": 149,
       "question": "What is 'aktivitetsersättning' (activity compensation) in Sweden?",
+      "question_sv": "Vad är aktivitetsersättning i Sverige?",
       "options": [
         "A bonus paid to employees who achieve performance targets",
         "A form of income support for young people aged 19–29 who cannot work due to illness or disability",
         "A grant for participation in sports and recreational activities",
         "Compensation for injuries sustained in the workplace"
       ],
+      "options_sv": [
+        "En bonus som betalas till anställda som uppnår uppsatta mål",
+        "En form av inkomststöd för unga i åldern 19–29 år som inte kan arbeta på grund av sjukdom eller funktionsnedsättning",
+        "Ett bidrag för deltagande i idrott och fritidsaktiviteter",
+        "Ersättning för skador som uppstått på arbetsplatsen"
+      ],
       "correct_index": 1,
       "explanation": "Aktivitetsersättning is a benefit from Försäkringskassan for people aged 19–29 whose work capacity is reduced by at least 25% due to illness or disability. It also encourages participation in activities aimed at improving health and work ability.",
+      "explanation_sv": "Aktivitetsersättning är en ersättning från Försäkringskassan för unga i åldern 19–29 år vars arbetsförmåga är nedsatt med minst en fjärdedel på grund av sjukdom eller funktionsnedsättning. Den uppmuntrar också till deltagande i aktiviteter som syftar till att förbättra hälsan och arbetsförmågan.",
       "difficulty": "expert"
     },
     {
       "id": 150,
       "question": "Sweden provides a 'tandvårdsbidrag' (dental care allowance). What is this?",
+      "question_sv": "Sverige erbjuder ett 'tandvårdsbidrag'. Vad är det?",
       "options": [
         "Completely free dental care for all Swedish residents",
         "An annual allowance towards dental care costs for adults, with higher support for those over 65",
         "A subsidy only for children's dental care up to age 16",
         "A tax deduction for dental care costs"
       ],
+      "options_sv": [
+        "Helt gratis tandvård för alla som är bosatta i Sverige",
+        "Ett årligt bidrag till tandvårdskostnader för vuxna, med ett högre belopp för de över 65 år",
+        "En subvention enbart för barns tandvård upp till 16 års ålder",
+        "Ett skatteavdrag för tandvårdskostnader"
+      ],
       "correct_index": 1,
       "explanation": "Children and young people in Sweden receive free dental care up to age 23. Adults receive a tandvårdsbidrag (general dental care allowance) — an annual contribution towards dental costs. Additional support (tandvårdsstöd) protects against very high costs, similar to healthcare's high-cost protection.",
+      "explanation_sv": "Barn och unga i Sverige får gratis tandvård till och med det år de fyller 23. Vuxna får ett allmänt tandvårdsbidrag (ATB) – ett årligt ekonomiskt bidrag till tandvårdskostnader. Ytterligare tandvårdsstöd skyddar mot mycket höga kostnader, i likhet med sjukvårdens högkostnadsskydd.",
       "difficulty": "expert"
     }
   ]

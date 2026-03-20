@@ -4,26 +4,47 @@
     {
       "id": 55,
       "question": "What is 'Allemansrätten' (the right of public access)?",
+      "question_sv": "Vad är 'Allemansrätten'?",
       "options": [
         "The right to vote in all Swedish elections",
         "The constitutional right to free education",
         "The right to move freely in nature and camp temporarily on any land",
         "The right to free legal representation in court"
       ],
+      "options_sv": [
+        "Rätten att rösta i alla svenska val",
+        "Den grundlagsfästa rätten till gratis utbildning",
+        "Rätten att röra sig fritt i naturen och tillfälligt tälta på i stort sett all mark",
+        "Rätten till gratis juridiskt ombud i domstol"
+      ],
       "correct_index": 2,
       "explanation": "Allemansrätten is a traditional right — now codified in law — allowing everyone to roam freely in Sweden's countryside, forests, and waterways, camp temporarily, and pick wild berries and mushrooms, provided they show care and respect ('Don't disturb — don't destroy').",
+      "explanation_sv": "Allemansrätten är en traditionell rättighet – numera lagstadgad – som ger alla rätt att röra sig fritt i den svenska naturen, skogarna och på vattnet, tälta tillfälligt samt plocka vilda bär och svampar, förutsatt att man visar hänsyn och respekt ('Inte störa – inte förstöra').",
       "difficulty": "beginner",
       "distractor_notes": [
         "The right to vote is 'rösträtten' in Swedish. 'Allemansrätten' literally means 'every man's right' — referring to access to nature.",
         "Free education is a separate right in Sweden. Allemansrätten is about access to land.",
         null,
         "Free legal representation is handled through the legal aid system (rättshjälp), not Allemansrätten."
+      ],
+      "distractor_notes_sv": [
+        "Rätten att rösta heter 'rösträtten' på svenska. 'Allemansrätten' betyder bokstavligen 'varje mans rätt' – och syftar på tillgången till naturen.",
+        "Gratis utbildning är en separat rättighet i Sverige. Allemansrätten handlar om tillgång till mark.",
+        null,
+        "Gratis juridiskt ombud hanteras via rättshjälpssystemet, inte allemansrätten."
       ]
     },
     {
       "id": 56,
       "question": "Sweden's Freedom of the Press Act was first enacted in which year, making it the world's oldest?",
+      "question_sv": "Vilket år antogs Sveriges tryckfrihetsförordning för första gången, vilket gör den till världens äldsta?",
       "options": [
+        "1632",
+        "1766",
+        "1809",
+        "1865"
+      ],
+      "options_sv": [
         "1632",
         "1766",
         "1809",
@@ -31,18 +52,32 @@
       ],
       "correct_index": 1,
       "explanation": "Sweden's Tryckfrihetsförordningen (Freedom of the Press Act) was first enacted in 1766, making it the world's oldest law guaranteeing freedom of the press and public access to official documents.",
+      "explanation_sv": "Sveriges tryckfrihetsförordning antogs första gången 1766, vilket gör den till världens äldsta lag som garanterar tryckfrihet och allmänhetens tillgång till allmänna handlingar.",
       "difficulty": "intermediate",
       "distractor_notes": [
         "1632 was the death of Gustav II Adolf at the Battle of Lützen — not related to press freedom.",
         null,
         "1809 is a famous year for Swedish constitutional history (new constitution after losing Finland), making it a tempting guess. But the press freedom act was already 43 years old by then.",
         "1865 is when Sweden's parliament underwent major reform (bicameral → modern), not press freedom."
+      ],
+      "distractor_notes_sv": [
+        "1632 var året då Gustav II Adolf stupade i slaget vid Lützen – inte relaterat till tryckfrihet.",
+        null,
+        "1809 är ett berömt år i svensk författningshistoria (ny regeringsform efter förlusten av Finland), vilket gör det till en frestande gissning. Men tryckfrihetsförordningen var redan 43 år gammal då.",
+        "1865 var året då Sveriges riksdag genomgick en stor reform (tvåkammarriksdag), inte tryckfrihet."
       ]
     },
     {
       "id": 57,
       "question": "At what age does criminal responsibility begin in Sweden?",
+      "question_sv": "Vid vilken ålder blir man straffmyndig i Sverige?",
       "options": [
+        "12",
+        "14",
+        "15",
+        "18"
+      ],
+      "options_sv": [
         "12",
         "14",
         "15",
@@ -50,218 +85,362 @@
       ],
       "correct_index": 2,
       "explanation": "In Sweden, the age of criminal responsibility is 15. Children under 15 cannot be prosecuted for crimes, though social services may intervene. Those aged 15–17 are tried in courts but face different sentencing.",
+      "explanation_sv": "I Sverige är straffmyndighetsåldern 15 år. Barn under 15 år kan inte åtalas för brott, men socialtjänsten kan ingripa. Personer i åldern 15–17 år ställs inför domstol men döms till andra typer av påföljder.",
       "difficulty": "beginner",
       "distractor_notes": [
         "12 is the age of criminal responsibility in some countries, but not Sweden.",
         "14 is Germany's age of criminal responsibility, which people sometimes confuse with Sweden's.",
         null,
         "18 is the age of full legal adulthood, but criminal proceedings can begin against 15-year-olds."
+      ],
+      "distractor_notes_sv": [
+        "12 är straffmyndighetsåldern i vissa länder, men inte i Sverige.",
+        "14 är Tysklands straffmyndighetsålder, vilket man ibland förväxlar med Sveriges.",
+        null,
+        "18 är åldern för fullständig myndighet, men straffrättsliga förfaranden kan inledas mot 15-åringar."
       ]
     },
     {
       "id": 58,
       "question": "What does 'Diskrimineringslagen' protect against?",
+      "question_sv": "Vad skyddar diskrimineringslagen emot?",
       "options": [
         "Discrimination based on grounds such as ethnicity, religion, sex, disability, and sexual orientation",
         "Unfair competition between businesses",
         "Political discrimination in elections",
         "Discrimination between Swedish citizens and EU citizens"
       ],
+      "options_sv": [
+        "Diskriminering på grunder som etnisk tillhörighet, religion, kön, funktionsnedsättning och sexuell läggning",
+        "Osund konkurrens mellan företag",
+        "Politisk diskriminering i val",
+        "Diskriminering mellan svenska medborgare och EU-medborgare"
+      ],
       "correct_index": 0,
       "explanation": "The Discrimination Act (Diskrimineringslagen, 2008) prohibits discrimination in working life, education, and other areas based on seven protected grounds: sex, transgender identity, ethnicity, religion, disability, sexual orientation, and age.",
+      "explanation_sv": "Diskrimineringslagen (2008) förbjuder diskriminering i arbetslivet, utbildningsväsendet och andra samhällsområden baserat på sju diskrimineringsgrunder: kön, könsöverskridande identitet eller uttryck, etnisk tillhörighet, religion eller annan trosuppfattning, funktionsnedsättning, sexuell läggning och ålder.",
       "difficulty": "beginner"
     },
     {
       "id": 59,
       "question": "What is the role of 'Diskrimineringsombudsmannen' (DO)?",
+      "question_sv": "Vilken roll har Diskrimineringsombudsmannen (DO)?",
       "options": [
         "A court that hears discrimination cases",
         "The government authority that monitors compliance with the Discrimination Act",
         "A union organisation protecting workers' rights",
         "A parliamentary committee overseeing equality legislation"
       ],
+      "options_sv": [
+        "En domstol som prövar diskrimineringsmål",
+        "Den statliga myndighet som utövar tillsyn över att diskrimineringslagen följs",
+        "En facklig organisation som skyddar arbetstagares rättigheter",
+        "Ett riksdagsutskott som övervakar jämställdhetslagstiftningen"
+      ],
       "correct_index": 1,
       "explanation": "The Equality Ombudsman (DO) is a government authority that supervises compliance with the Discrimination Act, investigates complaints of discrimination, and works preventively to promote equality.",
+      "explanation_sv": "Diskrimineringsombudsmannen (DO) är en statlig myndighet som arbetar mot diskriminering och för allas lika rättigheter och möjligheter. DO utövar tillsyn över diskrimineringslagen och utreder anmälningar om diskriminering.",
       "difficulty": "intermediate",
       "distractor_notes": [
         "DO can take cases to court but is not itself a court — it investigates and enforces compliance.",
         null,
         "DO is an independent government authority, not a trade union.",
         "DO is an executive authority, not a parliamentary committee."
+      ],
+      "distractor_notes_sv": [
+        "DO kan driva ärenden i domstol men är inte själv en domstol – myndigheten utreder och ser till att lagen följs.",
+        null,
+        "DO är en oberoende statlig myndighet, inte ett fackförbund.",
+        "DO är en förvaltningsmyndighet, inte ett riksdagsutskott."
       ]
     },
     {
       "id": 60,
       "question": "Is same-sex marriage legal in Sweden?",
+      "question_sv": "Är samkönade äktenskap lagliga i Sverige?",
       "options": [
         "No, only civil partnerships are allowed",
         "Yes, since 2009",
         "Yes, since 2000",
         "Yes, since 2015"
       ],
+      "options_sv": [
+        "Nej, endast registrerat partnerskap är tillåtet",
+        "Ja, sedan 2009",
+        "Ja, sedan 2000",
+        "Ja, sedan 2015"
+      ],
       "correct_index": 1,
       "explanation": "Sweden legalised same-sex marriage in 2009, making it gender-neutral. The Swedish Church (Church of Sweden) also began performing same-sex weddings in 2009.",
+      "explanation_sv": "Sverige legaliserade samkönade äktenskap 2009 genom att göra äktenskapsbalken könsneutral. Svenska kyrkan började också viga samkönade par 2009.",
       "difficulty": "beginner",
       "distractor_notes": [
         "Registered same-sex partnerships ('registrerat partnerskap') existed from 1995, but same-sex marriage began in 2009.",
         null,
         "2000 is when the Church of Sweden separated from the state — not when marriage equality passed.",
         "2015 is when the US Supreme Court ruled on marriage equality. Sweden acted six years earlier."
+      ],
+      "distractor_notes_sv": [
+        "Registrerat partnerskap fanns från 1995, men samkönade äktenskap infördes 2009.",
+        null,
+        "År 2000 skildes Svenska kyrkan från staten – det var inte då den könsneutrala äktenskapslagen antogs.",
+        "2015 var året då USA:s högsta domstol beslutade om samkönade äktenskap. Sverige agerade sex år tidigare."
       ]
     },
     {
       "id": 61,
       "question": "What is the Swedish concept of 'sekretess' (secrecy) in law?",
+      "question_sv": "Vad innebär det svenska juridiska begreppet 'sekretess'?",
       "options": [
         "The total absence of any government secrecy",
         "Exceptions to the principle of public access, protecting certain sensitive information from disclosure",
         "A requirement for all government officials to keep everything secret",
         "The right to privacy from commercial data collection"
       ],
+      "options_sv": [
+        "Den totala avsaknaden av all form av statlig sekretess",
+        "Undantag från offentlighetsprincipen, som skyddar viss känslig information från att lämnas ut",
+        "Ett krav på alla statliga tjänstemän att hålla allt hemligt",
+        "Rätten till integritet från kommersiell datainsamling"
+      ],
       "correct_index": 1,
       "explanation": "While Sweden has a strong principle of public access (offentlighetsprincipen), secrecy (sekretess) provisions in the Public Access to Information and Secrecy Act (Offentlighets- och sekretesslagen) protect certain categories of sensitive information, such as national security and personal privacy.",
+      "explanation_sv": "Även om Sverige har en stark offentlighetsprincip, skyddar sekretessbestämmelserna i offentlighets- och sekretesslagen vissa kategorier av känslig information från att lämnas ut, såsom rikets säkerhet och personlig integritet.",
       "difficulty": "intermediate"
     },
     {
       "id": 62,
       "question": "Sweden's constitution protects freedom of expression (yttrandefrihet). Which of the following is NOT protected?",
+      "question_sv": "Sveriges grundlag skyddar yttrandefriheten. Vilket av följande är INTE skyddat?",
       "options": [
         "Criticising the government",
         "Expressing minority political opinions",
         "Incitement to hatred against ethnic or other groups (hets mot folkgrupp)",
         "Reporting on government waste"
       ],
+      "options_sv": [
+        "Att kritisera regeringen",
+        "Att uttrycka politiska minoritetsåsikter",
+        "Hets mot folkgrupp",
+        "Att rapportera om statligt slöseri"
+      ],
       "correct_index": 2,
       "explanation": "While freedom of expression is strongly protected in Sweden, incitement to hatred against an ethnic, national, or other group (hets mot folkgrupp) is a criminal offence under Swedish law.",
+      "explanation_sv": "Även om yttrandefriheten har ett starkt skydd i Sverige, är hets mot folkgrupp (att uppmana till hat mot en etnisk, nationell eller annan grupp) ett brott enligt svensk lag.",
       "difficulty": "beginner",
       "distractor_notes": [
         "Criticising the government is a core protected right in Sweden's constitution.",
         "Expressing minority political opinions is explicitly protected under freedom of expression.",
         null,
         "Reporting on government waste (investigative journalism) is strongly protected, especially under the Tryckfrihetsförordningen."
+      ],
+      "distractor_notes_sv": [
+        "Att kritisera regeringen är en central skyddad rättighet i Sveriges grundlag.",
+        "Att uttrycka politiska minoritetsåsikter är uttryckligen skyddat under yttrandefriheten.",
+        null,
+        "Att granska statligt slöseri (undersökande journalistik) har ett starkt skydd, särskilt under tryckfrihetsförordningen."
       ]
     },
     {
       "id": 151,
       "question": "Under Swedish law, can the police search your home without legal authority?",
+      "question_sv": "Kan polisen enligt svensk lag göra en husrannsakan i ditt hem utan lagstöd?",
       "options": [
         "Yes, police may always conduct a home search if they suspect a crime",
         "No — a search of the home (husrannsakan) generally requires a legal basis such as a court decision or specific statutory power",
         "Yes, but only in relation to drug offences",
         "No — only the prosecutor can authorise a home search"
       ],
+      "options_sv": [
+        "Ja, polisen får alltid göra en husrannsakan om de misstänker ett brott",
+        "Nej – en husrannsakan kräver i allmänhet rättslig grund, såsom ett beslut från domstol, åklagare eller specifik befogenhet i lag",
+        "Ja, men bara i samband med narkotikabrott",
+        "Nej – endast åklagaren kan godkänna en husrannsakan"
+      ],
       "correct_index": 1,
       "explanation": "The Swedish constitution protects individuals against arbitrary intrusions into the home. As a general rule, a house search (husrannsakan) must have a legal basis. In criminal investigations, this usually means a decision by a prosecutor or court, depending on the seriousness of the suspected offence.",
+      "explanation_sv": "Sveriges grundlag skyddar individer mot godtyckliga intrång i hemmet. Som huvudregel måste en husrannsakan ha lagstöd. I brottsutredningar innebär detta vanligtvis ett beslut av åklagare eller domstol, beroende på hur allvarligt det misstänkta brottet är.",
       "difficulty": "intermediate"
     },
     {
       "id": 152,
       "question": "What does Sweden's 'lagen om offentlig upphandling' (LOU) regulate?",
+      "question_sv": "Vad reglerar lagen om offentlig upphandling (LOU) i Sverige?",
       "options": [
         "How government ministers declare financial interests",
         "How public sector bodies must run competitive procurement processes to buy goods and services",
         "State ownership of major companies",
         "How the government manages national assets and property"
       ],
+      "options_sv": [
+        "Hur statsråd deklarerar sina ekonomiska intressen",
+        "Hur offentliga myndigheter och organ måste genomföra konkurrensutsatta upphandlingsprocesser för att köpa varor och tjänster",
+        "Statens ägande av stora företag",
+        "Hur staten förvaltar nationella tillgångar och egendomar"
+      ],
       "correct_index": 1,
       "explanation": "LOU (the Public Procurement Act) implements EU procurement directives in Sweden. It requires public authorities to advertise contracts above certain thresholds and conduct fair, transparent competitive tendering. This helps ensure taxpayer money is spent effectively and prevents corruption.",
+      "explanation_sv": "LOU (lagen om offentlig upphandling) implementerar EU:s upphandlingsdirektiv i Sverige. Lagen kräver att myndigheter annonserar ut kontrakt över vissa tröskelvärden och genomför rättvisa, transparenta och konkurrensutsatta anbudsförfaranden. Detta bidrar till att skattepengar används effektivt och motverkar korruption.",
       "difficulty": "expert"
     },
     {
       "id": 153,
       "question": "What is the principle of 'yttrandefrihet' (freedom of expression) in Sweden?",
+      "question_sv": "Vad innebär principen om yttrandefrihet i Sverige?",
       "options": [
         "An absolute right to say anything with no legal limits whatsoever",
         "The constitutional right to freely express opinions, with limited exceptions such as incitement to hatred and defamation",
         "A right that applies only to political speech and journalism",
         "A right that can be suspended in times of national emergency"
       ],
+      "options_sv": [
+        "En absolut rätt att säga vad som helst utan några som helst juridiska gränser",
+        "Den grundlagsfästa rätten att fritt uttrycka åsikter, med begränsade undantag som hets mot folkgrupp och förtal",
+        "En rättighet som enbart gäller politiska tal och journalistik",
+        "En rättighet som kan upphävas vid nationella krissituationer"
+      ],
       "correct_index": 1,
       "explanation": "Freedom of expression is protected by Sweden's constitution, including the Fundamental Law on Freedom of Expression (Yttrandefrihetsgrundlagen). However, it is not absolute — exceptions include incitement to hatred against groups (hets mot folkgrupp), defamation, and certain other specified offences.",
+      "explanation_sv": "Yttrandefriheten är skyddad av Sveriges grundlagar, bland annat yttrandefrihetsgrundlagen. Den är dock inte absolut – undantag inkluderar hets mot folkgrupp, förtal och vissa andra specifika brott.",
       "difficulty": "beginner"
     },
     {
       "id": 154,
       "question": "What is the statute of limitations ('preskription') in Swedish law?",
+      "question_sv": "Vad innebär preskription (statute of limitations) i svensk rätt?",
       "options": [
         "A maximum sentence limit for any criminal offence",
         "A time limit after which a legal claim or prosecution can no longer be brought",
         "A mandatory review period for all prison sentences",
         "The maximum time a person can be held in custody before charge"
       ],
+      "options_sv": [
+        "En maximal straffgräns för alla brott",
+        "En tidsgräns efter vilken ett civilrättsligt anspråk eller ett åtal inte längre kan väckas",
+        "En obligatorisk granskningsperiod för alla fängelsestraff",
+        "Den maximala tid en person kan sitta häktad innan åtal väcks"
+      ],
       "correct_index": 1,
       "explanation": "Preskription (statute of limitations) sets time limits within which civil claims must be brought or criminal prosecutions initiated. In Sweden, the general statute of limitations for civil claims is 10 years (3 years for consumer claims). For the most serious crimes (such as murder), there is no limitation period.",
+      "explanation_sv": "Preskription sätter tidsgränser inom vilka civilrättsliga anspråk måste framställas eller åtal för brott inledas. I Sverige är den allmänna preskriptionstiden för fordringar 10 år (3 år för konsumentfordringar). För de allvarligaste brotten (som mord) finns det ingen preskriptionstid.",
       "difficulty": "expert"
     },
     {
       "id": 155,
       "question": "What is a Swedish 'advokat' (advocate)?",
+      "question_sv": "Vad är en svensk 'advokat'?",
       "options": [
         "Any person who has completed a law degree in Sweden",
         "A lawyer who is a member of the Swedish Bar Association (Advokatsamfundet) and bound by its professional rules",
         "A government-appointed public defender",
         "A legal expert who advises businesses but cannot appear in court"
       ],
+      "options_sv": [
+        "Vem som helst som har avlagt en juristexamen i Sverige",
+        "En jurist som är medlem i Sveriges advokatsamfund och är bunden av dess etiska regler",
+        "En statligt utsedd offentlig försvarare",
+        "En juridisk expert som ger råd till företag men inte kan uppträda i domstol"
+      ],
       "correct_index": 1,
       "explanation": "In Sweden, only lawyers who are members of Advokatsamfundet (the Swedish Bar Association) may use the title 'advokat'. Membership requires a law degree, at least three years of practice, and passing professional examinations. Advokater are bound by ethical rules and the duty of confidentiality (tystnadsplikt).",
+      "explanation_sv": "I Sverige är 'advokat' en skyddad titel som endast får användas av jurister som är ledamöter av Sveriges advokatsamfund. Medlemskap kräver juristexamen, minst tre års praktisk erfarenhet och godkänd advokatexamen. Advokater är bundna av vägledande regler om god advokatsed och har tystnadsplikt.",
       "difficulty": "intermediate"
     },
     {
       "id": 156,
       "question": "What is 'häktning' (remand in custody) in Sweden?",
+      "question_sv": "Vad innebär 'häktning' i Sverige?",
       "options": [
         "A suspended sentence allowing the convicted person to remain free",
         "Being detained in custody before trial if certain criteria are met, such as risk of reoffending or obstructing justice",
         "A form of community service ordered before conviction",
         "House arrest with an electronic tag"
       ],
+      "options_sv": [
+        "En villkorlig dom som tillåter den dömda personen att förbli på fri fot",
+        "Att hållas frihetsberövad (inlåst) i väntan på rättegång om vissa kriterier är uppfyllda, exempelvis risk för återfall i brott eller försvårande av utredningen",
+        "En form av samhällstjänst som ådöms före fällande dom",
+        "Husarrest med elektronisk fotboja"
+      ],
       "correct_index": 1,
       "explanation": "Häktning (remand) means being held in jail before trial. In Sweden, a court must order remand — a prosecutor applies, and the court decides within 96 hours of arrest. Remand is only ordered if there are specific grounds, such as flight risk, risk of obstructing the investigation, or risk of further offending.",
+      "explanation_sv": "Häktning innebär att man hålls frihetsberövad före rättegången. I Sverige måste en domstol besluta om häktning – åklagaren begär det, och domstolen beslutar oftast inom 96 timmar efter gripandet. Häktning beslutas bara om det finns särskilda häktningsskäl, till exempel flyktfara, kollusionsfara (risk att förstöra bevis) eller recidivfara (risk för fortsatt brottslighet).",
       "difficulty": "expert"
     },
     {
       "id": 157,
       "question": "What is IMY (Integritetsskyddsmyndigheten) responsible for?",
+      "question_sv": "Vad ansvarar IMY (Integritetsskyddsmyndigheten) för?",
       "options": [
         "Overseeing Sweden's immigration and asylum system",
         "Protecting personal data and privacy rights, and enforcing GDPR in Sweden",
         "Managing Sweden's classified security information",
         "Regulating media and broadcasting content"
       ],
+      "options_sv": [
+        "Att övervaka Sveriges invandrings- och asylsystem",
+        "Att skydda personuppgifter och integritetsrättigheter, samt upprätthålla GDPR i Sverige",
+        "Att hantera Sveriges hemligstämplade säkerhetsinformation",
+        "Att reglera medie- och sändningsinnehåll"
+      ],
       "correct_index": 1,
       "explanation": "IMY (the Swedish Authority for Privacy Protection, formerly Datainspektionen) is Sweden's data protection authority. It supervises compliance with GDPR and Swedish data protection law, handles complaints about personal data processing, and can impose fines for breaches.",
+      "explanation_sv": "IMY (tidigare Datainspektionen) är Sveriges dataskyddsmyndighet. Myndigheten utövar tillsyn över att dataskyddsförordningen (GDPR) och svensk dataskyddslagstiftning följs, hanterar klagomål om personuppgiftsbehandling och kan utfärda sanktionsavgifter vid överträdelser.",
       "difficulty": "expert"
     },
     {
       "id": 158,
       "question": "What does 'Kronofogden' (the Swedish Enforcement Authority) do?",
+      "question_sv": "Vad gör Kronofogden?",
       "options": [
         "It investigates financial crime and fraud",
         "It enforces court judgments and collects unpaid debts, taxes, and other claims",
         "It manages Sweden's national debt",
         "It prosecutes tax evaders on behalf of the state"
       ],
+      "options_sv": [
+        "Utredar ekonomisk brottslighet och bedrägeri",
+        "Verkställer domstolsbeslut och driver in obetalda skulder, skatter och andra fordringar",
+        "Förvaltar Sveriges statsskuld",
+        "Åtalar skattesmitare för statens räkning"
+      ],
       "correct_index": 1,
       "explanation": "Kronofogdemyndigheten enforces legal obligations — collecting debts when a person has not paid voluntarily after a court judgment or administrative decision. This includes recovering unpaid taxes, child maintenance, and other debts. Kronofogden can seize assets (utmätning) to satisfy debts.",
+      "explanation_sv": "Kronofogden verkställer juridiska skyldigheter – driver in skulder när någon inte har betalat frivilligt efter ett domstols- eller myndighetsbeslut. Detta inkluderar indrivning av obetalda skatter, underhållsbidrag och andra skulder. Kronofogden kan besluta om utmätning av tillgångar för att täcka skulder.",
       "difficulty": "intermediate"
     },
     {
       "id": 159,
       "question": "What is 'förvaltningsrätten' (the administrative court) in Sweden?",
+      "question_sv": "Vad är förvaltningsrätten i Sverige?",
       "options": [
         "A court that handles disputes between businesses",
         "A court that reviews decisions by public authorities and hears appeals from citizens against government decisions",
         "A court that handles constitutional questions",
         "A court that deals with environmental law"
       ],
+      "options_sv": [
+        "En domstol som hanterar tvister mellan företag",
+        "En domstol som överprövar myndighetsbeslut och hanterar medborgares överklaganden mot statliga och kommunala beslut",
+        "En domstol som hanterar konstitutionella frågor",
+        "En domstol som hanterar miljörätt"
+      ],
       "correct_index": 1,
       "explanation": "Förvaltningsrätten (administrative court) is where citizens can appeal decisions made by public authorities — for example, decisions about social benefits, tax assessments, or planning permissions. There are 12 administrative courts in Sweden, with the Supreme Administrative Court (Högsta förvaltningsdomstolen) at the top.",
+      "explanation_sv": "Förvaltningsrätten är den domstol dit medborgare kan vända sig för att överklaga myndighetsbeslut – till exempel beslut om socialbidrag, skattebeslut eller bygglov. Det finns 12 förvaltningsrätter i Sverige, med Högsta förvaltningsdomstolen som högsta instans.",
       "difficulty": "intermediate"
     },
     {
       "id": 160,
       "question": "Sweden incorporated the UN Convention on the Rights of the Child (barnkonventionen) into Swedish law in which year?",
+      "question_sv": "Sverige inkorporerade FN:s barnkonvention i svensk lag vilket år?",
       "options": [
+        "1989",
+        "1999",
+        "2010",
+        "2020"
+      ],
+      "options_sv": [
         "1989",
         "1999",
         "2010",
@@ -269,83 +448,136 @@
       ],
       "correct_index": 3,
       "explanation": "Sweden ratified the UN Convention on the Rights of the Child in 1990 and formally incorporated it into Swedish domestic law on 1 January 2020. This means Swedish courts and authorities must directly apply the Convention's provisions when making decisions affecting children.",
+      "explanation_sv": "Sverige ratificerade FN:s barnkonvention 1990 och inkorporerade den formellt som svensk lag den 1 januari 2020. Detta innebär att svenska domstolar och myndigheter måste tillämpa konventionens bestämmelser direkt när de fattar beslut som rör barn.",
       "difficulty": "intermediate",
       "distractor_notes": [
         "1989 is when the UN adopted the Convention on the Rights of the Child — but Sweden didn't make it domestic law until much later.",
         "Sweden ratified the Convention in 1990. But ratification is different from incorporating it directly into Swedish law, which happened in 2020.",
         "2010 is not the year — several reform proposals were debated but incorporation came in 2020.",
         null
+      ],
+      "distractor_notes_sv": [
+        "1989 är året då FN antog barnkonventionen – men Sverige gjorde den inte till lag förrän långt senare.",
+        "Sverige ratificerade konventionen 1990. Men ratificering skiljer sig från att direkt inkorporera den i svensk lag, vilket skedde 2020.",
+        "2010 är fel år – flera reformförslag debatterades, men inkorporeringen skedde 2020.",
+        null
       ]
     },
     {
       "id": 161,
       "question": "What does the right to a 'rättvis rättegång' (fair trial) guarantee in Sweden?",
+      "question_sv": "Vad garanterar rätten till en 'rättvis rättegång' i Sverige?",
       "options": [
         "That every case will be heard by the Supreme Court",
         "The right to be heard by an independent court, with access to a defence lawyer and the presumption of innocence",
         "A guarantee that the trial will be completed within 30 days",
         "The right to choose your own judge"
       ],
+      "options_sv": [
+        "Att varje mål kommer att prövas av Högsta domstolen",
+        "Rätten till en prövning av en oberoende domstol, med tillgång till försvarsadvokat och presumtion om oskuld",
+        "En garanti för att rättegången avslutas inom 30 dagar",
+        "Rätten att välja sin egen domare"
+      ],
       "correct_index": 1,
       "explanation": "The right to a fair trial in Sweden (protected by the European Convention on Human Rights, which is part of Swedish law) includes the right to an independent and impartial tribunal, the presumption of innocence, the right to a defence, and the right to know the charges against you.",
+      "explanation_sv": "Rätten till en rättvis rättegång i Sverige (som skyddas av Europakonventionen, vilken gäller som svensk lag) inkluderar rätten till en oberoende och opartisk domstol, oskuldspresumtionen, rätten till försvar och rätten att få veta vad man är anklagad för.",
       "difficulty": "intermediate"
     },
     {
       "id": 162,
       "question": "Sweden implements the European Arrest Warrant. What does this mean for Swedish citizens?",
+      "question_sv": "Sverige tillämpar en europeisk arresteringsorder. Vad innebär detta för svenska medborgare?",
       "options": [
         "Swedish citizens can never be extradited to another country",
         "Sweden can surrender individuals — including Swedish citizens — to other EU member states for prosecution or to serve sentences",
         "Swedish citizens can only be tried abroad if they consent",
         "The European Arrest Warrant only applies to non-EU nationals in Sweden"
       ],
+      "options_sv": [
+        "Svenska medborgare kan aldrig utlämnas till ett annat land",
+        "Sverige kan överlämna individer – inklusive svenska medborgare – till andra EU-länder för åtal eller för att avtjäna straff",
+        "Svenska medborgare kan bara ställas inför rätta utomlands om de samtycker",
+        "Den europeiska arresteringsordern gäller endast för icke-EU-medborgare i Sverige"
+      ],
       "correct_index": 1,
       "explanation": "Under the European Arrest Warrant framework (implemented in Sweden through the Act on European Arrest Warrants), Sweden can surrender persons — including Swedish nationals — to other EU countries for prosecution or to serve a sentence for recognised offences, replacing slower traditional extradition processes.",
+      "explanation_sv": "Under systemet med den europeiska arresteringsordern kan Sverige överlämna personer – inklusive svenska medborgare – till andra EU-länder för lagföring eller för att avtjäna ett straff för erkända brott. Detta ersätter de långsammare, traditionella utlämningsförfarandena.",
       "difficulty": "expert"
     },
     {
       "id": 163,
       "question": "What is the difference between a 'brottmål' and a 'tvistemål' in Swedish courts?",
+      "question_sv": "Vad är skillnaden mellan ett brottmål och ett tvistemål i svenska domstolar?",
       "options": [
         "Brottmål are heard in administrative courts; tvistemål in criminal courts",
         "Brottmål are criminal cases prosecuted by the state; tvistemål are civil cases between private parties",
         "Brottmål involve minor offences; tvistemål involve serious crimes",
         "Brottmål are decided by judges; tvistemål by juries"
       ],
+      "options_sv": [
+        "Brottmål prövas i förvaltningsdomstolar; tvistemål i brottmålsdomstolar",
+        "Brottmål är brottmål som drivs av staten; tvistemål är civilrättsliga mål mellan privata parter",
+        "Brottmål handlar om mindre förseelser; tvistemål handlar om allvarliga brott",
+        "Brottmål avgörs av domare; tvistemål avgörs av juryer"
+      ],
       "correct_index": 1,
       "explanation": "In Swedish law, brottmål (criminal cases) are brought by the state (åklagare/prosecutor) against a person accused of a crime. Tvistemål (civil cases) are disputes between private parties — for example, contract disputes, inheritance matters, or personal injury claims.",
+      "explanation_sv": "I svensk rätt väcks brottmål av staten (åklagaren) mot en person som är misstänkt för ett brott. Tvistemål är civilrättsliga tvister mellan privata parter – till exempel avtalstvister, arvstvister eller skadeståndskrav.",
       "difficulty": "expert"
     },
     {
       "id": 164,
       "question": "What does 'presumtionen för oskuld' (presumption of innocence) mean in Swedish criminal law?",
+      "question_sv": "Vad innebär 'oskuldspresumtionen' (presumption of innocence) i svensk straffrätt?",
       "options": [
         "A person cannot be arrested until the prosecution has proof of guilt",
         "A person is considered innocent until proven guilty beyond reasonable doubt by a court",
         "A first-time offender is automatically given a lighter sentence",
         "Any doubt in the evidence automatically results in a verdict of not guilty"
       ],
+      "options_sv": [
+        "En person kan inte arresteras förrän åklagaren har bevis för skuld",
+        "En person betraktas som oskyldig tills domstol har bevisat motsatsen utom rimligt tvivel",
+        "En förstagångsförbrytare får automatiskt ett lindrigare straff",
+        "Allt tvivel i bevisningen leder automatiskt till en friande dom"
+      ],
       "correct_index": 1,
       "explanation": "The presumption of innocence means that in Swedish criminal proceedings, the burden of proof lies with the prosecution. The accused does not need to prove their innocence. A conviction requires that guilt is proven beyond reasonable doubt (bortom rimligt tvivel).",
+      "explanation_sv": "Oskuldspresumtionen innebär att bevisbördan i svenska brottmålsprocesser vilar på åklagaren. Den tilltalade behöver inte bevisa sin oskuld. För en fällande dom krävs att skulden är bevisad utom rimligt tvivel.",
       "difficulty": "beginner",
       "distractor_notes": [
         "A person can be arrested on reasonable suspicion before proof is established. Presumption of innocence relates to conviction, not arrest.",
         null,
         null,
         "The principle requires proof 'beyond reasonable doubt' — not the absence of any doubt whatsoever. Some degree of uncertainty is acceptable if the core facts are clearly established."
+      ],
+      "distractor_notes_sv": [
+        "En person kan gripas på skälig misstanke innan bevis har fastställts. Oskuldspresumtionen gäller fällande dom, inte gripande.",
+        null,
+        null,
+        "Principen kräver bevis 'utom rimligt tvivel' – inte total avsaknad av minsta lilla tvivel. En viss grad av osäkerhet kan godtas om de centrala omständigheterna är tydligt bevisade."
       ]
     },
     {
       "id": 165,
       "question": "What is 'Åklagarmyndigheten' (the Swedish Prosecution Authority)?",
+      "question_sv": "Vad är Åklagarmyndigheten?",
       "options": [
         "The Swedish police authority",
         "The independent authority responsible for prosecuting crimes in Sweden",
         "The body that investigates complaints against the judiciary",
         "The government's legal advisors"
       ],
+      "options_sv": [
+        "Den svenska polismyndigheten",
+        "Den oberoende myndighet som ansvarar för att väcka åtal i Sverige",
+        "Organet som utreder klagomål mot domstolsväsendet",
+        "Regeringens juridiska rådgivare"
+      ],
       "correct_index": 1,
       "explanation": "Åklagarmyndigheten is the national prosecution authority. Independent of the government, it decides whether to bring criminal charges and prosecutes cases in court. It also leads certain criminal investigations jointly with the police. Sweden also has a separate Ekobrottsmyndigheten (Economic Crime Authority) for financial crimes.",
+      "explanation_sv": "Åklagarmyndigheten är en fristående statlig myndighet. Oavsett politisk styrning beslutar myndigheten om åtal ska väckas och driver processen i domstol. Åklagaren leder också vissa brottsutredningar (förundersökningar) tillsammans med polisen. Sverige har även en separat myndighet, Ekobrottsmyndigheten, för ekonomisk brottslighet.",
       "difficulty": "expert"
     }
   ]
