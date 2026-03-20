@@ -376,7 +376,10 @@ function renderLanding() {
     render();
   });
 
-  bindLangToggle(false);
+  document.getElementById('btnLangToggle').addEventListener('click', () => {
+    state.lang = state.lang === 'en' ? 'sv' : 'en';
+    render();
+  });
 }
 
 /* ============================================================
@@ -654,7 +657,10 @@ function renderSummary() {
     render();
   });
 
-  bindLangToggle(false);
+  document.getElementById('btnLangToggle').addEventListener('click', () => {
+    state.lang = state.lang === 'en' ? 'sv' : 'en';
+    render();
+  });
 }
 
 /* ============================================================
