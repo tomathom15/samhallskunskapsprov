@@ -71,8 +71,8 @@ const STRINGS = {
     // Lang switch modal
     langModalTitle:   'Switch language?',
     langModalBody:    'Switching language will take you back to the start page. Your progress will be lost.',
-    langModalCancel:  'Keep going',
-    langModalConfirm: 'Switch & restart',
+    langModalCancel:  'Switch & restart',
+    langModalConfirm: 'Keep going',
 
     // Partial summary
     partialBanner:    (n, total) => `Test ended early — you answered ${n} of ${total} questions.`,
@@ -145,8 +145,8 @@ const STRINGS = {
     // Lang switch modal
     langModalTitle:   'Byta språk?',
     langModalBody:    'Om du byter språk återgår du till startsidan. Dina svar sparas inte.',
-    langModalCancel:  'Fortsätt',
-    langModalConfirm: 'Byt & börja om',
+    langModalCancel:  'Byt & börja om',
+    langModalConfirm: 'Fortsätt',
 
     // Partial summary
     partialBanner:    (n, total) => `Provet avbröts — du svarade på ${n} av ${total} frågor.`,

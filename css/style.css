@@ -252,16 +252,26 @@ body {
    Progress header (question & feedback pages)
    ============================================================ */
 .progress-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  background: white;
-  border-bottom: 1px solid var(--border);
-  padding: 0.75rem 1.5rem;
+  padding: 80px 1.5rem 1.5rem;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.progress-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.5rem;
   box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.progress-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--blue);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
 }
 
 .progress-brand {
@@ -287,11 +297,12 @@ body {
 }
 
 .progress-track {
-  width: 100px;
+  width: 200px;
   height: 7px;
   background: var(--border);
   border-radius: 99px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .progress-fill {
@@ -725,7 +736,7 @@ body {
   white-space: nowrap;
   font-family: inherit;
   width: 110px;
-  text-align: left;
+  text-align: center;
 }
 
 .lang-toggle:hover {
@@ -738,10 +749,12 @@ body {
   position: fixed;
   top: 25px;
   right: 25px;
-  z-index: 1000;
+  z-index: 1002;
   width: 110px;
   background: #fff;
 }
+
+
 
 /* Left side of progress header (brand + lang toggle) */
 .progress-left {
@@ -926,7 +939,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 100;
+  z-index: 1005;
   padding: 1rem;
 }
 
@@ -986,21 +999,29 @@ body {
 .btn-modal-primary:hover { filter: brightness(1.1); }
 
 /* ============================================================
-   Exit button (progress header)
+   Exit button (progress header) - matches lang-toggle style
    ============================================================ */
-.btn-exit {
-  padding: 0.25rem 0.625rem;
-  border: 1px solid var(--border);
-  background: transparent;
-  border-radius: 6px;
-  font-size: 0.8rem;
-  font-family: inherit;
+.btn-exit.floating {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  z-index: 1002;
+  width: 110px;
+  background: #fff;
+  border: 1.5px solid var(--border);
+  border-radius: 99px;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
   cursor: pointer;
-  color: var(--fg-muted);
+  color: var(--text-muted);
   white-space: nowrap;
-  line-height: 1.4;
+  font-family: inherit;
+  text-align: left;
+  transition: all var(--ease);
 }
-.btn-exit:hover {
+
+.btn-exit.floating:hover {
   color: #DC2626;
   border-color: #DC2626;
   background: #FEF2F2;
