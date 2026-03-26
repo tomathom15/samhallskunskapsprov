@@ -591,14 +591,12 @@ function renderSummary() {
           </div>`;
       }).join('');
 
-  setHTML(`
-    <header class="summary-header">
-      <span class="summary-brand">🇸🇪 ${t('appTitle')}</span>
-      <div class="summary-header-right">
-        <button class="btn-restart" id="btnRestart">${t('startAgain')}</button>
-      </div>
-    </header>
-    <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
+   setHTML(`
+     <header class="summary-header">
+       <button class="btn-restart floating" id="btnRestart">${t('startAgain')}</button>
+       <span class="summary-brand">🇸🇪 ${t('appTitle')}</span>
+       <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
+     </header>
 
     <div class="summary-page page-fade">
 
