@@ -534,10 +534,14 @@ body {
   gap: 0.5rem;
 }
 
-.btn-restart,
 .btn-restart.floating {
-  background: var(--blue);
-  color: white;
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  z-index: 1002;
+  width: 110px;
+  background: #fff;
+  color: var(--text-muted);
   border: 1.5px solid var(--border);
   border-radius: 99px;
   padding: 0.5rem 1rem;
@@ -550,10 +554,11 @@ body {
   text-align: left;
 }
 
-.btn-restart:hover,
 .btn-restart.floating:hover {
-  background: var(--blue-dark);
   border-color: var(--blue);
+  color: var(--blue);
+  background: var(--blue-light);
+}
 }
 
 .summary-page {
