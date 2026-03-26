@@ -592,10 +592,12 @@ function renderSummary() {
       }).join('');
 
    setHTML(`
+     <button class="btn-restart floating" id="btnRestart">${t('startAgain')}</button>
+     <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
      <header class="summary-header">
-       <button class="btn-restart floating" id="btnRestart">${t('startAgain')}</button>
-       <span class="summary-brand">🇸🇪 ${t('appTitle')}</span>
-       <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
+       <div class="summary-card">
+         <div class="summary-brand">🇸🇪 ${t('appTitle')}</div>
+       </div>
      </header>
 
     <div class="summary-page page-fade">
