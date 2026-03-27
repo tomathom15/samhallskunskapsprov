@@ -569,9 +569,15 @@ function renderSummary() {
           <div class="result-item wrong">
             <div class="result-item-cat">${esc(tCat(a.question.category))}</div>
             <div class="result-item-q">${esc(qText(a.question))}</div>
-            <div class="answer-tags">
-              <span class="atag wrong">${t('yourAnswerTag', esc(opts[a.selectedIndex]))}</span>
-              <span class="atag right">${t('correctAnswerTag', esc(opts[a.question.correct_index]))}</span>
+            <div class="answer-tags answer-tags--stacked">
+              <div class="atag-row">
+                <span class="atag-label">${t('yourAnswer')}:</span>
+                <span class="atag wrong"><span class="atag-text">${esc(opts[a.selectedIndex])}</span></span>
+              </div>
+              <div class="atag-row">
+                <span class="atag-label">${t('correctAnswer')}:</span>
+                <span class="atag right"><span class="atag-text">${esc(opts[a.question.correct_index])}</span></span>
+              </div>
             </div>
             <div class="result-item-exp">${esc(qExplanation(a.question))}</div>
           </div>`;
@@ -592,18 +598,17 @@ function renderSummary() {
       }).join('');
 
    setHTML(`
-     <header class="summary-header">
-       <div class="summary-left">
-         <button class="btn-restart" id="btnRestart">${t('startAgain')}</button>
-       </div>
-       <div class="summary-center">
-         <span class="summary-brand">🇸🇪 ${t('appTitle')}</span>
-         <div class="summary-score">${passed ? t('passed') : t('notPassed')} ${pctDisp}%</div>
-       </div>
-       <div class="summary-right">
-         <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
-       </div>
-     </header>
+      <header class="summary-header">
+        <div class="summary-left">
+        </div>
+        <div class="summary-center">
+          <span class="summary-brand">🇸🇪 ${t('appTitle')}</span>
+          <div class="summary-score">${passed ? t('passed') : t('notPassed')} ${pctDisp}%</div>
+        </div>
+        <div class="summary-right">
+          <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
+        </div>
+      </header>
 
     <div class="summary-page page-fade">
 
@@ -635,6 +640,7 @@ function renderSummary() {
           </div>
         </div>
         ${diffBreakdownHTML()}
+        <button class="btn-restart" id="btnRestart">${t('startAgain')}</button>
       </div>
 
       <div class="summary-section">
