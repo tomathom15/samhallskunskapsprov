@@ -591,19 +591,14 @@ function renderSummary() {
           </div>`;
       }).join('');
 
-   setHTML(`
-     <header class="summary-header">
-       <div class="summary-left">
-         <button class="btn-restart" id="btnRestart">${t('startAgain')}</button>
-       </div>
-       <div class="summary-center">
-         <span class="summary-brand">🇸🇪 ${t('appTitle')}</span>
-         <div class="summary-score">${passed ? t('passed') : t('notPassed')} ${pctDisp}%</div>
-       </div>
-       <div class="summary-right">
-         <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
-       </div>
-     </header>
+  setHTML(`
+    <button class="btn-restart floating" id="btnRestart">${t('startAgain')}</button>
+    <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
+    <header class="summary-header">
+      <div class="summary-card">
+        <div class="summary-title">🇸🇪 ${t('appTitle')}</div>
+      </div>
+    </header>
 
     <div class="summary-page page-fade">
 
