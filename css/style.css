@@ -594,19 +594,20 @@ body {
   background: var(--blue);
   color: white;
   border: none;
-  padding: 0.5rem 1.1rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 50px;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 700;
   cursor: pointer;
   transition: all var(--ease);
   white-space: nowrap;
+  margin-top: 1.5rem;
 }
 
 .btn-restart:hover {
   background: var(--blue-dark);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 10px rgba(0,106,167,0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,106,167,0.3);
 }
 
 .summary-page {
@@ -753,14 +754,43 @@ body {
 
 .answer-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0; }
 
+.answer-tags--stacked {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.atag-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.atag-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  min-width: 100px;
+  flex-shrink: 0;
+  padding-top: 0.2rem;
+}
+
 .atag {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.3rem;
   font-size: 0.78rem;
   font-weight: 600;
-  padding: 0.25rem 0.65rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 5px;
+  flex: 1;
+}
+
+.atag-text {
+  flex: 1;
+  line-height: 1.3;
 }
 
 .atag.wrong  { background: var(--red-bg);   color: var(--red); }
