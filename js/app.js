@@ -596,9 +596,10 @@ function renderSummary() {
     <button class="lang-toggle floating" id="btnLangToggle">${t('langToggle')}</button>
     <header class="summary-header">
       <div class="summary-card">
-        <div class="summary-brand">🇸🇪 ${t('appTitle')}</div>
+        <div class="summary-title">🇸🇪 ${t('appTitle')}</div>
       </div>
     </header>
+
     <div class="summary-page page-fade">
 
       <div class="score-card">

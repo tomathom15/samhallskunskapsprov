@@ -524,7 +524,7 @@ body {
   text-align: center;
 }
 
-.summary-brand {
+.summary-title {
   font-size: 2rem;
   font-weight: 800;
   color: var(--blue);
