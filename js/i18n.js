@@ -76,6 +76,11 @@ const STRINGS = {
 
     // Partial summary
     partialBanner:    (n, total) => `Test ended early — you answered ${n} of ${total} questions.`,
+
+    // C5: Language switch notification
+    langSwitchNotifTitle:  'Questions stay in original language',
+    langSwitchNotifMsg:    'Changing the language only updates the UI — questions and answers remain in the language you took the test in.',
+    langSwitchNotifBtn:    'Start in',
   },
 
   sv: {
@@ -150,6 +155,11 @@ const STRINGS = {
 
     // Partial summary
     partialBanner:    (n, total) => `Provet avbröts — du svarade på ${n} av ${total} frågor.`,
+
+    // C5: Language switch notification
+    langSwitchNotifTitle:  'Frågorna förblir på originalspråket',
+    langSwitchNotifMsg:    'Om du byter språk uppdateras endast användarsnittets språk — frågorna och svaren förblir på det språk du tog provet på.',
+    langSwitchNotifBtn:    'Börja på',
   },
 };
 

@@ -49,6 +49,7 @@ let state = {
   testLength:     45,
   difficulty:     'all',  // 'all' | 'beginner' | 'intermediate' | 'expert'
   lang:           'en',   // 'en' | 'sv'
+  testLanguage:   'en',   // language test was started in — used for summary page
   phase:          'loading', // loading | landing | question | feedback | summary
 };
 
@@ -165,6 +166,59 @@ function showLangWarningModal() {
 function qText(q)        { return (state.lang === 'sv' && q.question_sv)    ? q.question_sv    : q.question; }
 function qOptions(q)     { return (state.lang === 'sv' && q.options_sv)     ? q.options_sv     : q.options; }
 function qExplanation(q) { return (state.lang === 'sv' && q.explanation_sv) ? q.explanation_sv : q.explanation; }
+
+/** Return question text in the language the test was taken in — used for summary page. */
+function qTextOriginal(q)        { return (state.testLanguage === 'sv' && q.question_sv)    ? q.question_sv    : q.question; }
+function qOptionsOriginal(q)     { return (state.testLanguage === 'sv' && q.options_sv)     ? q.options_sv     : q.options; }
+function qExplanationOriginal(q) { return (state.testLanguage === 'sv' && q.explanation_sv) ? q.explanation_sv : q.explanation; }
+
+/**
+ * Show a notification on the summary page when language toggle is clicked.
+ * Offers to restart the test in a different language.
+ * (C5: Language switch notification)
+ */
+function showLangSwitchNotification() {
+  const otherLang = state.lang === 'en' ? 'sv' : 'en';
+  const otherLangName = otherLang === 'en' ? 'English' : 'Svenska';
+
+  // Remove existing notification if present
+  const existing = document.querySelector('.lang-notif-overlay');
+  if (existing) existing.remove();
+
+  const overlay = document.createElement('div');
+  overlay.className = 'lang-notif-overlay';
+  overlay.innerHTML = `
+    <div class="lang-notif">
+      <div class="lang-notif-title">${t('langSwitchNotifTitle')}</div>
+      <div class="lang-notif-msg">${t('langSwitchNotifMsg')}</div>
+      <div class="lang-notif-buttons">
+        <button class="lang-notif-btn lang-notif-btn--restart" id="btnRestartInLang">
+          ${t('langSwitchNotifBtn')} ${otherLangName}
+        </button>
+        <button class="lang-notif-btn lang-notif-btn--dismiss" id="btnDismissNotif">
+          ${t('langModalCancel')}
+        </button>
+      </div>
+    </div>
+  `;
+
+  document.getElementById('app').appendChild(overlay);
+
+  overlay.querySelector('#btnRestartInLang').addEventListener('click', () => {
+    state.lang = otherLang;
+    state.testLanguage = otherLang;
+    state.phase = 'landing';
+    state.currentIndex = 0;
+    state.answers = [];
+    state.selectedOption = null;
+    state.questions = [];
+    render();
+  });
+
+  overlay.querySelector('#btnDismissNotif').addEventListener('click', () => {
+    overlay.remove();
+  });
+}
 
 /* ============================================================
    Question selection
@@ -374,6 +428,7 @@ function renderLanding() {
     state.currentIndex   = 0;
     state.answers        = [];
     state.selectedOption = null;
+    state.testLanguage   = state.lang;   // capture language test is taken in
     state.phase          = 'question';
     render();
   });
@@ -564,11 +619,11 @@ function renderSummary() {
   const wrongHTML = wrongAnswers.length === 0
     ? `<p class="empty-state">${t('allCorrectState')}</p>`
     : wrongAnswers.map(a => {
-        const opts = qOptions(a.question);
+        const opts = qOptionsOriginal(a.question);
         return `
           <div class="result-item wrong">
             <div class="result-item-cat">${esc(tCat(a.question.category))}</div>
-            <div class="result-item-q">${esc(qText(a.question))}</div>
+            <div class="result-item-q">${esc(qTextOriginal(a.question))}</div>
             <div class="answer-tags answer-tags--stacked">
               <div class="atag-row">
                 <span class="atag-label">${t('yourAnswer')}:</span>
@@ -579,18 +634,18 @@ function renderSummary() {
                 <span class="atag right"><span class="atag-text">${esc(opts[a.question.correct_index])}</span></span>
               </div>
             </div>
-            <div class="result-item-exp">${esc(qExplanation(a.question))}</div>
+            <div class="result-item-exp">${esc(qExplanationOriginal(a.question))}</div>
           </div>`;
       }).join('');
 
   const rightHTML = rightAnswers.length === 0
     ? `<p class="empty-state">${t('noneCorrectState')}</p>`
     : rightAnswers.map(a => {
-        const opts = qOptions(a.question);
+        const opts = qOptionsOriginal(a.question);
         return `
           <div class="result-item right">
             <div class="result-item-cat">${esc(tCat(a.question.category))}</div>
-            <div class="result-item-q">${esc(qText(a.question))}</div>
+            <div class="result-item-q">${esc(qTextOriginal(a.question))}</div>
             <div class="answer-tags">
               <span class="atag right">${t('correctAnswerTag', esc(opts[a.question.correct_index]))}</span>
             </div>
@@ -671,8 +726,7 @@ function renderSummary() {
   });
 
   document.getElementById('btnLangToggle').addEventListener('click', () => {
-    state.lang = state.lang === 'en' ? 'sv' : 'en';
-    render();
+    showLangSwitchNotification();
   });
 }
 
