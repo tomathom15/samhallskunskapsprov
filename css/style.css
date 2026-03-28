@@ -510,10 +510,16 @@ body {
    Summary page
    ============================================================ */
 .summary-header {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.5rem;
+  box-shadow: var(--shadow-sm);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 1.5rem 1.5rem;
+  margin: 80px auto 0;
+  max-width: 720px;
 }
 
 .summary-left {
@@ -538,7 +544,7 @@ body {
 .summary-brand {
   font-weight: 700;
   color: var(--blue);
-  font-size: 0.9rem;
+  font-size: 1.25rem;
 }
 
 .summary-score {
@@ -546,6 +552,7 @@ body {
   font-weight: 800;
   color: var(--blue);
   letter-spacing: -0.02em;
+  display: none;
 }
 
 .summary-card {
