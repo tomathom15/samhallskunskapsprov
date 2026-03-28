@@ -510,9 +510,42 @@ body {
    Summary page
    ============================================================ */
 .summary-header {
-  padding: 80px 1.5rem 1.5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 1.5rem 1.5rem;
+}
+
+.summary-left {
+  flex: 1;
+}
+
+.summary-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  text-align: center;
+}
+
+.summary-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.summary-brand {
+  font-weight: 700;
+  color: var(--blue);
+  font-size: 0.9rem;
+}
+
+.summary-score {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--blue);
+  letter-spacing: -0.02em;
 }
 
 .summary-card {
@@ -561,33 +594,9 @@ body {
 }
 
 .summary-page {
-
-.summary-score {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  margin-top: 0.25rem;
-}
-
-.summary-brand {
-  font-weight: 700;
-  color: var(--blue);
-  font-size: 0.9rem;
-}
-
-.summary-header-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.25rem;
-  text-align: center;
-}
-
-.summary-score {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--blue);
-  letter-spacing: -0.02em;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
 }
 
 .btn-restart {
@@ -608,12 +617,6 @@ body {
   background: var(--blue-dark);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,106,167,0.3);
-}
-
-.summary-page {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
 }
 
 /* Score card */
