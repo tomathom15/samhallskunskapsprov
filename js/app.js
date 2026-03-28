@@ -173,50 +173,35 @@ function qOptionsOriginal(q)     { return (state.testLanguage === 'sv' && q.opti
 function qExplanationOriginal(q) { return (state.testLanguage === 'sv' && q.explanation_sv) ? q.explanation_sv : q.explanation; }
 
 /**
- * Show a notification on the summary page when language toggle is clicked.
- * Offers to restart the test in a different language.
- * (C5: Language switch notification)
+ * Show a modal on the summary page when language toggle is clicked.
+ * Asks user to either stay on page or restart test in a different language.
+ * (C6: Language switch modal)
  */
-function showLangSwitchNotification() {
+function showLangSwitchModal() {
   const otherLang = state.lang === 'en' ? 'sv' : 'en';
   const otherLangName = otherLang === 'en' ? 'English' : 'Svenska';
 
-  // Remove existing notification if present
-  const existing = document.querySelector('.lang-notif-overlay');
-  if (existing) existing.remove();
-
-  const overlay = document.createElement('div');
-  overlay.className = 'lang-notif-overlay';
-  overlay.innerHTML = `
-    <div class="lang-notif">
-      <div class="lang-notif-title">${t('langSwitchNotifTitle')}</div>
-      <div class="lang-notif-msg">${t('langSwitchNotifMsg')}</div>
-      <div class="lang-notif-buttons">
-        <button class="lang-notif-btn lang-notif-btn--restart" id="btnRestartInLang">
-          ${t('langSwitchNotifBtn')} ${otherLangName}
-        </button>
-        <button class="lang-notif-btn lang-notif-btn--dismiss" id="btnDismissNotif">
-          ${t('langModalCancel')}
-        </button>
-      </div>
+  showModal(`
+    <h3 class="modal-title">${t('langSwitchModalTitle')}</h3>
+    <p class="modal-body">${t('langSwitchModalBody')}</p>
+    <div class="modal-actions">
+      <button class="btn-modal-primary" id="btnLangStay">${t('langSwitchModalStay')}</button>
+      <button class="btn-modal-secondary" id="btnLangRestart">${t('langSwitchModalStart', otherLangName)}</button>
     </div>
-  `;
+  `, overlay => {
+    overlay.querySelector('#btnLangStay').addEventListener('click', dismissModal);
 
-  document.getElementById('app').appendChild(overlay);
-
-  overlay.querySelector('#btnRestartInLang').addEventListener('click', () => {
-    state.lang = otherLang;
-    state.testLanguage = otherLang;
-    state.phase = 'landing';
-    state.currentIndex = 0;
-    state.answers = [];
-    state.selectedOption = null;
-    state.questions = [];
-    render();
-  });
-
-  overlay.querySelector('#btnDismissNotif').addEventListener('click', () => {
-    overlay.remove();
+    overlay.querySelector('#btnLangRestart').addEventListener('click', () => {
+      dismissModal();
+      state.lang = otherLang;
+      state.testLanguage = otherLang;
+      state.phase = 'landing';
+      state.currentIndex = 0;
+      state.answers = [];
+      state.selectedOption = null;
+      state.questions = [];
+      render();
+    });
   });
 }
 
@@ -726,7 +711,7 @@ function renderSummary() {
   });
 
   document.getElementById('btnLangToggle').addEventListener('click', () => {
-    showLangSwitchNotification();
+    showLangSwitchModal();
   });
 }
 
