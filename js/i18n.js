@@ -44,7 +44,7 @@ const STRINGS = {
     nextQuestion:    'Next Question →',
 
     // Summary phase
-    startAgain:   '← Start Again',
+    startAgain:   'Start Again',
     scoreOf:      (correct, total) => `${correct} out of ${total} correct`,
     passed:       '🎉 PASSED',
     notPassed:    '✗ NOT PASSED',
@@ -118,7 +118,7 @@ const STRINGS = {
     nextQuestion:    'Nästa fråga →',
 
     // Summary phase
-    startAgain:   '← Börja om',
+    startAgain:   'Börja om',
     scoreOf:      (correct, total) => `${correct} av ${total} rätt`,
     passed:       '🎉 GODKÄND',
     notPassed:    '✗ EJ GODKÄND',
