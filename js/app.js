@@ -167,7 +167,11 @@ function qText(q)        { return (state.lang === 'sv' && q.question_sv)    ? q.
 function qOptions(q)     { return (state.lang === 'sv' && q.options_sv)     ? q.options_sv     : q.options; }
 function qExplanation(q) { return (state.lang === 'sv' && q.explanation_sv) ? q.explanation_sv : q.explanation; }
 
-/** Return question text in the language the test was taken in — used for summary page. */
+/**
+ * Helper functions to retrieve question content in the language the test was originally taken in.
+ * Used on the summary page (C4 requirement) to ensure questions don't change when UI language toggles.
+ * These use state.testLanguage instead of state.lang.
+ */
 function qTextOriginal(q)        { return (state.testLanguage === 'sv' && q.question_sv)    ? q.question_sv    : q.question; }
 function qOptionsOriginal(q)     { return (state.testLanguage === 'sv' && q.options_sv)     ? q.options_sv     : q.options; }
 function qExplanationOriginal(q) { return (state.testLanguage === 'sv' && q.explanation_sv) ? q.explanation_sv : q.explanation; }
@@ -589,6 +593,12 @@ function diffBreakdownHTML() {
 /* ============================================================
    Render: Summary
    ============================================================ */
+/**
+ * Render the summary page showing test results.
+ * C4 Requirement: Uses qTextOriginal, qOptionsOriginal, qExplanationOriginal helpers
+ * to keep questions in the language the test was taken in, preventing them from
+ * changing when the user toggles the UI language.
+ */
 function renderSummary() {
   const isPartial     = state.answers.length < state.questions.length;
   const answeredCount = state.answers.length;
@@ -601,6 +611,7 @@ function renderSummary() {
   const wrongAnswers = state.answers.filter(a => !a.isCorrect);
   const rightAnswers = state.answers.filter(a =>  a.isCorrect);
 
+  // C4: Use *Original helpers to retrieve questions in test language, not current UI language
   const wrongHTML = wrongAnswers.length === 0
     ? `<p class="empty-state">${t('allCorrectState')}</p>`
     : wrongAnswers.map(a => {
