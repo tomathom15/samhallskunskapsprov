@@ -49,6 +49,7 @@ let state = {
   testLength:     45,
   difficulty:     'all',  // 'all' | 'beginner' | 'intermediate' | 'expert'
   lang:           'en',   // 'en' | 'sv'
+  testLanguage:   'en',   // language test was started in — used for summary page
   phase:          'loading', // loading | landing | question | feedback | summary
 };
 
@@ -165,6 +166,48 @@ function showLangWarningModal() {
 function qText(q)        { return (state.lang === 'sv' && q.question_sv)    ? q.question_sv    : q.question; }
 function qOptions(q)     { return (state.lang === 'sv' && q.options_sv)     ? q.options_sv     : q.options; }
 function qExplanation(q) { return (state.lang === 'sv' && q.explanation_sv) ? q.explanation_sv : q.explanation; }
+
+/**
+ * Helper functions to retrieve question content in the language the test was originally taken in.
+ * Used on the summary page (C4 requirement) to ensure questions don't change when UI language toggles.
+ * These use state.testLanguage instead of state.lang.
+ */
+function qTextOriginal(q)        { return (state.testLanguage === 'sv' && q.question_sv)    ? q.question_sv    : q.question; }
+function qOptionsOriginal(q)     { return (state.testLanguage === 'sv' && q.options_sv)     ? q.options_sv     : q.options; }
+function qExplanationOriginal(q) { return (state.testLanguage === 'sv' && q.explanation_sv) ? q.explanation_sv : q.explanation; }
+
+/**
+ * Show a modal on the summary page when language toggle is clicked.
+ * Asks user to either stay on page or restart test in a different language.
+ * (C6: Language switch modal)
+ */
+function showLangSwitchModal() {
+  const otherLang = state.lang === 'en' ? 'sv' : 'en';
+  const otherLangName = otherLang === 'en' ? 'English' : 'Svenska';
+
+  showModal(`
+    <h3 class="modal-title">${t('langSwitchModalTitle')}</h3>
+    <p class="modal-body">${t('langSwitchModalBody')}</p>
+    <div class="modal-actions">
+      <button class="btn-modal-primary" id="btnLangStay">${t('langSwitchModalStay')}</button>
+      <button class="btn-modal-secondary" id="btnLangRestart">${t('langSwitchModalStart', otherLangName)}</button>
+    </div>
+  `, overlay => {
+    overlay.querySelector('#btnLangStay').addEventListener('click', dismissModal);
+
+    overlay.querySelector('#btnLangRestart').addEventListener('click', () => {
+      dismissModal();
+      state.lang = otherLang;
+      state.testLanguage = otherLang;
+      state.phase = 'landing';
+      state.currentIndex = 0;
+      state.answers = [];
+      state.selectedOption = null;
+      state.questions = [];
+      render();
+    });
+  });
+}
 
 /* ============================================================
    Question selection
@@ -374,6 +417,7 @@ function renderLanding() {
     state.currentIndex   = 0;
     state.answers        = [];
     state.selectedOption = null;
+    state.testLanguage   = state.lang;   // capture language test is taken in
     state.phase          = 'question';
     render();
   });
@@ -549,6 +593,12 @@ function diffBreakdownHTML() {
 /* ============================================================
    Render: Summary
    ============================================================ */
+/**
+ * Render the summary page showing test results.
+ * C4 Requirement: Uses qTextOriginal, qOptionsOriginal, qExplanationOriginal helpers
+ * to keep questions in the language the test was taken in, preventing them from
+ * changing when the user toggles the UI language.
+ */
 function renderSummary() {
   const isPartial     = state.answers.length < state.questions.length;
   const answeredCount = state.answers.length;
@@ -561,14 +611,15 @@ function renderSummary() {
   const wrongAnswers = state.answers.filter(a => !a.isCorrect);
   const rightAnswers = state.answers.filter(a =>  a.isCorrect);
 
+  // C4: Use *Original helpers to retrieve questions in test language, not current UI language
   const wrongHTML = wrongAnswers.length === 0
     ? `<p class="empty-state">${t('allCorrectState')}</p>`
     : wrongAnswers.map(a => {
-        const opts = qOptions(a.question);
+        const opts = qOptionsOriginal(a.question);
         return `
           <div class="result-item wrong">
             <div class="result-item-cat">${esc(tCat(a.question.category))}</div>
-            <div class="result-item-q">${esc(qText(a.question))}</div>
+            <div class="result-item-q">${esc(qTextOriginal(a.question))}</div>
             <div class="answer-tags answer-tags--stacked">
               <div class="atag-row">
                 <span class="atag-label">${t('yourAnswer')}:</span>
@@ -579,18 +630,18 @@ function renderSummary() {
                 <span class="atag right"><span class="atag-text">${esc(opts[a.question.correct_index])}</span></span>
               </div>
             </div>
-            <div class="result-item-exp">${esc(qExplanation(a.question))}</div>
+            <div class="result-item-exp">${esc(qExplanationOriginal(a.question))}</div>
           </div>`;
       }).join('');
 
   const rightHTML = rightAnswers.length === 0
     ? `<p class="empty-state">${t('noneCorrectState')}</p>`
     : rightAnswers.map(a => {
-        const opts = qOptions(a.question);
+        const opts = qOptionsOriginal(a.question);
         return `
           <div class="result-item right">
             <div class="result-item-cat">${esc(tCat(a.question.category))}</div>
-            <div class="result-item-q">${esc(qText(a.question))}</div>
+            <div class="result-item-q">${esc(qTextOriginal(a.question))}</div>
             <div class="answer-tags">
               <span class="atag right">${t('correctAnswerTag', esc(opts[a.question.correct_index]))}</span>
             </div>
@@ -671,8 +722,7 @@ function renderSummary() {
   });
 
   document.getElementById('btnLangToggle').addEventListener('click', () => {
-    state.lang = state.lang === 'en' ? 'sv' : 'en';
-    render();
+    showLangSwitchModal();
   });
 }
 

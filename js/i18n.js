@@ -76,6 +76,12 @@ const STRINGS = {
 
     // Partial summary
     partialBanner:    (n, total) => `Test ended early — you answered ${n} of ${total} questions.`,
+
+    // C6: Language switch modal
+    langSwitchModalTitle:  'Switch language?',
+    langSwitchModalBody:   'Your test answers will stay in the language you took the test in. Start a new test in a different language?',
+    langSwitchModalStay:   'Stay on this page',
+    langSwitchModalStart:  (lang) => `Start again in ${lang}`,
   },
 
   sv: {
@@ -150,6 +156,12 @@ const STRINGS = {
 
     // Partial summary
     partialBanner:    (n, total) => `Provet avbröts — du svarade på ${n} av ${total} frågor.`,
+
+    // C6: Language switch modal
+    langSwitchModalTitle:  'Byta språk?',
+    langSwitchModalBody:   'Dina testresultat förblir på det språk du tog provet på. Starta ett nytt prov på ett annat språk?',
+    langSwitchModalStay:   'Stanna på den här sidan',
+    langSwitchModalStart:  (lang) => `Börja igen på ${lang}`,
   },
 };
 
