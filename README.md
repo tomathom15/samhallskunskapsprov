@@ -2,7 +2,7 @@
 
 A free, browser-based practice test for the Swedish citizenship knowledge requirement coming into effect **6 June 2026**. Modelled on the Danish *Indfødsretsprøven* format: multiple choice, instant feedback, 80% pass threshold.
 
-**Live demo →** https://tomathom15.github.io/Samhallskunskapsprov/
+**Live demo →** https://tomathom15.github.io/samhallskunskapsprov/
 
 ---
 
